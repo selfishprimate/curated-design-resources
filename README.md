@@ -14,4 +14,4 @@ Great design resources for everyone.
 
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
-- [Sketchsheets](https://sneakpeekit.com/): Printible grids for deisng wireframing.
+- [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
