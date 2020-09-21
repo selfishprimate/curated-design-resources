@@ -16,7 +16,7 @@ Great design resources for everyone.
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
 - [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
 
-## Design Systems
+## Design System
 
 - [AirBnb](https://airbnb.design/building-a-visual-language/): Behind the scenes of our new design system.
 - [Apple](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.
