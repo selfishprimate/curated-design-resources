@@ -29,3 +29,11 @@ Great design resources for everyone.
 - [Shopify](https://polaris.shopify.com/): Our design system helps us work together to build a great experience for all of Shopify’s merchants.
 - [Solid](https://solid.buzzfeed.com/): Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. 
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
+
+## Case Studies
+
+- [LinkedIn](https://docsend.com/view/nzvtm6n): Service Brands Case Study
+- [Adobe](https://docsend.com/view/p52ap84): RBS, Earning Customer Trust
+- [IDEO](https://www.ideo.com/case-study/designing-the-future-of-urban-farming/): Designing the Future of Urban Farming
+
+
