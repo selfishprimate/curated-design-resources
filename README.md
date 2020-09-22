@@ -42,6 +42,6 @@ Great design resources for everyone.
 - [Canva](https://www.canva.com/font-combinations/): This tool make typography easy.
 - [FontJoy](https://fontjoy.com/): Generate font combinations with deep learning.
 - [FontPair](https://fontpair.co/): Font Pair is a typography site dedicated to helping creators use beautiful typography for their creative projects.
-
-
+- [Google Fonts](https://fonts.google.com/): Making the web more beautiful, fast, and open through great typography.
+- [Font Squirrel](https://www.fontsquirrel.com/): Free fonts have met their match.
 
