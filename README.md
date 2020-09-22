@@ -5,16 +5,26 @@ Great design resources for everyone.
 ## Color
 
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
+- [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
+- [Color Hunt](https://colorhunt.co/): Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.
+- [Colorsinspo](https://colorsinspo.com/): Chousands of beautiful color palettes you can use it directly by one click.
 - [Colourco](https://colourco.de/): Pick colours based on HSL color values.
 - [Coolors](https://coolors.co/): The super fast color schemes generator!
+- [Curls](https://www.culrs.com/): Colors that work together are curated and fashioned into quality palettes that you can incorporate.
+- [Happy Hues](https://www.happyhues.co/): Curated colors in context.
 - [HTML Color Codes](https://htmlcolorcodes.com/): Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...
 - [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
+- [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
 
 ## Wireframing
 
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
 - [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
+
+## Responsive Design
+
+- [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 
 ## Design Systems
 
