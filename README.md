@@ -77,5 +77,10 @@ Great design resources for everyone.
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Lorem Ipsum](https://loremipsum.io/): Lorem ipsum is placeholder text commonly used in the graphic design.
 
+## Inspiration
+
+- [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
+
+
 
 
