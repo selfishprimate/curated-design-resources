@@ -10,7 +10,7 @@ Great design resources for everyone.
 - [Color Box](https://colorable.jxnblk.com/): A handy color creation tool from the Lyft team.
 - [Color Hunt](https://colorhunt.co/): Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.
 - [Color Oracle](https://colororacle.org/): Color Oracle is a free color blindness simulator for Windows, Mac and Linux.
-- [Colorsinspo](https://colorsinspo.com/): Chousands of beautiful color palettes you can use it directly by one click.
+- [Colorsinspo](https://colorsinspo.com/): Thousands of beautiful color palettes you can use it directly by one click.
 - [Colourco](https://colourco.de/): Pick colours based on HSL color values.
 - [Coolors](https://coolors.co/): The super fast color schemes generator!
 - [Colors](https://clrs.cc/a11y/): Mix and match these color classes to create a variety of accessible themes.
@@ -30,9 +30,10 @@ Great design resources for everyone.
 ## Mockup
 
 - [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
-- [Animockup](https://animockup.com/): The easiest way to create animated mockups.
+- [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
+- [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
 ## Responsive Design
@@ -54,11 +55,19 @@ Great design resources for everyone.
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
 - [Yelp](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
 
-## Case Studies
+## Stock Photos
 
-- [LinkedIn](https://docsend.com/view/nzvtm6n): Service Brands Case Study
-- [Adobe](https://docsend.com/view/p52ap84): RBS, Earning Customer Trust
-- [IDEO](https://www.ideo.com/case-study/designing-the-future-of-urban-farming/): Designing the Future of Urban Farming
+- [Burst](https://burst.shopify.com/): Free stock photos for websites and commercial use.
+- [Generated Photos](https://generated.photos/): Unique, worry-free model photos.
+- [Lorem Picsum](https://picsum.photos/): The Lorem Ipsum for photos.
+- [Pexels](https://www.pexels.com/): The best free stock photos & videos shared by talented creators.
+- [Unsplash](https://unsplash.com/): Photos for everyone.
+- [UserStock](https://userstock.io/): Free photos of people's faces to use as avatars in UI mockups, prototypes and more.
+
+## Articles
+
+- [How We Hold Our Gadgets](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
+- [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
 
 ## Typography
 
@@ -76,6 +85,16 @@ Great design resources for everyone.
 
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Lorem Ipsum](https://loremipsum.io/): Lorem ipsum is placeholder text commonly used in the graphic design.
+
+## Products
+
+- [Beta List](https://betalist.com/): Discover tomorrow's startups, today.
+- [Beta Page](https://betapage.co/): Get new startups in your inbox.
+- [Product Hunt](https://www.producthunt.com/): Product Hunt surfaces the best new products, every day.
+- [Slant](https://www.producthunt.com/): Trustworthy product rankings for all your shopping needs.
+- [Steemhunt](https://steemhunt.com/): Discover Cool Products Get Rewards
+
+
 
 ## Inspiration
 
