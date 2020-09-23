@@ -1,6 +1,15 @@
 # Design Resources
 
-Great design resources for everyone.
+The best design resources for everyone.
+
+## Articles
+
+- [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
+- [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
+
+## Blogs
+
+- [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
 
 ## Color
 
@@ -21,23 +30,10 @@ Great design resources for everyone.
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
 - [Randoma11y](https://randoma11y.com/): A handy tool for generating colors.
 
-## Wireframing
+## Content
 
-- [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
-- [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
-- [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
-
-## Mockup
-
-- [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
-- [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
-- [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
-- [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
-- [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
-
-## Responsive Design
-
-- [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
+- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Lorem Ipsum](https://loremipsum.io/): Lorem ipsum is placeholder text commonly used in the graphic design.
 
 ## Design News
 
@@ -77,6 +73,37 @@ Great design resources for everyone.
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
 - [Yelp](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
 
+## Inspiration
+
+- [Abduzeedo](https://abduzeedo.com/): Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX.
+- [Awwwards](https://www.awwwards.com/): The awards of design, creativity and innovation on the internet.
+- [Behance](https://www.behance.net/): Behance is a platform for creative professionals around the world to showcase their own work and to discover the creative work of others.
+- [Best Website Gallery](https://bestwebsite.gallery/): The most beautiful websites handpicked for you.
+- [Brutalist Websites](https://brutalistwebsites.com/): In its ruggedness and lack of concern to look comfortable or easy, Brutalism can be seen as a reaction by a younger generation to the lightness, optimism, and frivolity of today's web design.
+- [Commerce Cream](https://commercecream.com/): Curating the Best of Shopify.
+- [CSS Nectar](https://cssnectar.com/): CSS Nectar is a css website design showcase for web designers and developers.
+- [Design Inspiration](https://www.designspiration.com/): Designspiration is committed to being the best product that it can.
+- [Dribbble](https://dribbble.com/): Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.
+- [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
+- [Pentagram](https://www.pentagram.com/): Pentagram is a multi-disciplinary, independently-owned design studio.
+- [Pinterest](https://tr.pinterest.com/): When it comes to a great idea, you know it when you see it.
+- [Pttrns](https://pttrns.com/): Upgrade to Premium! No ads, unlimited access and more...
+- [siteInspire](https://www.siteinspire.com/): SiteInspire is a showcase of the finest web and interactive design.
+- [Webdesign Inspiration](https://www.webdesign-inspiration.com/): The best website design ideas.
+- [Webflow Showcases](https://webflow.com/discover/): Discover the best web design ideas from Webflow users.
+
+## Mockup
+
+- [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
+- [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
+- [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
+- [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
+- [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
+
+## Responsive Design
+
+- [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
+
 ## Stock Photos
 
 - [Burst](https://burst.shopify.com/): Free stock photos for websites and commercial use.
@@ -91,12 +118,6 @@ Great design resources for everyone.
 - [Coverr](https://www.coverr.co/): Beautiful Free Stock Video Footage
 - [Mixkit](https://mixkit.co/): Free assets for your next video project
 
-
-## Articles
-
-- [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
-- [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
-
 ## Typography
 
 - [Canva](https://www.canva.com/font-combinations/): This tool make typography easy.
@@ -109,15 +130,8 @@ Great design resources for everyone.
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
 
-## Content
+## Wireframing
 
-- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
-- [Lorem Ipsum](https://loremipsum.io/): Lorem ipsum is placeholder text commonly used in the graphic design.
-
-## Inspiration
-
-- [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
-
-
-
-
+- [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
+- [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
+- [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
