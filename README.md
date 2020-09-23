@@ -43,25 +43,25 @@ Great design resources for everyone.
 ## Design News
 
 - [AirBnb Design](https://airbnb.design/): Design influences everything we do at Airbnb.
-- [Facebook Design](https://facebook.design/): Designing for the global diversity of human needs.
-- [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
+- [All Design Conferences](https://www.alldesignconferences.com/): This site is just a simple collection of all design and front-end conferences for the year.
 - [Beta List](https://betalist.com/): Discover tomorrow's startups, today.
 - [Beta Page](https://betapage.co/): Get new startups in your inbox.
+- [Design Calendar](https://www.designcalendar.io/): An online community made for creatives who believe in the power of ideas and the joy of making them happen.
+- [Designer News](https://www.designernews.co/): Designer News is a large, global community of people working in design and technology or those interested in the topics.
+- [Dropbox Design](https://dropbox.design/): Welcome, we are Dropbox Design.
+- [Facebook Design](https://facebook.design/): Designing for the global diversity of human needs.
+- [Google Design](https://design.google/): Supporting the future of design and technology.
+- [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
+- [Microsoft Design](https://www.microsoft.com/design/): Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start.
 - [Product Hunt](https://www.producthunt.com/): Product Hunt surfaces the best new products, every day.
+- [Rooki Design](https://www.rooki.design/): Online magazine for design students and free design awards.
+- [Sidebar](https://sidebar.io/): Sidebar has been collecting the best design links of the day since October 2012.
 - [Slant](https://www.producthunt.com/): Trustworthy product rankings for all your shopping needs.
 - [Steemhunt](https://steemhunt.com/): Discover cool products and get rewards.
-- [Design Calendar](https://www.designcalendar.io/): An online community made for creatives who believe in the power of ideas and the joy of making them happen.
-- [Sidebar](https://sidebar.io/): Sidebar has been collecting the best design links of the day since October 2012.
 - [The UX Collective](https://uxdesign.cc/): Curated stories on UX, Visual & Product Design.
-- [Dropbox Design](https://dropbox.design/): Welcome, we are Dropbox Design.
-- [Designer News](https://www.designernews.co/): Designer News is a large, global community of people working in design and technology or those interested in the topics.
-- [Microsoft Design](https://www.microsoft.com/design/): Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start.
-- [Google Design](https://design.google/): Supporting the future of design and technology.
-- [Rooki Design](https://www.rooki.design/): Online magazine for design students and free design awards.
-- [Web Designer News](https://www.webdesignernews.com/): We built WebdesignerNews.com to provide web designers and developers with a single location to discover the latest and most significant stories on the Web.
-- [UX Movement](https://uxmovement.com/): When an app, website, or interface is difficult to use, it’s not the user’s fault, but the designer’s for making it unusable.
 - [UsTwo](https://www.ustwo.com/blog/): Trending design news from the UsTwo Team.
-- [All Design Conferences](https://www.alldesignconferences.com/): This site is just a simple collection of all design and front-end conferences for the year.
+- [UX Movement](https://uxmovement.com/): When an app, website, or interface is difficult to use, it’s not the user’s fault, but the designer’s for making it unusable.
+- [Web Designer News](https://www.webdesignernews.com/): We built WebdesignerNews.com to provide web designers and developers with a single location to discover the latest and most significant stories on the Web.
 
 ## Design Systems
 
