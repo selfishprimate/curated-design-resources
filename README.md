@@ -5,13 +5,16 @@ The best design resources for everyone.
 ## Articles
 
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
+- [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
 - [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
+- [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
 
 ## Blogs
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
+- [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
 
 ## Color
 
@@ -101,6 +104,14 @@ The best design resources for everyone.
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
+
+## Prototyping Tools 
+
+- [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
+- [MockFlow](https://www.mockflow.com/): MockFlow is the UI planning platform that your team needs to kickstart software projects.
+- [Mockups](https://moqups.com/): A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.
+- [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
+- [proto.io](https://proto.io/): Prototypes that feel real.
 
 ## Responsive Design
 
