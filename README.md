@@ -10,6 +10,8 @@ The best design resources for everyone.
 ## Blogs
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+- [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
+- [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 
 ## Color
 
