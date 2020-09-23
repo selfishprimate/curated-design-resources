@@ -108,6 +108,7 @@ The best design resources for everyone.
 ## Prototyping Tools 
 
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
+- [Justinmind](https://www.justinmind.com/): From wireframes to highly interactive prototypes.
 - [MockFlow](https://www.mockflow.com/): MockFlow is the UI planning platform that your team needs to kickstart software projects.
 - [Mockups](https://moqups.com/): A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.
 - [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
