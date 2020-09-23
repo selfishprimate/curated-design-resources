@@ -34,7 +34,6 @@ Great design resources for everyone.
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
-- [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
 ## Responsive Design
 
