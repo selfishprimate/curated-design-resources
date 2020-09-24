@@ -107,12 +107,18 @@ The best design resources for everyone.
 
 ## Prototyping Tools 
 
+- [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
+- [Invision](https://www.invisionapp.com/): The digital product design platform powering the world’s best user experiences.
 - [Justinmind](https://www.justinmind.com/): From wireframes to highly interactive prototypes.
+- [Marvel](https://marvelapp.com/): Marvel has everything you need to bring ideas to life and transform how you create digital products with your team.
 - [MockFlow](https://www.mockflow.com/): MockFlow is the UI planning platform that your team needs to kickstart software projects.
 - [Mockups](https://moqups.com/): A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.
+- [OmniGraffle](https://www.omnigroup.com/omnigraffle/): You've got some explaining to do!
 - [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
 - [proto.io](https://proto.io/): Prototypes that feel real.
+- [UXPin](https://www.uxpin.com/): Design and manage your entire UX/UI project in one tool.
+- [Wireframe](https://www.uxpin.com/): A design tool fine-tuned for wireframing.
 
 ## Responsive Design
 
