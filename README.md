@@ -4,6 +4,8 @@ The best design resources for everyone.
 
 ## Articles
 
+_The curated articles about web design, mobile design, and user experience design!_
+
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
 - [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
 - [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals. This knowledge ensures products and services are designed to efficiently and appropriately support those goals.
