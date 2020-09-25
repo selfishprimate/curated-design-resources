@@ -6,8 +6,12 @@ The best design resources for everyone.
 
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
 - [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
+- [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals. This knowledge ensures products and services are designed to efficiently and appropriately support those goals.
 - [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
+- [Usability 101: Introduction to Usability](https://www.nngroup.com/articles/usability-101-introduction-to-usability/): How to define usability? How, when, and where to improve it? Why should you care? Overview defines key usability concepts and answers basic questions.
+- [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/): Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.
 - [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
+- [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
 
 ## Blogs
 
@@ -116,7 +120,7 @@ The best design resources for everyone.
 - [Mockups](https://moqups.com/): A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.
 - [OmniGraffle](https://www.omnigroup.com/omnigraffle/): You've got some explaining to do!
 - [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
-- [proto.io](https://proto.io/): Prototypes that feel real.
+- [Proto.io](https://proto.io/): Prototypes that feel real.
 - [UXPin](https://www.uxpin.com/): Design and manage your entire UX/UI project in one tool.
 - [Wireframe](https://www.uxpin.com/): A design tool fine-tuned for wireframing.
 
