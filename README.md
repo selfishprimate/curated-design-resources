@@ -90,7 +90,7 @@ _The best design systems of the universe!_
 
 ## Inspiration
 
-_Don't you have any idea? Well, steal some!_
+_Don't you have any design idea? Well, steal some!_
 
 - [Abduzeedo](https://abduzeedo.com/): Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX.
 - [Awwwards](https://www.awwwards.com/): The awards of design, creativity and innovation on the internet.
@@ -111,13 +111,17 @@ _Don't you have any idea? Well, steal some!_
 
 ## Mockup
 
+_This tools will help you make your designs pieces more handsome!_
+
 - [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
 - [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
-## Prototyping Tools 
+## Prototyping Tools
+
+_Prototyping is one of the most critical stages of creating user-centered products._
 
 - [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
