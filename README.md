@@ -4,7 +4,7 @@ The best design resources for everyone.
 
 ## Articles
 
-_The curated articles about web design, mobile design, and user experience design!_
+_The best articles about web design, mobile design, and user experience design!_
 
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
 - [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
@@ -90,7 +90,7 @@ _The best design systems of the universe!_
 
 ## Inspiration
 
-_Don't you have any design idea? Well, steal some!_
+_Don't you have a new design idea? Well, steal one!_
 
 - [Abduzeedo](https://abduzeedo.com/): Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX.
 - [Awwwards](https://www.awwwards.com/): The awards of design, creativity and innovation on the internet.
