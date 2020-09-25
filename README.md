@@ -111,7 +111,7 @@ _Don't you have any design idea? Well, steal some!_
 
 ## Mockup
 
-_This tools will help you make your designs pieces more handsome!_
+_These tools will help you make your design pieces way more bearable._
 
 - [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
 - [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
