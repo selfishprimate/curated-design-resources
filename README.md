@@ -18,12 +18,16 @@ _The curated articles about web design, mobile design, and user experience desig
 
 ## Blogs
 
+_The best blog pages to learn UX design!_
+
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
 
 ## Color
+
+_The best tools for creating color schemes for your designs!_
 
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
 - [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
