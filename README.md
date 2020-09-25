@@ -46,12 +46,9 @@ _The best tools for creating color schemes for your designs!_
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
 - [Randoma11y](https://randoma11y.com/): A handy tool for generating colors.
 
-## Content
-
-- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
-- [Lorem Ipsum](https://loremipsum.io/): Lorem ipsum is placeholder text commonly used in the graphic design.
-
 ## Design News
+
+_Discover new products, follow the leaders' articles about design, and stay up to date!_
 
 - [AirBnb Design](https://airbnb.design/): Design influences everything we do at Airbnb.
 - [All Design Conferences](https://www.alldesignconferences.com/): This site is just a simple collection of all design and front-end conferences for the year.
@@ -76,6 +73,8 @@ _The best tools for creating color schemes for your designs!_
 
 ## Design Systems
 
+_The best design systems of the universe!_
+
 - [AirBnb](https://airbnb.design/building-a-visual-language/): Behind the scenes of our new design system.
 - [Apple](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.
 - [Atlassian](https://atlassian.design/): Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences.
@@ -90,6 +89,8 @@ _The best tools for creating color schemes for your designs!_
 - [Yelp](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
 
 ## Inspiration
+
+_Don't you have any idea? Well, steal some!_
 
 - [Abduzeedo](https://abduzeedo.com/): Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX.
 - [Awwwards](https://www.awwwards.com/): The awards of design, creativity and innovation on the internet.
@@ -166,3 +167,8 @@ _The best tools for creating color schemes for your designs!_
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
 - [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
+
+## Others
+
+- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
