@@ -31,6 +31,8 @@ _The holy bibles of user experience design!_
 
 - [100 Things Every Designer Needs to Know About People](https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535): This book combines real science and research with practical examples to deliver a guide every designer needs.
 - [Don't Make Me Think: A Common Sense Approach to Web Usability ](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515): Witty, commonsensical, and eminently practical, it’s one of the best-loved and most recommended books on the subject.
+- [GUI Bloopers 2.0: Common User Interface Design Don'ts and Dos](https://www.amazon.com/GUI-Bloopers-2-0-Interactive-Technologies/dp/0123706432): GUI Bloopers 2.0, Second Edition, is the completely updated and revised version of GUI Bloopers.
+- [Rocket Surgery Made Easy](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292): The Do-It-Yourself Guide to Finding and Fixing Usability Problems
 - [The Design of Everyday Things](https://www.amazon.com/gp/product/B00E257T6C/): Design doesn't have to complicated, which is why this guide to human-centered design shows that usability is just as important as aesthetics.
 
 ## Color
