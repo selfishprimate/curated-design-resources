@@ -25,6 +25,14 @@ _The best blog pages to learn UX design!_
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
 
+## Books
+
+_The holy bibles of user experience design!_
+
+- [100 Things Every Designer Needs to Know About People](https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535): This book combines real science and research with practical examples to deliver a guide every designer needs.
+- [Don't Make Me Think: A Common Sense Approach to Web Usability ](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515): Witty, commonsensical, and eminently practical, it’s one of the best-loved and most recommended books on the subject.
+- [The Design of Everyday Things](https://www.amazon.com/gp/product/B00E257T6C/): Design doesn't have to complicated, which is why this guide to human-centered design shows that usability is just as important as aesthetics.
+
 ## Color
 
 _The best tools for creating color schemes for your designs!_
