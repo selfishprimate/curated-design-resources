@@ -166,6 +166,8 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 
 ## Typography
 
+_Typography is like the backbone of your design pieces. Here you can find the best tools to benefit typography!_
+
 - [Canva](https://www.canva.com/font-combinations/): This tool make typography easy.
 - [Font Squirrel](https://www.fontsquirrel.com/): Free fonts have met their match.
 - [Fonts Arena](https://fontsarena.com/): FontsArena is a curated typography website with a focus on contemporary typography and high quality free fonts.
@@ -173,6 +175,8 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 - [FontJoy](https://fontjoy.com/): Generate font combinations with deep learning.
 - [FontPair](https://fontpair.co/): Font Pair is a typography site dedicated to helping creators use beautiful typography for their creative projects.
 - [Google Fonts](https://fonts.google.com/): Making the web more beautiful, fast, and open through great typography.
+- [Modular Scale](https://www.modularscale.com/): Build your typographic scale, create the vertical rhythm of your web site.
+- [My Fonts](https://www.myfonts.com/): MyFonts offers the largest selection of professional fonts for any project.
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
 
