@@ -112,6 +112,7 @@ _Don't you have a new design idea? Well, steal one!_
 - [Design Inspiration](https://www.designspiration.com/): Designspiration is committed to being the best product that it can.
 - [Dribbble](https://dribbble.com/): Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.
 - [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
+- [Mobbin](https://mobbin.design/): Latest mobile design patterns.
 - [Pentagram](https://www.pentagram.com/): Pentagram is a multi-disciplinary, independently-owned design studio.
 - [Pinterest](https://tr.pinterest.com/): When it comes to a great idea, you know it when you see it.
 - [Pttrns](https://pttrns.com/): Upgrade to Premium! No ads, unlimited access and more...
