@@ -37,6 +37,7 @@ _The holy bibles of user experience design!_
 - [GUI Bloopers 2.0: Common User Interface Design Don'ts and Dos](https://www.amazon.com/GUI-Bloopers-2-0-Interactive-Technologies/dp/0123706432): GUI Bloopers 2.0, Second Edition, is the completely updated and revised version of GUI Bloopers.
 - [Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292): Using practical advice, plenty of illustrations, and his trademark humor, Steve explains how to test any design, from a sketch on a napkin to a fully-functioning web site or application.
 - [The Design of Everyday Things](https://www.amazon.com/gp/product/B00E257T6C/): Design doesn't have to complicated, which is why this guide to human-centered design shows that usability is just as important as aesthetics.
+- [Creative Confidence: Unleashing the Creative Potential Within Us All](https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X/): David and Tom Kelley identify the principles and strategies that will allow us to tap into our creative potential in our work lives, and in our personal lives.
 
 ## Color
 
