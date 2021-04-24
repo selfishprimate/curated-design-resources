@@ -27,6 +27,7 @@ _The best blog pages to learn UX design!_
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
+- [UX Planet](https://uxplanet.org/): One-stop resource for everything related to user experience.
 
 ## Books
 
