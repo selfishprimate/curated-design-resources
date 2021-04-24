@@ -136,6 +136,13 @@ _These tools will help you make your design pieces way more bearable._
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
+## Productivity Tools
+
+_Get productive with the best productivity apps._
+
+- [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
+- [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
+
 ## Prototyping Tools
 
 _Prototyping is one of the most critical stages of creating user-centered products._
