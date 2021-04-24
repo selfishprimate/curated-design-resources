@@ -128,11 +128,12 @@ _Don't you have a new design idea? Well, steal one!_
 
 ## Mockup
 
-_These tools will help you make your design pieces way more bearable._
+_These mockup tools will help you make your design pieces way more bearable._
 
 - [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
 - [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
+- [Haikei](https://app.haikei.app/): Create wonderful background ornaments for your designs.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
