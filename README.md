@@ -56,6 +56,7 @@ _The best tools for creating color schemes for your designs!_
 - [Colors](https://clrs.cc/a11y/): Mix and match these color classes to create a variety of accessible themes.
 - [Curls](https://www.culrs.com/): Colors that work together are curated and fashioned into quality palettes that you can incorporate.
 - [Happy Hues](https://www.happyhues.co/): Curated colors in context.
+- [Hex Colors](https://hexcolor.co/): A collection of free color tools that will help you choose the right color for your next project!
 - [HTML Color Codes](https://htmlcolorcodes.com/): Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...
 - [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
