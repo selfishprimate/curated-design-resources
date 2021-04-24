@@ -198,3 +198,4 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
+- [Pitch](https://pitch.com/): The new face of presentations.
