@@ -149,6 +149,7 @@ _Get productive with the best productivity apps._
 _Prototyping is one of the most critical stages of creating user-centered products._
 
 - [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
+- [Flinto](https://www.flinto.com/): Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
 - [Invision](https://www.invisionapp.com/): The digital product design platform powering the world’s best user experiences.
 - [Justinmind](https://www.justinmind.com/): From wireframes to highly interactive prototypes.
@@ -156,6 +157,7 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 - [MockFlow](https://www.mockflow.com/): MockFlow is the UI planning platform that your team needs to kickstart software projects.
 - [Mockups](https://moqups.com/): A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.
 - [OmniGraffle](https://www.omnigroup.com/omnigraffle/): You've got some explaining to do!
+- [Origami Studio](https://origami.design/): Design, animate, and prototype. All-in-one.
 - [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
 - [Proto.io](https://proto.io/): Prototypes that feel real.
 - [UXPin](https://www.uxpin.com/): Design and manage your entire UX/UI project in one tool.
@@ -196,6 +198,13 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 - [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typewonder](http://typewonder.com/): Helps you to test web fonts on any web site on the fly!
+
+## UI Animation Tools
+
+_It's not rocket science to animate your UIs anymore!_
+
+- [Animate.css](https://animate.style/): Just-add-water CSS animations!
+- [LottieFiles](https://lottiefiles.com/): Lightweight, scalable animations for your website and apps!
 
 ## Wireframing
 
