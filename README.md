@@ -205,6 +205,7 @@ _It's not rocket science to animate your UIs anymore!_
 
 - [Animate.css](https://animate.style/): Just-add-water CSS animations!
 - [LottieFiles](https://lottiefiles.com/): Lightweight, scalable animations for your website and apps!
+- [Motion UI](https://legacy-zurb.netlify.app/playground/motion-ui): A Sass library for creating flexible CSS transitions and animations.
 
 ## Wireframing
 
