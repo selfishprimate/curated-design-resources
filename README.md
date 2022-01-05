@@ -194,10 +194,12 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 - [Google Fonts](https://fonts.google.com/): Making the web more beautiful, fast, and open through great typography.
 - [Modular Scale](https://www.modularscale.com/): Build your typographic scale, create the vertical rhythm of your web site.
 - [My Fonts](https://www.myfonts.com/): MyFonts offers the largest selection of professional fonts for any project.
-- [Typographica](https://typographica.org/): Type Reviews, Books, Commentary.
-- [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
+- [Type Scale](https://type-scale.com/): A type tool by Jeremy Church.
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typewonder](http://typewonder.com/): Helps you to test web fonts on any web site on the fly!
+- [Typographica](https://typographica.org/): Type Reviews, Books, Commentary.
+- [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
+- [Typography in Ten Minutes](https://practicaltypography.com/typography-in-ten-minutes.html): If you learn and follow these five typography rules, you will be a better typographer than nearly every writer—and even most graphic designers.
 
 ## UI Animation Tools
 
