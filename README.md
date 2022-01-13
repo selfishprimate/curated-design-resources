@@ -1,4 +1,4 @@
-# Design Resources
+# Curated Design Resources
 
 The best design resources for everyone.
 
