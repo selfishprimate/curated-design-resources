@@ -146,14 +146,15 @@ _These mockup tools will help you make your design pieces way more bearable._
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
 - [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
-## Productivity Tools
+## Productivity
 
 _Get productive with the best productivity apps._
 
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
+- [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 
-## Prototyping Tools
+## Prototyping
 
 _Prototyping is one of the most critical stages of creating user-centered products._
 
@@ -210,7 +211,7 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 - [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
 - [Typography in Ten Minutes](https://practicaltypography.com/typography-in-ten-minutes.html): If you learn and follow these five typography rules, you will be a better typographer than nearly every writer—and even most graphic designers.
 
-## UI Animation Tools
+## UI Animation
 
 _It's not rocket science to animate your UIs anymore!_
 
