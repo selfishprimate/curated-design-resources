@@ -2,6 +2,12 @@
 
 The best design resources for everyone.
 
+## Accessibility 
+
+_Design it for everyone!_
+
+- [Stark](https://www.getstark.co/): Make the world’s software more accessible!
+
 ## Articles
 
 _The best articles about web design, mobile design, and user experience design!_
@@ -24,6 +30,8 @@ _The best articles about web design, mobile design, and user experience design!_
 _The best blog pages to learn UX design!_
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+- [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
+- [Law of UX](https://lawsofux.com/): Laws of UX is a collection of best practices that designers can consider when building user interfaces.
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
