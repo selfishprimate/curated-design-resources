@@ -219,6 +219,18 @@ _It's not rocket science to animate your UIs anymore!_
 - [LottieFiles](https://lottiefiles.com/): Lightweight, scalable animations for your website and apps!
 - [Motion UI](https://legacy-zurb.netlify.app/playground/motion-ui): A Sass library for creating flexible CSS transitions and animations.
 
+## UI Design
+
+_The back button is one click away, and you don’t often get a second chance!_
+
+- [Adobe XD](https://www.adobe.com/products/xd.html): Lifelike in every sense. Create stunningly real UI/UX designs and stand out from the rest.
+- [Figma](https://www.figma.com/ui-design-tool/): The modern interface design tool.
+- [Framer](https://www.framer.com/): Design how it works.
+- [InVision](https://www.invisionapp.com/): Transformative collaboration for all the work you do.
+- [Maze](https://maze.co/): Build amazing products without the guesswork.
+- [Origami Studio](https://origami.design/): Design, animate, and prototype. All-in-one.
+- [Sketch](https://www.sketch.com/): Everything you need to design.
+
 ## Wireframing
 
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
