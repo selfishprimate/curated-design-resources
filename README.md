@@ -6,7 +6,16 @@ The best design resources for everyone.
 
 _Design it for everyone!_
 
+- [Accessibility Guide](https://usecontrast.com/guide): This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text.
+- [Blindness and Vision Impairment](https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment): Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion...
+- [Colorable](https://colorable.jxnblk.com/): Color combination contrast tester.
+- [Colors](https://clrs.cc/a11y/): Accessibility is important! Mix and match these color classes to create a variety of accessible themes.
+- [Color Review](https://color.review/): What you need to know about colors & accessibility.
+- [Contrast](https://usecontrast.com/): A macOS app for quick access to WCAG color contrast ratios.
 - [Stark](https://www.getstark.co/): Make the world’s software more accessible!
+- [The A11y Project](https://www.a11yproject.com/): The A11Y Project is a community-driven effort to make digital accessibility easier.
+- [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/): Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1.
+- [Who Can Use](https://whocanuse.com/): It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.
 
 ## Articles
 
@@ -54,7 +63,6 @@ _The best tools for creating color schemes for your designs!_
 
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
 - [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
-- [Colorable](https://colorable.jxnblk.com/): Color combination contrast tester.
 - [Color Box](https://colorable.jxnblk.com/): A handy color creation tool from the Lyft team.
 - [Color Hunt](https://colorhunt.co/): Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.
 - [Color Oracle](https://colororacle.org/): Color Oracle is a free color blindness simulator for Windows, Mac and Linux.
