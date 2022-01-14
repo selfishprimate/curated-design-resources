@@ -95,7 +95,6 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
 - [Microsoft Design](https://www.microsoft.com/design/): Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start.
 - [Product Hunt](https://www.producthunt.com/): Product Hunt surfaces the best new products, every day.
-- [Rooki Design](https://www.rooki.design/): Online magazine for design students and free design awards.
 - [Sidebar](https://sidebar.io/): Sidebar has been collecting the best design links of the day since October 2012.
 - [Slant](https://www.producthunt.com/): Trustworthy product rankings for all your shopping needs.
 - [Steemhunt](https://steemhunt.com/): Discover cool products and get rewards.
