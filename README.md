@@ -140,6 +140,7 @@ _Don't you have a new design idea? Well, steal one!_
 - [Pinterest](https://tr.pinterest.com/): When it comes to a great idea, you know it when you see it.
 - [Pttrns](https://pttrns.com/): Upgrade to Premium! No ads, unlimited access and more...
 - [siteInspire](https://www.siteinspire.com/): SiteInspire is a showcase of the finest web and interactive design.
+- [UI Garage](https://uigarage.net/): Daily handpicked UI inspiration & patterns.
 - [Webdesign Inspiration](https://www.webdesign-inspiration.com/): The best website design ideas.
 - [Webflow Showcases](https://webflow.com/discover/): Discover the best web design ideas from Webflow users.
 
@@ -180,10 +181,6 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 - [Proto.io](https://proto.io/): Prototypes that feel real.
 - [UXPin](https://www.uxpin.com/): Design and manage your entire UX/UI project in one tool.
 - [Wireframe](https://www.uxpin.com/): A design tool fine-tuned for wireframing.
-
-## Responsive Design
-
-- [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 
 ## Stock Photos
 
@@ -250,4 +247,8 @@ _The back button is one click away, and you don’t often get a second chance!_
 
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
+- [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
+- [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
 - [Pitch](https://pitch.com/): The new face of presentations.
+- [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
+
