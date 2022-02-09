@@ -39,6 +39,7 @@ _The best articles about web design, mobile design, and user experience design!_
 _The best blog pages to learn UX design!_
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+- [Brad Frost](https://bradfrost.com/): I create successful design systems and help others do the same.
 - [Creative Review](https://www.creativereview.co.uk/): We deliver the sharpest opinion, analysis and advice on life in the creative industries.
 - [DesignTAXI](https://designtaxi.com/): DesignTAXI is the leading online reference source for the creative world, reaching millions of industry tastemakers and influencers monthly.
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
@@ -125,6 +126,14 @@ _The best design systems of the universe!_
 - [Solid](https://solid.buzzfeed.com/): Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. 
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
 - [Yelp](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
+
+## Frontend Design
+
+_Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're gonna love these tools a lot._
+
+- [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
+- [Gerillass](https://gerillass.com/): Meet the best Sass mixin library for modern web design.
+- [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.
 
 ## Graphic Design
 
