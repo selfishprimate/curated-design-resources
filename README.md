@@ -120,6 +120,12 @@ _The best design systems of the universe!_
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
 - [Yelp](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
 
+## Graphic Design
+
+_The best graphic design resources!_
+
+- [Women of Graphic Design](https://womenofgraphicdesign.org/): A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.
+
 ## Inspiration
 
 _Don't you have a new design idea? Well, steal one!_
