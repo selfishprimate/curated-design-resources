@@ -4,7 +4,7 @@ The best design resources for everyone.
 
 ## Accessibility 
 
-_Design it for everyone!_
+_The best design resources for accessibility!_
 
 - [Accessibility Guide](https://usecontrast.com/guide): This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text.
 - [Blindness and Vision Impairment](https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment): Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion...
@@ -215,6 +215,8 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 
 ## Stock Photos
 
+_The best design resources for stock photos!_
+
 - [Burst](https://burst.shopify.com/): Free stock photos for websites and commercial use.
 - [Generated Photos](https://generated.photos/): Unique, worry-free model photos.
 - [Lorem Picsum](https://picsum.photos/): The Lorem Ipsum for photos.
@@ -223,6 +225,8 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 - [UserStock](https://userstock.io/): Free photos of people's faces to use as avatars in UI mockups, prototypes and more.
 
 ## Stock Videos
+
+_The best design resources for stock videos!_
 
 - [Coverr](https://www.coverr.co/): Beautiful Free Stock Video Footage
 - [Mixkit](https://mixkit.co/): Free assets for your next video project
@@ -269,12 +273,16 @@ _The back button is one click away, and you don’t often get a second chance!_
 
 ## Wireframing
 
+_The best design resources for wireframing!_
+
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
 - [Sneakpeekit](https://sneakpeekit.com/): Printible grids for deisng wireframing.
 - [Zen Wireframe](https://www.zenwireframe.com/): Create mockups of your websites and apps in just minutes.
 
 ## Others
+
+_Some other design resources you may want to check out!_
 
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
