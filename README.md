@@ -141,6 +141,7 @@ _The best resources for Iconography!_
 - [Feather](https://feathericons.com/): Simply beautiful open source icons.
 - [Flaticon](https://www.flaticon.com/): Download free icons and stickers for your projects. Resources made by and for designers.
 - [Font Awesome](https://fontawesome.com/): Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+- [Fontisto](https://www.fontisto.com/): A handy icon set for designers and developers.
 - [Freepik](https://www.freepik.com/popular-icons): Illustrations, photos, icons, mockups, and presentations templates.
 - [Iconfinder](https://www.iconfinder.com/): Helping designers make a living doing what they love.
 - [IcoMoon](https://icomoon.io/): Pixel Perfect Icon Solutions.
