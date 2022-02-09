@@ -67,6 +67,7 @@ _The best tools for creating color schemes for your designs!_
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
 - [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
 - [Color Box](https://colorable.jxnblk.com/): A handy color creation tool from the Lyft team.
+- [Colordot](https://color.hailpixel.com/): A handy color picker tool.
 - [Color Hunt](https://colorhunt.co/): Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.
 - [Color Oracle](https://colororacle.org/): Color Oracle is a free color blindness simulator for Windows, Mac and Linux.
 - [Colorsinspo](https://colorsinspo.com/): Thousands of beautiful color palettes you can use it directly by one click.
@@ -74,10 +75,12 @@ _The best tools for creating color schemes for your designs!_
 - [Coolors](https://coolors.co/): The super fast color schemes generator!
 - [Colors](https://clrs.cc/a11y/): Mix and match these color classes to create a variety of accessible themes.
 - [Curls](https://www.culrs.com/): Colors that work together are curated and fashioned into quality palettes that you can incorporate.
+- [Flat UI Color Picker](https://www.flatuicolorpicker.com/): Total 199 unique colors!
 - [Happy Hues](https://www.happyhues.co/): Curated colors in context.
 - [Hex Colors](https://hexcolor.co/): A collection of free color tools that will help you choose the right color for your next project!
 - [HTML Color Codes](https://htmlcolorcodes.com/): Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...
 - [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
+- [Picular](https://picular.co/): The color of anything! 
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
 - [Randoma11y](https://randoma11y.com/): A handy tool for generating colors.
 - [Tint & Shade Generator](https://maketintsandshades.com/): Produce tints and shades of a given hex color in 10% increments.
