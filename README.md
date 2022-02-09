@@ -39,11 +39,14 @@ _The best articles about web design, mobile design, and user experience design!_
 _The best blog pages to learn UX design!_
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+- [Creative Review](https://www.creativereview.co.uk/): We deliver the sharpest opinion, analysis and advice on life in the creative industries.
+- [DesignTAXI](https://designtaxi.com/): DesignTAXI is the leading online reference source for the creative world, reaching millions of industry tastemakers and influencers monthly.
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
 - [Law of UX](https://lawsofux.com/): Laws of UX is a collection of best practices that designers can consider when building user interfaces.
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
+- [UXMAG](https://uxmag.com/): UX Magazine has been exploring, promoting, and discussing the realm of experience design for more than two decades.
 - [UX Planet](https://uxplanet.org/): One-stop resource for everything related to user experience.
 
 ## Books
@@ -125,6 +128,8 @@ _The best design systems of the universe!_
 _The best graphic design resources!_
 
 - [Women of Graphic Design](https://womenofgraphicdesign.org/): A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.
+- [InspirationGrid](https://theinspirationgrid.com/): Daily design inspiration for creatives.
+- [Baubauhaus](http://www.baubauhaus.com/): Baubauhaus is here to feed your daily need of design, illustration, photography, fashion and of all else art-related.
 
 ## Inspiration
 
