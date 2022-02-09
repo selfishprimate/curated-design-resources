@@ -134,6 +134,23 @@ _The best graphic design resources!_
 - [InspirationGrid](https://theinspirationgrid.com/): Daily design inspiration for creatives.
 - [Baubauhaus](http://www.baubauhaus.com/): Baubauhaus is here to feed your daily need of design, illustration, photography, fashion and of all else art-related.
 
+## Icons
+
+_The best resources for Iconography!_
+
+- [Feather](https://feathericons.com/): Simply beautiful open source icons.
+- [Flaticon](https://www.flaticon.com/): Download free icons and stickers for your projects. Resources made by and for designers.
+- [Font Awesome](https://fontawesome.com/): Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+- [Freepik](https://www.freepik.com/popular-icons): Illustrations, photos, icons, mockups, and presentations templates.
+- [Iconfinder](https://www.iconfinder.com/): Helping designers make a living doing what they love.
+- [IcoMoon](https://icomoon.io/): Pixel Perfect Icon Solutions.
+- [Iconmonstr](https://iconmonstr.com/): Free, monstrously big and continuously growing source of simple icons.
+- [Iconshock](https://www.iconshock.com/): The biggest icon pack: 2 million professional icons library.
+- [Material Icons](https://fonts.google.com/icons): Material Icons are available in five styles and a range of downloadable sizes and densities. The icons are based on the core Material Design principles and metrics.
+- [Streamline](https://streamlinehq.com/): 100,000 icons, illustrations and emoji for all your projects.
+- [The Noun Project](https://thenounproject.com/): Icons and Photos For Everything.
+- [UI8](https://ui8.net/category/icons): 1015 vector icon sets for mobile, web & print projects.
+
 ## Inspiration
 
 _Don't you have a new design idea? Well, steal one!_
