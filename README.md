@@ -129,7 +129,7 @@ _The best design systems of the universe!_
 
 ## Frontend Design
 
-_Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're gonna love these tools a lot._
+_Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
 
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
 - [Gerillass](https://gerillass.com/): Meet the best Sass mixin library for modern web design.
