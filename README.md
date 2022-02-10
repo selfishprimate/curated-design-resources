@@ -297,6 +297,7 @@ _Some other design resources you may want to check out!_
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
+- [People + AI Research](https://pair.withgoogle.com/): People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
 - [Pitch](https://pitch.com/): The new face of presentations.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
