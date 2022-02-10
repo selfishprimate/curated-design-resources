@@ -293,10 +293,11 @@ _The best design resources for wireframing!_
 
 _Some other design resources you may want to check out!_
 
-- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
 - [Pitch](https://pitch.com/): The new face of presentations.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
+- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 
