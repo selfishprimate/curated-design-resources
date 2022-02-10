@@ -130,10 +130,23 @@ _The best design systems of the universe!_
 ## Frontend Design
 
 _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
-
+- [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
+- [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
 - [Gerillass](https://gerillass.com/): Meet the best Sass mixin library for modern web design.
+- [Git](https://git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- [Github](https://github.com): Where the world builds software.
+- [Gulp](https://gulpjs.com/): A toolkit to automate & enhance your workflow.
+- [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
+- [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
+- [Material Design Lite](https://getmdl.io/): Material Design Lite lets you add a Material Design look and feel to your websites.
+- [Modaal](https://humaan.com/modaal/): An accessible dialog window plugin for all humans.
+- [Node.js](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Sass](https://sass-lang.com/): Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 - [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.
+- [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
+- [Vue.js](): An approachable, performant and versatile framework for building web user interfaces.
 
 ## Graphic Design
 
