@@ -301,4 +301,5 @@ _Some other design resources you may want to check out!_
 - [Pitch](https://pitch.com/): The new face of presentations.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Tilt Brush by Google](https://www.tiltbrush.com/): Tilt Brush lets you paint in 3D space with virtual reality.
 
