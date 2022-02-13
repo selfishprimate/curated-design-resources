@@ -29,7 +29,7 @@ _The best articles about web design, mobile design, and user experience design!_
 - [The Ultimate Guide to Information Architecture](http://www.webdesignerdepot.com/2015/02/the-ultimate-guide-to-information-architecture/): Whether you hire a dedicated IA professional, or just sort of let IA happen on your projects, if you’re designing things with content, you’re using IA.
 - [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
 - [Usability 101: Introduction to Usability](https://www.nngroup.com/articles/usability-101-introduction-to-usability/): How to define usability? How, when, and where to improve it? Why should you care? Overview defines key usability concepts and answers basic questions.
-- [When and How to Create Customer Journey Maps](https://www.nngroup.com/articles/customer-journey-mapping/): ourney maps combine two powerful instruments—storytelling and visualization—in order to help teams understand and address customer needs.
+- [When and How to Create Customer Journey Maps](https://www.nngroup.com/articles/customer-journey-mapping/): Journey maps combine two powerful instruments—storytelling and visualization—in order to help teams understand and address customer needs.
 - [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/): Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.
 - [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
 - [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
@@ -55,7 +55,7 @@ _The best blog pages to learn UX design!_
 _The holy bibles of user experience design!_
 
 - [100 Things Every Designer Needs to Know About People](https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535): This book combines real science and research with practical examples to deliver a guide every designer needs.
-- [Don't Make Me Think: A Common Sense Approach to Web Usability ](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515): Witty, commonsensical, and eminently practical, it’s one of the best-loved and most recommended books on the subject.
+- [Don't Make Me Think: A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515): Witty, commonsensical, and eminently practical, it’s one of the best-loved and most recommended books on the subject.
 - [GUI Bloopers 2.0: Common User Interface Design Don'ts and Dos](https://www.amazon.com/GUI-Bloopers-2-0-Interactive-Technologies/dp/0123706432): GUI Bloopers 2.0, Second Edition, is the completely updated and revised version of GUI Bloopers.
 - [Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems](https://www.amazon.com/Rocket-Surgery-Made-Easy-Yourself/dp/0321657292): Using practical advice, plenty of illustrations, and his trademark humor, Steve explains how to test any design, from a sketch on a napkin to a fully-functioning web site or application.
 - [The Design of Everyday Things](https://www.amazon.com/gp/product/B00E257T6C/): Design doesn't have to complicated, which is why this guide to human-centered design shows that usability is just as important as aesthetics.
@@ -130,10 +130,23 @@ _The best design systems of the universe!_
 ## Frontend Design
 
 _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
-
+- [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
+- [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
 - [Gerillass](https://gerillass.com/): Meet the best Sass mixin library for modern web design.
+- [Git](https://git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- [Github](https://github.com): Where the world builds software.
+- [Gulp](https://gulpjs.com/): A toolkit to automate & enhance your workflow.
+- [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
+- [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
+- [Material Design Lite](https://getmdl.io/): Material Design Lite lets you add a Material Design look and feel to your websites.
+- [Modaal](https://humaan.com/modaal/): An accessible dialog window plugin for all humans.
+- [Node.js](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Sass](https://sass-lang.com/): Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 - [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.
+- [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
+- [Vue.js](https://vuejs.org/): An approachable, performant and versatile framework for building web user interfaces.
 
 ## Graphic Design
 
@@ -237,8 +250,8 @@ _The best design resources for stock photos!_
 
 _The best design resources for stock videos!_
 
-- [Coverr](https://www.coverr.co/): Beautiful Free Stock Video Footage
-- [Mixkit](https://mixkit.co/): Free assets for your next video project
+- [Coverr](https://www.coverr.co/): Beautiful free stock video footage.
+- [Mixkit](https://mixkit.co/): Free assets for your next video project.
 
 ## Typography
 
@@ -257,7 +270,7 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typewonder](http://typewonder.com/): Helps you to test web fonts on any web site on the fly!
 - [Typographica](https://typographica.org/): Type Reviews, Books, Commentary.
-- [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
+- [Typographic Posters](https://www.typographicposters.com/): Typographic Posters is a platform for inspiration and promotion of good design through the poster culture.
 - [Typography in Ten Minutes](https://practicaltypography.com/typography-in-ten-minutes.html): If you learn and follow these five typography rules, you will be a better typographer than nearly every writer—and even most graphic designers.
 
 ## UI Animation
@@ -293,10 +306,13 @@ _The best design resources for wireframing!_
 
 _Some other design resources you may want to check out!_
 
-- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
+- [People + AI Research](https://pair.withgoogle.com/): People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
 - [Pitch](https://pitch.com/): The new face of presentations.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
+- [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
+- [Tilt Brush by Google](https://www.tiltbrush.com/): Tilt Brush lets you paint in 3D space with virtual reality.
 
