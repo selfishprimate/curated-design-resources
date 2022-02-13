@@ -1,0 +1,11 @@
+.page {
+  padding: $global-space * 2;
+  &__header {
+    margin-bottom: 2rem;
+  }
+  &__title {}
+  &__description {}
+  p {
+    margin-bottom: 1rem;
+  }
+}

@@ -13,17 +13,18 @@
 
         <div>This is the baseof.html template.</div>
 
-      </aside>
+      </aside><!-- .sidebar -->
 
-      <section class="content">
-        
-        <h2 class="title">{{ .Params.Title }}</h2>
-        
-        <div class="description">{{ .Content }}</div>
+      <div class="page">
+
+        <div class="page__header">
+          <h2 class="page__title">{{ .Params.Title }}</h2>
+          <div class="page__description">{{ .Content }}</div>
+        </div>
 
         {{ partial "items.html" . }}
 
-      </section>
+      </div><!-- .page -->
 
     </main>
 

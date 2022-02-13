@@ -5,17 +5,17 @@
   "description": "The best design resources for everyone!",
   "homepage": "https://github.com/selfishprimate/curated-design-resources#readme",
   "author": "Halil İbrahim Çakıroğlu",
-  "main": "README.md",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selfishprimate/gerillass-docs.git"
+    "url": "git+https://github.com/selfishprimate/curated-design-resources.git"
   },
   "bugs": {
-    "url": "https://github.com/selfishprimate/gerillass-docs/issues"
+    "url": "https://github.com/selfishprimate/curated-design-resources/issues"
   },
   "dependencies": {
     "gerillass": "^1.2.3"

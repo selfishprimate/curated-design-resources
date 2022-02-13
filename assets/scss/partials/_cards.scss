@@ -1,24 +1,28 @@
 .cards {
   &__list {
-    @include columnizer (4, 1.4rem);
+    @include columnizer(4, 1rem);
     &__item {
       position: relative;
       background-color: $white;
       padding: 2rem;
-      border-radius: 1rem;
       min-height: 300px;
       &__title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 0 0 1rem 0;
         font-weight: bold;
       }
       &__description {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
       &__link {
         @include stretched-link;
         text-decoration: none;
         color: inherit;
+      }
+      @for $i from 1 through 20 {
+        @include only($i) {
+          @include loadify($i * 0.1s);
+        }
       }
     }
   }

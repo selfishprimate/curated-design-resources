@@ -12,8 +12,14 @@ $map-for-breakpoints: (
   "xxlarge": 1600px
 );
 
+@include breakpointer {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
+
 html {
-  font-size: $font-size-base;
+  font-size: 100%;
   letter-spacing: 0.33px;
   scroll-behavior: smooth;
 }
@@ -22,7 +28,7 @@ html,
 body {
   width: 100%;
   min-height: 100%;
-  font-family: $secondary-font-family;
+  font-family: $body-font;
   text-rendering: optimizeLegibility;
   color: $body-text-color;
   line-height: 1.4;
@@ -72,22 +78,13 @@ em {
   .sidebar {
     flex: 0 0 300px;
   }
-  .content {
+  .page {
     flex: 1;
   }
 }
 
 .sidebar {
   padding: $global-space * 2;
-}
-
-.content {
-  padding: $global-space * 2;
-  h1 {
-    @include only(first) {
-      margin-top: 0;
-    }
-  }
 }
 
 
