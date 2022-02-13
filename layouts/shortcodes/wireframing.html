@@ -1,0 +1,11 @@
+<div class="cards">
+  <ul class="cards__list">
+    {{ range index .Site.Data.wireframing }}
+      <li class="cards__list__item">
+        <h3 class="cards__list__item__title">{{ .title }}</h3>
+        <p class="cards__list__item__description">{{ .description }}</p>
+        <a class="cards__list__item__link" href="{{ .link }}" target="_blank">Go to the site</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>

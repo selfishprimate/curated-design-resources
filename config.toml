@@ -1,0 +1,25 @@
+# hugo server --minify --themesDir ... --baseURL=http://localhost:1313/theme/book/
+
+baseURL = 'https://docs.gerillass.com/'
+title = 'Curated Design Resources'
+
+# Book configuration
+disablePathToLower = true
+# enableGitInfo = true
+
+# This command below is cleaning the unused content of ./public folder.
+cleanDestinationDir = true
+
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
+
+[params]
+    Description = "Gerillass is an open-source Sass library built on top of Sass to help designers and developers rapidly-produce consistent and scalable CSS outputs regardless of the size of the projects they are working on, aiming to make these processes easy and fun."
+
+    Keywords = "Gerillass, CSS, CSS3, Web Design, Sass Mixins, Sass Functions, SCSS, Sass, Sass Toolkit, Sass Library, Sass Libraries, Sass Framework, Learn Sass, What is Sass, Frontend Tools"
+
+    LogoTitle = "Gerillass"
+    LogoDescription = "Go to Gerillass home page"
+  

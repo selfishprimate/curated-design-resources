@@ -1,0 +1,43 @@
+  - title: Accessibility Guide
+    description: This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text.
+    link: https://usecontrast.com/guide
+
+  - title: Blindness and Vision Impairment
+    description: Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion...
+    link: https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment
+    
+  - title: Colorable
+    description: Color combination contrast tester.
+    link: https://colorable.jxnblk.com/
+
+  - title: Colors
+    description: Accessibility is important! Mix and match these color classes to create a variety of accessible themes.
+    link: https://clrs.cc/a11y/
+
+  - title: Color Review
+    description: What you need to know about colors & accessibility.
+    link: https://color.review/
+
+  - title: Contrast
+    description: A macOS app for quick access to WCAG color contrast ratios.
+    link: https://usecontrast.com/
+
+  - title: Stark
+    description: Make the world’s software more accessible!
+    link: https://www.getstark.co/
+
+  - title: The A11y Project
+    description: The A11Y Project is a community-driven effort to make digital accessibility easier.
+    link: https://www.a11yproject.com/
+
+  - title: Web Content Accessibility Guidelines
+    description: Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1.
+    link: https://www.w3.org/WAI/standards-guidelines/wcag/
+
+  - title: Who Can Use
+    description: Color combination contrast tester.
+    link: https://whocanuse.com/
+
+  - title: Colorable
+    description: It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.
+    link: https://colorable.jxnblk.com/

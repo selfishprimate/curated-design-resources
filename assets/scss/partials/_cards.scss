@@ -1,0 +1,22 @@
+.cards {
+  &__list {
+    @include columnizer (4, 1.4rem);
+    &__item {
+      position: relative;
+      background-color: $white;
+      padding: 2rem;
+      border-radius: 1rem;
+      &__title {
+        font-size: 1.4rem;
+        margin: 0 0 1rem 0;
+        font-weight: bold;
+      }
+      &__description {
+        font-size: 1rem;
+      }
+      &__link {
+        @include stretched-link;
+      }
+    }
+  }
+}

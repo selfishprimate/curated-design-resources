@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+   
+    <main class="main-container">
+
+      <aside class="sidebar">
+
+        <div>This is the baseof.html template.</div>
+
+        <li><a href="/">Home</a></li>
+
+        {{ range .Site.Sections }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      
+      </aside>
+
+      <div class="content">
+        <h2>{{ .Params.Title }}</h2>
+        {{ .Content }}
+      </div>
+
+    </main>
+
+  </body>
+
+</html>
