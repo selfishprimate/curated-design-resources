@@ -146,7 +146,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Sass](https://sass-lang.com/): Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 - [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.
 - [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
-- [Vue.js](): An approachable, performant and versatile framework for building web user interfaces.
+- [Vue.js](https://vuejs.org/): An approachable, performant and versatile framework for building web user interfaces.
 
 ## Graphic Design
 
@@ -250,8 +250,8 @@ _The best design resources for stock photos!_
 
 _The best design resources for stock videos!_
 
-- [Coverr](https://www.coverr.co/): Beautiful Free Stock Video Footage
-- [Mixkit](https://mixkit.co/): Free assets for your next video project
+- [Coverr](https://www.coverr.co/): Beautiful free stock video footage.
+- [Mixkit](https://mixkit.co/): Free assets for your next video project.
 
 ## Typography
 
@@ -270,7 +270,7 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 - [Typewolf](https://www.typewolf.com/): Help designers know the trending typefaces.
 - [Typewonder](http://typewonder.com/): Helps you to test web fonts on any web site on the fly!
 - [Typographica](https://typographica.org/): Type Reviews, Books, Commentary.
-- [Typographic Posters](https://www.typographicposters.com/): typo/graphic posters is a platform for inspiration and promotion of good design through the poster culture.
+- [Typographic Posters](https://www.typographicposters.com/): Typographic Posters is a platform for inspiration and promotion of good design through the poster culture.
 - [Typography in Ten Minutes](https://practicaltypography.com/typography-in-ten-minutes.html): If you learn and follow these five typography rules, you will be a better typographer than nearly every writer—and even most graphic designers.
 
 ## UI Animation
