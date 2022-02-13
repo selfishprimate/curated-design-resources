@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Prototyping"
+data: "prototyping"
 weight: 1
 ---
 

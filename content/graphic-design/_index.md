@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Graphic Design"
+data: "graphic_design"
 weight: 1
 ---
 

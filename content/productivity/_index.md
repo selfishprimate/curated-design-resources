@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Productivity"
+data: "productivity"
 weight: 1
 ---
 

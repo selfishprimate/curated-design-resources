@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Inspiration"
+data: "inspiration"
 weight: 1
 ---
 

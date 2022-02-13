@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "UI Animation"
+data: "ui_animation"
 weight: 1
 ---
 

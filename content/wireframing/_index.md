@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Wireframing"
+data: "wireframing"
 weight: 1
 ---
 

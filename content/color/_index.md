@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Color"
+data: "color"
 weight: 1
 ---
 

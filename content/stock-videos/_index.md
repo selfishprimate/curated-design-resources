@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Stock Videos"
+data: "stock_videos"
 weight: 1
 ---
 

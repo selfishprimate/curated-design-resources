@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Design News"
+data: "design_news"
 weight: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Frontend Design"
+data: "frontend_design"
 weight: 1
 ---
 

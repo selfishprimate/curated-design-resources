@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Books"
+data: "books"
 weight: 1
 ---
 

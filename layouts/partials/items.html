@@ -1,6 +1,8 @@
+{{$data := string .Params.data }}
+
 <div class="cards">
   <ul class="cards__list">
-    {{ range index .Site.Data.blogs }}
+    {{ range (index .Site.Data $data) }}
       <li class="cards__list__item">
         <h3 class="cards__list__item__title">{{ .title }}</h3>
         <p class="cards__list__item__description">{{ .description }}</p>

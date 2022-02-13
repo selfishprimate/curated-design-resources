@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Mockup"
+data: "mockup"
 weight: 1
 ---
 

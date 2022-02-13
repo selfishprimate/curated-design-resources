@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-data: "blogs"
+title: "Design Systems"
+data: "design_systems"
 weight: 1
 ---
 
