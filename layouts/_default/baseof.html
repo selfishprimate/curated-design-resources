@@ -9,14 +9,10 @@
 
       <aside class="sidebar">
 
+        {{ partial "navigation.html" . }}
+
         <div>This is the baseof.html template.</div>
 
-        <li><a href="/">Home</a></li>
-
-        {{ range .Site.Sections }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-        {{ end }}
-      
       </aside>
 
       <section class="content">

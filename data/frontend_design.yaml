@@ -1,11 +1,67 @@
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: AngularJS
+  description: AngularJS lets you extend HTML vocabulary for your application.
+  link: https://angularjs.org/
 
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
-    
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: Bootstrap
+  description: Build fast, responsive sites with Bootstrap.
+  link: https://getbootstrap.com/
+
+- title: Foundation
+  description: The most advanced responsive front-end framework in the world.
+  link: https://get.foundation/
+
+- title: Gerillass
+  description: Meet the best Sass mixin library for modern web design.
+  link: https://gerillass.com/
+
+- title: Git
+  description: Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  link: https://git-scm.com/
+
+- title: Github
+  description: Where the world builds software.
+  link: https://github.com
+
+- title: Gulp
+  description: A toolkit to automate & enhance your workflow.
+  link: https://gulpjs.com/
+
+- title: Hugo
+  description: The world’s fastest framework for building websites.
+  link: https://gohugo.io/
+
+- title: HTML5 Boilerplate
+  description: The web’s most popular front-end template.
+  link: https://html5boilerplate.com/
+
+- title: Material Design Lite
+  description: Material Design Lite lets you add a Material Design look and feel to your websites.
+  link: https://getmdl.io/
+
+- title: Modaal
+  description: An accessible dialog window plugin for all humans.
+  link: https://humaan.com/modaal/
+
+- title: Node.js
+  description: Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+  link: https://nodejs.org/en/
+
+- title: React
+  description: A JavaScript library for building user interfaces.
+  link: https://reactjs.org/
+
+- title: Sass
+  description: Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+  link: https://sass-lang.com/
+
+- title: Tailwind CSS
+  description: Rapidly build modern websites without ever leaving your HTML.
+  link: https://tailwindcss.com/
+
+- title: Visual Studio Code
+  description: An open-source code editing tool.
+  link: https://code.visualstudio.com/
+
+- title: Vue.js
+  description: An approachable, performant and versatile framework for building web user interfaces.
+  link: https://vuejs.org/

@@ -1,5 +1,7 @@
 ---
 title: "Accesibility"
+description: "Accessibility description"
+keywords: "Osman, Kamil, Samet, Simi"
 data: "accessibility"
 weight: 1
 ---

@@ -1,11 +1,35 @@
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: Design Sprint Kit
+  description: Transform the way your team works.
+  link: https://designsprintkit.withgoogle.com/
 
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
-    
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: Lorem Ipsum
+  description: A handy tool for filler contents.
+  link: https://loremipsum.io/
+
+- title: Media Queries
+  description: A handy tool that helps designers examine the responsiveness of a variety of web sites.
+  link: https://mediaqueri.es/
+
+- title: Pattern Monster
+  description: Customizable SVG patterns for your projects.
+  link: https://pattern.monster/
+
+- title: People + AI Research
+  description: People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
+  link: https://pair.withgoogle.com/
+
+- title: Pitch
+  description: The new face of presentations.
+  link: https://pitch.com/
+
+- title: ProApp Design
+  description: Courses curated by creators with industry experience & passion for design.
+  link: https://proapp.design/
+
+- title: Speak Human
+  description: Generate human centric microcopy for all purposes.
+  link: https://www.speakhuman.today/
+
+- title: Tilt Brush by Google
+  description: Tilt Brush lets you paint in 3D space with virtual reality.
+  link: https://www.tiltbrush.com/

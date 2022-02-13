@@ -1,0 +1,17 @@
+<nav class="navigation">
+
+  <ul class="navigation__list">
+
+    {{ $url := .RelPermalink}}
+
+    <li class="navigation__list__item home {{ if .IsHome }}active{{end}}"><a class="navigation__list__item__link" href="/">Home</a></li>
+
+    {{ range .Site.Sections }}
+      <li class="navigation__list__item {{ if eq $url .RelPermalink }}active{{ end }}">
+        <a class="navigation__list__item__link" href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+
+  </ul>
+  
+</nav>

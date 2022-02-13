@@ -6,6 +6,7 @@
       background-color: $white;
       padding: 2rem;
       border-radius: 1rem;
+      min-height: 300px;
       &__title {
         font-size: 1.4rem;
         margin: 0 0 1rem 0;
@@ -16,6 +17,8 @@
       }
       &__link {
         @include stretched-link;
+        text-decoration: none;
+        color: inherit;
       }
     }
   }

@@ -1,11 +1,43 @@
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: A List Apart
+  description: A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+  link: https://alistapart.com/
 
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
-    
-  - title: Smartphone
-    description: Creation timelines for the standard lorem ipsum passage vary, with some citing.
-    link: https://gerillass.com/
+- title: Brad Frost
+  description: I create successful design systems and help others do the same.
+  link: https://bradfrost.com/
+  
+- title: Creative Review
+  description: We deliver the sharpest opinion, analysis and advice on life in the creative industries.
+  link: https://www.creativereview.co.uk/
+  
+- title: DesignTAXI
+  description: DesignTAXI is the leading online reference source for the creative world, reaching millions of industry tastemakers and influencers monthly.
+  link: https://designtaxi.com/
+  
+- title: Hey Designer
+  description: Daily curated design knowledge.
+  link: https://heydesigner.com/
+  
+- title: Law of UX
+  description: Laws of UX is a collection of best practices that designers can consider when building user interfaces.
+  link: https://lawsofux.com/
+  
+- title: NN/g
+  description: World leaders in research-based user experience.
+  link: https://www.nngroup.com/
+  
+- title: Smashing Magazine
+  description: We care about quality content.
+  link: https://www.smashingmagazine.com/
+  
+- title: The Daily Egg
+  description: Make the most of every visitor.
+  link: https://www.crazyegg.com/blog/
+  
+- title: UXMAG
+  description: UX Magazine has been exploring, promoting, and discussing the realm of experience design for more than two decades.
+  link: https://uxmag.com/
+  
+- title: UX Planet
+  description: One-stop resource for everything related to user experience.
+  link: https://uxplanet.org/
