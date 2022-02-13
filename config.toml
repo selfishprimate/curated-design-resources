@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://localhost:1313/theme/book/
 
-baseURL = ''
+baseURL = 'https://curated-design-resources.netlify.app/'
 title = 'Curated Design Resources'
 
 # This command below is cleaning the unused content of ./public folder.
