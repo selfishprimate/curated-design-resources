@@ -18,6 +18,8 @@
     "url": "https://github.com/selfishprimate/curated-design-resources/issues"
   },
   "dependencies": {
-    "gerillass": "^1.2.3"
+    "gerillass": "^1.2.3",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0"
   }
 }
