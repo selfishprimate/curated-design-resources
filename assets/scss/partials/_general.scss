@@ -9,7 +9,7 @@ $map-for-breakpoints: (
   "medium": 768px,
   "large": 992px,
   "xlarge": 1200px,
-  "xxlarge": 1600px
+  "xxlarge": 1600px,
 );
 
 @include breakpointer {
@@ -30,6 +30,7 @@ body {
   min-height: 100%;
   font-family: $body-font;
   text-rendering: optimizeLegibility;
+  background-color: $body-bg-color;
   color: $body-text-color;
   line-height: 1.4;
   margin: 0;
@@ -37,7 +38,6 @@ body {
 }
 
 body {
-  background-color: $bus-yellow;
   @include adaptive();
 }
 
@@ -71,21 +71,20 @@ em {
   font-style: italic;
 }
 
-.main-container {
-  display: flex;
-  background-color: $light-gray;
+.main-wrapper {
+  background-color: $content-bg-color;
   min-height: 100vh;
-  .sidebar {
-    flex: 0 0 300px;
-  }
-  .page {
-    flex: 1;
+  .content-wrapper {
+    display: flex;
+    .sidebar {
+      flex: 0 0 300px;
+    }
+    .content {
+      flex: 1;
+    }
   }
 }
 
 .sidebar {
   padding: $global-space * 2;
 }
-
-
-

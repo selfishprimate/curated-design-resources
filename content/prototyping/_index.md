@@ -1,6 +1,8 @@
 ---
 title: "Prototyping"
 data: "prototyping"
+hero_image: "prototyping.jpg"
+hero_alt: "The best design resources and tools for prototyping!"
 weight: 1
 ---
 

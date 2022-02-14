@@ -1,11 +1,14 @@
 .cards {
   &__list {
-    @include columnizer(4, 1rem);
+    @include columnizer(1, 1rem);
     &__item {
       position: relative;
       background-color: $white;
       padding: 2rem;
       min-height: 300px;
+      border: 2px solid transparent;
+      box-shadow: 0 0 0 $primary-color;
+      transition: 0.1s;
       &__title {
         font-size: 1.2rem;
         margin: 0 0 1rem 0;
@@ -24,6 +27,19 @@
           @include loadify($i * 0.1s);
         }
       }
+      &:hover {
+        border-color: $primary-color;
+        box-shadow: 6px 6px 0 $primary-color;
+      }
+    }
+    @include breakpoint(min, large) {
+      @include columnizer(2, 1rem);
+    }
+    @include breakpoint(min, xlarge) {
+      @include columnizer(3, 1rem);
+    }
+    @include breakpoint(min, xxlarge) {
+      @include columnizer(4, 1rem);
     }
   }
 }

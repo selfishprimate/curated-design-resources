@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-
   {{ partial "head.html" . }}
-
   <body>
-   
-    <main class="main-container">
-
-      <aside class="sidebar">
-
-        {{ partial "navigation.html" . }}
-
-        <div>This is the baseof.html template.</div>
-
-      </aside><!-- .sidebar -->
-
-      <div class="page">
-
-        <div class="page__header">
-          <h2 class="page__title">{{ .Params.Title }}</h2>
-          <div class="page__description">{{ .Content }}</div>
-        </div>
-
-        {{ partial "items.html" . }}
-
-      </div><!-- .page -->
-
-    </main>
-
+    <div class="main-wrapper">
+      {{ partial "header.html" . }}
+      <main class="content-wrapper">
+        {{ partial "sidebar.html" . }}
+        {{ partial "content.html" . }}
+      </main><!-- .main-wrapper -->
+      {{ partial "footer.html" . }}
+    </div><!-- .main-wrapper -->
   </body>
-
 </html>

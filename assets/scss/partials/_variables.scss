@@ -2,30 +2,28 @@
 $white: #FFFFFF;
 $black: #000000;
 $snow: #fafaf8;
-$steal-teal: #668F80;
-$charleston-green: #222C25;
-$crayola: #2f3937;
-$granite-green: #657167;
-$artichoke: #8b9381;
-$light-gray: rgb(230,230,230);
 $bus-yellow: #ffd900;
-$light-sea-green: #5BC0BB;
-$granite-green: #657167;
-$copper: #B77434;
-$snow: #FAFAF8;
-$jelly-bean: #DB504A;
+$yellow-munsell: #F1D00A;
 $celtic-blue: #0366D6;
+$light-gray: #EEEEEE;
+$raisin-black: #201E1F;
 
-// Styles
+// Color Styles
+$primary-color: $raisin-black;
+$secondary-color: $bus-yellow;
+$tertiary-color: $celtic-blue;
 
-$primary-color: $steal-teal;
-$secondary-color: $light-sea-green;
-$tertiary-color: $artichoke;
+$body-bg-color: $bus-yellow;
+$content-bg-color: $light-gray;
+
+$body-text-color: $raisin-black;
+
+$color-link: #05b !default;
+
+// Font Styles
+$body-font: "Roboto MONO", sans-serif;
+$title-font: "Roboto MONO", sans-serif;
 
 $global-space: 1rem;
 
-$body-font: "Roboto MONO", sans-serif;
-$title-font: "Roboto MONO", sans-serif;
-$body-text-color: $charleston-green;
 
-$color-link: #05b !default;

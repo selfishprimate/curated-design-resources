@@ -1,6 +1,8 @@
 ---
 title: "Wireframing"
 data: "wireframing"
+hero_image: "wireframing.jpg"
+hero_alt: "The best resources for wireframing."
 weight: 1
 ---
 
