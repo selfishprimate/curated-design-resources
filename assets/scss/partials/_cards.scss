@@ -8,7 +8,6 @@
       min-height: 300px;
       border: 2px solid transparent;
       box-shadow: 0 0 0 $primary-color;
-      transition: 0.1s;
       &__title {
         font-size: 1.2rem;
         margin: 0 0 1rem 0;
@@ -24,7 +23,7 @@
       }
       @for $i from 1 through 20 {
         @include only($i) {
-          @include loadify($i * 0.12s);
+          @include loadify($i * 0.1s);
         }
       }
       &:hover {
