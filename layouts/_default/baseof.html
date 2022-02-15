@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
+
   {{ partial "head.html" . }}
-  <body>
-    <div class="main-wrapper">
+
+  <body class="{{ if .IsHome }}home{{ else }}{{ .Section }}{{ end }}">
+
+    <main class="main">
+
       {{ partial "header.html" . }}
-      <main class="content-wrapper">
+
+      <section class="content-wrapper">
         {{ partial "sidebar.html" . }}
         {{ partial "content.html" . }}
-      </main><!-- .main-wrapper -->
+      </section><!-- .content-wrapper -->
+
       {{ partial "footer.html" . }}
-    </div><!-- .main-wrapper -->
+
+    </main><!-- .main -->
+
+    {{ partial "featured-image.html" . }}
+
   </body>
+  
 </html>

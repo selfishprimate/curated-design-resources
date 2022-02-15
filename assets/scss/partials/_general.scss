@@ -35,10 +35,7 @@ body {
   line-height: 1.4;
   margin: 0;
   padding: 0;
-}
-
-body {
-  @include adaptive();
+  overscroll-behavior: none;
 }
 
 h1 {
@@ -71,17 +68,21 @@ em {
   font-style: italic;
 }
 
-.main-wrapper {
-  background-color: $content-bg-color;
+.main {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  .content-wrapper {
-    display: flex;
-    .sidebar {
-      flex: 0 0 300px;
-    }
-    .content {
-      flex: 1;
-    }
+  float: left;
+  background-color: $content-bg-color;
+  @include adaptive();
+}
+.content-wrapper {
+  display: flex;
+  .sidebar {
+    flex: 0 0 300px;
+  }
+  .content {
+    flex: 1;
   }
 }
 

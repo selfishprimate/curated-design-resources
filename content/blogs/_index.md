@@ -1,6 +1,7 @@
 ---
 title: "Blogs"
 data: "blogs"
+featured_image: "blogs.jpg"
 weight: 1
 ---
 
