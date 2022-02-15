@@ -1,6 +1,7 @@
 ---
 title: "Color"
 data: "color"
+featured_image: "color.jpg"
 weight: 1
 ---
 

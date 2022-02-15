@@ -1,6 +1,7 @@
 ---
 title: "Stock Videos"
 data: "stock_videos"
+featured_image: "stock-videos.jpg"
 weight: 1
 ---
 

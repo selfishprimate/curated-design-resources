@@ -1,6 +1,7 @@
 ---
 title: "Design News"
 data: "design_news"
+featured_image: "design-news.jpg"
 weight: 1
 ---
 

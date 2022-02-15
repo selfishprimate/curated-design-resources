@@ -1,6 +1,7 @@
 ---
 title: "Stock Photos"
 data: "stock_photos"
+featured_image: "stock-photos.jpg"
 weight: 1
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Others"
 data: "others"
+featured_image: "others.jpg"
 weight: 0
 ---
 
