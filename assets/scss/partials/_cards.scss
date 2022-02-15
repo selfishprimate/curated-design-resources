@@ -24,7 +24,7 @@
       }
       @for $i from 1 through 20 {
         @include only($i) {
-          @include loadify($i * 0.1s);
+          @include loadify($i * 0.12s);
         }
       }
       &:hover {
