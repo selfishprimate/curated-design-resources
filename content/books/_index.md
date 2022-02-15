@@ -1,7 +1,6 @@
 ---
 title: "Books"
 data: "books"
-featured_image: "books.jpg"
 weight: 1
 ---
 

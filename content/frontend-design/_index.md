@@ -1,7 +1,6 @@
 ---
 title: "Frontend Design"
 data: "frontend_design"
-featured_image: "frontend-design.jpg"
 weight: 1
 ---
 
