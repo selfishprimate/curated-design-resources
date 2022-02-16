@@ -1,4 +1,5 @@
 .featured-image {
+  position: relative;
   display: block;
   top: 0;
   right: 0;
@@ -10,5 +11,22 @@
   z-index: -1;
   @include breakpoint(min, xlarge) {
     border: 2rem solid $body-bg-color;
+  }
+  &__filter {
+    @include position();
+    &.dots {
+      @include background-dots(
+        $color: transparentize($primary-color, 0.9)
+          transparentize($primary-color, 0.8),
+        $size: 3px
+      );
+    }
+    &.stripes {
+      @include background-stripes(
+        $color: transparentize(black, 0.8),
+        $thickness: 1px,
+        $rotation: 0
+      );
+    }
   }
 }
