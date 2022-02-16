@@ -1,3 +1,5 @@
 <div class="featured-image" style="{{ if .Params.featured_image }}background-image: url({{ .Permalink }}images/{{ .Params.featured_image }});{{ end }}">
-  <div class="featured-image__filter stripes"></div>
+  {{ if .Params.featured_image }}
+    <div class="featured-image__filter stripes"></div>
+  {{ end }}
 </div>
