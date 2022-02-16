@@ -4,7 +4,7 @@
     &__item {
       position: relative;
       background-color: $white;
-      padding: 2rem;
+      padding: 2rem 2rem 4rem;
       min-height: 300px;
       border: 2px solid transparent;
       box-shadow: 0 0 0 $primary-color;
@@ -33,6 +33,20 @@
         border-color: $primary-color;
         box-shadow: 6px 6px 0 $primary-color;
         color: $primary-color;
+      }
+      ion-icon {
+        display: none;
+        position: absolute;
+        right: 2rem;
+        bottom: 1.8rem;
+        font-size: 2rem;
+        color: rgb(200, 200, 200);
+      }
+      &:hover {
+        ion-icon {
+          display: block;
+          color: $primary-color;
+        }
       }
     }
     @include breakpoint(min, large) {
