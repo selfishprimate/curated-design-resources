@@ -28,24 +28,24 @@ html,
 body {
   width: 100%;
   min-height: 100%;
-  font-family: $body-font;
   text-rendering: optimizeLegibility;
   background-color: $body-bg-color;
   color: $body-text-color;
-  line-height: 1.4;
+  font-family: $body-font;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
 }
 
-h1 {
-  font-size: 2.5em;
+h2 {
+  font-size: 3.5em;
+  font-weight: 900;
   margin-bottom: $global-space;
 }
 
-h2,
 h3 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin-bottom: $global-space;
 }
 
@@ -56,6 +56,7 @@ h4,
 h5,
 h6 {
   margin-top: $global-space * 3;
+  font-family: $title-font;
   font-style: normal;
   line-height: 1.3;
 }

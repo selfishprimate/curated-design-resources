@@ -5,15 +5,15 @@ $snow: #fafaf8;
 $bus-yellow: #ffd900;
 $yellow-munsell: #F1D00A;
 $celtic-blue: #0366D6;
-$light-gray: #EEEEEE;
+$light-gray: rgb(245,245,245);
 $raisin-black: #201E1F;
 
 // Color Styles
-$primary-color: $raisin-black;
+$primary-color: $celtic-blue;
 $secondary-color: $bus-yellow;
 $tertiary-color: $celtic-blue;
 
-$body-bg-color: $bus-yellow;
+$body-bg-color: $light-gray;
 $content-bg-color: $light-gray;
 
 $body-text-color: $raisin-black;
@@ -21,8 +21,11 @@ $body-text-color: $raisin-black;
 $color-link: #05b !default;
 
 // Font Styles
-$body-font: "Roboto MONO", sans-serif;
-$title-font: "Roboto MONO", sans-serif;
+
+$title-font: univia-pro, sans-serif;
+$body-font: Poppins, sans-serif;
+$mono-font: roboto-mono, monospace;
+
 
 $global-space: 1rem;
 

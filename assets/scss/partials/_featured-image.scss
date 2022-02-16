@@ -8,4 +8,7 @@
   @include background-image();
   position: fixed;
   z-index: -1;
+  @include breakpoint(min, xlarge) {
+    border: 2rem solid $body-bg-color;
+  }
 }
