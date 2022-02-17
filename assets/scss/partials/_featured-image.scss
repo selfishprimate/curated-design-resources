@@ -10,7 +10,7 @@
   position: fixed;
   z-index: -1;
   @include breakpoint(min, xlarge) {
-    border: 2rem solid $body-bg-color;
+    // border: 2rem solid $body-bg-color;
   }
   &__filter {
     @include position();

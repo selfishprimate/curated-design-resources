@@ -2,7 +2,8 @@
   description: Behind the scenes of our new design system.
   link: https://airbnb.design/building-a-visual-language/
 
-- title: Apple
+- title: Human Interface Guidelines
+  label: Apple
   description: Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.
   link: https://developer.apple.com/design/human-interface-guidelines/
 
@@ -13,14 +14,17 @@
 - title: Fluent
   description: Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included.
   link: https://www.microsoft.com/design/fluent/
+  label: Microsoft
 
-- title: IBM
+- title: Carbon
   description: This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM.
   link: https://www.ibm.com/design/language/
+  label: IBM
 
 - title: Lightning Design System
   description: Salesforce Lightning Design System. Create the world’s best enterprise app experiences.
   link: https://www.lightningdesignsystem.com/
+  label: Salesforce
 
 - title: Mailchimp
   description: Mailchimp Design System
@@ -29,19 +33,23 @@
 - title: Material Design
   description: Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences.
   link: https://material.io/
+  label: Google
 
-- title: Shopify
+- title: Polaris
   description: Our design system helps us work together to build a great experience for all of Shopify’s merchants.
   link: https://polaris.shopify.com/
+  label: Shopify
 
 - title: Solid
   description: Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features.
   link: https://solid.buzzfeed.com/
+  label: BuzzFeed
 
 - title: Uber
   description: "These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography."
   link: https://brand.uber.com/
 
-- title: Yelp
+- title: Cookbook
   description: The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
   link: https://www.yelp.com/styleguide/
+  label: Yelp
