@@ -1,5 +1,9 @@
-<div class="featured-image" style="{{ if .Params.featured_image }}background-image: url({{ .Permalink }}images/{{ .Params.featured_image }});{{ end }}">
-  {{ if .Params.featured_image }}
-    <div class="featured-image__filter stripes"></div>
-  {{ end }}
-</div>
+{{ if .Params.featured_image_link }}<a href="{{ .Params.featured_image_link }}" target="_blank">{{ end }}
+
+  <div class="featured-image" style="{{ if .Params.featured_image }}background-image: url({{ .Permalink }}images/{{ .Params.featured_image }});{{ end }}">
+    {{ if .Params.featured_image_filter }}
+      <div class="featured-image__filter {{ if eq .Params.featured_image_filter "stripes"}}stripes{{end}}{{ if eq .Params.featured_image_filter "dots"}}dots{{end}}"></div>
+    {{ end }}
+  </div>
+
+{{ if .Params.featured_image_link }}</a>{{ end }}

@@ -6,12 +6,16 @@
   description: Build fast, responsive sites with Bootstrap.
   link: https://getbootstrap.com/
 
+- title: Codepen
+  description: CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+  link: https://codepen.io/
+
 - title: Foundation
   description: The most advanced responsive front-end framework in the world.
   link: https://get.foundation/
 
 - title: Gerillass
-  description: Meet the best Sass mixin library for modern web design.
+  description: Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs.
   link: https://gerillass.com/
 
 - title: Git
@@ -33,6 +37,14 @@
 - title: HTML5 Boilerplate
   description: The web’s most popular front-end template.
   link: https://html5boilerplate.com/
+
+- title: Jekyll
+  description: Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
+  link: https://jekyllrb.com/
+
+- title: Markup Validation Service
+  description: This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
+  link: https://validator.w3.org/
 
 - title: Material Design Lite
   description: Material Design Lite lets you add a Material Design look and feel to your websites.

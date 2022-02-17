@@ -16,9 +16,9 @@
     @include position();
     &.dots {
       @include background-dots(
-        $color: transparentize($primary-color, 0.9)
-          transparentize($primary-color, 0.8),
-        $size: 3px
+        $color: transparentize(black, 0.9) transparentize(black, 0.85),
+        $size: 1.5px,
+        $gutter: 20px
       );
     }
     &.stripes {

@@ -41,6 +41,7 @@ _The best blog pages to learn UX design!_
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
 - [Brad Frost](https://bradfrost.com/): I create successful design systems and help others do the same.
 - [Creative Review](https://www.creativereview.co.uk/): We deliver the sharpest opinion, analysis and advice on life in the creative industries.
+- [Design Systems](https://www.designsystems.com/): A Figma publication for design systems creators, designers, developers, and managers.
 - [DesignTAXI](https://designtaxi.com/): DesignTAXI is the leading online reference source for the creative world, reaching millions of industry tastemakers and influencers monthly.
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
 - [Law of UX](https://lawsofux.com/): Laws of UX is a collection of best practices that designers can consider when building user interfaces.
@@ -97,7 +98,7 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 - [Design Calendar](https://www.designcalendar.io/): An online community made for creatives who believe in the power of ideas and the joy of making them happen.
 - [Designer News](https://www.designernews.co/): Designer News is a large, global community of people working in design and technology or those interested in the topics.
 - [Dropbox Design](https://dropbox.design/): Welcome, we are Dropbox Design.
-- [Facebook Design](https://facebook.design/): Designing for the global diversity of human needs.
+- [Facebook Design](https://design.facebook.com/): Designing for the global diversity of human needs.
 - [Google Design](https://design.google/): Supporting the future of design and technology.
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
 - [Microsoft Design](https://www.microsoft.com/design/): Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start.
@@ -115,30 +116,33 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 _The best design systems of the universe!_
 
 - [AirBnb](https://airbnb.design/building-a-visual-language/): Behind the scenes of our new design system.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): _Apple_ Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms. *Apple*
 - [Atlassian](https://atlassian.design/): Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences.
-- [Fluent](https://www.microsoft.com/design/fluent/): _Microsoft_ Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included.
-- [Carbon](https://www.ibm.com/design/language/): _IBM_ This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM.
-- [Lightning Design System](https://www.lightningdesignsystem.com/): _Salesforce_ Salesforce Lightning Design System. Create the world’s best enterprise app experiences.
+- [Fluent](https://www.microsoft.com/design/fluent/): Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included. *Microsoft*
+- [Carbon](https://www.ibm.com/design/language/): This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*
+- [Lightning Design System](https://www.lightningdesignsystem.com/): Salesforce Lightning Design System. Create the world’s best enterprise app experiences. *Salesforce*
 - [Mailchimp](https://ux.mailchimp.com/patterns/): Mailchimp Design System
-- [Material Design](https://material.io/): _Google_ Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences.
-- [Polaris](https://polaris.shopify.com/): _Shopify_ Our design system helps us work together to build a great experience for all of Shopify’s merchants.
-- [Solid](https://solid.buzzfeed.com/): _BuzzFeed_ Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. 
+- [Material Design](https://material.io/): Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences. *Google*
+- [Polaris](https://polaris.shopify.com/): Our design system helps us work together to build a great experience for all of Shopify’s merchants. *Shopify*
+- [Solid](https://solid.buzzfeed.com/): Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. *BuzzFeed*
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
-- [Cookbook](https://www.yelp.com/styleguide/): _Yelp_ The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns.
+- [Cookbook](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns. *Yelp*
 
 ## Frontend Design
 
 _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
 - [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
+- [Codepen](https://codepen.io/): CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
 - [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
-- [Gerillass](https://gerillass.com/): Meet the best Sass mixin library for modern web design.
+- [Gerillass](https://gerillass.com/): Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs.
 - [Git](https://git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [Github](https://github.com): Where the world builds software.
 - [Gulp](https://gulpjs.com/): A toolkit to automate & enhance your workflow.
 - [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
 - [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
+- [Jekyll](https://jekyllrb.com/): Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
+- [Markup Validation Service](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 - [Material Design Lite](https://getmdl.io/): Material Design Lite lets you add a Material Design look and feel to your websites.
 - [Modaal](https://humaan.com/modaal/): An accessible dialog window plugin for all humans.
 - [Node.js](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
