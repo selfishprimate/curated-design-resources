@@ -57,6 +57,11 @@
         color: $primary-color;
       }
     }
+    &:active {
+      border-color: $primary-color;
+      box-shadow: 0 0 0 $primary-color;
+      transition: 0.2s;
+    }
   }
   @include breakpoint(min, large) {
     @include columnizer(2, 1rem);
