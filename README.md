@@ -135,6 +135,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
 - [Codepen](https://codepen.io/): CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+- [Eleventy](https://www.11ty.dev/): Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options.
 - [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
 - [Gerillass](https://gerillass.com/): Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs.
 - [Git](https://git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
