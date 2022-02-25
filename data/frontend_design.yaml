@@ -10,6 +10,10 @@
   description: CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
   link: https://codepen.io/
 
+- title: "CSS: Cascading Style Sheets"
+  description: Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
+  link: https://developer.mozilla.org/en-US/docs/Web/CSS
+
 - title: Eleventy
   description: Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options.
   link: https://www.11ty.dev/
@@ -45,6 +49,10 @@
 - title: Jekyll
   description: Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
   link: https://jekyllrb.com/
+
+- title: Markdown Guide
+  description: The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.
+  link: https://www.markdownguide.org/
 
 - title: Markup Validation Service
   description: This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.

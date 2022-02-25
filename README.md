@@ -135,6 +135,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
 - [Codepen](https://codepen.io/): CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+- [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS): Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
 - [Eleventy](https://www.11ty.dev/): Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options.
 - [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
 - [Gerillass](https://gerillass.com/): Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs.
@@ -144,6 +145,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
 - [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
 - [Jekyll](https://jekyllrb.com/): Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
+- [Markdown Guide](https://www.markdownguide.org/): The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.
 - [Markup Validation Service](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
 - [Material Design Lite](https://getmdl.io/): Material Design Lite lets you add a Material Design look and feel to your websites.
 - [Modaal](https://humaan.com/modaal/): An accessible dialog window plugin for all humans.
