@@ -135,6 +135,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
 - [Codepen](https://codepen.io/): CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+- [Codrops](https://tympanus.net/codrops/): Stay up to date with the latest web design and development news and relevant updates from Codrops.
 - [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS): Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
 - [Eleventy](https://www.11ty.dev/): Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options.
 - [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.

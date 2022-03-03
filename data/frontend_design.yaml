@@ -10,6 +10,10 @@
   description: CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
   link: https://codepen.io/
 
+- title: Codrops
+  description: Stay up to date with the latest web design and development news and relevant updates from Codrops.
+  link: https://tympanus.net/codrops/
+
 - title: "CSS: Cascading Style Sheets"
   description: Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
   link: https://developer.mozilla.org/en-US/docs/Web/CSS
