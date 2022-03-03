@@ -222,6 +222,7 @@ _Get productive with the best productivity apps._
 
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
+- [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 
 ## Prototyping

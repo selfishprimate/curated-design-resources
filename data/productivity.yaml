@@ -6,6 +6,10 @@
   description: One tool for your whole team. Write, plan, and get organized.
   link: https://www.notion.so/
 
+- title: Obsidian
+  description: Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
+  link: https://obsidian.md/
+
 - title: Pomofocus
   description: An online Pomodoro Timer to boost your productivity.
   link: https://pomofocus.io/
