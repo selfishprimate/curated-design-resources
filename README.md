@@ -150,6 +150,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Material Design Lite](https://getmdl.io/): Material Design Lite lets you add a Material Design look and feel to your websites.
 - [Modaal](https://humaan.com/modaal/): An accessible dialog window plugin for all humans.
 - [Node.js](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [Parcel](https://parceljs.org/): Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Sass](https://sass-lang.com/): Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
 - [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.

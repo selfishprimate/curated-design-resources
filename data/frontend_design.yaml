@@ -70,6 +70,10 @@
   description: Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
   link: https://nodejs.org/en/
 
+- title: Parcel
+  description: Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.
+  link: https://parceljs.org/
+
 - title: React
   description: A JavaScript library for building user interfaces.
   link: https://reactjs.org/
