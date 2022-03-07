@@ -2,6 +2,14 @@
   description: Just-add-water CSS animations!
   link: https://animate.style/
 
+- title: Cubic Bezier
+  description: A better tool for cubic-bezier() easing.
+  link: https://cubic-bezier.com/
+
+- title: Easings
+  description: Test common easing curves on a range of interfaces. Or generate your own custom bezier curve.
+  link: https://easings.co/
+
 - title: LottieFiles
   description: Lightweight, scalable animations for your website and apps!
   link: https://lottiefiles.com/

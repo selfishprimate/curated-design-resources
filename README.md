@@ -289,6 +289,8 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 _It's not rocket science to animate your UIs anymore!_
 
 - [Animate.css](https://animate.style/): Just-add-water CSS animations!
+- [Cubic Bezier](https://cubic-bezier.com/): A better tool for cubic-bezier() easing.
+- [Easings](https://easings.co/): Test common easing curves on a range of interfaces. Or generate your own custom bezier curve.
 - [LottieFiles](https://lottiefiles.com/): Lightweight, scalable animations for your website and apps!
 - [Motion UI](https://legacy-zurb.netlify.app/playground/motion-ui): A Sass library for creating flexible CSS transitions and animations.
 
@@ -317,6 +319,7 @@ _The best design resources for wireframing!_
 
 _Some other design resources you may want to check out!_
 
+- [10015.io](https://10015.io/): 10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
