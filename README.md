@@ -154,6 +154,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Parcel](https://parceljs.org/): Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Sass](https://sass-lang.com/): Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+- [Storybook](https://storybook.js.org/): Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 - [Tailwind CSS](https://tailwindcss.com/): Rapidly build modern websites without ever leaving your HTML.
 - [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
 - [Vue.js](https://vuejs.org/): An approachable, performant and versatile framework for building web user interfaces.

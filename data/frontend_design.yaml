@@ -86,6 +86,10 @@
   description: Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
   link: https://sass-lang.com/
 
+- title: Storybook
+  description: Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
+  link: https://storybook.js.org/
+
 - title: Tailwind CSS
   description: Rapidly build modern websites without ever leaving your HTML.
   link: https://tailwindcss.com/
