@@ -93,6 +93,10 @@
 - title: Tailwind CSS
   description: Rapidly build modern websites without ever leaving your HTML.
   link: https://tailwindcss.com/
+  
+- title: Typeform
+  description: You don't want to make a boring form. And your audience won't answer one. Create a typeform instead—and make everyone happy.
+  link: https://www.typeform.com/
 
 - title: Visual Studio Code
   description: An open-source code editing tool.
