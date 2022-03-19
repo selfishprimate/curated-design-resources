@@ -50,6 +50,10 @@
   description: The web’s most popular front-end template.
   link: https://html5boilerplate.com/
 
+- title: Ionic
+  description: Build faster, smarter, and into the future.
+  link: https://ionic.io/
+
 - title: Jekyll
   description: Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
   link: https://jekyllrb.com/

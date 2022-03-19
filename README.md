@@ -145,6 +145,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Gulp](https://gulpjs.com/): A toolkit to automate & enhance your workflow.
 - [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
 - [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
+- [Ionic](https://ionic.io/): Build faster, smarter, and into the future.
 - [Jekyll](https://jekyllrb.com/): Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content.
 - [Markdown Guide](https://www.markdownguide.org/): The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.
 - [Markup Validation Service](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.
