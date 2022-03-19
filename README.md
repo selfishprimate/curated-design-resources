@@ -325,6 +325,7 @@ _Some other design resources you may want to check out!_
 
 - [10015.io](https://10015.io/): 10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
+- [Grid.Guide](http://grid.guide/): A tool to help you create pixel perfect grids within your designs. Enter your requirements above and we’ll will show you all of the whole pixel combinations you can use.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
