@@ -106,6 +106,10 @@
   description: You don't want to make a boring form. And your audience won't answer one. Create a typeform instead—and make everyone happy.
   link: https://www.typeform.com/
 
+- title: TypeScript
+  description: TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+  link: https://www.typescriptlang.org/
+
 - title: Visual Studio Code
   description: An open-source code editing tool.
   link: https://code.visualstudio.com/
