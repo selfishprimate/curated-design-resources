@@ -142,6 +142,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Gerillass](https://gerillass.com/): Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs.
 - [Git](https://git-scm.com/): Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - [Github](https://github.com): Where the world builds software.
+- [Grunt](https://gruntjs.com/): The JavaScript task runner.
 - [Gulp](https://gulpjs.com/): A toolkit to automate & enhance your workflow.
 - [Hugo](https://gohugo.io/): The world’s fastest framework for building websites.
 - [HTML5 Boilerplate](https://html5boilerplate.com/): The web’s most popular front-end template.
