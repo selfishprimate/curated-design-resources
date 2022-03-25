@@ -45,6 +45,11 @@
   link: https://solid.buzzfeed.com/
   label: BuzzFeed
 
+- title: Style Guides
+  description: Real life pattern libraries, code standards documents and content style guides.
+  link: http://styleguides.io/
+  label: Style Guide Resources
+
 - title: Uber
   description: "These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography."
   link: https://brand.uber.com/
