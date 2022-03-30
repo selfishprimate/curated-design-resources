@@ -232,6 +232,7 @@ _Get productive with the best productivity apps._
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
 - [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
+- [Slack](https://slack.com/): Transform the way you work with one place for everyone and everything you need to get stuff done.
 
 ## Prototyping
 
