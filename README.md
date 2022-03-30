@@ -233,6 +233,7 @@ _Get productive with the best productivity apps._
 - [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 - [Slack](https://slack.com/): Transform the way you work with one place for everyone and everything you need to get stuff done.
+- [Zapier](https://zapier.com/): Easy automation for busy people. Zapier moves info between your web apps automatically, so you can focus on your most important work.
 
 ## Prototyping
 
