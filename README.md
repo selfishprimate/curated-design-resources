@@ -228,6 +228,7 @@ _These mockup tools will help you make your design pieces way more bearable._
 
 _Get productive with the best productivity apps._
 
+- [Bardeen](https://www.bardeen.ai/): Bardeen saves you time by automating repetitive tasks with a shortcut. It combines a powerful workflow builder, AI-based recommendations, and contextual automations.
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
 - [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
