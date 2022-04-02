@@ -56,6 +56,12 @@
         display: block;
         color: $primary-color;
       }
+      &__link {
+        color: $primary-color;
+      }
+      & .card__link {
+        color: $primary-color;
+      }
     }
     &:active {
       border-color: $primary-color;
