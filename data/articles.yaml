@@ -1,3 +1,11 @@
+- title: 8 Brilliant Examples Of Social Proof On The Web
+  description: Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
+  link: https://www.crazyegg.com/blog/examples-social-proof-on-web/
+  
+- title: 10 Usability Heuristics for User Interface Design
+  description: Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
+  link: https://www.nngroup.com/articles/ten-usability-heuristics/
+
 - title: How We Hold Our Gadgets?
   description: Where do hands and fingers fall on the device?
   link: https://alistapart.com/article/how-we-hold-our-gadgets/
@@ -18,6 +26,10 @@
   description: Task analysis is the systematic study of how users complete tasks to achieve their goals. This knowledge ensures products and services are designed to efficiently and appropriately support those goals.
   link: https://www.nngroup.com/articles/task-analysis/
   
+- title: The Typographic Scale
+  description: The typographic scale has been used for centuries as a means of creating balanced and harmonious font sizing. It is the bedrock of modern typography.
+  link: https://spencermortensen.com/articles/typographic-scale/
+
 - title: The Ultimate Guide to Information Architecture
   description: Whether you hire a dedicated IA professional, or just sort of let IA happen on your projects, if you’re designing things with content, you’re using IA.
   link: http://www.webdesignerdepot.com/2015/02/the-ultimate-guide-to-information-architecture/
@@ -37,13 +49,5 @@
 - title: Why You Only Need to Test with 5 Users
   description: Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.
   link: https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
-  
-- title: 8 Brilliant Examples Of Social Proof On The Web
-  description: Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
-  link: https://www.crazyegg.com/blog/examples-social-proof-on-web/
-  
-- title: 10 Usability Heuristics for User Interface Design
-  description: Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
-  link: https://www.nngroup.com/articles/ten-usability-heuristics/
     
 

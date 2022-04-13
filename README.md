@@ -21,18 +21,19 @@ _The best design resources for accessibility!_
 
 _The best articles about web design, mobile design, and user experience design!_
 
+- [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
+- [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
 - [Mental Models](https://www.nngroup.com/articles/mental-models/): What users believe they know about a UI strongly impacts how they use it.
 - [Mobile App UX Principles](https://storage.googleapis.com/think-emea/docs/article/Mobile_App_UX_Principles.pdf): Improving user experience and optimising conversion.
 - [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
 - [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals. This knowledge ensures products and services are designed to efficiently and appropriately support those goals.
+- [The Typographic Scale](https://spencermortensen.com/articles/typographic-scale/): The typographic scale has been used for centuries as a means of creating balanced and harmonious font sizing. It is the bedrock of modern typography.
 - [The Ultimate Guide to Information Architecture](http://www.webdesignerdepot.com/2015/02/the-ultimate-guide-to-information-architecture/): Whether you hire a dedicated IA professional, or just sort of let IA happen on your projects, if you’re designing things with content, you’re using IA.
 - [Touch Gesture Reference Guide](https://www.lukew.com/ff/entry.asp?1071): The Touch Gesture Reference Guide is a unique set of resources for software designers and developers working on touch-based user interfaces.
 - [Usability 101: Introduction to Usability](https://www.nngroup.com/articles/usability-101-introduction-to-usability/): How to define usability? How, when, and where to improve it? Why should you care? Overview defines key usability concepts and answers basic questions.
 - [When and How to Create Customer Journey Maps](https://www.nngroup.com/articles/customer-journey-mapping/): Journey maps combine two powerful instruments—storytelling and visualization—in order to help teams understand and address customer needs.
 - [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/): Elaborate usability tests are a waste of resources. The best results come from testing no more than 5 users and running as many small tests as you can afford.
-- [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
-- [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
 
 ## Blogs
 
