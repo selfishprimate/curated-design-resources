@@ -189,6 +189,7 @@ _The best resources for Iconography!_
 - [Iconfinder](https://www.iconfinder.com/): Helping designers make a living doing what they love.
 - [IcoMoon](https://icomoon.io/): Pixel Perfect Icon Solutions.
 - [Iconmonstr](https://iconmonstr.com/): Free, monstrously big and continuously growing source of simple icons.
+- [Iconsax](https://iconsax.io/): Hello welcome to iconsax the official icons of the Vuesax framework.
 - [Iconshock](https://www.iconshock.com/): The biggest icon pack: 2 million professional icons library.
 - [Material Icons](https://fonts.google.com/icons): Material Icons are available in five styles and a range of downloadable sizes and densities. The icons are based on the core Material Design principles and metrics.
 - [Streamline](https://streamlinehq.com/): 100,000 icons, illustrations and emoji for all your projects.
