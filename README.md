@@ -346,6 +346,8 @@ _Some other design resources you may want to check out!_
 - [People + AI Research](https://pair.withgoogle.com/): People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
 - [Pitch](https://pitch.com/): The new face of presentations.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
+- [Sharpen](https://sharpen.design/): Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Tilt Brush by Google](https://www.tiltbrush.com/): Tilt Brush lets you paint in 3D space with virtual reality.
+- [UX Tools](https://uxtools.co/): We make several free tools and projects for product designers.
 

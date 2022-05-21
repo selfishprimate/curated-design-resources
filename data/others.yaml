@@ -54,6 +54,10 @@
   description: Courses curated by creators with industry experience & passion for design.
   link: https://proapp.design/
 
+- title: Sharpen
+  description: Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.
+  link: https://sharpen.design/
+
 - title: Speak Human
   description: Generate human centric microcopy for all purposes.
   link: https://www.speakhuman.today/
@@ -61,3 +65,7 @@
 - title: Tilt Brush by Google
   description: Tilt Brush lets you paint in 3D space with virtual reality.
   link: https://www.tiltbrush.com/
+
+- title: UX Tools
+  description: We make several free tools and projects for product designers.
+  link: https://uxtools.co/
