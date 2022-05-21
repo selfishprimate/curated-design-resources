@@ -192,6 +192,7 @@ _The best resources for Iconography!_
 - [Iconsax](https://iconsax.io/): Hello welcome to iconsax the official icons of the Vuesax framework.
 - [Iconshock](https://www.iconshock.com/): The biggest icon pack: 2 million professional icons library.
 - [Material Icons](https://fonts.google.com/icons): Material Icons are available in five styles and a range of downloadable sizes and densities. The icons are based on the core Material Design principles and metrics.
+- [Remix Icon](http://remixicon.com/): Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers.
 - [Streamline](https://streamlinehq.com/): 100,000 icons, illustrations and emoji for all your projects.
 - [The Noun Project](https://thenounproject.com/): Icons and Photos For Everything.
 - [UI8](https://ui8.net/category/icons): 1015 vector icon sets for mobile, web & print projects.
