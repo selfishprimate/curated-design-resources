@@ -219,6 +219,7 @@ _Don't you have a new design idea? Well, steal one!_
 - [Pentagram](https://www.pentagram.com/): Pentagram is a multi-disciplinary, independently-owned design studio.
 - [Pinterest](https://tr.pinterest.com/): When it comes to a great idea, you know it when you see it.
 - [Pttrns](https://pttrns.com/): Upgrade to Premium! No ads, unlimited access and more...
+- [Saas Landing Page](https://saaslandingpage.com/): Discover the best 680 landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project.
 - [siteInspire](https://www.siteinspire.com/): SiteInspire is a showcase of the finest web and interactive design.
 - [UI Garage](https://uigarage.net/): Daily handpicked UI inspiration & patterns.
 - [Webdesign Inspiration](https://www.webdesign-inspiration.com/): The best website design ideas.
