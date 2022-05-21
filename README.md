@@ -214,6 +214,7 @@ _Don't you have a new design idea? Well, steal one!_
 - [Dribbble](https://dribbble.com/): Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.
 - [Landingfolio](https://www.landingfolio.com/): Landingfolio features the best landing page designs on the web. Get inspiration from real landing page examples, curated by us to ensure the highest quality.
 - [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
+- [Lapa Ninja](https://www.lapa.ninja/): Lapa Ninja is a gallery featuring the best 4940 landing page examples, free books for designers and free UI kits from around the web.
 - [Mobbin](https://mobbin.design/): Latest mobile design patterns.
 - [Muzli](https://muz.li/): The best design inspiration - expertly curated for you.
 - [Pentagram](https://www.pentagram.com/): Pentagram is a multi-disciplinary, independently-owned design studio.
