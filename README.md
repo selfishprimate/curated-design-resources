@@ -126,6 +126,7 @@ _The best design systems of the universe!_
 - [Mailchimp](https://ux.mailchimp.com/patterns/): Mailchimp Design System
 - [Material Design](https://material.io/): Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences. *Google*
 - [Polaris](https://polaris.shopify.com/): Our design system helps us work together to build a great experience for all of Shopify’s merchants. *Shopify*
+- [Primer](https://primer.style/): Primer was created for GitHub by GitHub. We love it so much, we chose to open-source it to allow the community to design and build their own projects with Primer. *Github*
 - [Solid](https://solid.buzzfeed.com/): Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. *BuzzFeed*
 - [Style Guides](http://styleguides.io/): Real life pattern libraries, code standards documents and content style guides.
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
