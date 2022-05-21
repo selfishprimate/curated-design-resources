@@ -118,10 +118,11 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 _The best design systems of the universe!_
 
 - [AirBnb](https://airbnb.design/building-a-visual-language/): Behind the scenes of our new design system.
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms. *Apple*
 - [Atlassian](https://atlassian.design/): Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences.
+- [Evergreen](https://evergreen.segment.com/): Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.
 - [Fluent](https://www.microsoft.com/design/fluent/): Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included. *Microsoft*
 - [Carbon](https://www.ibm.com/design/language/): This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms. *Apple*
 - [Lightning Design System](https://www.lightningdesignsystem.com/): Salesforce Lightning Design System. Create the world’s best enterprise app experiences. *Salesforce*
 - [Mailchimp](https://ux.mailchimp.com/patterns/): Mailchimp Design System
 - [Material Design](https://material.io/): Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences. *Google*
