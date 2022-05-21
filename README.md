@@ -279,6 +279,14 @@ _The best design resources for stock videos!_
 - [Coverr](https://www.coverr.co/): Beautiful free stock video footage.
 - [Mixkit](https://mixkit.co/): Free assets for your next video project.
 
+## Tutorials
+
+_The best tutorial platforms for UI/UX design!_
+
+- [Checklist Design](https://www.checklist.design/): A collection of the best design practices.
+- [Growth Design](https://growth.design/): Get product tips in a comic book format you’ll love to read.
+- [Webflow University](https://university.webflow.com/courses): Explore our curated sets of lessons. Create something amazing and learn web design with Webflow — from HTML and CSS basics to SEO and CMS essentials.
+
 ## Typography
 
 _Typography is like the backbone of your design pieces. Here you can find the best tools to benefit typography!_
