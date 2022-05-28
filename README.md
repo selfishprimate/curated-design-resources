@@ -2,6 +2,12 @@
 
 The best design resources for everyone.
 
+<p>
+  <a href="https://curated-design-resources.netlify.app/" target="_blank">
+    <img src="https://curated-design-resources.netlify.app/assets/images/github/github-readme-wallpaper-min.jpeg">
+  </a>
+</p>
+
 ## Accessibility 
 
 _The best design resources for accessibility!_
