@@ -358,6 +358,7 @@ _Some other design resources you may want to check out!_
 - [Avocode](https://avocode.com/): Save time working with design files.
 - [Components.ai](https://components.ai/): Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever.
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
+- [Ethical Design Resources](https://www.ethicaldesignresources.com/): Practical resources to learn about design ethics and its methodologies.
 - [Grid.Guide](http://grid.guide/): A tool to help you create pixel perfect grids within your designs. Enter your requirements above and we’ll will show you all of the whole pixel combinations you can use.
 - [Hotjar](https://www.hotjar.com/): Understand how users behave on your site, what they need, and how they feel, fast.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
