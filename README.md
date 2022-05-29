@@ -56,6 +56,7 @@ _The best blog pages to learn UX design!_
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
 - [UXMAG](https://uxmag.com/): UX Magazine has been exploring, promoting, and discussing the realm of experience design for more than two decades.
+- [UX Mastery](https://uxmastery.com/): At UX Mastery, we believe that technology needs to work for humans, not the other way around.
 - [UX Matters](https://www.uxmatters.com/): UXmatters provides insights and inspiration to experienced professionals working in every aspect of User Experience, as well as those who are just beginning their journey in the field.
 - [UX Planet](https://uxplanet.org/): One-stop resource for everything related to user experience.
 
