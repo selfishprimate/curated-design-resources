@@ -144,6 +144,21 @@ _The best design systems of the universe!_
 - [Uber](https://brand.uber.com/): These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.
 - [Cookbook](https://www.yelp.com/styleguide/): The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns. *Yelp*
 
+## Figma Plugins
+
+_The best Figma plugins ever!_
+
+- [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker): Ensure your text is readable for users by adhering to WCAG (Web Content Accessibility Guidelines) standards.
+- [Color Blind](https://www.figma.com/community/plugin/733343906244951586/Color-Blind): Color Blind allows you to view your designs in the 8 different types of color vision deficiencies. 
+- [Color Designer](https://www.figma.com/community/plugin/739475857305927370/Color-Designer): The plugin generates shades, tints, and color harmonies based on select layers or local styles. You can also create a stepped gradient between two colors.
+- [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify): Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.
+- [Image Palette](https://www.figma.com/community/plugin/731841207668879837/Image-Palette): Extracts a colour palette of 5 different colours from the selected images.
+- [Layout Grid Visualizer](https://www.figma.com/community/plugin/831003768229656707/Layout-Grid-Visualizer): Generate layers from your layout grids so you can export images or prepare diagrams to supplement your design systems documentation.
+- [Material Design Icons](https://www.figma.com/community/plugin/740272380439725040/Material-Design-Icons): Instant easy access to the entire Material Design Icons library. 35,000+ icons in PNG and SVG at your fingertips. 
+- [Styler](https://www.figma.com/community/plugin/820660579767995949/Styler): Styler unlocks the ability to manage multiple styles at once by using modifying the layer properties. 
+- [UI Faces](https://www.figma.com/community/plugin/769664006254845172/UI-Faces): UI Faces aggregates thousands of avatars which you can carefully filter to create your perfect personas or just generate random avatars.
+- [Unsplash](https://www.figma.com/community/plugin/738454987945972471/Unsplash): Insert beautiful images from Unsplash straight into your designs.
+
 ## Frontend Design
 
 _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
