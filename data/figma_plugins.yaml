@@ -18,6 +18,10 @@
   description: Extracts a colour palette of 5 different colours from the selected images.
   link: https://www.figma.com/community/plugin/731841207668879837/Image-Palette
 
+- title: Insert Big Image
+  description: Insert and retain the original resolution of big images.
+  link: https://www.figma.com/community/plugin/799646392992487942
+
 - title: Layout Grid Visualizer
   description: Generate layers from your layout grids so you can export images or prepare diagrams to supplement your design systems documentation.
   link: https://www.figma.com/community/plugin/831003768229656707/Layout-Grid-Visualizer

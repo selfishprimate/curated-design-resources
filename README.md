@@ -153,6 +153,7 @@ _The best Figma plugins ever!_
 - [Color Designer](https://www.figma.com/community/plugin/739475857305927370/Color-Designer): The plugin generates shades, tints, and color harmonies based on select layers or local styles. You can also create a stepped gradient between two colors.
 - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify): Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.
 - [Image Palette](https://www.figma.com/community/plugin/731841207668879837/Image-Palette): Extracts a colour palette of 5 different colours from the selected images.
+- [Insert Big Image](https://www.figma.com/community/plugin/799646392992487942): Insert and retain the original resolution of big images.
 - [Layout Grid Visualizer](https://www.figma.com/community/plugin/831003768229656707/Layout-Grid-Visualizer): Generate layers from your layout grids so you can export images or prepare diagrams to supplement your design systems documentation.
 - [Material Design Icons](https://www.figma.com/community/plugin/740272380439725040/Material-Design-Icons): Instant easy access to the entire Material Design Icons library. 35,000+ icons in PNG and SVG at your fingertips. 
 - [Styler](https://www.figma.com/community/plugin/820660579767995949/Styler): Styler unlocks the ability to manage multiple styles at once by using modifying the layer properties. 
