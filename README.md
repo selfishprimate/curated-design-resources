@@ -273,6 +273,7 @@ _Get productive with the best productivity apps._
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 - [Slack](https://slack.com/): Transform the way you work with one place for everyone and everything you need to get stuff done.
 - [Zapier](https://zapier.com/): Easy automation for busy people. Zapier moves info between your web apps automatically, so you can focus on your most important work.
+- [Taskade](https://www.taskade.com/): Chat, organize, and get work done with real-time to-do lists, mind maps, org charts, and more.
 
 ## Prototyping
 
