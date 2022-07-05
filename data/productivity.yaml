@@ -21,6 +21,10 @@
 - title: Slack
   description: Transform the way you work with one place for everyone and everything you need to get stuff done.
   link: https://slack.com/
+  
+- title: Taskade
+  description: Chat, organize, and get work done with real-time to-do lists, mind maps, org charts, and more.
+  link: https://taskade.com/
 
 - title: Zapier
   description: Easy automation for busy people. Zapier moves info between your web apps automatically, so you can focus on your most important work.
