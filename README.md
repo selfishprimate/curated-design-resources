@@ -396,6 +396,7 @@ _Some other design resources you may want to check out!_
 - [Sharpen](https://sharpen.design/): Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.
 - [Speak Human](https://www.speakhuman.today/): Generate human centric microcopy for all purposes.
 - [Tilt Brush by Google](https://www.tiltbrush.com/): Tilt Brush lets you paint in 3D space with virtual reality.
+- [Use The Keyboard](https://usethekeyboard.com/): A collection of keyboard shortcuts for Mac apps, Windows programs, and websites.
 - [UX Tools](https://uxtools.co/): We make several free tools and projects for product designers.
 - [Web Desigm Museum](https://www.webdesignmuseum.org/): Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006.
 - [Zeplin](https://zeplin.io/): Organize screens. Publish locked designs. Scale design systems. All in a workspace friendly to the entire team, including non-designers.
