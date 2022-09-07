@@ -279,6 +279,7 @@ _Get productive with the best productivity apps._
 
 _Prototyping is one of the most critical stages of creating user-centered products._
 
+- [Visily](https://www.visily.ai): The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features.
 - [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
 - [Flinto](https://www.flinto.com/): Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
