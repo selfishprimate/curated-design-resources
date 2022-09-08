@@ -237,6 +237,7 @@ _Don't you have a new design idea? Well, steal one!_
 - [CSS Nectar](https://cssnectar.com/): CSS Nectar is a css website design showcase for web designers and developers.
 - [Design Inspiration](https://www.designspiration.com/): Designspiration is committed to being the best product that it can.
 - [Dribbble](https://dribbble.com/): Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.
+- [Httpster](https://httpster.net/): Httpster is an inspiration resource showcasing totally rocking websites made by people from all over the world.
 - [Landingfolio](https://www.landingfolio.com/): Landingfolio features the best landing page designs on the web. Get inspiration from real landing page examples, curated by us to ensure the highest quality.
 - [Land-book](https://land-book.com/): We collect awesome websites to help creatives find inspiration & motivation to do rad stuff.
 - [Lapa Ninja](https://www.lapa.ninja/): Lapa Ninja is a gallery featuring the best 4940 landing page examples, free books for designers and free UI kits from around the web.
