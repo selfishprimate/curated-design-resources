@@ -364,6 +364,13 @@ _The back button is one click away, and you don’t often get a second chance!_
 - [Origami Studio](https://origami.design/): Design, animate, and prototype. All-in-one.
 - [Sketch](https://www.sketch.com/): Everything you need to design.
 
+## UX Design
+
+_"The meanings of today may not be the meanings of the future." - Don Norman_
+
+- [Filters vs. Facets: Definitions](https://www.nngroup.com/articles/filters-vs-facets/): The terms “filters” and “faceted navigation” are often used interchangeably; although related, these concepts have important differences.
+- [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals.
+
 ## Wireframing
 
 _The best design resources for wireframing!_
