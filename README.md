@@ -53,6 +53,7 @@ _The best blog pages to learn UX design!_
 - [Hey Designer](https://heydesigner.com/): Daily curated design knowledge.
 - [Law of UX](https://lawsofux.com/): Laws of UX is a collection of best practices that designers can consider when building user interfaces.
 - [NN/g](https://www.nngroup.com/): World leaders in research-based user experience.
+- [Product Talk by Teresa Torres](https://www.producttalk.org/blog/): Make better product decisions.
 - [Smashing Magazine](https://www.smashingmagazine.com/): We care about quality content.
 - [The Daily Egg](https://www.crazyegg.com/blog/): Make the most of every visitor.
 - [UX Magazine](https://uxmag.com/): UX Magazine has been exploring, promoting, and discussing the realm of experience design for more than two decades.
