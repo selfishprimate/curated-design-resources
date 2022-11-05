@@ -10,6 +10,10 @@
   description: The plugin generates shades, tints, and color harmonies based on select layers or local styles. You can also create a stepped gradient between two colors.
   link: https://www.figma.com/community/plugin/739475857305927370/Color-Designer
 
+- title: Figma Tokens
+  description: Use the power of design tokens in Figma.
+  link: https://www.figmatokens.com/
+
 - title: Iconify
   description: Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.
   link: https://www.figma.com/community/plugin/735098390272716381/Iconify

@@ -152,6 +152,7 @@ _The best Figma plugins ever!_
 - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker): Ensure your text is readable for users by adhering to WCAG (Web Content Accessibility Guidelines) standards.
 - [Color Blind](https://www.figma.com/community/plugin/733343906244951586/Color-Blind): Color Blind allows you to view your designs in the 8 different types of color vision deficiencies. 
 - [Color Designer](https://www.figma.com/community/plugin/739475857305927370/Color-Designer): The plugin generates shades, tints, and color harmonies based on select layers or local styles. You can also create a stepped gradient between two colors.
+- [Figma Tokens](https://www.figmatokens.com/): Use the power of design tokens in Figma.
 - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify): Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.
 - [Image Palette](https://www.figma.com/community/plugin/731841207668879837/Image-Palette): Extracts a colour palette of 5 different colours from the selected images.
 - [Insert Big Image](https://www.figma.com/community/plugin/799646392992487942): Insert and retain the original resolution of big images.
