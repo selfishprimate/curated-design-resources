@@ -78,6 +78,10 @@
     description: A handy tool for generating colors.
     link: https://pigment.shapefactory.co/
     
+  - title: Pilestone
+    description: Simulate your image by using the colorblind simulator.
+    link: https://pilestone.com/pages/color-blindness-simulator-1
+    
   - title: Randoma11y
     description: A handy tool for generating colors.
     link: https://randoma11y.com/

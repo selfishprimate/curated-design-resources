@@ -97,6 +97,7 @@ _The best tools for creating color schemes for your designs!_
 - [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
 - [Picular](https://picular.co/): The color of anything! 
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
+- [Pilestone](https://pilestone.com/pages/color-blindness-simulator-1): Simulate your image by using the colorblind simulator.
 - [Randoma11y](https://randoma11y.com/): A handy tool for generating colors.
 - [Tint & Shade Generator](https://maketintsandshades.com/): Produce tints and shades of a given hex color in 10% increments.
 
