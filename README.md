@@ -274,7 +274,7 @@ _Get productive with the best productivity apps._
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
 - [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
-- [Pixcleaner](https://pixcleaner.com/): Free background remover and image converter JPEG or PNG to Webp
+- [Pixcleaner](https://pixcleaner.com/): Free background remover and image converter JPEG or PNG to Webp.
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 - [Slack](https://slack.com/): Transform the way you work with one place for everyone and everything you need to get stuff done.
 - [Taskade](https://www.taskade.com/): Chat, organize, and get work done with real-time to-do lists, mind maps, org charts, and more.
