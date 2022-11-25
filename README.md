@@ -279,7 +279,6 @@ _Get productive with the best productivity apps._
 
 _Prototyping is one of the most critical stages of creating user-centered products._
 
-- [Visily](https://www.visily.ai): The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features.
 - [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
 - [Flinto](https://www.flinto.com/): Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
 - [Fluid](https://www.fluidui.com/): Create web and mobile prototypes in minutes.
@@ -294,6 +293,7 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 - [Picodo](https://pidoco.com/en): Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.
 - [Proto.io](https://proto.io/): Prototypes that feel real.
 - [UXPin](https://www.uxpin.com/): Design and manage your entire UX/UI project in one tool.
+- [Visily](https://www.visily.ai): The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features.
 - [Wireframe](https://www.uxpin.com/): A design tool fine-tuned for wireframing.
 
 ## Stock Photos
