@@ -1,12 +1,16 @@
 # Curated Design Resources
 
-The best design resources for everyone.
+_The best design resources for everyone._
 
 <p>
   <a href="https://curated-design-resources.netlify.app/" target="_blank">
     <img src="https://curated-design-resources.netlify.app/images/github/github-readme-wallpaper-min.jpeg">
   </a>
 </p>
+
+## Contribution
+
+Please read the [contribution details](CONTRIBUTING.md) and feel free to contribute to the library.
 
 ## Table of Contents
 
