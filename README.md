@@ -8,6 +8,33 @@ The best design resources for everyone.
   </a>
 </p>
 
+## Table of Contents
+
+- [Accessibility](#accessibility)
+- [Articles](#articles)
+- [Blogs](#blogs)
+- [Books](#books)
+- [Color](#color)
+- [Design News](#design-news)
+- [Design Systems](#design-systems)
+- [Figma Plugins](#figma-plugins)
+- [Frontend Design](#frontend-design)
+- [Graphic Design](#graphic-design)
+- [Icons](#icons)
+- [Inspiration](#inspiration)
+- [Mockup](#mockup)
+- [Productivity](#productivity)
+- [Prototyping](#prototyping)
+- [Stock Photos](#stock-photos)
+- [Stock Videos](#stock-videos)
+- [Tutorials](#tutorials)
+- [Typography](#typography)
+- [UI Animation](#ui-animation)
+- [UI Design](#ui-design)
+- [UX Design](#ux-design)
+- [Wireframing](#wireframing)
+- [Others](#others)
+
 ## Accessibility 
 
 _The best design resources for accessibility!_
