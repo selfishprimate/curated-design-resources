@@ -274,7 +274,6 @@ _Get productive with the best productivity apps._
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
 - [Notion](https://www.notion.so/): One tool for your whole team. Write, plan, and get organized.
 - [Obsidian](https://obsidian.md/): Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.
-- [Pixcleaner](https://pixcleaner.com/): Free background remover and image converter JPEG or PNG to Webp.
 - [Pomofocus](https://pomofocus.io/): An online Pomodoro Timer to boost your productivity.
 - [Slack](https://slack.com/): Transform the way you work with one place for everyone and everything you need to get stuff done.
 - [Taskade](https://www.taskade.com/): Chat, organize, and get work done with real-time to-do lists, mind maps, org charts, and more.
@@ -403,6 +402,7 @@ _Some other design resources you may want to check out!_
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
 - [People + AI Research](https://pair.withgoogle.com/): People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
 - [Pitch](https://pitch.com/): The new face of presentations.
+- [Pixcleaner](https://pixcleaner.com/): Free background remover and image converter JPEG or PNG to Webp.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
 - [Rocket](https://matthewpalmer.net/rocket/): Rocket is a free Mac app that makes typing emoji faster and easier using Slack-style shortcuts.
 - [Sharpen](https://sharpen.design/): Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.
