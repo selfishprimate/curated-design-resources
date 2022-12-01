@@ -413,6 +413,7 @@ _Some other design resources you may want to check out!_
 - [Pattern Monster](https://pattern.monster/): Customizable SVG patterns for your projects.
 - [People + AI Research](https://pair.withgoogle.com/): People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.
 - [Pitch](https://pitch.com/): The new face of presentations.
+- [Pixcleaner](https://pixcleaner.com/): Free background remover and image converter JPEG or PNG to Webp.
 - [ProApp Design](https://proapp.design/): Courses curated by creators with industry experience & passion for design.
 - [Rocket](https://matthewpalmer.net/rocket/): Rocket is a free Mac app that makes typing emoji faster and easier using Slack-style shortcuts.
 - [Sharpen](https://sharpen.design/): Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.
