@@ -87,6 +87,7 @@ _The best tools for creating color schemes for your designs!_
 
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
 - [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
+- [Branition Colors](https://branition.com/colors): Hand-curated collection of color palettes best fitted for branding.
 - [Colorable](https://colorable.jxnblk.com/): Contrast is the difference in luminance or color that makes an object distinguishable.
 - [ColorBox](https://colorbox.io/): A handy color creation tool from the Lyft team.
 - [Color Claim](https://vanschneider.com/colors): Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for your future projects.
