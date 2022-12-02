@@ -28,8 +28,8 @@ Navigate to the `data` folder and open the related section's yaml file in your c
       description: Rapidly build modern websites without ever leaving your HTML.
       link: https://tailwindcss.com/
 
-#### 3. Stick to the convention for pull request titles and commit message
-Pull request title and the commit message must include the **resource name** and the **resource section name** as in the example below.
+#### 3. Stick to the convention for commit message
+The commit message must include the **resource name** and the **resource section name** as in the example below.
 
     [Tailwind CSS] --> [Frontend Design]
     
