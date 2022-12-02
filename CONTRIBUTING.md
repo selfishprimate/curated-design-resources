@@ -2,7 +2,7 @@
 
 _To contribute, or not to contribute, that is the question!_
 
-**Hey there! The future contributor of this lovely project.
+**Hey there! The future contributor of this lovely project.**
 
 I'm sure you will find it quite easy to contribute to the project. You will find step-by-step instructions down below to make it even more easier for you to contribute. 
 
