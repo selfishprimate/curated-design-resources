@@ -104,6 +104,7 @@ _The best tools for creating color schemes for your designs!_
 - [Happy Hues](https://www.happyhues.co/): Curated colors in context.
 - [Hex Colors](https://hexcolor.co/): A collection of free color tools that will help you choose the right color for your next project!
 - [HTML Color Codes](https://htmlcolorcodes.com/): Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...
+- [Leonardo](https://leonardocolor.io/): Leonardo is a one-of-a-kind tool for creating, managing, and sharing accessible color systems for user interface design and data visualization.
 - [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
 - [Picular](https://picular.co/): The color of anything! 
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
