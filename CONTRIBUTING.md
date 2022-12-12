@@ -31,7 +31,7 @@ Navigate to the `data` folder and open the related section's yaml file in your c
 #### 3. Stick to the convention for commit message
 The commit message must include the **resource name** and the **resource section name** as in the example below.
 
-    [Tailwind CSS] --> [Frontend Design]
+    Add [Tailwind CSS] --> [Frontend Design]
     
 
 Well, that's all you need to know. It was easy, isn't is?
