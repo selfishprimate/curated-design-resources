@@ -85,7 +85,7 @@ export default function Home() {
   const visibleResources = allResources.slice(0, displayedItems)
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
+    <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       {/* Hero Section */}
       <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800">
         {/* Gradient Background */}

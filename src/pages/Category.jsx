@@ -37,7 +37,7 @@ export default function Category() {
 
   if (!category) {
     return (
-      <div className="min-h-screen bg-white p-8 text-gray-900 dark:bg-gray-950 dark:text-white">
+      <div className="bg-white p-8 text-gray-900 dark:bg-gray-950 dark:text-white">
         <div className="mx-auto max-w-4xl">
           <Link
             to="/"
@@ -60,7 +60,7 @@ export default function Category() {
   const IconComponent = iconMap[category.icon]
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
+    <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       {/* Header */}
       <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800">
         <div className="mx-auto max-w-4xl">
