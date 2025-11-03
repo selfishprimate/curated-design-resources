@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Sidebar from '@/components/Sidebar'
+import Footer from '@/components/Footer'
 import Home from '@/pages/Home'
 import Category from '@/pages/Category'
 
@@ -14,6 +15,7 @@ function App() {
             <Route path="/category/:id" element={<Category />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </BrowserRouter>
   )

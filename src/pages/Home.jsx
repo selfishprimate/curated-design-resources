@@ -178,35 +178,6 @@ export default function Home() {
           </div>
         )}
       </section>
-
-      {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white px-8 py-8 dark:border-gray-800 dark:bg-gray-950">
-        <div className="mx-auto max-w-7xl">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <div className="text-sm text-gray-500 dark:text-gray-400">
-              Made by{' '}
-              <a
-                href="https://github.com/selfishprimate"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-gray-900 hover:underline dark:text-white"
-              >
-                Halil İbrahim Çakıroğlu
-              </a>
-            </div>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://github.com/selfishprimate/curated-design-resources"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
