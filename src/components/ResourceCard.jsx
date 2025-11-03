@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
 
@@ -11,7 +12,43 @@ const getDomainFromUrl = (url) => {
   }
 }
 
+// Get initials from resource title
+const getInitials = (title) => {
+  const words = title.split(' ').filter(word => word.length > 0)
+  if (words.length === 1) {
+    return words[0].substring(0, 2).toUpperCase()
+  }
+  return (words[0][0] + words[1][0]).toUpperCase()
+}
+
+// Generate color from string
+const getColorFromString = (str) => {
+  let hash = 0
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash)
+  }
+
+  const colors = [
+    'bg-blue-500',
+    'bg-purple-500',
+    'bg-pink-500',
+    'bg-indigo-500',
+    'bg-cyan-500',
+    'bg-teal-500',
+    'bg-green-500',
+    'bg-orange-500',
+    'bg-red-500',
+    'bg-violet-500',
+  ]
+
+  return colors[Math.abs(hash) % colors.length]
+}
+
 export default function ResourceCard({ resource, showCategory = false }) {
+  const [logoError, setLogoError] = useState(false)
+  const initials = getInitials(resource.title)
+  const bgColor = getColorFromString(resource.title)
+
   return (
     <a
       href={resource.link}
@@ -20,16 +57,20 @@ export default function ResourceCard({ resource, showCategory = false }) {
       className="group relative aspect-square border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900"
     >
       <div className="flex h-full flex-col">
-        {/* Logo - Left aligned */}
+        {/* Logo or Initials - Left aligned */}
         <div className="mb-4">
-          <img
-            src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
-            alt={`${resource.title} logo`}
-            className="h-12 w-12 rounded-lg object-contain"
-            onError={(e) => {
-              e.target.style.display = 'none'
-            }}
-          />
+          {!logoError ? (
+            <img
+              src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
+              alt={`${resource.title} logo`}
+              className="h-10 w-10 rounded-lg object-contain"
+              onError={() => setLogoError(true)}
+            />
+          ) : (
+            <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${bgColor} text-sm font-bold text-white`}>
+              {initials}
+            </div>
+          )}
         </div>
 
         {/* Content */}
