@@ -89,42 +89,40 @@ export default function Category() {
       </div>
 
       {/* Resources */}
-      <div className="px-8 py-12">
-        <div className="mx-auto max-w-7xl">
-          {category.resources.length === 0 ? (
-            <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800 dark:bg-gray-900/50">
-              <p className="text-gray-600 dark:text-gray-400">
-                No resources available yet. Check back soon!
-              </p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {category.resources.map((resource, index) => (
-                <a
-                  key={index}
-                  href={resource.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group relative aspect-[4/3] overflow-hidden rounded-lg border border-gray-200 bg-gray-50 p-5 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:border-gray-700 dark:hover:bg-gray-900"
-                >
-                  <div className="flex h-full flex-col justify-between">
-                    <div className="flex-1 overflow-hidden">
-                      <div className="mb-2 flex items-start justify-between gap-2">
-                        <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
-                          {resource.title}
-                        </h3>
-                        <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
-                      </div>
-                      <p className="line-clamp-4 text-sm text-gray-600 dark:text-gray-400">
-                        {resource.description}
-                      </p>
+      <div>
+        {category.resources.length === 0 ? (
+          <div className="border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800 dark:bg-gray-900/50">
+            <p className="text-gray-600 dark:text-gray-400">
+              No resources available yet. Check back soon!
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {category.resources.map((resource, index) => (
+              <a
+                key={index}
+                href={resource.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative aspect-[4/3] border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900"
+              >
+                <div className="flex h-full flex-col justify-between">
+                  <div className="flex-1 overflow-hidden">
+                    <div className="mb-2 flex items-start justify-between gap-2">
+                      <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
+                        {resource.title}
+                      </h3>
+                      <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
                     </div>
+                    <p className="line-clamp-4 text-sm text-gray-600 dark:text-gray-400">
+                      {resource.description}
+                    </p>
                   </div>
-                </a>
-              ))}
-            </div>
-          )}
-        </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

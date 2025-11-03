@@ -8,7 +8,7 @@ export function ThemeProvider({ children }) {
     if (savedTheme && ['light', 'dark'].includes(savedTheme)) {
       return savedTheme
     }
-    return 'light' // Default to light mode
+    return 'dark' // Default to dark mode
   })
 
   useEffect(() => {

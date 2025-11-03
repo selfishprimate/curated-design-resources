@@ -1,5 +1,6 @@
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
-import { Github } from 'lucide-react'
+import { Github, ExternalLink } from 'lucide-react'
 import { categories } from '@/data/categories'
 import * as Icons from 'lucide-react'
 
@@ -31,19 +32,73 @@ const iconMap = {
   Circle: Icons.Circle
 }
 
+// Flatten all resources from all categories with metadata
+const allResources = categories.flatMap(category =>
+  category.resources.map(resource => ({
+    ...resource,
+    category: {
+      id: category.id,
+      title: category.title,
+      icon: category.icon
+    }
+  }))
+).reverse() // Reverse to show newest first
+
+const ITEMS_PER_PAGE = 20
+
 export default function Home() {
-  // Reverse categories to show newest first
-  const sortedCategories = [...categories].reverse()
+  const [displayedItems, setDisplayedItems] = useState(ITEMS_PER_PAGE)
+  const [isLoading, setIsLoading] = useState(false)
+  const observerTarget = useRef(null)
+
+  const loadMore = useCallback(() => {
+    if (displayedItems >= allResources.length) return
+
+    setIsLoading(true)
+    setTimeout(() => {
+      setDisplayedItems(prev => Math.min(prev + ITEMS_PER_PAGE, allResources.length))
+      setIsLoading(false)
+    }, 300)
+  }, [displayedItems])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting && !isLoading) {
+          loadMore()
+        }
+      },
+      { threshold: 0.1 }
+    )
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current)
+    }
+
+    return () => {
+      if (observerTarget.current) {
+        observer.unobserve(observerTarget.current)
+      }
+    }
+  }, [loadMore, isLoading])
+
+  const visibleResources = allResources.slice(0, displayedItems)
 
   return (
     <div className="flex min-h-screen flex-col bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       {/* Hero Section */}
-      <section className="border-b border-gray-200 bg-gradient-to-b from-gray-50 to-white px-8 py-20 dark:border-gray-800 dark:from-gray-900 dark:to-gray-950">
-        <div className="mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 text-6xl font-bold tracking-tight">
+      <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800">
+        {/* Gradient Background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100/20 via-transparent to-transparent dark:from-purple-900/30 dark:via-blue-900/20 dark:to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-pink-100/20 via-transparent to-transparent dark:from-pink-900/20 dark:via-purple-900/10 dark:to-transparent" />
+
+        {/* Content */}
+        <div className="relative mx-auto max-w-7xl text-center">
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-7xl font-bold tracking-tight text-transparent dark:from-white dark:via-gray-100 dark:to-white">
             Curated Design Resources
           </h1>
-          <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600 dark:text-gray-400">
+          <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-600 dark:text-gray-300">
             A comprehensive collection of handpicked design tools, libraries, and resources
             for designers and developers.
           </p>
@@ -52,7 +107,7 @@ export default function Home() {
               href="https://github.com/selfishprimate/curated-design-resources"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-gray-900 px-6 py-3 font-semibold text-white transition-colors hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
+              className="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-8 py-4 font-semibold text-white shadow-lg shadow-gray-900/20 transition-all hover:scale-105 hover:bg-gray-800 hover:shadow-xl dark:bg-white dark:text-gray-900 dark:shadow-white/20 dark:hover:bg-gray-100"
             >
               <Github className="h-5 w-5" />
               View on GitHub
@@ -61,7 +116,7 @@ export default function Home() {
               href="https://github.com/selfishprimate/curated-design-resources/blob/master/CONTRIBUTING.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-6 py-3 font-semibold text-gray-900 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-950 dark:text-white dark:hover:bg-gray-900"
+              className="inline-flex items-center gap-2 rounded-xl border border-gray-300 bg-white/50 px-8 py-4 font-semibold text-gray-900 backdrop-blur-sm transition-all hover:scale-105 hover:bg-white dark:border-gray-700 dark:bg-gray-900/50 dark:text-white dark:hover:bg-gray-900"
             >
               Contribute
             </a>
@@ -69,34 +124,59 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Categories Grid */}
-      <section className="flex-1 px-8 py-16">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {sortedCategories.map((category) => {
-              const IconComponent = iconMap[category.icon]
-              return (
-                <Link
-                  key={category.id}
-                  to={`/category/${category.id}`}
-                  className="group aspect-[4/3] overflow-hidden rounded-lg border border-gray-200 bg-gray-50 p-6 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:border-gray-700 dark:hover:bg-gray-900"
-                >
-                  <div className="flex h-full flex-col">
-                    <div className="mb-3 flex items-center gap-3">
-                      {IconComponent && (
-                        <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-gray-200 text-primary-600 dark:bg-gray-800 dark:text-primary-500">
-                          <IconComponent className="h-5 w-5" />
-                        </div>
-                      )}
-                      <h3 className="line-clamp-2 text-lg font-semibold text-gray-900 dark:text-white">{category.title}</h3>
+      {/* Resources Grid */}
+      <section className="flex-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {visibleResources.map((resource, index) => {
+            const IconComponent = iconMap[resource.category.icon]
+            return (
+              <a
+                key={`${resource.category.id}-${index}`}
+                href={resource.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative aspect-[4/3] border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900"
+              >
+                <div className="flex h-full flex-col justify-between">
+                  <div className="flex-1 overflow-hidden">
+                    <div className="mb-2 flex items-start justify-between gap-2">
+                      <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
+                        {resource.title}
+                      </h3>
+                      <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
                     </div>
-                    <p className="line-clamp-3 text-sm text-gray-600 dark:text-gray-400">{category.description}</p>
+                    <p className="line-clamp-4 text-sm text-gray-600 dark:text-gray-400">
+                      {resource.description}
+                    </p>
                   </div>
-                </Link>
-              )
-            })}
-          </div>
+                  <div className="mt-3 flex items-center gap-2 border-t border-gray-200 pt-3 dark:border-gray-800">
+                    {IconComponent && (
+                      <div className="flex h-5 w-5 items-center justify-center text-primary-600 dark:text-primary-500">
+                        <IconComponent className="h-4 w-4" />
+                      </div>
+                    )}
+                    <Link
+                      to={`/category/${resource.category.id}`}
+                      onClick={(e) => e.stopPropagation()}
+                      className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                    >
+                      {resource.category.title}
+                    </Link>
+                  </div>
+                </div>
+              </a>
+            )
+          })}
         </div>
+
+        {/* Loading indicator / Observer target */}
+        {displayedItems < allResources.length && (
+          <div ref={observerTarget} className="border-b border-r border-gray-200 p-8 text-center dark:border-gray-800">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
+              {isLoading ? 'Loading more...' : 'Scroll to load more'}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Footer */}
