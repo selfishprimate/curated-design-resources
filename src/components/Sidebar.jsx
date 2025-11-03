@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Palette, Github, Sun, Moon } from 'lucide-react'
+import { Palette, Github } from 'lucide-react'
 import { categories } from '@/data/categories'
-import { useTheme } from '@/contexts/ThemeContext'
 import * as Icons from 'lucide-react'
 
 const iconMap = {
@@ -33,7 +32,6 @@ const iconMap = {
 }
 
 export default function Sidebar() {
-  const { theme, toggleTheme } = useTheme()
   const location = useLocation()
 
   return (
@@ -97,33 +95,6 @@ export default function Sidebar() {
           >
             <span>Contribute</span>
           </a>
-        </div>
-
-        {/* Theme Toggle Switch */}
-        <div className="border-t border-gray-200 p-4 dark:border-gray-800">
-          <div className="flex items-center justify-between px-3 py-2">
-            <span className="text-sm text-gray-700 dark:text-gray-400">Theme</span>
-            <button
-              onClick={toggleTheme}
-              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 ${
-                theme === 'dark' ? 'bg-primary-500' : 'bg-gray-300'
-              }`}
-              role="switch"
-              aria-checked={theme === 'dark'}
-            >
-              <span
-                className={`inline-flex h-4 w-4 transform items-center justify-center rounded-full bg-white transition-transform ${
-                  theme === 'dark' ? 'translate-x-6' : 'translate-x-1'
-                }`}
-              >
-                {theme === 'dark' ? (
-                  <Moon className="h-3 w-3 text-primary-500" />
-                ) : (
-                  <Sun className="h-3 w-3 text-gray-500" />
-                )}
-              </span>
-            </button>
-          </div>
         </div>
       </div>
     </aside>
