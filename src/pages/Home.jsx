@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
-import { Github, ExternalLink } from 'lucide-react'
+import { Github, ExternalLink, Star, Users } from 'lucide-react'
 import { categories } from '@/data/categories'
 import * as Icons from 'lucide-react'
 
@@ -49,7 +49,32 @@ const ITEMS_PER_PAGE = 20
 export default function Home() {
   const [displayedItems, setDisplayedItems] = useState(ITEMS_PER_PAGE)
   const [isLoading, setIsLoading] = useState(false)
+  const [githubStats, setGithubStats] = useState({ stars: null, contributors: [] })
   const observerTarget = useRef(null)
+
+  // Fetch GitHub stats
+  useEffect(() => {
+    const fetchGitHubStats = async () => {
+      try {
+        const [repoRes, contributorsRes] = await Promise.all([
+          fetch('https://api.github.com/repos/selfishprimate/curated-design-resources'),
+          fetch('https://api.github.com/repos/selfishprimate/curated-design-resources/contributors')
+        ])
+
+        const repoData = await repoRes.json()
+        const contributorsData = await contributorsRes.json()
+
+        setGithubStats({
+          stars: repoData.stargazers_count,
+          contributors: contributorsData.slice(0, 8) // Show max 8 contributors
+        })
+      } catch (error) {
+        console.error('Failed to fetch GitHub stats:', error)
+      }
+    }
+
+    fetchGitHubStats()
+  }, [])
 
   const loadMore = useCallback(() => {
     if (displayedItems >= allResources.length) return
@@ -120,6 +145,48 @@ export default function Home() {
             >
               Contribute
             </a>
+          </div>
+
+          {/* GitHub Stats */}
+          <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
+            {/* Contributors */}
+            {githubStats.contributors.length > 0 && (
+              <div className="flex items-center gap-3">
+                <div className="flex -space-x-2">
+                  {githubStats.contributors.map((contributor) => (
+                    <a
+                      key={contributor.id}
+                      href={contributor.html_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative inline-block"
+                      title={contributor.login}
+                    >
+                      <img
+                        src={contributor.avatar_url}
+                        alt={contributor.login}
+                        className="h-10 w-10 rounded-full border-2 border-gray-50 transition-transform hover:scale-110 hover:z-10 dark:border-gray-950"
+                      />
+                    </a>
+                  ))}
+                </div>
+                <div className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
+                  <Users className="h-4 w-4" />
+                  <span className="font-medium">{githubStats.contributors.length}+ contributors</span>
+                </div>
+              </div>
+            )}
+
+            {/* Stars */}
+            {githubStats.stars !== null && (
+              <div className="flex items-center gap-2 rounded-full bg-gray-100 px-4 py-2 dark:bg-gray-900">
+                <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                <span className="font-semibold text-gray-900 dark:text-white">
+                  {githubStats.stars.toLocaleString()}
+                </span>
+                <span className="text-sm text-gray-600 dark:text-gray-400">stars</span>
+              </div>
+            )}
           </div>
         </div>
       </section>
