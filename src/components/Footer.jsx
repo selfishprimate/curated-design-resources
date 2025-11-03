@@ -2,8 +2,8 @@ import { Github } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="mt-auto border-t border-gray-800 bg-gray-950">
-      <div className="px-8 py-8">
+    <footer className="sticky bottom-0 z-40 border-t border-gray-800 bg-gray-950">
+      <div className="px-8 py-4">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="text-sm text-gray-400">
             Made by{' '}
