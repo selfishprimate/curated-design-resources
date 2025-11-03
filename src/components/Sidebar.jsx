@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Palette, Github } from 'lucide-react'
+import { Github } from 'lucide-react'
 import { categories } from '@/data/categories'
 import * as Icons from 'lucide-react'
 
@@ -38,8 +38,7 @@ export default function Sidebar() {
     <aside className="fixed left-0 top-0 h-screen w-64 border-r border-gray-200 bg-white overflow-y-auto dark:border-gray-800 dark:bg-gray-950">
       {/* Brand */}
       <div className="border-b border-gray-200 p-6 dark:border-gray-800">
-        <Link to="/" className="flex items-center gap-3 text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <Palette className="h-6 w-6 text-primary-500" />
+        <Link to="/" className="text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
           <div className="font-bold">Curated Design Resources</div>
         </Link>
       </div>
