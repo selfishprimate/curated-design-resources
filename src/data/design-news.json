@@ -1,0 +1,108 @@
+{
+  "id": "design-news",
+  "title": "Design News",
+  "description": "Discover new products, follow the leaders' articles about design, and stay up to date!",
+  "icon": "Newspaper",
+  "resources": [
+    {
+      "title": "AirBnb Design",
+      "link": "https://airbnb.design/",
+      "description": "Design influences everything we do at Airbnb."
+    },
+    {
+      "title": "All Design Conferences",
+      "link": "https://www.alldesignconferences.com/",
+      "description": "This site is just a simple collection of all design and front-end conferences for the year."
+    },
+    {
+      "title": "Beta List",
+      "link": "https://betalist.com/",
+      "description": "Discover tomorrow's startups, today."
+    },
+    {
+      "title": "Beta Page",
+      "link": "https://betapage.co/",
+      "description": "Get new startups in your inbox."
+    },
+    {
+      "title": "Design Calendar",
+      "link": "https://www.designcalendar.io/",
+      "description": "An online community made for creatives who believe in the power of ideas and the joy of making them happen."
+    },
+    {
+      "title": "Designer News",
+      "link": "https://www.designernews.co/",
+      "description": "Designer News is a large, global community of people working in design and technology or those interested in the topics."
+    },
+    {
+      "title": "Dropbox Design",
+      "link": "https://dropbox.design/",
+      "description": "Welcome, we are Dropbox Design."
+    },
+    {
+      "title": "Facebook Design",
+      "link": "https://design.facebook.com/",
+      "description": "Designing for the global diversity of human needs."
+    },
+    {
+      "title": "Google Design",
+      "link": "https://design.google/",
+      "description": "Supporting the future of design and technology."
+    },
+    {
+      "title": "Hey Designer",
+      "link": "https://heydesigner.com/",
+      "description": "Daily curated design knowledge."
+    },
+    {
+      "title": "Microsoft Design",
+      "link": "https://www.microsoft.com/design/",
+      "description": "Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start."
+    },
+    {
+      "title": "Product Hunt",
+      "link": "https://www.producthunt.com/",
+      "description": "Product Hunt surfaces the best new products, every day."
+    },
+    {
+      "title": "Shaping Design",
+      "link": "https://www.editorx.com/shaping-design",
+      "description": "Operating at the intersection of design and technology, we cover a wide range of creative fields, predominantly web design and UX."
+    },
+    {
+      "title": "Sidebar",
+      "link": "https://sidebar.io/",
+      "description": "Sidebar has been collecting the best design links of the day since October 2012."
+    },
+    {
+      "title": "Slant",
+      "link": "https://www.producthunt.com/",
+      "description": "Trustworthy product rankings for all your shopping needs."
+    },
+    {
+      "title": "Steemhunt",
+      "link": "https://steemhunt.com/",
+      "description": "Discover cool products and get rewards."
+    },
+    {
+      "title": "The UX Collective",
+      "link": "https://uxdesign.cc/",
+      "description": "Curated stories on UX, Visual & Product Design."
+    },
+    {
+      "title": "UsTwo",
+      "link": "https://www.ustwo.com/blog/",
+      "description": "Trending design news from the UsTwo Team."
+    },
+    {
+      "title": "UX Movement",
+      "link": "https://uxmovement.com/",
+      "description": "When an app, website, or interface is difficult to use, it’s not the user’s fault, but the designer’s for making it unusable."
+    },
+    {
+      "title": "Web Designer News",
+      "link": "https://www.webdesignernews.com/",
+      "description": "We built WebdesignerNews.com to provide web designers and developers with a single location to discover the latest and most significant stories on the Web."
+    }
+  ]
+}

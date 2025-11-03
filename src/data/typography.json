@@ -1,0 +1,83 @@
+{
+  "id": "typography",
+  "title": "Typography",
+  "description": "Typography is like the backbone of your design pieces. Here you can find the best tools to benefit typography!",
+  "icon": "Type",
+  "resources": [
+    {
+      "title": "Canva",
+      "link": "https://www.canva.com/font-combinations/",
+      "description": "This tool make typography easy."
+    },
+    {
+      "title": "Font Squirrel",
+      "link": "https://www.fontsquirrel.com/",
+      "description": "Free fonts have met their match."
+    },
+    {
+      "title": "Fonts Arena",
+      "link": "https://fontsarena.com/",
+      "description": "FontsArena is a curated typography website with a focus on contemporary typography and high quality free fonts."
+    },
+    {
+      "title": "Fonts in Use",
+      "link": "https://fontsinuse.com/",
+      "description": "An independent archive of typography."
+    },
+    {
+      "title": "FontJoy",
+      "link": "https://fontjoy.com/",
+      "description": "Generate font combinations with deep learning."
+    },
+    {
+      "title": "FontPair",
+      "link": "https://fontpair.co/",
+      "description": "Font Pair is a typography site dedicated to helping creators use beautiful typography for their creative projects."
+    },
+    {
+      "title": "Google Fonts",
+      "link": "https://fonts.google.com/",
+      "description": "Making the web more beautiful, fast, and open through great typography."
+    },
+    {
+      "title": "Modular Scale",
+      "link": "https://www.modularscale.com/",
+      "description": "Build your typographic scale, create the vertical rhythm of your web site."
+    },
+    {
+      "title": "My Fonts",
+      "link": "https://www.myfonts.com/",
+      "description": "MyFonts offers the largest selection of professional fonts for any project."
+    },
+    {
+      "title": "Type Scale",
+      "link": "https://type-scale.com/",
+      "description": "A type tool by Jeremy Church."
+    },
+    {
+      "title": "Typewolf",
+      "link": "https://www.typewolf.com/",
+      "description": "Help designers know the trending typefaces."
+    },
+    {
+      "title": "Typewonder",
+      "link": "http://typewonder.com/",
+      "description": "Helps you to test web fonts on any web site on the fly!"
+    },
+    {
+      "title": "Typographica",
+      "link": "https://typographica.org/",
+      "description": "Type Reviews, Books, Commentary."
+    },
+    {
+      "title": "Typographic Posters",
+      "link": "https://www.typographicposters.com/",
+      "description": "Typographic Posters is a platform for inspiration and promotion of good design through the poster culture."
+    },
+    {
+      "title": "Typography in Ten Minutes",
+      "link": "https://practicaltypography.com/typography-in-ten-minutes.html",
+      "description": "If you learn and follow these five typography rules, you will be a better typographer than nearly every writer—and even most graphic designers."
+    }
+  ]
+}

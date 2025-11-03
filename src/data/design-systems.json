@@ -1,0 +1,88 @@
+{
+  "id": "design-systems",
+  "title": "Design Systems",
+  "description": "The best design systems of the universe!",
+  "icon": "Grid",
+  "resources": [
+    {
+      "title": "AirBnb",
+      "link": "https://airbnb.design/building-a-visual-language/",
+      "description": "Behind the scenes of our new design system."
+    },
+    {
+      "title": "Atlassian",
+      "link": "https://atlassian.design/",
+      "description": "Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
+    },
+    {
+      "title": "Evergreen",
+      "link": "https://evergreen.segment.com/",
+      "description": "Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment."
+    },
+    {
+      "title": "Fluent",
+      "link": "https://www.microsoft.com/design/fluent/",
+      "description": "Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included. *Microsoft*"
+    },
+    {
+      "title": "Carbon",
+      "link": "https://www.ibm.com/design/language/",
+      "description": "This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*"
+    },
+    {
+      "title": "Human Interface Guidelines",
+      "link": "https://developer.apple.com/design/human-interface-guidelines/",
+      "description": "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms. *Apple*"
+    },
+    {
+      "title": "Lightning Design System",
+      "link": "https://www.lightningdesignsystem.com/",
+      "description": "Salesforce Lightning Design System. Create the world’s best enterprise app experiences. *Salesforce*"
+    },
+    {
+      "title": "Mailchimp",
+      "link": "https://ux.mailchimp.com/patterns/",
+      "description": "Mailchimp Design System"
+    },
+    {
+      "title": "Material Design",
+      "link": "https://material.io/",
+      "description": "Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences. *Google*"
+    },
+    {
+      "title": "Mozilla Protocol",
+      "link": "https://protocol.mozilla.org/index.html",
+      "description": "Protocol is a design system for Mozilla and Firefox websites. It establishes a common design language, provides reusable coded components, and outlines high level guidelines for content and accessibility. *Mozilla*"
+    },
+    {
+      "title": "Polaris",
+      "link": "https://polaris.shopify.com/",
+      "description": "Our design system helps us work together to build a great experience for all of Shopify’s merchants. *Shopify*"
+    },
+    {
+      "title": "Primer",
+      "link": "https://primer.style/",
+      "description": "Primer was created for GitHub by GitHub. We love it so much, we chose to open-source it to allow the community to design and build their own projects with Primer. *Github*"
+    },
+    {
+      "title": "Solid",
+      "link": "https://solid.buzzfeed.com/",
+      "description": "Solid is BuzzFeed's CSS style guide. Influenced by frameworks like Basscss, Solid uses immutable, atomic CSS classes to rapidly prototype and develop features, providing consistent styling options along with the flexibility to create new layouts and designs without the need to write additional CSS. *BuzzFeed*"
+    },
+    {
+      "title": "Style Guides",
+      "link": "http://styleguides.io/",
+      "description": "Real life pattern libraries, code standards documents and content style guides."
+    },
+    {
+      "title": "Uber",
+      "link": "https://brand.uber.com/",
+      "description": "These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography."
+    },
+    {
+      "title": "Cookbook",
+      "link": "https://www.yelp.com/styleguide/",
+      "description": "The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns. *Yelp*"
+    }
+  ]
+}

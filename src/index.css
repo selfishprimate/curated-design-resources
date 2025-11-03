@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Smooth transitions like Google Fonts */
+  * {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+  }
+
+  .dark body {
+    @apply bg-gray-950 text-white;
+  }
+}

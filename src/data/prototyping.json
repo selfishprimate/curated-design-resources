@@ -1,0 +1,88 @@
+{
+  "id": "prototyping",
+  "title": "Prototyping",
+  "description": "Prototyping is one of the most critical stages of creating user-centered products.",
+  "icon": "Layers",
+  "resources": [
+    {
+      "title": "Balsamiq",
+      "link": "https://balsamiq.com/",
+      "description": "Life's too short for bad software!"
+    },
+    {
+      "title": "Flinto",
+      "link": "https://www.flinto.com/",
+      "description": "Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs."
+    },
+    {
+      "title": "Fluid",
+      "link": "https://www.fluidui.com/",
+      "description": "Create web and mobile prototypes in minutes."
+    },
+    {
+      "title": "Invision",
+      "link": "https://www.invisionapp.com/",
+      "description": "The digital product design platform powering the world’s best user experiences."
+    },
+    {
+      "title": "Justinmind",
+      "link": "https://www.justinmind.com/",
+      "description": "From wireframes to highly interactive prototypes."
+    },
+    {
+      "title": "Marvel",
+      "link": "https://marvelapp.com/",
+      "description": "Marvel has everything you need to bring ideas to life and transform how you create digital products with your team."
+    },
+    {
+      "title": "MockFlow",
+      "link": "https://www.mockflow.com/",
+      "description": "MockFlow is the UI planning platform that your team needs to kickstart software projects."
+    },
+    {
+      "title": "Mockups",
+      "link": "https://moqups.com/",
+      "description": "A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes."
+    },
+    {
+      "title": "OmniGraffle",
+      "link": "https://www.omnigroup.com/omnigraffle/",
+      "description": "You've got some explaining to do!"
+    },
+    {
+      "title": "Origami Studio",
+      "link": "https://origami.design/",
+      "description": "Design, animate, and prototype. All-in-one."
+    },
+    {
+      "title": "Overflow",
+      "link": "https://overflow.io/",
+      "description": "Create interactive user flow diagrams that tell a story."
+    },
+    {
+      "title": "Picodo",
+      "link": "https://pidoco.com/en",
+      "description": "Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes."
+    },
+    {
+      "title": "Proto.io",
+      "link": "https://proto.io/",
+      "description": "Prototypes that feel real."
+    },
+    {
+      "title": "UXPin",
+      "link": "https://www.uxpin.com/",
+      "description": "Design and manage your entire UX/UI project in one tool."
+    },
+    {
+      "title": "Visily",
+      "link": "https://www.visily.ai",
+      "description": "The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features."
+    },
+    {
+      "title": "Wireframe",
+      "link": "https://www.uxpin.com/",
+      "description": "A design tool fine-tuned for wireframing."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "stock-photos",
+  "title": "Stock Photos",
+  "description": "The best design resources for stock photos!",
+  "icon": "Camera",
+  "resources": [
+    {
+      "title": "Burst",
+      "link": "https://burst.shopify.com/",
+      "description": "Free stock photos for websites and commercial use."
+    },
+    {
+      "title": "Generated Photos",
+      "link": "https://generated.photos/",
+      "description": "Unique, worry-free model photos."
+    },
+    {
+      "title": "Lorem Picsum",
+      "link": "https://picsum.photos/",
+      "description": "The Lorem Ipsum for photos."
+    },
+    {
+      "title": "Pexels",
+      "link": "https://www.pexels.com/",
+      "description": "The best free stock photos & videos shared by talented creators."
+    },
+    {
+      "title": "Unsplash",
+      "link": "https://unsplash.com/",
+      "description": "Photos for everyone."
+    },
+    {
+      "title": "UserStock",
+      "link": "https://userstock.io/",
+      "description": "Free photos of people's faces to use as avatars in UI mockups, prototypes and more."
+    }
+  ]
+}

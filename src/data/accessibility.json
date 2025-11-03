@@ -1,0 +1,58 @@
+{
+  "id": "accessibility",
+  "title": "Accessibility",
+  "description": "The best design resources for accessibility!",
+  "icon": "Eye",
+  "resources": [
+    {
+      "title": "Accessibility Guide",
+      "link": "https://usecontrast.com/guide",
+      "description": "This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text."
+    },
+    {
+      "title": "Blindness and Vision Impairment",
+      "link": "https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+      "description": "Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion..."
+    },
+    {
+      "title": "Colorable",
+      "link": "https://colorable.jxnblk.com/",
+      "description": "Color combination contrast tester."
+    },
+    {
+      "title": "Colors",
+      "link": "https://clrs.cc/a11y/",
+      "description": "Accessibility is important! Mix and match these color classes to create a variety of accessible themes."
+    },
+    {
+      "title": "Color Review",
+      "link": "https://color.review/",
+      "description": "What you need to know about colors & accessibility."
+    },
+    {
+      "title": "Contrast",
+      "link": "https://usecontrast.com/",
+      "description": "A macOS app for quick access to WCAG color contrast ratios."
+    },
+    {
+      "title": "Stark",
+      "link": "https://www.getstark.co/",
+      "description": "Make the world’s software more accessible!"
+    },
+    {
+      "title": "The A11y Project",
+      "link": "https://www.a11yproject.com/",
+      "description": "The A11Y Project is a community-driven effort to make digital accessibility easier."
+    },
+    {
+      "title": "Web Content Accessibility Guidelines",
+      "link": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "description": "Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1."
+    },
+    {
+      "title": "Who Can Use",
+      "link": "https://whocanuse.com/",
+      "description": "It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments."
+    }
+  ]
+}

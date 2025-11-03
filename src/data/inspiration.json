@@ -1,0 +1,128 @@
+{
+  "id": "inspiration",
+  "title": "Inspiration",
+  "description": "Don't you have a new design idea? Well, steal one!",
+  "icon": "Lightbulb",
+  "resources": [
+    {
+      "title": "Abduzeedo",
+      "link": "https://abduzeedo.com/",
+      "description": "Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX."
+    },
+    {
+      "title": "Awwwards",
+      "link": "https://www.awwwards.com/",
+      "description": "The awards of design, creativity and innovation on the internet."
+    },
+    {
+      "title": "Behance",
+      "link": "https://www.behance.net/",
+      "description": "Behance is a platform for creative professionals around the world to showcase their own work and to discover the creative work of others."
+    },
+    {
+      "title": "Best Website Gallery",
+      "link": "https://bestwebsite.gallery/",
+      "description": "The most beautiful websites handpicked for you."
+    },
+    {
+      "title": "Brutalist Websites",
+      "link": "https://brutalistwebsites.com/",
+      "description": "In its ruggedness and lack of concern to look comfortable or easy, Brutalism can be seen as a reaction by a younger generation to the lightness, optimism, and frivolity of today's web design."
+    },
+    {
+      "title": "Commerce Cream",
+      "link": "https://commercecream.com/",
+      "description": "Curating the Best of Shopify."
+    },
+    {
+      "title": "CSS Nectar",
+      "link": "https://cssnectar.com/",
+      "description": "CSS Nectar is a css website design showcase for web designers and developers."
+    },
+    {
+      "title": "Design Inspiration",
+      "link": "https://www.designspiration.com/",
+      "description": "Designspiration is committed to being the best product that it can."
+    },
+    {
+      "title": "Dribbble",
+      "link": "https://dribbble.com/",
+      "description": "Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals."
+    },
+    {
+      "title": "Httpster",
+      "link": "https://httpster.net/",
+      "description": "Httpster is an inspiration resource showcasing totally rocking websites made by people from all over the world."
+    },
+    {
+      "title": "Landingfolio",
+      "link": "https://www.landingfolio.com/",
+      "description": "Landingfolio features the best landing page designs on the web. Get inspiration from real landing page examples, curated by us to ensure the highest quality."
+    },
+    {
+      "title": "Landings",
+      "link": "https://landings.dev/",
+      "description": "Landings is a place to discover hundreds of landing pages from great companies based on preferences like theme and color."
+    },
+    {
+      "title": "Land-book",
+      "link": "https://land-book.com/",
+      "description": "We collect awesome websites to help creatives find inspiration & motivation to do rad stuff."
+    },
+    {
+      "title": "Lapa Ninja",
+      "link": "https://www.lapa.ninja/",
+      "description": "Lapa Ninja is a gallery featuring the best 4940 landing page examples, free books for designers and free UI kits from around the web."
+    },
+    {
+      "title": "Mobbin",
+      "link": "https://mobbin.design/",
+      "description": "Latest mobile design patterns."
+    },
+    {
+      "title": "Muzli",
+      "link": "https://muz.li/",
+      "description": "The best design inspiration - expertly curated for you."
+    },
+    {
+      "title": "Pentagram",
+      "link": "https://www.pentagram.com/",
+      "description": "Pentagram is a multi-disciplinary, independently-owned design studio."
+    },
+    {
+      "title": "Pinterest",
+      "link": "https://tr.pinterest.com/",
+      "description": "When it comes to a great idea, you know it when you see it."
+    },
+    {
+      "title": "Pttrns",
+      "link": "https://pttrns.com/",
+      "description": "Upgrade to Premium! No ads, unlimited access and more..."
+    },
+    {
+      "title": "Saas Landing Page",
+      "link": "https://saaslandingpage.com/",
+      "description": "Discover the best 680 landing page examples created by top-class SaaS companies, and get ideas and inspiration for your next design project."
+    },
+    {
+      "title": "siteInspire",
+      "link": "https://www.siteinspire.com/",
+      "description": "SiteInspire is a showcase of the finest web and interactive design."
+    },
+    {
+      "title": "UI Garage",
+      "link": "https://uigarage.net/",
+      "description": "Daily handpicked UI inspiration & patterns."
+    },
+    {
+      "title": "Webdesign Inspiration",
+      "link": "https://www.webdesign-inspiration.com/",
+      "description": "The best website design ideas."
+    },
+    {
+      "title": "Webflow Showcases",
+      "link": "https://webflow.com/discover/",
+      "description": "Discover the best web design ideas from Webflow users."
+    }
+  ]
+}

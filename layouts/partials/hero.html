@@ -1,5 +1,0 @@
-{{ if .Params.hero_image }}
-  <figure class="hero" style="background-image: url({{ .Permalink }}images/{{ .Params.hero_image }});">
-    <img class="hero__image" src="{{ .Permalink }}images/{{ .Params.hero_image }}" {{ if .Params.hero_alt }}alt="{{ .Params.hero_alt }}"{{ end }}>
-  </figure>
-{{ end }}

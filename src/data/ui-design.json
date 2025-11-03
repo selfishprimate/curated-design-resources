@@ -1,0 +1,43 @@
+{
+  "id": "ui-design",
+  "title": "UI Design",
+  "description": "The back button is one click away, and you don’t often get a second chance!",
+  "icon": "Layout",
+  "resources": [
+    {
+      "title": "Adobe XD",
+      "link": "https://www.adobe.com/products/xd.html",
+      "description": "Lifelike in every sense. Create stunningly real UI/UX designs and stand out from the rest."
+    },
+    {
+      "title": "Figma",
+      "link": "https://www.figma.com/ui-design-tool/",
+      "description": "The modern interface design tool."
+    },
+    {
+      "title": "Framer",
+      "link": "https://www.framer.com/",
+      "description": "Design how it works."
+    },
+    {
+      "title": "InVision",
+      "link": "https://www.invisionapp.com/",
+      "description": "Transformative collaboration for all the work you do."
+    },
+    {
+      "title": "Maze",
+      "link": "https://maze.co/",
+      "description": "Build amazing products without the guesswork."
+    },
+    {
+      "title": "Origami Studio",
+      "link": "https://origami.design/",
+      "description": "Design, animate, and prototype. All-in-one."
+    },
+    {
+      "title": "Sketch",
+      "link": "https://www.sketch.com/",
+      "description": "Everything you need to design."
+    }
+  ]
+}

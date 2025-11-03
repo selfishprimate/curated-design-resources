@@ -1,0 +1,83 @@
+{
+  "id": "icons",
+  "title": "Icons",
+  "description": "The best resources for Iconography!",
+  "icon": "Sparkles",
+  "resources": [
+    {
+      "title": "Feather",
+      "link": "https://feathericons.com/",
+      "description": "Simply beautiful open source icons."
+    },
+    {
+      "title": "Flaticon",
+      "link": "https://www.flaticon.com/",
+      "description": "Download free icons and stickers for your projects. Resources made by and for designers."
+    },
+    {
+      "title": "Font Awesome",
+      "link": "https://fontawesome.com/",
+      "description": "Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators."
+    },
+    {
+      "title": "Fontisto",
+      "link": "https://www.fontisto.com/",
+      "description": "A handy icon set for designers and developers."
+    },
+    {
+      "title": "Freepik",
+      "link": "https://www.freepik.com/popular-icons",
+      "description": "Illustrations, photos, icons, mockups, and presentations templates."
+    },
+    {
+      "title": "Iconfinder",
+      "link": "https://www.iconfinder.com/",
+      "description": "Helping designers make a living doing what they love."
+    },
+    {
+      "title": "IcoMoon",
+      "link": "https://icomoon.io/",
+      "description": "Pixel Perfect Icon Solutions."
+    },
+    {
+      "title": "Iconmonstr",
+      "link": "https://iconmonstr.com/",
+      "description": "Free, monstrously big and continuously growing source of simple icons."
+    },
+    {
+      "title": "Iconsax",
+      "link": "https://iconsax.io/",
+      "description": "Hello welcome to iconsax the official icons of the Vuesax framework."
+    },
+    {
+      "title": "Iconshock",
+      "link": "https://www.iconshock.com/",
+      "description": "The biggest icon pack: 2 million professional icons library."
+    },
+    {
+      "title": "Material Icons",
+      "link": "https://fonts.google.com/icons",
+      "description": "Material Icons are available in five styles and a range of downloadable sizes and densities. The icons are based on the core Material Design principles and metrics."
+    },
+    {
+      "title": "Remix Icon",
+      "link": "http://remixicon.com/",
+      "description": "Remix Icon is a set of open-source neutral-style system symbols elaborately crafted for designers and developers."
+    },
+    {
+      "title": "Streamline",
+      "link": "https://streamlinehq.com/",
+      "description": "100,000 icons, illustrations and emoji for all your projects."
+    },
+    {
+      "title": "The Noun Project",
+      "link": "https://thenounproject.com/",
+      "description": "Icons and Photos For Everything."
+    },
+    {
+      "title": "UI8",
+      "link": "https://ui8.net/category/icons",
+      "description": "1015 vector icon sets for mobile, web & print projects."
+    }
+  ]
+}

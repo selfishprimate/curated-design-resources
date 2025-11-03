@@ -1,0 +1,38 @@
+{
+  "id": "mockup",
+  "title": "Mockup",
+  "description": "These mockup tools will help you make your design pieces way more bearable.",
+  "icon": "Image",
+  "resources": [
+    {
+      "title": "Angle",
+      "link": "https://angle.sh/",
+      "description": "1900 Vector and 3D device mockups for Sketch, Figma and XD."
+    },
+    {
+      "title": "Apple",
+      "link": "https://developer.apple.com/app-store/marketing/guidelines/#section-products",
+      "description": "Photoshop files of Apple products."
+    },
+    {
+      "title": "Cleanmock",
+      "link": "https://cleanmock.com/",
+      "description": "Create stunning mockups that make your design standout."
+    },
+    {
+      "title": "Haikei",
+      "link": "https://app.haikei.app/",
+      "description": "Create wonderful background ornaments for your designs."
+    },
+    {
+      "title": "Shotsnap",
+      "link": "https://app.shotsnapp.com/",
+      "description": "All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose."
+    },
+    {
+      "title": "Facebook Design",
+      "link": "https://facebook.design/devices",
+      "description": "Images and Sketch files of popular devices."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ _The best design resources for everyone._
 
 <p>
   <a href="https://curated-design-resources.netlify.app/" target="_blank">
-    <img src="https://curated-design-resources.netlify.app/images/github/github-readme-wallpaper-min.jpeg">
+    <img src="https://curated-design-resources.netlify.app/images/github-hero-image.jpeg">
   </a>
 </p>
 
@@ -427,4 +427,3 @@ _Some other design resources you may want to check out!_
 - [UX Tools](https://uxtools.co/): We make several free tools and projects for product designers.
 - [Web Desigm Museum](https://www.webdesignmuseum.org/): Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006.
 - [Zeplin](https://zeplin.io/): Organize screens. Publish locked designs. Scale design systems. All in a workspace friendly to the entire team, including non-designers.
-

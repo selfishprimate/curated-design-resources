@@ -1,0 +1,18 @@
+{
+  "id": "stock-videos",
+  "title": "Stock Videos",
+  "description": "The best design resources for stock videos!",
+  "icon": "Video",
+  "resources": [
+    {
+      "title": "Coverr",
+      "link": "https://www.coverr.co/",
+      "description": "Beautiful free stock video footage."
+    },
+    {
+      "title": "Mixkit",
+      "link": "https://mixkit.co/",
+      "description": "Free assets for your next video project."
+    }
+  ]
+}

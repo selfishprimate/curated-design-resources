@@ -1,0 +1,33 @@
+{
+  "id": "ui-animation",
+  "title": "UI Animation",
+  "description": "It's not rocket science to animate your UIs anymore!",
+  "icon": "Play",
+  "resources": [
+    {
+      "title": "Animate.css",
+      "link": "https://animate.style/",
+      "description": "Just-add-water CSS animations!"
+    },
+    {
+      "title": "Cubic Bezier",
+      "link": "https://cubic-bezier.com/",
+      "description": "A better tool for cubic-bezier() easing."
+    },
+    {
+      "title": "Easings",
+      "link": "https://easings.co/",
+      "description": "Test common easing curves on a range of interfaces. Or generate your own custom bezier curve."
+    },
+    {
+      "title": "LottieFiles",
+      "link": "https://lottiefiles.com/",
+      "description": "Lightweight, scalable animations for your website and apps!"
+    },
+    {
+      "title": "Motion UI",
+      "link": "https://legacy-zurb.netlify.app/playground/motion-ui",
+      "description": "A Sass library for creating flexible CSS transitions and animations."
+    }
+  ]
+}

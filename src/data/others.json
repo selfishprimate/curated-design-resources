@@ -1,0 +1,133 @@
+{
+  "id": "others",
+  "title": "Others",
+  "description": "Some other design resources you may want to check out!",
+  "icon": "MoreHorizontal",
+  "resources": [
+    {
+      "title": "10015.io",
+      "link": "https://10015.io/",
+      "description": "10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess."
+    },
+    {
+      "title": "Adjust",
+      "link": "https://www.adjust.com/",
+      "description": "Adjust is the mobile marketing platform for marketers around the world wanting to grow their app."
+    },
+    {
+      "title": "Adobe CC Express",
+      "link": "https://express.adobe.com/",
+      "description": "Create confidently, share fearlessly!"
+    },
+    {
+      "title": "AppsFlyer",
+      "link": "https://www.appsflyer.com/",
+      "description": "The world’s top marketing and product teams turn to AppsFlyer to power predictable app growth, protect customer privacy, and deliver exceptional mobile experiences."
+    },
+    {
+      "title": "Avocode",
+      "link": "https://avocode.com/",
+      "description": "Save time working with design files."
+    },
+    {
+      "title": "Components.ai",
+      "link": "https://components.ai/",
+      "description": "Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever."
+    },
+    {
+      "title": "Design Sprint Kit",
+      "link": "https://designsprintkit.withgoogle.com/",
+      "description": "Transform the way your team works."
+    },
+    {
+      "title": "Ethical Design Resources",
+      "link": "https://www.ethicaldesignresources.com/",
+      "description": "Practical resources to learn about design ethics and its methodologies."
+    },
+    {
+      "title": "Grid.Guide",
+      "link": "http://grid.guide/",
+      "description": "A tool to help you create pixel perfect grids within your designs. Enter your requirements above and we’ll will show you all of the whole pixel combinations you can use."
+    },
+    {
+      "title": "Hotjar",
+      "link": "https://www.hotjar.com/",
+      "description": "Understand how users behave on your site, what they need, and how they feel, fast."
+    },
+    {
+      "title": "Lorem Ipsum",
+      "link": "https://loremipsum.io/",
+      "description": "A handy tool for filler contents."
+    },
+    {
+      "title": "Media Queries",
+      "link": "https://mediaqueri.es/",
+      "description": "A handy tool that helps designers examine the responsiveness of a variety of web sites."
+    },
+    {
+      "title": "Pattern Monster",
+      "link": "https://pattern.monster/",
+      "description": "Customizable SVG patterns for your projects."
+    },
+    {
+      "title": "People + AI Research",
+      "link": "https://pair.withgoogle.com/",
+      "description": "People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities."
+    },
+    {
+      "title": "Pitch",
+      "link": "https://pitch.com/",
+      "description": "The new face of presentations."
+    },
+    {
+      "title": "Pixcleaner",
+      "link": "https://pixcleaner.com/",
+      "description": "Free background remover and image converter JPEG or PNG to Webp."
+    },
+    {
+      "title": "ProApp Design",
+      "link": "https://proapp.design/",
+      "description": "Courses curated by creators with industry experience & passion for design."
+    },
+    {
+      "title": "Rocket",
+      "link": "https://matthewpalmer.net/rocket/",
+      "description": "Rocket is a free Mac app that makes typing emoji faster and easier using Slack-style shortcuts."
+    },
+    {
+      "title": "Sharpen",
+      "link": "https://sharpen.design/",
+      "description": "Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more."
+    },
+    {
+      "title": "Speak Human",
+      "link": "https://www.speakhuman.today/",
+      "description": "Generate human centric microcopy for all purposes."
+    },
+    {
+      "title": "Tilt Brush by Google",
+      "link": "https://www.tiltbrush.com/",
+      "description": "Tilt Brush lets you paint in 3D space with virtual reality."
+    },
+    {
+      "title": "Use The Keyboard",
+      "link": "https://usethekeyboard.com/",
+      "description": "A collection of keyboard shortcuts for Mac apps, Windows programs, and websites."
+    },
+    {
+      "title": "UX Tools",
+      "link": "https://uxtools.co/",
+      "description": "We make several free tools and projects for product designers."
+    },
+    {
+      "title": "Web Desigm Museum",
+      "link": "https://www.webdesignmuseum.org/",
+      "description": "Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006."
+    },
+    {
+      "title": "Zeplin",
+      "link": "https://zeplin.io/",
+      "description": "Organize screens. Publish locked designs. Scale design systems. All in a workspace friendly to the entire team, including non-designers."
+    }
+  ]
+}

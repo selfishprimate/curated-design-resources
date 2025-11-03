@@ -1,0 +1,28 @@
+{
+  "id": "wireframing",
+  "title": "Wireframing",
+  "description": "The best design resources for wireframing!",
+  "icon": "Box",
+  "resources": [
+    {
+      "title": "Sketchize",
+      "link": "https://sketchize.com",
+      "description": "The easiest way to turn your ideas into lovely sketches!"
+    },
+    {
+      "title": "Sketchsheets",
+      "link": "https://sketchsheets.com/",
+      "description": "Ready to print sketch sheet templates for UX designers."
+    },
+    {
+      "title": "Sneakpeekit",
+      "link": "https://sneakpeekit.com/",
+      "description": "Printible grids for deisng wireframing."
+    },
+    {
+      "title": "Zen Wireframe",
+      "link": "https://www.zenwireframe.com/",
+      "description": "Create mockups of your websites and apps in just minutes."
+    }
+  ]
+}

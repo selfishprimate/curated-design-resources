@@ -1,0 +1,163 @@
+{
+  "id": "frontend-design",
+  "title": "Frontend Design",
+  "description": "Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot.",
+  "icon": "Code",
+  "resources": [
+    {
+      "title": "Airtable",
+      "link": "https://www.airtable.com",
+      "description": "Accelerate work and unlock potential with powerful apps that connect your data, workflows and teams."
+    },
+    {
+      "title": "AngularJS",
+      "link": "https://angularjs.org/",
+      "description": "AngularJS lets you extend HTML vocabulary for your application."
+    },
+    {
+      "title": "Bootstrap",
+      "link": "https://getbootstrap.com/",
+      "description": "Build fast, responsive sites with Bootstrap."
+    },
+    {
+      "title": "Codepen",
+      "link": "https://codepen.io/",
+      "description": "CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration."
+    },
+    {
+      "title": "Codrops",
+      "link": "https://tympanus.net/codrops/",
+      "description": "Stay up to date with the latest web design and development news and relevant updates from Codrops."
+    },
+    {
+      "title": "CSS: Cascading Style Sheets",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML)."
+    },
+    {
+      "title": "Eleventy",
+      "link": "https://www.11ty.dev/",
+      "description": "Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options."
+    },
+    {
+      "title": "Foundation",
+      "link": "https://get.foundation/",
+      "description": "The most advanced responsive front-end framework in the world."
+    },
+    {
+      "title": "Gerillass",
+      "link": "https://gerillass.com/",
+      "description": "Gerillass is a website development tool built on top of Sass with a set of Sass mixins and functions for frontend developers to generate scalable CSS outputs."
+    },
+    {
+      "title": "Git",
+      "link": "https://git-scm.com/",
+      "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+    },
+    {
+      "title": "Github",
+      "link": "https://github.com",
+      "description": "Where the world builds software."
+    },
+    {
+      "title": "Grunt",
+      "link": "https://gruntjs.com/",
+      "description": "The JavaScript task runner."
+    },
+    {
+      "title": "Gulp",
+      "link": "https://gulpjs.com/",
+      "description": "A toolkit to automate & enhance your workflow."
+    },
+    {
+      "title": "Hugo",
+      "link": "https://gohugo.io/",
+      "description": "The world’s fastest framework for building websites."
+    },
+    {
+      "title": "HTML5 Boilerplate",
+      "link": "https://html5boilerplate.com/",
+      "description": "The web’s most popular front-end template."
+    },
+    {
+      "title": "Ionic",
+      "link": "https://ionic.io/",
+      "description": "Build faster, smarter, and into the future."
+    },
+    {
+      "title": "Jekyll",
+      "link": "https://jekyllrb.com/",
+      "description": "Transform your plain text into static websites and blogs. No more databases, comment moderation, or pesky updates to install—just your content."
+    },
+    {
+      "title": "Markdown Guide",
+      "link": "https://www.markdownguide.org/",
+      "description": "The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document."
+    },
+    {
+      "title": "Markup Validation Service",
+      "link": "https://validator.w3.org/",
+      "description": "This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc."
+    },
+    {
+      "title": "Material Design Lite",
+      "link": "https://getmdl.io/",
+      "description": "Material Design Lite lets you add a Material Design look and feel to your websites."
+    },
+    {
+      "title": "Modaal",
+      "link": "https://humaan.com/modaal/",
+      "description": "An accessible dialog window plugin for all humans."
+    },
+    {
+      "title": "Node.js",
+      "link": "https://nodejs.org/en/",
+      "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+    },
+    {
+      "title": "Parcel",
+      "link": "https://parceljs.org/",
+      "description": "Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application."
+    },
+    {
+      "title": "React",
+      "link": "https://reactjs.org/",
+      "description": "A JavaScript library for building user interfaces."
+    },
+    {
+      "title": "Sass",
+      "link": "https://sass-lang.com/",
+      "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+    },
+    {
+      "title": "Storybook",
+      "link": "https://storybook.js.org/",
+      "description": "Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation."
+    },
+    {
+      "title": "Tailwind CSS",
+      "link": "https://tailwindcss.com/",
+      "description": "Rapidly build modern websites without ever leaving your HTML."
+    },
+    {
+      "title": "Typeform",
+      "link": "https://www.typeform.com/",
+      "description": "You don't want to make a boring form. And your audience won't answer one. Create a typeform instead—and make everyone happy."
+    },
+    {
+      "title": "TypeScript",
+      "link": "https://www.typescriptlang.org/",
+      "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+    },
+    {
+      "title": "Visual Studio Code",
+      "link": "https://code.visualstudio.com/",
+      "description": "An open-source code editing tool."
+    },
+    {
+      "title": "Vue.js",
+      "link": "https://vuejs.org/",
+      "description": "An approachable, performant and versatile framework for building web user interfaces."
+    }
+  ]
+}

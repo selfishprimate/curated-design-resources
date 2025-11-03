@@ -1,0 +1,83 @@
+{
+  "id": "blogs",
+  "title": "Blogs",
+  "description": "The best blog pages to learn UX design!",
+  "icon": "Rss",
+  "resources": [
+    {
+      "title": "A List Apart",
+      "link": "https://alistapart.com/",
+      "description": "A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices."
+    },
+    {
+      "title": "Brad Frost",
+      "link": "https://bradfrost.com/",
+      "description": "I create successful design systems and help others do the same."
+    },
+    {
+      "title": "Creative Review",
+      "link": "https://www.creativereview.co.uk/",
+      "description": "We deliver the sharpest opinion, analysis and advice on life in the creative industries."
+    },
+    {
+      "title": "Design Systems",
+      "link": "https://www.designsystems.com/",
+      "description": "A Figma publication for design systems creators, designers, developers, and managers."
+    },
+    {
+      "title": "DesignTAXI",
+      "link": "https://designtaxi.com/",
+      "description": "DesignTAXI is the leading online reference source for the creative world, reaching millions of industry tastemakers and influencers monthly."
+    },
+    {
+      "title": "Hey Designer",
+      "link": "https://heydesigner.com/",
+      "description": "Daily curated design knowledge."
+    },
+    {
+      "title": "Law of UX",
+      "link": "https://lawsofux.com/",
+      "description": "Laws of UX is a collection of best practices that designers can consider when building user interfaces."
+    },
+    {
+      "title": "NN/g",
+      "link": "https://www.nngroup.com/",
+      "description": "World leaders in research-based user experience."
+    },
+    {
+      "title": "Product Talk by Teresa Torres",
+      "link": "https://www.producttalk.org/blog/",
+      "description": "Make better product decisions."
+    },
+    {
+      "title": "Smashing Magazine",
+      "link": "https://www.smashingmagazine.com/",
+      "description": "We care about quality content."
+    },
+    {
+      "title": "The Daily Egg",
+      "link": "https://www.crazyegg.com/blog/",
+      "description": "Make the most of every visitor."
+    },
+    {
+      "title": "UX Magazine",
+      "link": "https://uxmag.com/",
+      "description": "UX Magazine has been exploring, promoting, and discussing the realm of experience design for more than two decades."
+    },
+    {
+      "title": "UX Mastery",
+      "link": "https://uxmastery.com/",
+      "description": "At UX Mastery, we believe that technology needs to work for humans, not the other way around."
+    },
+    {
+      "title": "UX Matters",
+      "link": "https://www.uxmatters.com/",
+      "description": "UXmatters provides insights and inspiration to experienced professionals working in every aspect of User Experience, as well as those who are just beginning their journey in the field."
+    },
+    {
+      "title": "UX Planet",
+      "link": "https://uxplanet.org/",
+      "description": "One-stop resource for everything related to user experience."
+    }
+  ]
+}
