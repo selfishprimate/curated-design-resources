@@ -3,6 +3,16 @@ import { ArrowLeft, ExternalLink } from 'lucide-react'
 import { categories } from '@/data/categories'
 import * as Icons from 'lucide-react'
 
+// Extract domain from URL for logo API
+const getDomainFromUrl = (url) => {
+  try {
+    const urlObj = new URL(url)
+    return urlObj.hostname.replace('www.', '')
+  } catch {
+    return ''
+  }
+}
+
 const iconMap = {
   Eye: Icons.Eye,
   FileText: Icons.FileText,
@@ -108,15 +118,27 @@ export default function Category() {
               >
                 <div className="flex h-full flex-col justify-between">
                   <div className="flex-1 overflow-hidden">
-                    <div className="mb-2 flex items-start justify-between gap-2">
-                      <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
-                        {resource.title}
-                      </h3>
-                      <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
+                    <div className="mb-3 flex items-start gap-3">
+                      <img
+                        src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
+                        alt={`${resource.title} logo`}
+                        className="h-10 w-10 flex-shrink-0 rounded-lg object-contain"
+                        onError={(e) => {
+                          e.target.style.display = 'none'
+                        }}
+                      />
+                      <div className="flex-1 overflow-hidden">
+                        <div className="mb-2 flex items-start justify-between gap-2">
+                          <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
+                            {resource.title}
+                          </h3>
+                          <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
+                        </div>
+                        <p className="line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
+                          {resource.description}
+                        </p>
+                      </div>
                     </div>
-                    <p className="line-clamp-4 text-sm text-gray-600 dark:text-gray-400">
-                      {resource.description}
-                    </p>
                   </div>
                 </div>
               </a>
