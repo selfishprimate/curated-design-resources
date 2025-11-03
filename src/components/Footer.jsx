@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="px-8 py-4">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="text-sm text-gray-400">
-            Made with love by{' '}
+            Made with ❤️ by{' '}
             <a
               href="https://github.com/selfishprimate"
               target="_blank"
