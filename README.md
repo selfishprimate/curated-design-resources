@@ -2,6 +2,10 @@
 
 _The best design resources for everyone._
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_SITE_ID/deploy-status)](https://app.netlify.com/sites/curated-design-resources/deploys)
+
+> **🚀 Live Site:** [curated-design-resources.netlify.app](https://curated-design-resources.netlify.app/)
+
 <p>
   <a href="https://curated-design-resources.netlify.app/" target="_blank">
     <img src="https://curated-design-resources.netlify.app/images/github-hero-image.jpeg">
