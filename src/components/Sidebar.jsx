@@ -40,10 +40,7 @@ export default function Sidebar() {
       <div className="border-b border-gray-200 p-6 dark:border-gray-800">
         <Link to="/" className="flex items-center gap-3 text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
           <Palette className="h-6 w-6 text-primary-500" />
-          <div>
-            <div className="font-bold">Curated Design</div>
-            <div className="text-xs text-gray-500">Resources</div>
-          </div>
+          <div className="font-bold">Curated Design Resources</div>
         </Link>
       </div>
 

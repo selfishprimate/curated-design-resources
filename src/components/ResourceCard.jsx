@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ExternalLink } from 'lucide-react'
 
 // Extract domain from URL for logo API
 const getDomainFromUrl = (url) => {
@@ -83,9 +82,9 @@ export default function ResourceCard({ resource, showCategory = false }) {
           </p>
         </div>
 
-        {/* Footer - Category + Link Icon */}
-        <div className="mt-3 flex items-center justify-between gap-2">
-          {showCategory && resource.category ? (
+        {/* Footer - Category */}
+        {showCategory && resource.category && (
+          <div className="mt-3">
             <Link
               to={`/category/${resource.category.id}`}
               onClick={(e) => e.stopPropagation()}
@@ -93,11 +92,8 @@ export default function ResourceCard({ resource, showCategory = false }) {
             >
               {resource.category.title}
             </Link>
-          ) : (
-            <div />
-          )}
-          <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
-        </div>
+          </div>
+        )}
       </div>
     </a>
   )
