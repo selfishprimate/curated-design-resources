@@ -1,46 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Link } from 'react-router-dom'
-import { Github, ExternalLink, Star, Users } from 'lucide-react'
+import { Github, Star, Users } from 'lucide-react'
 import { categories } from '@/data/categories'
-import * as Icons from 'lucide-react'
-
-// Extract domain from URL for logo API
-const getDomainFromUrl = (url) => {
-  try {
-    const urlObj = new URL(url)
-    return urlObj.hostname.replace('www.', '')
-  } catch {
-    return ''
-  }
-}
-
-const iconMap = {
-  Eye: Icons.Eye,
-  FileText: Icons.FileText,
-  Rss: Icons.Rss,
-  Book: Icons.Book,
-  Palette: Icons.Palette,
-  Newspaper: Icons.Newspaper,
-  Grid: Icons.Grid,
-  Plug: Icons.Plug,
-  Code: Icons.Code,
-  PenTool: Icons.PenTool,
-  Sparkles: Icons.Sparkles,
-  Lightbulb: Icons.Lightbulb,
-  Image: Icons.Image,
-  Zap: Icons.Zap,
-  Layers: Icons.Layers,
-  Camera: Icons.Camera,
-  Video: Icons.Video,
-  GraduationCap: Icons.GraduationCap,
-  Type: Icons.Type,
-  Play: Icons.Play,
-  Layout: Icons.Layout,
-  Users: Icons.Users,
-  Box: Icons.Box,
-  MoreHorizontal: Icons.MoreHorizontal,
-  Circle: Icons.Circle
-}
+import ResourceCard from '@/components/ResourceCard'
 
 // Flatten all resources from all categories with metadata
 const allResources = categories.flatMap(category =>
@@ -204,58 +165,13 @@ export default function Home() {
       {/* Resources Grid */}
       <section className="flex-1">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {visibleResources.map((resource, index) => {
-            const IconComponent = iconMap[resource.category.icon]
-            return (
-              <a
-                key={`${resource.category.id}-${index}`}
-                href={resource.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative aspect-[4/3] border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900"
-              >
-                <div className="flex h-full flex-col justify-between">
-                  <div className="flex-1 overflow-hidden">
-                    <div className="mb-3 flex items-start gap-3">
-                      <img
-                        src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
-                        alt={`${resource.title} logo`}
-                        className="h-10 w-10 flex-shrink-0 rounded-lg object-contain"
-                        onError={(e) => {
-                          e.target.style.display = 'none'
-                        }}
-                      />
-                      <div className="flex-1 overflow-hidden">
-                        <div className="mb-2 flex items-start justify-between gap-2">
-                          <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
-                            {resource.title}
-                          </h3>
-                          <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
-                        </div>
-                        <p className="line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
-                          {resource.description}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-3 flex items-center gap-2 border-t border-gray-200 pt-3 dark:border-gray-800">
-                    {/* {IconComponent && (
-                      <div className="flex h-5 w-5 items-center justify-center text-primary-600 dark:text-primary-500">
-                        <IconComponent className="h-4 w-4" />
-                      </div>
-                    )} */}
-                    <Link
-                      to={`/category/${resource.category.id}`}
-                      onClick={(e) => e.stopPropagation()}
-                      className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-                    >
-                      {resource.category.title}
-                    </Link>
-                  </div>
-                </div>
-              </a>
-            )
-          })}
+          {visibleResources.map((resource, index) => (
+            <ResourceCard
+              key={`${resource.category.id}-${index}`}
+              resource={resource}
+              showCategory={true}
+            />
+          ))}
         </div>
 
         {/* Loading indicator / Observer target */}

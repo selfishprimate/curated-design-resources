@@ -1,45 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, ExternalLink } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { categories } from '@/data/categories'
-import * as Icons from 'lucide-react'
-
-// Extract domain from URL for logo API
-const getDomainFromUrl = (url) => {
-  try {
-    const urlObj = new URL(url)
-    return urlObj.hostname.replace('www.', '')
-  } catch {
-    return ''
-  }
-}
-
-const iconMap = {
-  Eye: Icons.Eye,
-  FileText: Icons.FileText,
-  Rss: Icons.Rss,
-  Book: Icons.Book,
-  Palette: Icons.Palette,
-  Newspaper: Icons.Newspaper,
-  Grid: Icons.Grid,
-  Plug: Icons.Plug,
-  Code: Icons.Code,
-  PenTool: Icons.PenTool,
-  Sparkles: Icons.Sparkles,
-  Lightbulb: Icons.Lightbulb,
-  Image: Icons.Image,
-  Zap: Icons.Zap,
-  Layers: Icons.Layers,
-  Camera: Icons.Camera,
-  Video: Icons.Video,
-  GraduationCap: Icons.GraduationCap,
-  Type: Icons.Type,
-  Play: Icons.Play,
-  Layout: Icons.Layout,
-  Users: Icons.Users,
-  Box: Icons.Box,
-  MoreHorizontal: Icons.MoreHorizontal,
-  Circle: Icons.Circle
-}
+import ResourceCard from '@/components/ResourceCard'
 
 export default function Category() {
   const { id } = useParams()
@@ -66,8 +28,6 @@ export default function Category() {
       </div>
     )
   }
-
-  const IconComponent = iconMap[category.icon]
 
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
@@ -109,39 +69,11 @@ export default function Category() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {category.resources.map((resource, index) => (
-              <a
+              <ResourceCard
                 key={index}
-                href={resource.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative aspect-[4/3] border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800 dark:bg-gray-900/50 dark:hover:bg-gray-900"
-              >
-                <div className="flex h-full flex-col justify-between">
-                  <div className="flex-1 overflow-hidden">
-                    <div className="mb-3 flex items-start gap-3">
-                      <img
-                        src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
-                        alt={`${resource.title} logo`}
-                        className="h-10 w-10 flex-shrink-0 rounded-lg object-contain"
-                        onError={(e) => {
-                          e.target.style.display = 'none'
-                        }}
-                      />
-                      <div className="flex-1 overflow-hidden">
-                        <div className="mb-2 flex items-start justify-between gap-2">
-                          <h3 className="line-clamp-2 font-semibold text-gray-900 dark:text-white">
-                            {resource.title}
-                          </h3>
-                          <ExternalLink className="h-4 w-4 flex-shrink-0 text-gray-400 transition-colors group-hover:text-gray-600 dark:text-gray-600 dark:group-hover:text-gray-400" />
-                        </div>
-                        <p className="line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
-                          {resource.description}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
+                resource={resource}
+                showCategory={false}
+              />
             ))}
           </div>
         )}
