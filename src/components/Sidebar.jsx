@@ -39,7 +39,7 @@ export default function Sidebar() {
       {/* Brand */}
       <div className="border-b border-gray-200 p-6 dark:border-gray-800">
         <Link to="/" className="text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <div className="font-bold">Curated Design Resources</div>
+          <div className="font-bold">Design Resources</div>
         </Link>
       </div>
 
