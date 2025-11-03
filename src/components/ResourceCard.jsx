@@ -63,11 +63,11 @@ export default function ResourceCard({ resource, showCategory = false }) {
             <img
               src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
               alt={`${resource.title} logo`}
-              className="h-14 w-14 rounded-full object-cover"
+              className="h-10 w-10 rounded-full object-cover"
               onError={() => setLogoError(true)}
             />
           ) : (
-            <div className={`flex h-14 w-14 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
+            <div className={`flex h-10 w-10 items-center justify-center rounded-full ${bgColor} text-sm font-bold text-white`}>
               {initials}
             </div>
           )}
