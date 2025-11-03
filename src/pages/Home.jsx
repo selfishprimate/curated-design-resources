@@ -217,11 +217,11 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="mt-3 flex items-center gap-2 border-t border-gray-200 pt-3 dark:border-gray-800">
-                    {IconComponent && (
+                    {/* {IconComponent && (
                       <div className="flex h-5 w-5 items-center justify-center text-primary-600 dark:text-primary-500">
                         <IconComponent className="h-4 w-4" />
                       </div>
-                    )}
+                    )} */}
                     <Link
                       to={`/category/${resource.category.id}`}
                       onClick={(e) => e.stopPropagation()}

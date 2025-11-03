@@ -66,7 +66,7 @@ export default function Sidebar() {
                       : 'text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-white'
                   }`}
                 >
-                  {IconComponent && <IconComponent className="h-4 w-4" />}
+                  {/* {IconComponent && <IconComponent className="h-4 w-4" />} */}
                   <span>{category.title}</span>
                 </Link>
               </li>

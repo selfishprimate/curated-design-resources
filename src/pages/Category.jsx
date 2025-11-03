@@ -73,11 +73,11 @@ export default function Category() {
           </Link>
 
           <div className="mt-6 flex items-center gap-4">
-            {IconComponent && (
+            {/* {IconComponent && (
               <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gray-100 text-primary-600 dark:bg-gray-900 dark:text-primary-500">
                 <IconComponent className="h-8 w-8" />
               </div>
-            )}
+            )} */}
             <div>
               <h1 className="text-4xl font-bold">{category.title}</h1>
               <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
