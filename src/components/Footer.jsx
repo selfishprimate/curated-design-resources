@@ -6,15 +6,16 @@ export default function Footer() {
       <div className="px-8 py-4">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="text-sm text-gray-400">
-            Made by{' '}
+            Made with love by{' '}
             <a
               href="https://github.com/selfishprimate"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-white hover:underline"
             >
-              Halil İbrahim Çakıroğlu
+              selfishprimate
             </a>
+            {' '}for the design community.
           </div>
           <div className="flex items-center gap-4">
             <a
