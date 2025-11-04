@@ -5,8 +5,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'xl5:grid-cols-5',
+    'xxl:grid-cols-6',
+    '3xl:grid-cols-8',
+  ],
   theme: {
     extend: {
+      screens: {
+        'xl5': '1440px',
+        'xxl': '1640px',
+        '3xl': '2000px',
+      },
       colors: {
         primary: {
           DEFAULT: '#0366D6',

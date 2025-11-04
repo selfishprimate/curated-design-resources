@@ -166,7 +166,7 @@ export default function Home() {
 
       {/* Resources Grid */}
       <section className="flex-1">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}
