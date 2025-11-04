@@ -9,6 +9,10 @@ export default {
     'xl5:grid-cols-5',
     'xxl:grid-cols-6',
     '3xl:grid-cols-8',
+    'animate-gradient-orbit-1',
+    'animate-gradient-orbit-2',
+    'animate-gradient-orbit-3',
+    'animate-gradient-orbit-4',
   ],
   theme: {
     extend: {
