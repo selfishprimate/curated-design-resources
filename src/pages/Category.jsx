@@ -1,13 +1,26 @@
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
+import SortFilter from '@/components/SortFilter'
 import seoConfig from '@/config/seo'
+import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 export default function Category() {
   const { id } = useParams()
   const category = categories.find(cat => cat.id === id)
+  const [sortBy, setSortBy] = useState('popular')
+
+  // Add popularity scores to resources
+  const resourcesWithScores = category?.resources.map(resource => ({
+    ...resource,
+    popularityScore: calculatePopularity(resource)
+  })) || []
+
+  // Sort resources
+  const sortedResources = sortResources(resourcesWithScores, sortBy)
 
   if (!category) {
     return (
@@ -59,6 +72,16 @@ export default function Category() {
         </div>
       </div>
 
+      {/* Sort & Filter */}
+      {category.resources.length > 0 && (
+        <SortFilter
+          sortBy={sortBy}
+          onSortChange={setSortBy}
+          totalCount={category.resources.length}
+          displayedCount={category.resources.length}
+        />
+      )}
+
       {/* Resources */}
       <div>
         {category.resources.length === 0 ? (
@@ -69,7 +92,7 @@ export default function Category() {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
-            {category.resources.map((resource, index) => (
+            {sortedResources.map((resource, index) => (
               <ResourceCard
                 key={index}
                 resource={resource}

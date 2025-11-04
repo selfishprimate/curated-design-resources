@@ -3,18 +3,21 @@ import { Github, Star, Users } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
+import SortFilter from '@/components/SortFilter'
+import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 // Flatten all resources from all categories with metadata
-const allResources = categories.flatMap(category =>
+const allResourcesRaw = categories.flatMap(category =>
   category.resources.map(resource => ({
     ...resource,
     category: {
       id: category.id,
       title: category.title,
       icon: category.icon
-    }
+    },
+    popularityScore: calculatePopularity(resource)
   }))
-).sort((a, b) => b.globalIndex - a.globalIndex) // Sort by global index (newest first)
+)
 
 const ITEMS_PER_PAGE = 20
 
@@ -22,7 +25,11 @@ export default function Home() {
   const [displayedItems, setDisplayedItems] = useState(ITEMS_PER_PAGE)
   const [isLoading, setIsLoading] = useState(false)
   const [githubStats, setGithubStats] = useState({ stars: null, contributors: [] })
+  const [sortBy, setSortBy] = useState('popular')
   const observerTarget = useRef(null)
+
+  // Sort resources based on selected option
+  const allResources = sortResources(allResourcesRaw, sortBy)
 
   // Fetch GitHub stats
   useEffect(() => {
@@ -163,6 +170,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Sort & Filter */}
+      <SortFilter
+        sortBy={sortBy}
+        onSortChange={(value) => {
+          setSortBy(value)
+          setDisplayedItems(ITEMS_PER_PAGE)
+        }}
+        totalCount={allResources.length}
+        displayedCount={Math.min(displayedItems, allResources.length)}
+      />
 
       {/* Resources Grid */}
       <section className="flex-1">
