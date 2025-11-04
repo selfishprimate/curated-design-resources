@@ -2,8 +2,6 @@
 
 _The best design resources for everyone._
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_SITE_ID/deploy-status)](https://app.netlify.com/sites/curated-design-resources/deploys)
-
 > **🚀 Live Site:** [curated-design-resources.netlify.app](https://curated-design-resources.netlify.app/)
 
 <p>
@@ -18,7 +16,7 @@ Please read the [contribution details](CONTRIBUTING.md) and feel free to contrib
 
 ## Table of Contents
 
-[Accessibility](#accessibility), [Articles](#articles), [Blogs](#blogs), [Books](#books), [Color](#color), [Design News](#design-news), [Design Systems](#design-systems), [Figma Plugins](#figma-plugins), [Frontend Design](#frontend-design), [Graphic Design](#graphic-design), [Icons](#icons), [Inspiration](#inspiration), [Mockup](#mockup), [Productivity](#productivity), [Prototyping](#prototyping), [Stock Photos](#stock-photos), [Stock Videos](#stock-videos), [Tutorials](#tutorials), [Typography](#typography), [UI Animation](#ui-animation), [UI Design](#ui-design), [UX Design](#ux-design), [Wireframing](#wireframing), [Others](#others)
+[Accessibility](#accessibility), [AI](#ai), [Articles](#articles), [Blogs](#blogs), [Books](#books), [Color](#color), [Design News](#design-news), [Design Systems](#design-systems), [Figma Plugins](#figma-plugins), [Frontend Design](#frontend-design), [Graphic Design](#graphic-design), [Icons](#icons), [Inspiration](#inspiration), [Mockup](#mockup), [Productivity](#productivity), [Prototyping](#prototyping), [Stock Photos](#stock-photos), [Stock Videos](#stock-videos), [Tutorials](#tutorials), [Typography](#typography), [UI Animation](#ui-animation), [UI Design](#ui-design), [UX Design](#ux-design), [Wireframing](#wireframing), [Others](#others)
 
 ## Accessibility 
 
@@ -35,6 +33,31 @@ _The best design resources for accessibility!_
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/): Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1.
 - [Who Can Use](https://whocanuse.com/): It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.
 
+## AI
+
+_The best AI tools for designers, developers, and creators!_
+
+- [ChatGPT](https://chat.openai.com/): ChatGPT is an AI-powered conversational assistant that can help with writing, coding, brainstorming, and more. *OpenAI*
+- [Claude](https://claude.ai/): Claude is an AI assistant by Anthropic that excels at complex reasoning, analysis, and creative tasks with a focus on safety and helpfulness. *Anthropic*
+- [Midjourney](https://www.midjourney.com/): Create stunning AI-generated images from text descriptions. Perfect for concept art, illustrations, and creative exploration. *Midjourney*
+- [DALL-E](https://openai.com/dall-e): Generate, edit, and create variations of images using AI. Create realistic images and art from natural language descriptions. *OpenAI*
+- [Stable Diffusion](https://stability.ai/): Open-source AI model for generating detailed images from text descriptions. *Stability AI*
+- [Runway](https://runwayml.com/): AI-powered creative tools for video editing, image generation, and more. Make anything you can imagine. *Runway*
+- [Adobe Firefly](https://www.adobe.com/products/firefly.html): Generative AI integrated into Adobe Creative Cloud apps. Generate images, text effects, and more. *Adobe*
+- [Gamma](https://gamma.app/): Create beautiful presentations, documents, and websites with AI. No design skills required. *Gamma*
+- [Perplexity](https://www.perplexity.ai/): AI-powered search engine that provides accurate answers with sources. Get instant, reliable information on any topic. *Perplexity*
+- [Copy.ai](https://www.copy.ai/): AI-powered copywriting tool that helps you create marketing copy, blog posts, and more. *Copy.ai*
+- [Jasper](https://www.jasper.ai/): AI content platform for businesses. Create high-quality content faster with AI. *Jasper*
+- [Synthesia](https://www.synthesia.io/): Create AI videos with avatars and voiceovers in minutes. No cameras, microphones, or actors needed. *Synthesia*
+- [ElevenLabs](https://elevenlabs.io/): Generate realistic AI voices and speech. Create natural-sounding voiceovers in multiple languages. *ElevenLabs*
+- [Poe](https://poe.com/): Explore multiple AI chatbots in one place. Chat with ChatGPT, Claude, and other AI models. *Quora*
+- [Framer AI](https://www.framer.com/ai): Generate and publish websites with AI. Start with text, customize with Framer's design tools. *Framer*
+- [v0](https://v0.dev/): Generate UI components with AI. Create React components from text descriptions. *Vercel*
+- [Microsoft Copilot](https://copilot.microsoft.com/): AI-powered assistant integrated across Microsoft products. Get help with writing, coding, and productivity. *Microsoft*
+- [Google Gemini](https://gemini.google.com/): Google's most capable AI model for text, code, image, and more. Multimodal AI assistant. *Google*
+- [Anthropic Claude](https://www.anthropic.com/claude): Constitutional AI designed to be helpful, harmless, and honest. *Anthropic*
+- [Hugging Face](https://huggingface.co/): The AI community building the future. Access thousands of AI models, datasets, and apps. *Hugging Face*
+
 ## Articles
 
 _The best articles about web design, mobile design, and user experience design!_
@@ -43,7 +66,6 @@ _The best articles about web design, mobile design, and user experience design!_
 - [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
 - [How We Hold Our Gadgets?](https://alistapart.com/article/how-we-hold-our-gadgets/): Where do hands and fingers fall on the device?
 - [Mental Models](https://www.nngroup.com/articles/mental-models/): What users believe they know about a UI strongly impacts how they use it.
-- [Mobile App UX Principles](https://storage.googleapis.com/think-emea/docs/article/Mobile_App_UX_Principles.pdf): Improving user experience and optimising conversion.
 - [Mobile Context Model](http://www.giantant.com/output/mobile_context_model.pdf): A heuristic guide for mobile design.
 - [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals. This knowledge ensures products and services are designed to efficiently and appropriately support those goals.
 - [The Typographic Scale](https://spencermortensen.com/articles/typographic-scale/): The typographic scale has been used for centuries as a means of creating balanced and harmonious font sizing. It is the bedrock of modern typography.
@@ -102,7 +124,6 @@ _The best tools for creating color schemes for your designs!_
 - [Colourco](https://colourco.de/): Pick colours based on HSL color values.
 - [Coolors](https://coolors.co/): The super fast color schemes generator!
 - [Colors](https://clrs.cc/a11y/): Mix and match these color classes to create a variety of accessible themes.
-- [Curls](https://www.culrs.com/): Colors that work together are curated and fashioned into quality palettes that you can incorporate.
 - [Duo](https://duo.alexpate.uk/): Duo is a collection of colour combinations that I've curated from personal projects or that I've come across on the web.
 - [Flat UI Color Picker](https://www.flatuicolorpicker.com/): Total 199 unique colors!
 - [Happy Hues](https://www.happyhues.co/): Curated colors in context.
@@ -110,7 +131,6 @@ _The best tools for creating color schemes for your designs!_
 - [HTML Color Codes](https://htmlcolorcodes.com/): Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...
 - [UI Colors](https://uicolors.app/create): Enter a hexcode and I will create a color family for you.
 - [Leonardo](https://leonardocolor.io/): Leonardo is a one-of-a-kind tool for creating, managing, and sharing accessible color systems for user interface design and data visualization.
-- [Palettable](https://www.palettable.io/): Generate beautiful color palettes using the knowledge of millions of designers.
 - [Picular](https://picular.co/): The color of anything! 
 - [Pigment](https://pigment.shapefactory.co/): A handy tool for generating colors.
 - [Pilestone](https://pilestone.com/pages/color-blindness-simulator-1): Simulate your image by using the colorblind simulator.
@@ -146,14 +166,12 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 
 _The best design systems of the universe!_
 
-- [AirBnb](https://airbnb.design/building-a-visual-language/): Behind the scenes of our new design system.
 - [Atlassian](https://atlassian.design/): Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences.
 - [Evergreen](https://evergreen.segment.com/): Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.
 - [Fluent](https://www.microsoft.com/design/fluent/): Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included. *Microsoft*
 - [Carbon](https://www.ibm.com/design/language/): This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*
 - [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms. *Apple*
 - [Lightning Design System](https://www.lightningdesignsystem.com/): Salesforce Lightning Design System. Create the world’s best enterprise app experiences. *Salesforce*
-- [Mailchimp](https://ux.mailchimp.com/patterns/): Mailchimp Design System
 - [Material Design](https://material.io/): Material is a design system – backed by open-source code – that helps teams build high-quality digital experiences. *Google*
 - [Mozilla Protocol](https://protocol.mozilla.org/index.html): Protocol is a design system for Mozilla and Firefox websites. It establishes a common design language, provides reusable coded components, and outlines high level guidelines for content and accessibility. *Mozilla*
 - [Polaris](https://polaris.shopify.com/): Our design system helps us work together to build a great experience for all of Shopify’s merchants. *Shopify*
@@ -170,7 +188,6 @@ _The best Figma plugins ever!_
 - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker): Ensure your text is readable for users by adhering to WCAG (Web Content Accessibility Guidelines) standards.
 - [Color Blind](https://www.figma.com/community/plugin/733343906244951586/Color-Blind): Color Blind allows you to view your designs in the 8 different types of color vision deficiencies. 
 - [Color Designer](https://www.figma.com/community/plugin/739475857305927370/Color-Designer): The plugin generates shades, tints, and color harmonies based on select layers or local styles. You can also create a stepped gradient between two colors.
-- [Figma Tokens](https://www.figmatokens.com/): Use the power of design tokens in Figma.
 - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify): Import Material Design Icons, FontAwesome, Jam Icons, EmojiOne, Twitter Emoji and many other icons (more than 100 icon sets containing over 100,000 icons) to Figma document as vector shapes.
 - [Image Palette](https://www.figma.com/community/plugin/731841207668879837/Image-Palette): Extracts a colour palette of 5 different colours from the selected images.
 - [Insert Big Image](https://www.figma.com/community/plugin/799646392992487942): Insert and retain the original resolution of big images.
@@ -222,7 +239,6 @@ _The best graphic design resources!_
 
 - [Women of Graphic Design](https://womenofgraphicdesign.org/): A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.
 - [InspirationGrid](https://theinspirationgrid.com/): Daily design inspiration for creatives.
-- [Baubauhaus](http://www.baubauhaus.com/): Baubauhaus is here to feed your daily need of design, illustration, photography, fashion and of all else art-related.
 
 ## Icons
 
@@ -231,7 +247,6 @@ _The best resources for Iconography!_
 - [Feather](https://feathericons.com/): Simply beautiful open source icons.
 - [Flaticon](https://www.flaticon.com/): Download free icons and stickers for your projects. Resources made by and for designers.
 - [Font Awesome](https://fontawesome.com/): Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
-- [Fontisto](https://www.fontisto.com/): A handy icon set for designers and developers.
 - [Freepik](https://www.freepik.com/popular-icons): Illustrations, photos, icons, mockups, and presentations templates.
 - [Iconfinder](https://www.iconfinder.com/): Helping designers make a living doing what they love.
 - [IcoMoon](https://icomoon.io/): Pixel Perfect Icon Solutions.
@@ -282,7 +297,6 @@ _These mockup tools will help you make your design pieces way more bearable._
 - [Cleanmock](https://cleanmock.com/): Create stunning mockups that make your design standout.
 - [Haikei](https://app.haikei.app/): Create wonderful background ornaments for your designs.
 - [Shotsnap](https://app.shotsnapp.com/): All you need to do is to choose what device to show it off on, and upload your image for it to be show on the device you chose.
-- [Facebook Design](https://facebook.design/devices): Images and Sketch files of popular devices.
 
 ## Productivity
 
@@ -414,7 +428,6 @@ _Some other design resources you may want to check out!_
 - [Components.ai](https://components.ai/): Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever.
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/): Transform the way your team works.
 - [Ethical Design Resources](https://www.ethicaldesignresources.com/): Practical resources to learn about design ethics and its methodologies.
-- [Grid.Guide](http://grid.guide/): A tool to help you create pixel perfect grids within your designs. Enter your requirements above and we’ll will show you all of the whole pixel combinations you can use.
 - [Hotjar](https://www.hotjar.com/): Understand how users behave on your site, what they need, and how they feel, fast.
 - [Lorem Ipsum](https://loremipsum.io/): A handy tool for filler contents.
 - [Media Queries](https://mediaqueri.es/): A handy tool that helps designers examine the responsiveness of a variety of web sites.

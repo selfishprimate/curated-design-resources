@@ -7,82 +7,98 @@
     {
       "title": "Balsamiq",
       "link": "https://balsamiq.com/",
-      "description": "Life's too short for bad software!"
+      "description": "Life's too short for bad software!",
+      "globalIndex": 218
     },
     {
       "title": "Flinto",
       "link": "https://www.flinto.com/",
-      "description": "Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs."
+      "description": "Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.",
+      "globalIndex": 219
     },
     {
       "title": "Fluid",
       "link": "https://www.fluidui.com/",
-      "description": "Create web and mobile prototypes in minutes."
+      "description": "Create web and mobile prototypes in minutes.",
+      "globalIndex": 220
     },
     {
       "title": "Invision",
       "link": "https://www.invisionapp.com/",
-      "description": "The digital product design platform powering the world’s best user experiences."
+      "description": "The digital product design platform powering the world’s best user experiences.",
+      "globalIndex": 221
     },
     {
       "title": "Justinmind",
       "link": "https://www.justinmind.com/",
-      "description": "From wireframes to highly interactive prototypes."
+      "description": "From wireframes to highly interactive prototypes.",
+      "globalIndex": 222
     },
     {
       "title": "Marvel",
       "link": "https://marvelapp.com/",
-      "description": "Marvel has everything you need to bring ideas to life and transform how you create digital products with your team."
+      "description": "Marvel has everything you need to bring ideas to life and transform how you create digital products with your team.",
+      "globalIndex": 223
     },
     {
       "title": "MockFlow",
       "link": "https://www.mockflow.com/",
-      "description": "MockFlow is the UI planning platform that your team needs to kickstart software projects."
+      "description": "MockFlow is the UI planning platform that your team needs to kickstart software projects.",
+      "globalIndex": 224
     },
     {
       "title": "Mockups",
       "link": "https://moqups.com/",
-      "description": "A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes."
+      "description": "A streamlined web app that helps you create and collaborate in real-time on wireframes, mockups, diagrams and prototypes.",
+      "globalIndex": 225
     },
     {
       "title": "OmniGraffle",
       "link": "https://www.omnigroup.com/omnigraffle/",
-      "description": "You've got some explaining to do!"
+      "description": "You've got some explaining to do!",
+      "globalIndex": 226
     },
     {
       "title": "Origami Studio",
       "link": "https://origami.design/",
-      "description": "Design, animate, and prototype. All-in-one."
+      "description": "Design, animate, and prototype. All-in-one.",
+      "globalIndex": 227
     },
     {
       "title": "Overflow",
       "link": "https://overflow.io/",
-      "description": "Create interactive user flow diagrams that tell a story."
+      "description": "Create interactive user flow diagrams that tell a story.",
+      "globalIndex": 228
     },
     {
       "title": "Picodo",
       "link": "https://pidoco.com/en",
-      "description": "Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes."
+      "description": "Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.",
+      "globalIndex": 229
     },
     {
       "title": "Proto.io",
       "link": "https://proto.io/",
-      "description": "Prototypes that feel real."
+      "description": "Prototypes that feel real.",
+      "globalIndex": 230
     },
     {
       "title": "UXPin",
       "link": "https://www.uxpin.com/",
-      "description": "Design and manage your entire UX/UI project in one tool."
+      "description": "Design and manage your entire UX/UI project in one tool.",
+      "globalIndex": 231
     },
     {
       "title": "Visily",
       "link": "https://www.visily.ai",
-      "description": "The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features."
+      "description": "The simplest collaborative UI design software with an intuitive interface, rich UI library, and AI features.",
+      "globalIndex": 232
     },
     {
       "title": "Wireframe",
       "link": "https://www.uxpin.com/",
-      "description": "A design tool fine-tuned for wireframing."
+      "description": "A design tool fine-tuned for wireframing.",
+      "globalIndex": 233
     }
   ]
 }

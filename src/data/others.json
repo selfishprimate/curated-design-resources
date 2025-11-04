@@ -7,127 +7,146 @@
     {
       "title": "10015.io",
       "link": "https://10015.io/",
-      "description": "10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess."
+      "description": "10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.",
+      "globalIndex": 278
     },
     {
       "title": "Adjust",
       "link": "https://www.adjust.com/",
-      "description": "Adjust is the mobile marketing platform for marketers around the world wanting to grow their app."
+      "description": "Adjust is the mobile marketing platform for marketers around the world wanting to grow their app.",
+      "globalIndex": 279
     },
     {
       "title": "Adobe CC Express",
       "link": "https://express.adobe.com/",
-      "description": "Create confidently, share fearlessly!"
+      "description": "Create confidently, share fearlessly!",
+      "globalIndex": 280
     },
     {
       "title": "AppsFlyer",
       "link": "https://www.appsflyer.com/",
-      "description": "The world’s top marketing and product teams turn to AppsFlyer to power predictable app growth, protect customer privacy, and deliver exceptional mobile experiences."
+      "description": "The world’s top marketing and product teams turn to AppsFlyer to power predictable app growth, protect customer privacy, and deliver exceptional mobile experiences.",
+      "globalIndex": 281
     },
     {
       "title": "Avocode",
       "link": "https://avocode.com/",
-      "description": "Save time working with design files."
+      "description": "Save time working with design files.",
+      "globalIndex": 282
     },
     {
       "title": "Components.ai",
       "link": "https://components.ai/",
-      "description": "Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever."
+      "description": "Visual editors for HTML, CSS, and SVG. Customize, curate, and publish designs faster than ever.",
+      "globalIndex": 283
     },
     {
       "title": "Design Sprint Kit",
       "link": "https://designsprintkit.withgoogle.com/",
-      "description": "Transform the way your team works."
+      "description": "Transform the way your team works.",
+      "globalIndex": 284
     },
     {
       "title": "Ethical Design Resources",
       "link": "https://www.ethicaldesignresources.com/",
-      "description": "Practical resources to learn about design ethics and its methodologies."
-    },
-    {
-      "title": "Grid.Guide",
-      "link": "http://grid.guide/",
-      "description": "A tool to help you create pixel perfect grids within your designs. Enter your requirements above and we’ll will show you all of the whole pixel combinations you can use."
+      "description": "Practical resources to learn about design ethics and its methodologies.",
+      "globalIndex": 285
     },
     {
       "title": "Hotjar",
       "link": "https://www.hotjar.com/",
-      "description": "Understand how users behave on your site, what they need, and how they feel, fast."
+      "description": "Understand how users behave on your site, what they need, and how they feel, fast.",
+      "globalIndex": 286
     },
     {
       "title": "Lorem Ipsum",
       "link": "https://loremipsum.io/",
-      "description": "A handy tool for filler contents."
+      "description": "A handy tool for filler contents.",
+      "globalIndex": 287
     },
     {
       "title": "Media Queries",
       "link": "https://mediaqueri.es/",
-      "description": "A handy tool that helps designers examine the responsiveness of a variety of web sites."
+      "description": "A handy tool that helps designers examine the responsiveness of a variety of web sites.",
+      "globalIndex": 288
     },
     {
       "title": "Pattern Monster",
       "link": "https://pattern.monster/",
-      "description": "Customizable SVG patterns for your projects."
+      "description": "Customizable SVG patterns for your projects.",
+      "globalIndex": 289
     },
     {
       "title": "People + AI Research",
       "link": "https://pair.withgoogle.com/",
-      "description": "People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities."
+      "description": "People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools, creating design frameworks, and working with diverse communities.",
+      "globalIndex": 290
     },
     {
       "title": "Pitch",
       "link": "https://pitch.com/",
-      "description": "The new face of presentations."
+      "description": "The new face of presentations.",
+      "globalIndex": 291
     },
     {
       "title": "Pixcleaner",
       "link": "https://pixcleaner.com/",
-      "description": "Free background remover and image converter JPEG or PNG to Webp."
+      "description": "Free background remover and image converter JPEG or PNG to Webp.",
+      "globalIndex": 292
     },
     {
       "title": "ProApp Design",
       "link": "https://proapp.design/",
-      "description": "Courses curated by creators with industry experience & passion for design."
+      "description": "Courses curated by creators with industry experience & passion for design.",
+      "globalIndex": 293
     },
     {
       "title": "Rocket",
       "link": "https://matthewpalmer.net/rocket/",
-      "description": "Rocket is a free Mac app that makes typing emoji faster and easier using Slack-style shortcuts."
+      "description": "Rocket is a free Mac app that makes typing emoji faster and easier using Slack-style shortcuts.",
+      "globalIndex": 294
     },
     {
       "title": "Sharpen",
       "link": "https://sharpen.design/",
-      "description": "Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more."
+      "description": "Sharpen is a free design challenge generator used by tens of thousands of designers and educators worldwide to practice and teach graphic design, UX, branding, and more.",
+      "globalIndex": 295
     },
     {
       "title": "Speak Human",
       "link": "https://www.speakhuman.today/",
-      "description": "Generate human centric microcopy for all purposes."
+      "description": "Generate human centric microcopy for all purposes.",
+      "globalIndex": 296
     },
     {
       "title": "Tilt Brush by Google",
       "link": "https://www.tiltbrush.com/",
-      "description": "Tilt Brush lets you paint in 3D space with virtual reality."
+      "description": "Tilt Brush lets you paint in 3D space with virtual reality.",
+      "globalIndex": 297
     },
     {
       "title": "Use The Keyboard",
       "link": "https://usethekeyboard.com/",
-      "description": "A collection of keyboard shortcuts for Mac apps, Windows programs, and websites."
+      "description": "A collection of keyboard shortcuts for Mac apps, Windows programs, and websites.",
+      "globalIndex": 298
     },
     {
       "title": "UX Tools",
       "link": "https://uxtools.co/",
-      "description": "We make several free tools and projects for product designers."
+      "description": "We make several free tools and projects for product designers.",
+      "globalIndex": 299
     },
     {
       "title": "Web Desigm Museum",
       "link": "https://www.webdesignmuseum.org/",
-      "description": "Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006."
+      "description": "Web Design Museum exhibits over 2,000 carefully selected and sorted web sites that show web design trends between the years 1991 and 2006.",
+      "globalIndex": 300
     },
     {
       "title": "Zeplin",
       "link": "https://zeplin.io/",
-      "description": "Organize screens. Publish locked designs. Scale design systems. All in a workspace friendly to the entire team, including non-designers."
+      "description": "Organize screens. Publish locked designs. Scale design systems. All in a workspace friendly to the entire team, including non-designers.",
+      "globalIndex": 301
     }
   ]
 }

@@ -2,6 +2,7 @@
 // Run: npm run parse-readme
 
 import accessibility from './accessibility.json'
+import ai from './ai.json'
 import articles from './articles.json'
 import blogs from './blogs.json'
 import books from './books.json'
@@ -28,6 +29,7 @@ import others from './others.json'
 
 export const categories = [
   accessibility,
+  ai,
   articles,
   blogs,
   books,

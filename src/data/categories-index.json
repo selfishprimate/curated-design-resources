@@ -7,11 +7,18 @@
     "resourceCount": 10
   },
   {
+    "id": "ai",
+    "title": "AI",
+    "description": "The best AI tools for designers, developers, and creators!",
+    "icon": "Sparkles",
+    "resourceCount": 20
+  },
+  {
     "id": "articles",
     "title": "Articles",
     "description": "The best articles about web design, mobile design, and user experience design!",
     "icon": "FileText",
-    "resourceCount": 13
+    "resourceCount": 12
   },
   {
     "id": "blogs",
@@ -32,7 +39,7 @@
     "title": "Color",
     "description": "The best tools for creating color schemes for your designs!",
     "icon": "Palette",
-    "resourceCount": 27
+    "resourceCount": 25
   },
   {
     "id": "design-news",
@@ -46,14 +53,14 @@
     "title": "Design Systems",
     "description": "The best design systems of the universe!",
     "icon": "Grid",
-    "resourceCount": 16
+    "resourceCount": 14
   },
   {
     "id": "figma-plugins",
     "title": "Figma Plugins",
     "description": "The best Figma plugins ever!",
     "icon": "Plug",
-    "resourceCount": 12
+    "resourceCount": 11
   },
   {
     "id": "frontend-design",
@@ -67,14 +74,14 @@
     "title": "Graphic Design",
     "description": "The best graphic design resources!",
     "icon": "PenTool",
-    "resourceCount": 3
+    "resourceCount": 2
   },
   {
     "id": "icons",
     "title": "Icons",
     "description": "The best resources for Iconography!",
     "icon": "Sparkles",
-    "resourceCount": 15
+    "resourceCount": 14
   },
   {
     "id": "inspiration",
@@ -88,7 +95,7 @@
     "title": "Mockup",
     "description": "These mockup tools will help you make your design pieces way more bearable.",
     "icon": "Image",
-    "resourceCount": 6
+    "resourceCount": 5
   },
   {
     "id": "productivity",
@@ -165,6 +172,6 @@
     "title": "Others",
     "description": "Some other design resources you may want to check out!",
     "icon": "MoreHorizontal",
-    "resourceCount": 25
+    "resourceCount": 24
   }
 ]

@@ -14,7 +14,7 @@ const allResources = categories.flatMap(category =>
       icon: category.icon
     }
   }))
-).reverse() // Reverse to show newest first
+).sort((a, b) => b.globalIndex - a.globalIndex) // Sort by global index (newest first)
 
 const ITEMS_PER_PAGE = 20
 

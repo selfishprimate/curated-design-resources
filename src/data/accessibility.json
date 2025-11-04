@@ -7,52 +7,62 @@
     {
       "title": "Accessibility Guide",
       "link": "https://usecontrast.com/guide",
-      "description": "This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text."
+      "description": "This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text.",
+      "globalIndex": 0
     },
     {
       "title": "Blindness and Vision Impairment",
       "link": "https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment",
-      "description": "Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion..."
+      "description": "Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion...",
+      "globalIndex": 1
     },
     {
       "title": "Colorable",
       "link": "https://colorable.jxnblk.com/",
-      "description": "Color combination contrast tester."
+      "description": "Color combination contrast tester.",
+      "globalIndex": 2
     },
     {
       "title": "Colors",
       "link": "https://clrs.cc/a11y/",
-      "description": "Accessibility is important! Mix and match these color classes to create a variety of accessible themes."
+      "description": "Accessibility is important! Mix and match these color classes to create a variety of accessible themes.",
+      "globalIndex": 3
     },
     {
       "title": "Color Review",
       "link": "https://color.review/",
-      "description": "What you need to know about colors & accessibility."
+      "description": "What you need to know about colors & accessibility.",
+      "globalIndex": 4
     },
     {
       "title": "Contrast",
       "link": "https://usecontrast.com/",
-      "description": "A macOS app for quick access to WCAG color contrast ratios."
+      "description": "A macOS app for quick access to WCAG color contrast ratios.",
+      "globalIndex": 5
     },
     {
       "title": "Stark",
       "link": "https://www.getstark.co/",
-      "description": "Make the world’s software more accessible!"
+      "description": "Make the world’s software more accessible!",
+      "globalIndex": 6
     },
     {
       "title": "The A11y Project",
       "link": "https://www.a11yproject.com/",
-      "description": "The A11Y Project is a community-driven effort to make digital accessibility easier."
+      "description": "The A11Y Project is a community-driven effort to make digital accessibility easier.",
+      "globalIndex": 7
     },
     {
       "title": "Web Content Accessibility Guidelines",
       "link": "https://www.w3.org/WAI/standards-guidelines/wcag/",
-      "description": "Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1."
+      "description": "Introducing the Web Content Accessibility Guidelines (WCAG), including WCAG 2.0 and WCAG 2.1.",
+      "globalIndex": 8
     },
     {
       "title": "Who Can Use",
       "link": "https://whocanuse.com/",
-      "description": "It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments."
+      "description": "It's a tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
+      "globalIndex": 9
     }
   ]
 }

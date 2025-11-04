@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run watch-readme\" \"vite\" --names \"parser,vite\" --prefix-colors \"magenta,cyan\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "parse-readme": "node scripts/parse-readme.js"
+    "parse-readme": "node scripts/parse-readme.js",
+    "watch-readme": "nodemon --watch README.md --exec \"npm run parse-readme\""
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -27,11 +28,13 @@
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "marked": "^16.4.1",
+    "nodemon": "^3.1.10",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
     "vite": "^7.1.7"

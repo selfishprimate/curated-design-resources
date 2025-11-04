@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 // Icon mapping based on category names
 const iconMap = {
   'accessibility': 'Eye',
+  'ai': 'Sparkles',
   'articles': 'FileText',
   'blogs': 'Rss',
   'books': 'Book',
@@ -43,6 +44,7 @@ function parseReadme() {
 
   const categories = [];
   const ignoredSections = ['contribution', 'table of contents'];
+  let globalResourceIndex = 0; // Track global order of resources
 
   sections.forEach(section => {
     const lines = section.trim().split('\n');
@@ -73,7 +75,8 @@ function parseReadme() {
       resources.push({
         title: match[1].trim(),
         link: match[2].trim(),
-        description: match[3].trim()
+        description: match[3].trim(),
+        globalIndex: globalResourceIndex++
       });
     }
 

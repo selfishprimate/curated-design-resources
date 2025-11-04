@@ -7,22 +7,26 @@
     {
       "title": "Sketchize",
       "link": "https://sketchize.com",
-      "description": "The easiest way to turn your ideas into lovely sketches!"
+      "description": "The easiest way to turn your ideas into lovely sketches!",
+      "globalIndex": 274
     },
     {
       "title": "Sketchsheets",
       "link": "https://sketchsheets.com/",
-      "description": "Ready to print sketch sheet templates for UX designers."
+      "description": "Ready to print sketch sheet templates for UX designers.",
+      "globalIndex": 275
     },
     {
       "title": "Sneakpeekit",
       "link": "https://sneakpeekit.com/",
-      "description": "Printible grids for deisng wireframing."
+      "description": "Printible grids for deisng wireframing.",
+      "globalIndex": 276
     },
     {
       "title": "Zen Wireframe",
       "link": "https://www.zenwireframe.com/",
-      "description": "Create mockups of your websites and apps in just minutes."
+      "description": "Create mockups of your websites and apps in just minutes.",
+      "globalIndex": 277
     }
   ]
 }

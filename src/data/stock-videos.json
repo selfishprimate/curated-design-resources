@@ -7,12 +7,14 @@
     {
       "title": "Coverr",
       "link": "https://www.coverr.co/",
-      "description": "Beautiful free stock video footage."
+      "description": "Beautiful free stock video footage.",
+      "globalIndex": 240
     },
     {
       "title": "Mixkit",
       "link": "https://mixkit.co/",
-      "description": "Free assets for your next video project."
+      "description": "Free assets for your next video project.",
+      "globalIndex": 241
     }
   ]
 }

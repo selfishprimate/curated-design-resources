@@ -7,102 +7,122 @@
     {
       "title": "AirBnb Design",
       "link": "https://airbnb.design/",
-      "description": "Design influences everything we do at Airbnb."
+      "description": "Design influences everything we do at Airbnb.",
+      "globalIndex": 89
     },
     {
       "title": "All Design Conferences",
       "link": "https://www.alldesignconferences.com/",
-      "description": "This site is just a simple collection of all design and front-end conferences for the year."
+      "description": "This site is just a simple collection of all design and front-end conferences for the year.",
+      "globalIndex": 90
     },
     {
       "title": "Beta List",
       "link": "https://betalist.com/",
-      "description": "Discover tomorrow's startups, today."
+      "description": "Discover tomorrow's startups, today.",
+      "globalIndex": 91
     },
     {
       "title": "Beta Page",
       "link": "https://betapage.co/",
-      "description": "Get new startups in your inbox."
+      "description": "Get new startups in your inbox.",
+      "globalIndex": 92
     },
     {
       "title": "Design Calendar",
       "link": "https://www.designcalendar.io/",
-      "description": "An online community made for creatives who believe in the power of ideas and the joy of making them happen."
+      "description": "An online community made for creatives who believe in the power of ideas and the joy of making them happen.",
+      "globalIndex": 93
     },
     {
       "title": "Designer News",
       "link": "https://www.designernews.co/",
-      "description": "Designer News is a large, global community of people working in design and technology or those interested in the topics."
+      "description": "Designer News is a large, global community of people working in design and technology or those interested in the topics.",
+      "globalIndex": 94
     },
     {
       "title": "Dropbox Design",
       "link": "https://dropbox.design/",
-      "description": "Welcome, we are Dropbox Design."
+      "description": "Welcome, we are Dropbox Design.",
+      "globalIndex": 95
     },
     {
       "title": "Facebook Design",
       "link": "https://design.facebook.com/",
-      "description": "Designing for the global diversity of human needs."
+      "description": "Designing for the global diversity of human needs.",
+      "globalIndex": 96
     },
     {
       "title": "Google Design",
       "link": "https://design.google/",
-      "description": "Supporting the future of design and technology."
+      "description": "Supporting the future of design and technology.",
+      "globalIndex": 97
     },
     {
       "title": "Hey Designer",
       "link": "https://heydesigner.com/",
-      "description": "Daily curated design knowledge."
+      "description": "Daily curated design knowledge.",
+      "globalIndex": 98
     },
     {
       "title": "Microsoft Design",
       "link": "https://www.microsoft.com/design/",
-      "description": "Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start."
+      "description": "Whether you want to practice new skills, develop new concepts, or create prototypes, these toolkits are your place to start.",
+      "globalIndex": 99
     },
     {
       "title": "Product Hunt",
       "link": "https://www.producthunt.com/",
-      "description": "Product Hunt surfaces the best new products, every day."
+      "description": "Product Hunt surfaces the best new products, every day.",
+      "globalIndex": 100
     },
     {
       "title": "Shaping Design",
       "link": "https://www.editorx.com/shaping-design",
-      "description": "Operating at the intersection of design and technology, we cover a wide range of creative fields, predominantly web design and UX."
+      "description": "Operating at the intersection of design and technology, we cover a wide range of creative fields, predominantly web design and UX.",
+      "globalIndex": 101
     },
     {
       "title": "Sidebar",
       "link": "https://sidebar.io/",
-      "description": "Sidebar has been collecting the best design links of the day since October 2012."
+      "description": "Sidebar has been collecting the best design links of the day since October 2012.",
+      "globalIndex": 102
     },
     {
       "title": "Slant",
       "link": "https://www.producthunt.com/",
-      "description": "Trustworthy product rankings for all your shopping needs."
+      "description": "Trustworthy product rankings for all your shopping needs.",
+      "globalIndex": 103
     },
     {
       "title": "Steemhunt",
       "link": "https://steemhunt.com/",
-      "description": "Discover cool products and get rewards."
+      "description": "Discover cool products and get rewards.",
+      "globalIndex": 104
     },
     {
       "title": "The UX Collective",
       "link": "https://uxdesign.cc/",
-      "description": "Curated stories on UX, Visual & Product Design."
+      "description": "Curated stories on UX, Visual & Product Design.",
+      "globalIndex": 105
     },
     {
       "title": "UsTwo",
       "link": "https://www.ustwo.com/blog/",
-      "description": "Trending design news from the UsTwo Team."
+      "description": "Trending design news from the UsTwo Team.",
+      "globalIndex": 106
     },
     {
       "title": "UX Movement",
       "link": "https://uxmovement.com/",
-      "description": "When an app, website, or interface is difficult to use, it’s not the user’s fault, but the designer’s for making it unusable."
+      "description": "When an app, website, or interface is difficult to use, it’s not the user’s fault, but the designer’s for making it unusable.",
+      "globalIndex": 107
     },
     {
       "title": "Web Designer News",
       "link": "https://www.webdesignernews.com/",
-      "description": "We built WebdesignerNews.com to provide web designers and developers with a single location to discover the latest and most significant stories on the Web."
+      "description": "We built WebdesignerNews.com to provide web designers and developers with a single location to discover the latest and most significant stories on the Web.",
+      "globalIndex": 108
     }
   ]
 }
