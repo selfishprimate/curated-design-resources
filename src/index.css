@@ -5,7 +5,7 @@
 @layer base {
   /* Smooth transitions like Google Fonts */
   * {
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, transform;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
   }
@@ -16,5 +16,124 @@
 
   .dark body {
     @apply bg-gray-950 text-white;
+  }
+}
+
+@layer utilities {
+  /* Custom gradient animations - Multi-directional movement */
+  @keyframes gradient-orbit-1 {
+    0% {
+      transform: translate(0%, 0%) scale(1.5);
+      opacity: 0.6;
+    }
+    20% {
+      transform: translate(30%, -20%) scale(1.9);
+      opacity: 0.75;
+    }
+    40% {
+      transform: translate(25%, 25%) scale(1.7);
+      opacity: 0.7;
+    }
+    60% {
+      transform: translate(-25%, 30%) scale(2);
+      opacity: 0.8;
+    }
+    80% {
+      transform: translate(-30%, -15%) scale(1.6);
+      opacity: 0.65;
+    }
+    100% {
+      transform: translate(0%, 0%) scale(1.5);
+      opacity: 0.6;
+    }
+  }
+
+  @keyframes gradient-orbit-2 {
+    0% {
+      transform: translate(0%, 0%) scale(1.6);
+      opacity: 0.5;
+    }
+    25% {
+      transform: translate(-30%, -30%) scale(2.1);
+      opacity: 0.75;
+    }
+    50% {
+      transform: translate(20%, -25%) scale(1.8);
+      opacity: 0.8;
+    }
+    75% {
+      transform: translate(15%, 35%) scale(1.9);
+      opacity: 0.7;
+    }
+    100% {
+      transform: translate(0%, 0%) scale(1.6);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes gradient-orbit-3 {
+    0% {
+      transform: translate(0%, 0%) scale(1.7);
+      opacity: 0.55;
+    }
+    16% {
+      transform: translate(35%, 15%) scale(1.9);
+      opacity: 0.7;
+    }
+    33% {
+      transform: translate(20%, -30%) scale(2.2);
+      opacity: 0.75;
+    }
+    50% {
+      transform: translate(-20%, -20%) scale(1.8);
+      opacity: 0.65;
+    }
+    66% {
+      transform: translate(-35%, 25%) scale(2);
+      opacity: 0.8;
+    }
+    83% {
+      transform: translate(-10%, 35%) scale(1.75);
+      opacity: 0.6;
+    }
+    100% {
+      transform: translate(0%, 0%) scale(1.7);
+      opacity: 0.55;
+    }
+  }
+
+  @keyframes gradient-orbit-4 {
+    0% {
+      transform: translate(0%, 0%) scale(1.8);
+      opacity: 0.5;
+    }
+    33% {
+      transform: translate(-25%, 30%) scale(2.1);
+      opacity: 0.7;
+    }
+    66% {
+      transform: translate(30%, -25%) scale(1.9);
+      opacity: 0.75;
+    }
+    100% {
+      transform: translate(0%, 0%) scale(1.8);
+      opacity: 0.5;
+    }
+  }
+
+  .animate-gradient-orbit-1 {
+    animation: gradient-orbit-1 22s ease-in-out infinite;
+  }
+
+  .animate-gradient-orbit-2 {
+    animation: gradient-orbit-2 28s ease-in-out infinite;
+  }
+
+  .animate-gradient-orbit-3 {
+    animation: gradient-orbit-3 25s ease-in-out infinite;
+  }
+
+  .animate-gradient-orbit-4 {
+    animation: gradient-orbit-4 20s ease-in-out infinite;
   }
 }
