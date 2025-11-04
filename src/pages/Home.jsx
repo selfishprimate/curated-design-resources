@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { Github, Star, Users } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
+import SEO from '@/components/SEO'
 
 // Flatten all resources from all categories with metadata
 const allResources = categories.flatMap(category =>
@@ -82,6 +83,7 @@ export default function Home() {
 
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
+      <SEO />
       {/* Hero Section */}
       <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800">
         {/* Gradient Background */}
@@ -91,7 +93,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-7xl font-bold tracking-tight text-transparent dark:from-white dark:via-gray-100 dark:to-white">
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-7xl font-bold leading-tight tracking-tight text-transparent dark:from-white dark:via-gray-100 dark:to-white">
             Curated Design Resources
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-600 dark:text-gray-300">

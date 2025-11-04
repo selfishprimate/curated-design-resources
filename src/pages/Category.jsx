@@ -2,6 +2,8 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
+import SEO from '@/components/SEO'
+import seoConfig from '@/config/seo'
 
 export default function Category() {
   const { id } = useParams()
@@ -9,21 +11,24 @@ export default function Category() {
 
   if (!category) {
     return (
-      <div className="bg-white p-8 text-gray-900 dark:bg-gray-950 dark:text-white">
-        <div className="mx-auto max-w-4xl">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Home
-          </Link>
-          <div className="mt-8">
-            <h1 className="text-3xl font-bold">Category not found</h1>
-            <p className="mt-2 text-gray-600 dark:text-gray-400">
-              The category you're looking for doesn't exist.
-            </p>
-          </div>
+      <div className="bg-white px-8 py-8 text-gray-900 dark:bg-gray-950 dark:text-white">
+        <SEO
+          title="Category not found - Curated Design Resources"
+          description="The category you're looking for doesn't exist."
+          noindex={true}
+        />
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to Home
+        </Link>
+        <div className="mt-8">
+          <h1 className="text-3xl font-bold">Category not found</h1>
+          <p className="mt-2 text-gray-600 dark:text-gray-400">
+            The category you're looking for doesn't exist.
+          </p>
         </div>
       </div>
     )
@@ -31,30 +36,26 @@ export default function Category() {
 
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
+      <SEO
+        title={seoConfig.categoryPageTitle(category.title)}
+        description={seoConfig.categoryPageDescription(category.title, category.description)}
+        url={`${seoConfig.siteUrl}/category/${category.id}`}
+      />
       {/* Header */}
       <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800">
-        <div className="mx-auto max-w-4xl">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to Home
-          </Link>
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to Home
+        </Link>
 
-          <div className="mt-6 flex items-center gap-4">
-            {/* {IconComponent && (
-              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gray-100 text-primary-600 dark:bg-gray-900 dark:text-primary-500">
-                <IconComponent className="h-8 w-8" />
-              </div>
-            )} */}
-            <div>
-              <h1 className="text-4xl font-bold">{category.title}</h1>
-              <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-                {category.description}
-              </p>
-            </div>
-          </div>
+        <div className="mt-6">
+          <h1 className="text-4xl font-bold">{category.title}</h1>
+          <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
+            {category.description}
+          </p>
         </div>
       </div>
 
