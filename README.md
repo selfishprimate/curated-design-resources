@@ -206,6 +206,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [Bootstrap](https://getbootstrap.com/): Build fast, responsive sites with Bootstrap.
 - [Codepen](https://codepen.io/): CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
 - [Codrops](https://tympanus.net/codrops/): Stay up to date with the latest web design and development news and relevant updates from Codrops.
+- [Coolify](https://coolify.io/): An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server.
 - [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS): Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).
 - [Eleventy](https://www.11ty.dev/): Eleventy, a simpler static site generator. It was created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options.
 - [Foundation](https://get.foundation/): The most advanced responsive front-end framework in the world.
@@ -232,7 +233,6 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
 - [Vue.js](https://vuejs.org/): An approachable, performant and versatile framework for building web user interfaces.
-- [Coolify](https://coolify.io/) - An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server.
 
 ## Graphic Design
 
