@@ -232,6 +232,7 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 - [TypeScript](https://www.typescriptlang.org/): TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [Visual Studio Code](https://code.visualstudio.com/): An open-source code editing tool.
 - [Vue.js](https://vuejs.org/): An approachable, performant and versatile framework for building web user interfaces.
+- [Coolify](https://coolify.io/) - An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server.
 
 ## Graphic Design
 
