@@ -35,16 +35,9 @@ export default function Sidebar() {
   const location = useLocation()
 
   return (
-    <aside className="fixed left-0 top-0 h-screen w-64 border-r border-gray-200 bg-white overflow-y-auto dark:border-gray-800 dark:bg-gray-950">
-      {/* Brand */}
-      <div className="border-b border-gray-200 p-6 dark:border-gray-800">
-        <Link to="/" className="text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <div className="font-bold">Design Resources</div>
-        </Link>
-      </div>
-
+    <aside className="fixed left-0 top-16 h-[calc(100vh-4rem)] w-64 border-r border-gray-200 bg-white overflow-y-auto dark:border-gray-800 dark:bg-gray-950">
       {/* Categories */}
-      <nav className="p-4">
+      <nav className="p-4 pt-6">
         <div className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-gray-500">
           Categories
         </div>

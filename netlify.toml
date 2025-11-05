@@ -5,6 +5,9 @@
   # Directory with the static files (Vite default output)
   publish = "dist"
 
+  # Functions directory
+  functions = "netlify/functions"
+
   # Environment variables for build
   [build.environment]
     NODE_VERSION = "20"

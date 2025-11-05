@@ -74,8 +74,27 @@ const hexToRgba = (hex, alpha) => {
   return `rgba(${r}, ${g}, ${b}, ${alpha / 100})`
 }
 
+// Possible gradient positions
+const GRADIENT_POSITIONS = [
+  'top left',
+  'top center',
+  'top right',
+  'center left',
+  'center',
+  'center right',
+  'bottom left',
+  'bottom center',
+  'bottom right',
+  '20% 30%',
+  '80% 20%',
+  '30% 70%',
+  '70% 80%',
+  '40% 40%',
+  '60% 60%'
+]
+
 // Helper function to generate gradient styles
-const generateGradientStyle = (color, index, isDark = false) => {
+const generateGradientStyle = (color, index, isDark = false, position = 'center') => {
   const opacities = [
     { from: 25, via1: 5, via2: 2 },
     { from: 22, via1: 4, via2: 2 },
@@ -99,9 +118,9 @@ const generateGradientStyle = (color, index, isDark = false) => {
   const via2Color = isDark ? colorSet[400] : colorSet[200]
 
   if (index < 2) {
-    return `radial-gradient(${gradientType} at center, ${hexToRgba(fromColor, op.from)} 10%, ${hexToRgba(via1Color, op.via1)} 25%, ${hexToRgba(via2Color, op.via2)} 40%, transparent 70%)`
+    return `radial-gradient(${gradientType} at ${position}, ${hexToRgba(fromColor, op.from)} 10%, ${hexToRgba(via1Color, op.via1)} 25%, ${hexToRgba(via2Color, op.via2)} 40%, transparent 70%)`
   } else {
-    return `radial-gradient(${gradientType} at center, ${hexToRgba(fromColor, op.from)} 10%, ${hexToRgba(via1Color, op.via1)} 22%, ${hexToRgba(via2Color, op.via2)} 38%, transparent 65%)`
+    return `radial-gradient(${gradientType} at ${position}, ${hexToRgba(fromColor, op.from)} 10%, ${hexToRgba(via1Color, op.via1)} 22%, ${hexToRgba(via2Color, op.via2)} 38%, transparent 65%)`
   }
 }
 
@@ -117,6 +136,16 @@ export default function Home() {
   const [colorPalette] = useState(() => {
     const randomIndex = Math.floor(Math.random() * COLOR_PALETTES.length)
     return COLOR_PALETTES[randomIndex]
+  })
+
+  // Select random positions for each gradient
+  const [gradientPositions] = useState(() => {
+    return [
+      GRADIENT_POSITIONS[Math.floor(Math.random() * GRADIENT_POSITIONS.length)],
+      GRADIENT_POSITIONS[Math.floor(Math.random() * GRADIENT_POSITIONS.length)],
+      GRADIENT_POSITIONS[Math.floor(Math.random() * GRADIENT_POSITIONS.length)],
+      GRADIENT_POSITIONS[Math.floor(Math.random() * GRADIENT_POSITIONS.length)]
+    ]
   })
 
   // Detect dark mode
@@ -206,15 +235,23 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
         {/* Animated Gradients - Multi-directional orbital movement */}
-        {colorPalette.colors.map((color, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 animate-gradient-orbit-${index + 1}`}
-            style={{
-              backgroundImage: generateGradientStyle(color, index, isDark)
-            }}
-          />
-        ))}
+        {colorPalette.colors.map((color, index) => {
+          const animationClasses = [
+            'animate-gradient-orbit-1',
+            'animate-gradient-orbit-2',
+            'animate-gradient-orbit-3',
+            'animate-gradient-orbit-4'
+          ]
+          return (
+            <div
+              key={index}
+              className={`absolute inset-0 ${animationClasses[index]}`}
+              style={{
+                backgroundImage: generateGradientStyle(color, index, isDark, gradientPositions[index])
+              }}
+            />
+          )
+        })}
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
