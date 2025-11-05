@@ -189,6 +189,12 @@
       "link": "https://vuejs.org/",
       "description": "An approachable, performant and versatile framework for building web user interfaces.",
       "globalIndex": 164
+    },
+    {
+      "title": "Coolify",
+      "link": "https://coolify.io/",
+      "description": "- An open-source & self-hostable alternative to Vercel, Heroku, Netlify and Railway for easily deploying websites, databases, web applications and 280+ one-click services to your own server.",
+      "globalIndex": 165
     }
   ]
 }

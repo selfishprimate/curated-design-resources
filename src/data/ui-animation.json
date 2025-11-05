@@ -8,31 +8,31 @@
       "title": "Animate.css",
       "link": "https://animate.style/",
       "description": "Just-add-water CSS animations!",
-      "globalIndex": 260
+      "globalIndex": 261
     },
     {
       "title": "Cubic Bezier",
       "link": "https://cubic-bezier.com/",
       "description": "A better tool for cubic-bezier() easing.",
-      "globalIndex": 261
+      "globalIndex": 262
     },
     {
       "title": "Easings",
       "link": "https://easings.co/",
       "description": "Test common easing curves on a range of interfaces. Or generate your own custom bezier curve.",
-      "globalIndex": 262
+      "globalIndex": 263
     },
     {
       "title": "LottieFiles",
       "link": "https://lottiefiles.com/",
       "description": "Lightweight, scalable animations for your website and apps!",
-      "globalIndex": 263
+      "globalIndex": 264
     },
     {
       "title": "Motion UI",
       "link": "https://legacy-zurb.netlify.app/playground/motion-ui",
       "description": "A Sass library for creating flexible CSS transitions and animations.",
-      "globalIndex": 264
+      "globalIndex": 265
     }
   ]
 }
