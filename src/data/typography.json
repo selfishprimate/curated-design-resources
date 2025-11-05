@@ -17,18 +17,6 @@
       "globalIndex": 247
     },
     {
-      "title": "Fonts Arena",
-      "link": "https://fontsarena.com/",
-      "description": "FontsArena is a curated typography website with a focus on contemporary typography and high quality free fonts.",
-      "globalIndex": 248
-    },
-    {
-      "title": "Fonts in Use",
-      "link": "https://fontsinuse.com/",
-      "description": "An independent archive of typography.",
-      "globalIndex": 249
-    },
-    {
       "title": "FontJoy",
       "link": "https://fontjoy.com/",
       "description": "Generate font combinations with deep learning.",
@@ -39,6 +27,18 @@
       "link": "https://fontpair.co/",
       "description": "Font Pair is a typography site dedicated to helping creators use beautiful typography for their creative projects.",
       "globalIndex": 251
+    },
+    {
+      "title": "Fonts Arena",
+      "link": "https://fontsarena.com/",
+      "description": "FontsArena is a curated typography website with a focus on contemporary typography and high quality free fonts.",
+      "globalIndex": 248
+    },
+    {
+      "title": "Fonts in Use",
+      "link": "https://fontsinuse.com/",
+      "description": "An independent archive of typography.",
+      "globalIndex": 249
     },
     {
       "title": "Google Fonts",
@@ -77,16 +77,16 @@
       "globalIndex": 257
     },
     {
-      "title": "Typographica",
-      "link": "https://typographica.org/",
-      "description": "Type Reviews, Books, Commentary.",
-      "globalIndex": 258
-    },
-    {
       "title": "Typographic Posters",
       "link": "https://www.typographicposters.com/",
       "description": "Typographic Posters is a platform for inspiration and promotion of good design through the poster culture.",
       "globalIndex": 259
+    },
+    {
+      "title": "Typographica",
+      "link": "https://typographica.org/",
+      "description": "Type Reviews, Books, Commentary.",
+      "globalIndex": 258
     },
     {
       "title": "Typography in Ten Minutes",

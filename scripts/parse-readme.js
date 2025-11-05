@@ -80,6 +80,9 @@ function parseReadme() {
       });
     }
 
+    // Sort resources alphabetically by title
+    resources.sort((a, b) => a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }));
+
     // Get icon
     const icon = iconMap[titleLower] || 'Circle';
 

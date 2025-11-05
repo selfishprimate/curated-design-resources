@@ -23,28 +23,10 @@
       "globalIndex": 66
     },
     {
-      "title": "Colorable",
-      "link": "https://colorable.jxnblk.com/",
-      "description": "Contrast is the difference in luminance or color that makes an object distinguishable.",
-      "globalIndex": 67
-    },
-    {
-      "title": "ColorBox",
-      "link": "https://colorbox.io/",
-      "description": "A handy color creation tool from the Lyft team.",
-      "globalIndex": 68
-    },
-    {
       "title": "Color Claim",
       "link": "https://vanschneider.com/colors",
       "description": "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for your future projects.",
       "globalIndex": 69
-    },
-    {
-      "title": "Colordot",
-      "link": "https://color.hailpixel.com/",
-      "description": "A handy color picker tool.",
-      "globalIndex": 70
     },
     {
       "title": "Color Hunt",
@@ -57,6 +39,30 @@
       "link": "https://colororacle.org/",
       "description": "Color Oracle is a free color blindness simulator for Windows, Mac and Linux.",
       "globalIndex": 72
+    },
+    {
+      "title": "Colorable",
+      "link": "https://colorable.jxnblk.com/",
+      "description": "Contrast is the difference in luminance or color that makes an object distinguishable.",
+      "globalIndex": 67
+    },
+    {
+      "title": "ColorBox",
+      "link": "https://colorbox.io/",
+      "description": "A handy color creation tool from the Lyft team.",
+      "globalIndex": 68
+    },
+    {
+      "title": "Colordot",
+      "link": "https://color.hailpixel.com/",
+      "description": "A handy color picker tool.",
+      "globalIndex": 70
+    },
+    {
+      "title": "Colors",
+      "link": "https://clrs.cc/a11y/",
+      "description": "Mix and match these color classes to create a variety of accessible themes.",
+      "globalIndex": 76
     },
     {
       "title": "Colorsinspo",
@@ -75,12 +81,6 @@
       "link": "https://coolors.co/",
       "description": "The super fast color schemes generator!",
       "globalIndex": 75
-    },
-    {
-      "title": "Colors",
-      "link": "https://clrs.cc/a11y/",
-      "description": "Mix and match these color classes to create a variety of accessible themes.",
-      "globalIndex": 76
     },
     {
       "title": "Duo",
@@ -111,12 +111,6 @@
       "link": "https://htmlcolorcodes.com/",
       "description": "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...",
       "globalIndex": 81
-    },
-    {
-      "title": "UI Colors",
-      "link": "https://uicolors.app/create",
-      "description": "Enter a hexcode and I will create a color family for you.",
-      "globalIndex": 82
     },
     {
       "title": "Leonardo",
@@ -153,6 +147,12 @@
       "link": "https://maketintsandshades.com/",
       "description": "Produce tints and shades of a given hex color in 10% increments.",
       "globalIndex": 88
+    },
+    {
+      "title": "UI Colors",
+      "link": "https://uicolors.app/create",
+      "description": "Enter a hexcode and I will create a color family for you.",
+      "globalIndex": 82
     }
   ]
 }

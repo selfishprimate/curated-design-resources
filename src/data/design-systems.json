@@ -11,6 +11,18 @@
       "globalIndex": 109
     },
     {
+      "title": "Carbon",
+      "link": "https://www.ibm.com/design/language/",
+      "description": "This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*",
+      "globalIndex": 112
+    },
+    {
+      "title": "Cookbook",
+      "link": "https://www.yelp.com/styleguide/",
+      "description": "The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns. *Yelp*",
+      "globalIndex": 122
+    },
+    {
       "title": "Evergreen",
       "link": "https://evergreen.segment.com/",
       "description": "Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.",
@@ -21,12 +33,6 @@
       "link": "https://www.microsoft.com/design/fluent/",
       "description": "Fluent is an open-source, cross-platform design system that gives designers and developers the frameworks they need to create engaging product experiences—accessibility, internationalization, and performance included. *Microsoft*",
       "globalIndex": 111
-    },
-    {
-      "title": "Carbon",
-      "link": "https://www.ibm.com/design/language/",
-      "description": "This is the guiding ethos behind IBM’s design philosophy and principles. This helps us distinguish every element and every experience Designed by IBM. *IBM*",
-      "globalIndex": 112
     },
     {
       "title": "Human Interface Guidelines",
@@ -81,12 +87,6 @@
       "link": "https://brand.uber.com/",
       "description": "These guidelines cover 9 elements: logo, color, composition, iconography, illustration, motion, photography, tone of voice, and typography.",
       "globalIndex": 121
-    },
-    {
-      "title": "Cookbook",
-      "link": "https://www.yelp.com/styleguide/",
-      "description": "The styleguide is a resource for designers, product managers, and developers, providing a common language around Yelp’s UI patterns. *Yelp*",
-      "globalIndex": 122
     }
   ]
 }

@@ -5,16 +5,16 @@
   "icon": "PenTool",
   "resources": [
     {
-      "title": "Women of Graphic Design",
-      "link": "https://womenofgraphicdesign.org/",
-      "description": "A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.",
-      "globalIndex": 166
-    },
-    {
       "title": "InspirationGrid",
       "link": "https://theinspirationgrid.com/",
       "description": "Daily design inspiration for creatives.",
       "globalIndex": 167
+    },
+    {
+      "title": "Women of Graphic Design",
+      "link": "https://womenofgraphicdesign.org/",
+      "description": "A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.",
+      "globalIndex": 166
     }
   ]
 }

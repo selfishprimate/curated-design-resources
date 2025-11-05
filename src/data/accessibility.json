@@ -17,6 +17,12 @@
       "globalIndex": 1
     },
     {
+      "title": "Color Review",
+      "link": "https://color.review/",
+      "description": "What you need to know about colors & accessibility.",
+      "globalIndex": 4
+    },
+    {
       "title": "Colorable",
       "link": "https://colorable.jxnblk.com/",
       "description": "Color combination contrast tester.",
@@ -27,12 +33,6 @@
       "link": "https://clrs.cc/a11y/",
       "description": "Accessibility is important! Mix and match these color classes to create a variety of accessible themes.",
       "globalIndex": 3
-    },
-    {
-      "title": "Color Review",
-      "link": "https://color.review/",
-      "description": "What you need to know about colors & accessibility.",
-      "globalIndex": 4
     },
     {
       "title": "Contrast",

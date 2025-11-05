@@ -5,16 +5,16 @@
   "icon": "FileText",
   "resources": [
     {
-      "title": "8 Brilliant Examples Of Social Proof On The Web",
-      "link": "https://www.crazyegg.com/blog/examples-social-proof-on-web/",
-      "description": "Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.",
-      "globalIndex": 30
-    },
-    {
       "title": "10 Usability Heuristics for User Interface Design",
       "link": "https://www.nngroup.com/articles/ten-usability-heuristics/",
       "description": "Jakob Nielsen's 10 general principles for interaction design. They are called \"heuristics\" because they are broad rules of thumb and not specific usability guidelines.",
       "globalIndex": 31
+    },
+    {
+      "title": "8 Brilliant Examples Of Social Proof On The Web",
+      "link": "https://www.crazyegg.com/blog/examples-social-proof-on-web/",
+      "description": "Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.",
+      "globalIndex": 30
     },
     {
       "title": "How We Hold Our Gadgets?",
