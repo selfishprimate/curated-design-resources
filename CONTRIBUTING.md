@@ -65,38 +65,6 @@ JSON files will be auto-generated and committed by GitHub Actions!
 
 ---
 
-## 🆕 Adding a New Category
-
-Want to add a completely new category? Follow this format in README.md:
-
-```markdown
-## Category Name
-
-_Short description of the category_
-
-- [Resource Title](https://link.com): Description of the resource.
-- [Another Resource](https://link.com): Another description.
-```
-
-**That's it!** Commit your changes to README.md and GitHub Actions will automatically generate the category JSON file.
-
----
-
-## 🎨 Icon Mapping
-
-Categories are automatically assigned icons based on their name. If you want to customize icons, edit `scripts/parse-readme.js` and update the `iconMap` object.
-
-Default icon mappings:
-- Accessibility → Eye
-- Color → Palette
-- Typography → Type
-- Icons → Sparkles
-- Design Systems → Grid
-- Prototyping → Layers
-- ... and more
-
----
-
 ## 🔄 Development Workflow
 
 ### For Contributors (External)

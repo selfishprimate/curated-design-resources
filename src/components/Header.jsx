@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Github, Moon, Sun } from 'lucide-react'
+import { Github, Moon, Sun, Menu, Plus } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import SubmitModal from './SubmitModal'
 
 // Logo SVG Component
 function LogoMark() {
@@ -31,9 +30,8 @@ function LogoMark() {
   )
 }
 
-export default function Header() {
+export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal }) {
   const [isDark, setIsDark] = useState(false)
-  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
 
   useEffect(() => {
     // Check initial theme
@@ -57,27 +55,33 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-sm dark:border-white/10 dark:bg-gray-950/80">
       <div className="mx-auto flex h-16 items-center justify-between px-6">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 font-semibold text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <LogoMark />
-          <div className="text-lg">Curated Design Resources</div>
+        <Link to="/" className="flex min-w-0 items-center gap-2 font-semibold text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
+          <div className="flex-shrink-0">
+            <LogoMark />
+          </div>
+          <div className="truncate text-base sm:text-lg">
+            Curated Design Resources
+          </div>
         </Link>
 
         {/* Right side: Actions */}
-        <div className="flex items-center gap-3">
-          {/* Submit Button */}
+        <div className="flex items-center gap-1 sm:gap-2">
+          {/* Submit Button - Icon only on mobile, text on desktop */}
           <button
-            onClick={() => setIsSubmitModalOpen(true)}
-            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            onClick={onOpenSubmitModal}
+            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 sm:px-4 sm:py-2 dark:text-gray-300 dark:hover:bg-gray-800"
+            aria-label="Submit resource"
           >
-            Submit
+            <Plus className="h-5 w-5 sm:hidden" />
+            <span className="hidden text-sm font-medium sm:inline">Submit</span>
           </button>
 
-          {/* Support Button */}
+          {/* Support Button - Hidden on mobile */}
           <a
             href="https://github.com/sponsors/selfishprimate"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="hidden rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 sm:inline-block dark:text-gray-300 dark:hover:bg-gray-800"
           >
             Support
           </a>
@@ -95,24 +99,18 @@ export default function Header() {
             )}
           </button>
 
-          {/* GitHub Link */}
+          {/* GitHub Link - Hidden on mobile */}
           <a
             href="https://github.com/selfishprimate/curated-design-resources"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="hidden rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 sm:inline-block dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="GitHub"
           >
             <Github className="h-5 w-5" />
           </a>
         </div>
       </div>
-
-      {/* Submit Modal */}
-      <SubmitModal
-        isOpen={isSubmitModalOpen}
-        onClose={() => setIsSubmitModalOpen(false)}
-      />
     </header>
   )
 }

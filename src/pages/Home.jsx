@@ -181,9 +181,14 @@ export default function Home() {
         const repoData = await repoRes.json()
         const contributorsData = await contributorsRes.json()
 
+        // Filter out bot accounts and take max 8 contributors
+        const filteredContributors = contributorsData
+          .filter(contributor => contributor.type !== 'Bot' && !contributor.login.includes('[bot]'))
+          .slice(0, 8)
+
         setGithubStats({
           stars: repoData.stargazers_count,
-          contributors: contributorsData.slice(0, 8) // Show max 8 contributors
+          contributors: filteredContributors
         })
       } catch (error) {
         console.error('Failed to fetch GitHub stats:', error)
@@ -262,12 +267,12 @@ export default function Home() {
             A comprehensive collection of handpicked design tools, libraries, and resources
             for designers and developers.
           </p>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href="https://github.com/selfishprimate/curated-design-resources"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl bg-gray-900 px-8 py-4 font-semibold text-white shadow-lg shadow-gray-900/20 transition-all hover:scale-105 hover:bg-gray-800 hover:shadow-xl dark:bg-white dark:text-gray-900 dark:shadow-white/20 dark:hover:bg-gray-100"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-8 py-4 font-semibold text-white shadow-lg shadow-gray-900/20 transition-all hover:scale-105 hover:bg-gray-800 hover:shadow-xl sm:w-auto dark:bg-white dark:text-gray-900 dark:shadow-white/20 dark:hover:bg-gray-100"
             >
               <Github className="h-5 w-5" />
               View on GitHub
@@ -276,7 +281,7 @@ export default function Home() {
               href="https://github.com/selfishprimate/curated-design-resources/blob/master/CONTRIBUTING.md"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-gray-300 bg-white/50 px-8 py-4 font-semibold text-gray-900 backdrop-blur-sm transition-all hover:scale-105 hover:bg-white dark:border-gray-700 dark:bg-gray-900/50 dark:text-white dark:hover:bg-gray-900"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white/50 px-8 py-4 font-semibold text-gray-900 backdrop-blur-sm transition-all hover:scale-105 hover:bg-white sm:w-auto dark:border-gray-700 dark:bg-gray-900/50 dark:text-white dark:hover:bg-gray-900"
             >
               Contribute
             </a>
@@ -339,7 +344,7 @@ export default function Home() {
 
       {/* Resources Grid */}
       <section className="flex-1">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}

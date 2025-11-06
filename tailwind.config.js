@@ -17,7 +17,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xl5': '1440px',
+        'xl5': '1500px',
         'xxl': '1640px',
         '3xl': '2000px',
       },

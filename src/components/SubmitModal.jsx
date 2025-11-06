@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 import { X } from 'lucide-react'
 import { categories } from '@/data/categories'
 
-export default function SubmitModal({ isOpen, onClose }) {
+export default function SubmitModal({ isOpen, onClose, onShowToast }) {
   const [formData, setFormData] = useState({
     category: '',
     resourceName: '',
@@ -47,7 +47,6 @@ export default function SubmitModal({ isOpen, onClose }) {
       const data = await response.json()
 
       if (response.ok) {
-        setSubmitStatus('success')
         // Reset form
         setFormData({
           category: '',
@@ -59,11 +58,14 @@ export default function SubmitModal({ isOpen, onClose }) {
           submitterGithub: ''
         })
 
-        // Close modal after 2 seconds
-        setTimeout(() => {
-          onClose()
-          setSubmitStatus(null)
-        }, 2000)
+        // Close modal immediately
+        onClose()
+        setSubmitStatus(null)
+
+        // Show success toast
+        if (onShowToast) {
+          onShowToast("Your resource has been submitted successfully! We'll review it shortly.", 'success')
+        }
       } else {
         setSubmitStatus('error')
         console.error('Submission error:', data)
@@ -87,17 +89,17 @@ export default function SubmitModal({ isOpen, onClose }) {
 
   return createPortal(
     <div className="fixed inset-0 z-[60] overflow-y-auto bg-white/85 backdrop-blur-md dark:bg-gray-950/85">
-      {/* Close button - top right corner */}
+      {/* Close button - top right corner - sticky */}
       <button
         onClick={onClose}
-        className="fixed right-6 top-6 z-20 rounded-lg p-2 text-gray-500 transition-colors hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-800"
+        className="sticky right-6 top-6 z-20 ml-auto mr-6 mt-6 flex rounded-lg p-2 text-gray-500 transition-colors hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-800"
         aria-label="Close modal"
       >
         <X className="h-6 w-6" />
       </button>
 
       {/* Form Content */}
-      <div className="mx-auto max-w-xl px-6 py-12">
+      <div className="mx-auto max-w-xl px-6 pb-12">
         <div className="mb-8">
           <h2 className="mb-2 text-2xl font-semibold text-gray-900 dark:text-white">
             Submit a Resource

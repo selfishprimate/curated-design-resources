@@ -45,6 +45,7 @@ const getColorFromString = (str) => {
 
 export default function ResourceCard({ resource, showCategory = false }) {
   const [logoError, setLogoError] = useState(false)
+  const [logoLoaded, setLogoLoaded] = useState(false)
   const initials = getInitials(resource.title)
   const bgColor = getColorFromString(resource.title)
 
@@ -59,12 +60,21 @@ export default function ResourceCard({ resource, showCategory = false }) {
         {/* Logo or Initials - Left aligned */}
         <div className="mb-4">
           {!logoError ? (
-            <img
-              src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
-              alt={`${resource.title} logo`}
-              className="h-10 w-10 rounded-full object-cover"
-              onError={() => setLogoError(true)}
-            />
+            <>
+              <img
+                src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
+                alt={`${resource.title} logo`}
+                className={`h-10 w-10 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
+                loading="lazy"
+                onError={() => setLogoError(true)}
+                onLoad={() => setLogoLoaded(true)}
+              />
+              {!logoLoaded && (
+                <div className={`absolute flex h-10 w-10 items-center justify-center rounded-full ${bgColor} text-sm font-bold text-white`}>
+                  {initials}
+                </div>
+              )}
+            </>
           ) : (
             <div className={`flex h-10 w-10 items-center justify-center rounded-full ${bgColor} text-sm font-bold text-white`}>
               {initials}
