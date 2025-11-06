@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Github, Star, Users } from 'lucide-react'
+import { Github, Star, Users, Send } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
+import SubmitModal from '@/components/SubmitModal'
+import Toast from '@/components/Toast'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 // Flatten all resources from all categories with metadata
@@ -131,6 +133,12 @@ export default function Home() {
   const [sortBy, setSortBy] = useState('popular')
   const observerTarget = useRef(null)
   const [isDark, setIsDark] = useState(false)
+  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
+  const [toast, setToast] = useState(null)
+
+  const showToast = (message, type = 'success') => {
+    setToast({ message, type })
+  }
 
   // Select a random color palette on mount
   const [colorPalette] = useState(() => {
@@ -235,7 +243,7 @@ export default function Home() {
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       <SEO />
       {/* Hero Section */}
-      <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800">
+      <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800/50">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
@@ -260,7 +268,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-5xl font-bold leading-tight tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl dark:from-white dark:via-gray-100 dark:to-white">
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-4xl font-bold leading-tight tracking-tight text-transparent md:leading-[1.2] md:text-7xl dark:from-white dark:via-gray-100 dark:to-white">
             Curated Design Resources
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-600 dark:text-gray-300">
@@ -272,19 +280,18 @@ export default function Home() {
               href="https://github.com/selfishprimate/curated-design-resources"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-8 py-4 font-semibold text-white shadow-lg shadow-gray-900/20 transition-all hover:scale-105 hover:bg-gray-800 hover:shadow-xl sm:w-auto dark:bg-white dark:text-gray-900 dark:shadow-white/20 dark:hover:bg-gray-100"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-6 py-4 font-semibold text-white shadow-lg shadow-gray-900/20 transition-all hover:scale-105 hover:bg-gray-800 hover:shadow-xl sm:w-auto dark:bg-white dark:text-gray-900 dark:shadow-white/20 dark:hover:bg-gray-100"
             >
               <Github className="h-5 w-5" />
               View on GitHub
             </a>
-            <a
-              href="https://github.com/selfishprimate/curated-design-resources/blob/master/CONTRIBUTING.md"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white/50 px-8 py-4 font-semibold text-gray-900 backdrop-blur-sm transition-all hover:scale-105 hover:bg-white sm:w-auto dark:border-gray-700 dark:bg-gray-900/50 dark:text-white dark:hover:bg-gray-900"
+            <button
+              onClick={() => setIsSubmitModalOpen(true)}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-200/60 bg-white px-5 py-4 font-semibold text-gray-900 shadow-sm shadow-gray-900/5 transition-all hover:scale-105 hover:border-gray-200/80 hover:shadow sm:w-auto dark:border-gray-700/40 dark:bg-gray-900/40 dark:text-white dark:backdrop-blur-sm dark:hover:border-gray-700/60 dark:hover:bg-gray-900/50"
             >
-              Contribute
-            </a>
+              <Send className="h-4 w-4" />
+              Submit a Resource
+            </button>
           </div>
 
           {/* GitHub Stats */}
@@ -356,13 +363,29 @@ export default function Home() {
 
         {/* Loading indicator / Observer target */}
         {displayedItems < allResources.length && (
-          <div ref={observerTarget} className="border-b border-r border-gray-200 p-8 text-center dark:border-gray-800">
+          <div ref={observerTarget} className="border-b border-r border-gray-200 p-8 text-center dark:border-gray-800/50">
             <div className="text-sm text-gray-500 dark:text-gray-400">
               {isLoading ? 'Loading more...' : 'Scroll to load more'}
             </div>
           </div>
         )}
       </section>
+
+      {/* Submit Modal */}
+      <SubmitModal
+        isOpen={isSubmitModalOpen}
+        onClose={() => setIsSubmitModalOpen(false)}
+        onShowToast={showToast}
+      />
+
+      {/* Toast Notification */}
+      {toast && (
+        <Toast
+          message={toast.message}
+          type={toast.type}
+          onClose={() => setToast(null)}
+        />
+      )}
     </div>
   )
 }

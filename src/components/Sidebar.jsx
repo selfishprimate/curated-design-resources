@@ -47,7 +47,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
       {/* Sidebar */}
       <aside className={`fixed z-50 w-64 transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 ${
         isOpen ? 'left-0 translate-x-0 border-r' : 'left-0 -translate-x-full'
-      } top-16 h-[calc(100vh-4rem)] border-gray-200 dark:border-gray-800 sm:top-20 sm:h-[calc(100vh-5rem)] lg:translate-x-0 lg:border-r`}>
+      } top-16 h-[calc(100vh-4rem)] border-gray-200 dark:border-gray-800/50 sm:top-20 sm:h-[calc(100vh-5rem)] lg:translate-x-0 lg:border-r`}>
         {/* Close button - mobile only */}
         <button
           onClick={onClose}
@@ -87,7 +87,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         </nav>
 
         {/* Action Links - Mobile only */}
-        <div className="border-t border-gray-200 p-4 lg:hidden dark:border-gray-800">
+        <div className="border-t border-gray-200 p-4 lg:hidden dark:border-gray-800/50">
           <div className="space-y-1">
             <button
               onClick={() => {
@@ -110,7 +110,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         </div>
 
         {/* Footer Content - Mobile only */}
-        <div className="mt-auto border-t border-gray-200 px-4 py-6 lg:hidden dark:border-gray-800">
+        <div className="mt-auto border-t border-gray-200 px-4 py-6 lg:hidden dark:border-gray-800/50">
           <div className="space-y-4">
             {/* Made by text */}
             <div className="px-3 text-left text-xs text-gray-600 dark:text-gray-400">

@@ -2,7 +2,7 @@ import { Github, Linkedin, Instagram } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 z-40 hidden border-t border-gray-200 bg-white lg:block dark:border-gray-800 dark:bg-gray-950">
+    <footer className="sticky bottom-0 z-40 hidden border-t border-gray-200 bg-white lg:block dark:border-gray-800/50 dark:bg-gray-950">
       <div className="px-8 py-4">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="text-sm text-gray-600 dark:text-gray-400">

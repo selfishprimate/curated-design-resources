@@ -134,7 +134,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.category}
               onChange={handleChange}
               required
-              className="w-full appearance-none rounded-lg border border-gray-300 bg-white px-3 py-2 pr-10 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:focus:border-blue-400"
+              className="w-full appearance-none rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 pr-10 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:focus:border-blue-400"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`,
                 backgroundPosition: 'right 0.75rem center',
@@ -162,7 +162,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               onChange={handleChange}
               required
               placeholder="e.g., Figma"
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 
@@ -179,7 +179,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               onChange={handleChange}
               required
               placeholder="https://example.com"
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 
@@ -196,12 +196,12 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               required
               rows={3}
               placeholder="Brief description of the resource..."
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 
           {/* Divider */}
-          <div className="border-t border-gray-200 dark:border-gray-800" />
+          <div className="border-t border-gray-200 dark:border-gray-800/50" />
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Optional: Help us credit you for this submission
           </p>
@@ -218,7 +218,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.submitterName}
               onChange={handleChange}
               placeholder="John Doe"
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 
@@ -234,7 +234,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.submitterEmail}
               onChange={handleChange}
               placeholder="john@example.com"
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 
@@ -250,7 +250,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.submitterGithub}
               onChange={handleChange}
               placeholder="johndoe"
-              className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
             />
           </div>
 

@@ -55,7 +55,7 @@ export default function Category() {
         url={`${seoConfig.siteUrl}/category/${category.id}`}
       />
       {/* Header */}
-      <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800">
+      <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800/50">
         <Link
           to="/"
           className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
@@ -85,7 +85,7 @@ export default function Category() {
       {/* Resources */}
       <div>
         {category.resources.length === 0 ? (
-          <div className="border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800 dark:bg-gray-900/50">
+          <div className="border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800/50 dark:bg-gray-900/50">
             <p className="text-gray-600 dark:text-gray-400">
               No resources available yet. Check back soon!
             </p>

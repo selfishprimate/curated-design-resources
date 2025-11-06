@@ -52,7 +52,7 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
   }
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-sm dark:border-white/10 dark:bg-gray-950/80">
+    <header className="fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800/50 dark:bg-gray-950/80">
       <div className="mx-auto flex h-16 items-center justify-between px-6 sm:h-20">
         {/* Logo */}
         <Link to="/" className="flex min-w-0 items-center gap-2 font-semibold text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
