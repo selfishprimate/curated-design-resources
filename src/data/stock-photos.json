@@ -8,37 +8,37 @@
       "title": "Burst",
       "link": "https://burst.shopify.com/",
       "description": "Free stock photos for websites and commercial use.",
-      "globalIndex": 235
+      "globalIndex": 236
     },
     {
       "title": "Generated Photos",
       "link": "https://generated.photos/",
       "description": "Unique, worry-free model photos.",
-      "globalIndex": 236
+      "globalIndex": 237
     },
     {
       "title": "Lorem Picsum",
       "link": "https://picsum.photos/",
       "description": "The Lorem Ipsum for photos.",
-      "globalIndex": 237
+      "globalIndex": 238
     },
     {
       "title": "Pexels",
       "link": "https://www.pexels.com/",
       "description": "The best free stock photos & videos shared by talented creators.",
-      "globalIndex": 238
+      "globalIndex": 239
     },
     {
       "title": "Unsplash",
       "link": "https://unsplash.com/",
       "description": "Photos for everyone.",
-      "globalIndex": 239
+      "globalIndex": 240
     },
     {
       "title": "UserStock",
       "link": "https://userstock.io/",
       "description": "Free photos of people's faces to use as avatars in UI mockups, prototypes and more.",
-      "globalIndex": 240
+      "globalIndex": 241
     }
   ]
 }
