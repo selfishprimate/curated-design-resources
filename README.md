@@ -57,6 +57,7 @@ _The best AI tools for designers, developers, and creators!_
 - [Google Gemini](https://gemini.google.com/): Google's most capable AI model for text, code, image, and more. Multimodal AI assistant. *Google*
 - [Anthropic Claude](https://www.anthropic.com/claude): Constitutional AI designed to be helpful, harmless, and honest. *Anthropic*
 - [Hugging Face](https://huggingface.co/): The AI community building the future. Access thousands of AI models, datasets, and apps. *Hugging Face*
+- [Ideogram](https://ideogram.ai/) - Ideogram is a free-to-use AI tool that turns your ideas into stunning images, in a matter of seconds.
 
 ## Articles
 
