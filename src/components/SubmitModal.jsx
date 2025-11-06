@@ -88,7 +88,71 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
   if (!isOpen) return null
 
   return createPortal(
-    <div className="fixed inset-0 z-[60] overflow-y-auto bg-white/85 backdrop-blur-md dark:bg-gray-950/85">
+    <>
+      <style>{`
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        textarea:-webkit-autofill,
+        textarea:-webkit-autofill:hover,
+        textarea:-webkit-autofill:focus {
+          -webkit-box-shadow: 0 0 0 0 transparent inset, 0 0 0px 1000px rgb(243, 244, 246) inset !important;
+          box-shadow: 0 0 0 0 transparent inset, 0 0 0px 1000px rgb(243, 244, 246) inset !important;
+          -webkit-text-fill-color: rgb(17 24 39) !important;
+          caret-color: rgb(17 24 39) !important;
+          border-radius: 0.5rem !important;
+          background-clip: padding-box !important;
+        }
+
+        .dark input:-webkit-autofill,
+        .dark input:-webkit-autofill:hover,
+        .dark input:-webkit-autofill:focus,
+        .dark textarea:-webkit-autofill,
+        .dark textarea:-webkit-autofill:hover,
+        .dark textarea:-webkit-autofill:focus {
+          -webkit-box-shadow: 0 0 0 0 transparent inset, 0 0 0px 1000px rgb(17, 24, 39) inset !important;
+          box-shadow: 0 0 0 0 transparent inset, 0 0 0px 1000px rgb(17, 24, 39) inset !important;
+          -webkit-text-fill-color: rgb(255 255 255) !important;
+          caret-color: rgb(255 255 255) !important;
+          border-radius: 0.5rem !important;
+          background-clip: padding-box !important;
+        }
+
+        select:-webkit-autofill,
+        select:-webkit-autofill:hover,
+        select:-webkit-autofill:focus {
+          -webkit-box-shadow: 0 0 0px 1000px rgb(243, 244, 246) inset !important;
+          box-shadow: 0 0 0px 1000px rgb(243, 244, 246) inset !important;
+          -webkit-text-fill-color: rgb(17 24 39) !important;
+          border-radius: 0.5rem !important;
+        }
+
+        .dark select:-webkit-autofill,
+        .dark select:-webkit-autofill:hover,
+        .dark select:-webkit-autofill:focus {
+          -webkit-box-shadow: 0 0 0px 1000px rgb(17, 24, 39) inset !important;
+          box-shadow: 0 0 0px 1000px rgb(17, 24, 39) inset !important;
+          -webkit-text-fill-color: rgb(255 255 255) !important;
+          border-radius: 0.5rem !important;
+        }
+
+        /* Selection colors for light mode */
+        input::selection,
+        textarea::selection,
+        select::selection {
+          background-color: rgb(59, 130, 246, 0.3);
+          color: rgb(17 24 39);
+        }
+
+        /* Selection colors for dark mode */
+        .dark input::selection,
+        .dark textarea::selection,
+        .dark select::selection {
+          background-color: rgb(96, 165, 250, 0.3);
+          color: rgb(255 255 255);
+        }
+      `}</style>
+      <div className="fixed inset-0 z-[60] overflow-y-auto bg-white/85 backdrop-blur-md dark:bg-gray-950/85">
       {/* Close button - top right corner - sticky */}
       <button
         onClick={onClose}
@@ -124,9 +188,12 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
           )}
 
           {/* Category */}
-          <div>
-            <label htmlFor="category" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
-              Category <span className="text-red-500">*</span>
+          <div className="relative">
+            <label
+              htmlFor="category"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
+              Category *
             </label>
             <select
               id="category"
@@ -134,7 +201,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.category}
               onChange={handleChange}
               required
-              className="w-full appearance-none rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 pr-10 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:focus:border-blue-400"
+              className="w-full appearance-none rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 pr-10 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`,
                 backgroundPosition: 'right 0.75rem center',
@@ -143,16 +210,21 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               }}
             >
               <option value="">Select a category</option>
-              {categories.map(cat => (
-                <option key={cat.id} value={cat.id}>{cat.title}</option>
+              {categories.map((cat) => (
+                <option key={cat.id} value={cat.id}>
+                  {cat.title}
+                </option>
               ))}
             </select>
           </div>
 
           {/* Resource Name */}
-          <div>
-            <label htmlFor="resourceName" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
-              Resource Name <span className="text-red-500">*</span>
+          <div className="relative">
+            <label
+              htmlFor="resourceName"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
+              Resource Name *
             </label>
             <input
               type="text"
@@ -161,15 +233,17 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.resourceName}
               onChange={handleChange}
               required
-              placeholder="e.g., Figma"
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
           {/* Resource URL */}
-          <div>
-            <label htmlFor="resourceUrl" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
-              Resource URL <span className="text-red-500">*</span>
+          <div className="relative">
+            <label
+              htmlFor="resourceUrl"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
+              Resource URL *
             </label>
             <input
               type="url"
@@ -178,15 +252,17 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.resourceUrl}
               onChange={handleChange}
               required
-              placeholder="https://example.com"
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
           {/* Description */}
-          <div>
-            <label htmlFor="description" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
-              Description <span className="text-red-500">*</span>
+          <div className="relative">
+            <label
+              htmlFor="description"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
+              Description *
             </label>
             <textarea
               id="description"
@@ -195,8 +271,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               onChange={handleChange}
               required
               rows={3}
-              placeholder="Brief description of the resource..."
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -207,8 +282,11 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
           </p>
 
           {/* Submitter Name */}
-          <div>
-            <label htmlFor="submitterName" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
+          <div className="relative">
+            <label
+              htmlFor="submitterName"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
               Your Name
             </label>
             <input
@@ -217,14 +295,16 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterName"
               value={formData.submitterName}
               onChange={handleChange}
-              placeholder="John Doe"
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
           {/* Submitter Email */}
-          <div>
-            <label htmlFor="submitterEmail" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
+          <div className="relative">
+            <label
+              htmlFor="submitterEmail"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
               Email
             </label>
             <input
@@ -233,14 +313,16 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterEmail"
               value={formData.submitterEmail}
               onChange={handleChange}
-              placeholder="john@example.com"
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
           {/* Submitter GitHub */}
-          <div>
-            <label htmlFor="submitterGithub" className="block text-sm font-medium text-gray-900 mb-2 dark:text-white">
+          <div className="relative">
+            <label
+              htmlFor="submitterGithub"
+              className="absolute left-3 top-2 text-xs font-medium text-gray-600 dark:text-gray-400"
+            >
               GitHub Username
             </label>
             <input
@@ -249,8 +331,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterGithub"
               value={formData.submitterGithub}
               onChange={handleChange}
-              placeholder="johndoe"
-              className="w-full rounded-lg border border-gray-200/60 bg-white/40 backdrop-blur-sm px-3 py-2 text-gray-900 transition-colors focus:border-blue-600 focus:outline-none dark:border-gray-700/40 dark:bg-gray-900/40 dark:backdrop-blur-sm dark:text-white dark:placeholder-gray-500 dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -259,21 +340,22 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
             <button
               type="button"
               onClick={onClose}
-              className="flex-1 rounded-lg border border-gray-300 px-4 py-2.5 font-medium text-gray-700 transition-colors hover:bg-gray-50 focus:border-blue-600 focus:outline-none dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:focus:border-blue-400"
+              className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-3 font-medium text-gray-700 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800"
             >
               Cancel
             </button>
             <button
               type="submit"
               disabled={!isFormValid || isSubmitting}
-              className="flex-1 rounded-lg border-2 border-blue-600 bg-blue-600 px-4 py-2.5 font-medium text-white transition-colors hover:bg-blue-700 hover:border-blue-700 focus:border-blue-800 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed dark:border-blue-500 dark:bg-blue-500 dark:hover:bg-blue-600 dark:hover:border-blue-600 dark:focus:border-blue-300"
+              className="flex-1 rounded-lg bg-blue-600 px-4 py-3 font-medium text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-blue-500 dark:hover:bg-blue-600"
             >
               {isSubmitting ? 'Submitting...' : 'Submit Resource'}
             </button>
           </div>
         </form>
       </div>
-    </div>,
+    </div>
+    </>,
     document.body
   )
 }

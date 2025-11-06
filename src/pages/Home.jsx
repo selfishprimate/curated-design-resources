@@ -287,7 +287,7 @@ export default function Home() {
             </a>
             <button
               onClick={() => setIsSubmitModalOpen(true)}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-200/60 bg-white px-5 py-4 font-semibold text-gray-900 shadow-sm shadow-gray-900/5 transition-all hover:scale-105 hover:border-gray-200/80 hover:shadow sm:w-auto dark:border-gray-700/40 dark:bg-gray-900/40 dark:text-white dark:backdrop-blur-sm dark:hover:border-gray-700/60 dark:hover:bg-gray-900/50"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-200/60 bg-white px-6 py-4 font-semibold text-gray-900 shadow-sm shadow-gray-900/5 transition-all hover:scale-105 hover:border-gray-200/80 hover:shadow sm:w-auto dark:border-gray-700/40 dark:bg-gray-900/40 dark:text-white dark:backdrop-blur-sm dark:hover:border-gray-700/60 dark:hover:bg-gray-900/50"
             >
               <Send className="h-4 w-4" />
               Submit a Resource
