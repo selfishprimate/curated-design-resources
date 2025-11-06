@@ -31,16 +31,7 @@ function App() {
       <div className="min-h-screen bg-white dark:bg-gray-950">
         <Header onShowToast={showToast} onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
-        {/* Floating Hamburger Menu - Mobile only, positioned over hero section */}
-        <button
-          onClick={toggleSidebar}
-          className="fixed left-6 top-20 z-50 rounded-lg bg-white/90 p-3 text-gray-700 shadow-lg backdrop-blur-sm transition-colors hover:bg-white lg:hidden dark:bg-gray-900/90 dark:text-gray-300 dark:hover:bg-gray-900"
-          aria-label="Toggle menu"
-        >
-          <Menu className="h-6 w-6" />
-        </button>
-
-        <div className="flex pt-16">
+        <div className="flex pt-16 sm:pt-20">
           <Sidebar
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}

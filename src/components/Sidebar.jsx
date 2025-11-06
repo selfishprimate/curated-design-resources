@@ -45,9 +45,9 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
       )}
 
       {/* Sidebar */}
-      <aside className={`fixed left-0 top-16 z-50 h-[calc(100vh-4rem)] w-64 transform border-r border-gray-200 bg-white overflow-y-auto transition-transform duration-300 dark:border-gray-800 dark:bg-gray-950 ${
-        isOpen ? 'translate-x-0' : '-translate-x-full'
-      } lg:translate-x-0`}>
+      <aside className={`fixed z-50 w-64 transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 ${
+        isOpen ? 'left-0 translate-x-0 border-r' : 'left-0 -translate-x-full'
+      } top-16 h-[calc(100vh-4rem)] border-gray-200 dark:border-gray-800 sm:top-20 sm:h-[calc(100vh-5rem)] lg:translate-x-0 lg:border-r`}>
         {/* Close button - mobile only */}
         <button
           onClick={onClose}
@@ -70,6 +70,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
               <li key={category.id}>
                 <Link
                   to={`/category/${category.id}`}
+                  onClick={onClose}
                   className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
                     isActive
                       ? 'bg-primary-500 text-white'

@@ -53,10 +53,10 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur-sm dark:border-white/10 dark:bg-gray-950/80">
-      <div className="mx-auto flex h-16 items-center justify-between px-6">
+      <div className="mx-auto flex h-16 items-center justify-between px-6 sm:h-20">
         {/* Logo */}
         <Link to="/" className="flex min-w-0 items-center gap-2 font-semibold text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <div className="flex-shrink-0">
+          <div className="hidden flex-shrink-0 sm:block">
             <LogoMark />
           </div>
           <div className="truncate text-base sm:text-lg">
@@ -109,6 +109,15 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
           >
             <Github className="h-5 w-5" />
           </a>
+
+          {/* Hamburger Menu - Mobile only */}
+          <button
+            onClick={onToggleSidebar}
+            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:hidden dark:text-gray-300 dark:hover:bg-gray-800"
+            aria-label="Toggle menu"
+          >
+            <Menu className="h-5 w-5" />
+          </button>
         </div>
       </div>
     </header>

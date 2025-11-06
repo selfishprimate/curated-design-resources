@@ -260,7 +260,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-7xl font-bold leading-tight tracking-tight text-transparent dark:from-white dark:via-gray-100 dark:to-white">
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-5xl font-bold leading-tight tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl dark:from-white dark:via-gray-100 dark:to-white">
             Curated Design Resources
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-600 dark:text-gray-300">
@@ -291,7 +291,7 @@ export default function Home() {
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
             {/* Contributors */}
             {githubStats.contributors.length > 0 && (
-              <div className="flex items-center gap-3">
+              <div className="flex flex-col items-center gap-3 sm:flex-row">
                 <div className="flex -space-x-4">
                   {githubStats.contributors.map((contributor) => (
                     <a
