@@ -275,7 +275,7 @@ export default function Home() {
           </div>
 
           {/* GitHub Stats */}
-          <div className="mt-10 flex flex-col items-center gap-3">
+          <div className="mt-10 flex flex-col items-center gap-4">
             {/* People Avatars (Contributors & Stargazers) */}
             {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
               <>
