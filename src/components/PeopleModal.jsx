@@ -59,7 +59,7 @@ export default function PeopleModal({ isOpen, onClose, people }) {
           {/* Contributors Section */}
           {contributors.length > 0 && (
             <div className="mb-8">
-              <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
                 Contributors ({contributors.length})
               </h3>
               <div className="flex flex-wrap gap-3">
@@ -86,7 +86,7 @@ export default function PeopleModal({ isOpen, onClose, people }) {
           {/* Stargazers Section */}
           {stargazers.length > 0 && (
             <div>
-              <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
                 Stargazers ({stargazers.length})
               </h3>
               <div className="flex flex-wrap gap-3">
