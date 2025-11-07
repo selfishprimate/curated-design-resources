@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
-import seoConfig from '@/config/seo'
+import seoConfig from '../../seo-config'
 
 export default function SEO({
   title,

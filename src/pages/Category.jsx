@@ -5,7 +5,7 @@ import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
-import seoConfig from '@/config/seo'
+import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 export default function Category() {

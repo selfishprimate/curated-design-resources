@@ -6,7 +6,7 @@ import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
 import SubmitModal from '@/components/SubmitModal'
 import Toast from '@/components/Toast'
-import seoConfig from '@/config/seo'
+import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 // Flatten all resources from all categories with metadata
