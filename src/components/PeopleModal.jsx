@@ -35,7 +35,7 @@ export default function PeopleModal({ isOpen, onClose, people }) {
       <div className="relative w-full max-w-3xl max-h-[80vh] overflow-hidden rounded-2xl bg-white shadow-2xl dark:bg-gray-900">
         {/* Header */}
         <div className="sticky top-0 z-10 bg-white px-6 py-4 dark:bg-gray-900">
-          <div className="flex items-center justify-between">
+          <div className="flex items-start justify-between">
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                 Supporters
