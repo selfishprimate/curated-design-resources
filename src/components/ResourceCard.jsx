@@ -48,8 +48,30 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const navigate = useNavigate()
   const [logoError, setLogoError] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
+  const [logoServiceIndex, setLogoServiceIndex] = useState(0)
   const initials = getInitials(resource.title)
   const bgColor = getColorFromString(resource.title)
+  const domain = getDomainFromUrl(resource.link)
+
+  // Multiple logo services as fallbacks (in case one is blocked by ad blockers)
+  const logoServices = [
+    `https://www.google.com/s2/favicons?domain=${domain}&sz=128`,
+    `https://icon.horse/icon/${domain}`,
+    `https://logo.clearbit.com/${domain}`
+  ]
+
+  const currentLogoUrl = logoServices[logoServiceIndex]
+
+  const handleLogoError = () => {
+    // Try next service if available
+    if (logoServiceIndex < logoServices.length - 1) {
+      setLogoServiceIndex(logoServiceIndex + 1)
+      setLogoLoaded(false)
+    } else {
+      // All services failed, show initials
+      setLogoError(true)
+    }
+  }
 
   const handleCategoryClick = (e) => {
     e.preventDefault()
@@ -70,11 +92,11 @@ export default function ResourceCard({ resource, showCategory = false }) {
           {!logoError ? (
             <>
               <img
-                src={`https://logo.clearbit.com/${getDomainFromUrl(resource.link)}`}
+                src={currentLogoUrl}
                 alt={`${resource.title} logo`}
                 className={`h-10 w-10 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
                 loading="lazy"
-                onError={() => setLogoError(true)}
+                onError={handleLogoError}
                 onLoad={() => setLogoLoaded(true)}
               />
               {!logoLoaded && (
