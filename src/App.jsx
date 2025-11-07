@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu } from 'lucide-react'
 import Header from '@/components/Header'
@@ -8,6 +8,13 @@ import Toast from '@/components/Toast'
 import SubmitModal from '@/components/SubmitModal'
 import Home from '@/pages/Home'
 import Category from '@/pages/Category'
+
+// Wrapper to read gradientType from URL params
+function HomeWithParams() {
+  const [searchParams] = useSearchParams()
+  const gradientType = searchParams.get('gradientType') || 'default'
+  return <Home gradientType={gradientType} />
+}
 
 function App() {
   const [toast, setToast] = useState(null)
@@ -40,7 +47,7 @@ function App() {
           <div className="ml-0 flex min-h-[calc(100vh-4rem)] flex-1 flex-col lg:ml-64">
             <main className="flex-1">
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<HomeWithParams />} />
                 <Route path="/:id" element={<Category />} />
               </Routes>
             </main>
