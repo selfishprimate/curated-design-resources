@@ -58,12 +58,13 @@ async function fetchGitHubData() {
         starred_at: item.starred_at,
         type: 'stargazer'
       }))
+      .sort((a, b) => new Date(b.starred_at) - new Date(a.starred_at)) // Sort by date, newest first
 
     // Combine and deduplicate (contributors take priority)
     const contributorIds = new Set(filteredContributors.map(c => c.id))
     const uniqueStargazers = filteredStargazers.filter(s => !contributorIds.has(s.id))
 
-    // Combine all people (contributors first, then stargazers)
+    // Combine all people (contributors first, then stargazers sorted by date)
     const allPeople = [...filteredContributors, ...uniqueStargazers]
 
     const githubStats = {
@@ -71,7 +72,7 @@ async function fetchGitHubData() {
       forks: repoData.forks_count,
       watchers: repoData.watchers_count,
       people: allPeople, // All contributors and stargazers
-      displayedPeople: allPeople.slice(0, 15), // First 15 for quick display
+      displayedPeople: allPeople.slice(0, 10), // First 10 for quick display
       totalPeople: allPeople.length,
       lastUpdated: new Date().toISOString()
     }

@@ -297,7 +297,7 @@ export default function Home() {
                     </a>
                   ))}
                   {/* Show more button */}
-                  {githubStats.totalPeople > 15 && (
+                  {githubStats.totalPeople > 10 && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
                       className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border-[4px] border-white/40 bg-gray-100 text-gray-600 transition-all hover:scale-110 hover:bg-gray-200 hover:z-10 dark:border-white/20 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
