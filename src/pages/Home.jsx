@@ -275,10 +275,10 @@ export default function Home() {
           </div>
 
           {/* GitHub Stats */}
-          <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
-            {/* People (Contributors & Stargazers) */}
+          <div className="mt-10 flex flex-col items-center gap-3">
+            {/* People Avatars (Contributors & Stargazers) */}
             {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
-              <div className="flex flex-col items-center gap-3 sm:flex-row">
+              <>
                 <div className="flex -space-x-4">
                   {githubStats.displayedPeople.map((person) => (
                     <a
@@ -307,22 +307,19 @@ export default function Home() {
                     </button>
                   )}
                 </div>
-                <div className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
-                  <Users className="h-4 w-4" />
-                  <span className="font-medium">{githubStats.totalPeople}+ people</span>
+                {/* Contributors and Stargazers Count */}
+                <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                  <div className="flex items-center gap-1">
+                    <Users className="h-4 w-4" />
+                    <span className="font-medium">{githubStats.totalContributors} Contributors</span>
+                  </div>
+                  <span className="text-gray-400 dark:text-gray-600">·</span>
+                  <div className="flex items-center gap-1">
+                    <Star className="h-4 w-4" />
+                    <span className="font-medium">{githubStats.totalStargazers} Stargazers</span>
+                  </div>
                 </div>
-              </div>
-            )}
-
-            {/* Stars */}
-            {githubStats.stars !== null && (
-              <div className="flex items-center gap-2 rounded-full bg-white/30 px-4 py-2 backdrop-blur-sm dark:bg-white/10">
-                <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                <span className="font-semibold text-gray-900 dark:text-white">
-                  {githubStats.stars.toLocaleString()}
-                </span>
-                <span className="text-sm text-gray-600 dark:text-gray-400">stars</span>
-              </div>
+              </>
             )}
           </div>
         </div>

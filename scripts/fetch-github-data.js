@@ -74,6 +74,8 @@ async function fetchGitHubData() {
       people: allPeople, // All contributors and stargazers
       displayedPeople: allPeople.slice(0, 10), // First 10 for quick display
       totalPeople: allPeople.length,
+      totalContributors: filteredContributors.length,
+      totalStargazers: uniqueStargazers.length,
       lastUpdated: new Date().toISOString()
     }
 
