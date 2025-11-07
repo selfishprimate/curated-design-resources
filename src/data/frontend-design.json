@@ -1,7 +1,7 @@
 {
   "id": "frontend-design",
   "title": "Frontend Design",
-  "description": "Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot.",
+  "description": "Essential frontend resources for designers who code. Explore CSS frameworks like Tailwind and Bootstrap, JavaScript libraries like React and Vue, development tools, and modern frontend resources. Perfect for designers building user interfaces with HTML, CSS, and JavaScript.",
   "icon": "Code",
   "resources": [
     {

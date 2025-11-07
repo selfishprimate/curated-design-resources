@@ -2,175 +2,175 @@
   {
     "id": "accessibility",
     "title": "Accessibility",
-    "description": "The best design resources for accessibility!",
+    "description": "Discover essential accessibility design tools and resources. Learn WCAG guidelines, test color contrast, and create inclusive designs that work for everyone. Make your digital products accessible with these curated accessibility tools.",
     "icon": "Eye",
     "resourceCount": 10
   },
   {
     "id": "ai",
     "title": "AI",
-    "description": "The best AI tools for designers, developers, and creators!",
+    "description": "Explore cutting-edge AI tools for designers and developers. From ChatGPT and Claude to Midjourney and DALL-E, discover AI-powered tools for image generation, copywriting, video creation, and creative work. Transform your design workflow with artificial intelligence.",
     "icon": "Sparkles",
     "resourceCount": 21
   },
   {
     "id": "articles",
     "title": "Articles",
-    "description": "The best articles about web design, mobile design, and user experience design!",
+    "description": "Read the best design articles and thought leadership content. Expert insights on UX/UI design, usability heuristics, design thinking, and industry best practices from Nielsen Norman Group, A List Apart, and other leading sources.",
     "icon": "FileText",
     "resourceCount": 12
   },
   {
     "id": "blogs",
     "title": "Blogs",
-    "description": "The best blog pages to learn UX design!",
+    "description": "Follow top design blogs and publications for daily inspiration. Get updates from Smashing Magazine, Nielsen Norman Group, UX Planet, and other leading design blogs. Stay current with design trends, tutorials, and professional insights.",
     "icon": "Rss",
     "resourceCount": 15
   },
   {
     "id": "books",
     "title": "Books",
-    "description": "The holy bibles of user experience design!",
+    "description": "Essential design books every designer should read. Curated collection of influential books on UX design, UI design, typography, color theory, and design thinking. Learn from classics like \"Don't Make Me Think\" and \"The Design of Everyday Things\".",
     "icon": "Book",
     "resourceCount": 7
   },
   {
     "id": "color",
     "title": "Color",
-    "description": "The best tools for creating color schemes for your designs!",
+    "description": "Find the perfect color palette for your design projects. Explore color generators, palette tools, gradient makers, and accessibility checkers. Create beautiful color schemes with tools like Coolors, Adobe Color, Color Hunt, and more.",
     "icon": "Palette",
     "resourceCount": 25
   },
   {
     "id": "design-news",
     "title": "Design News",
-    "description": "Discover new products, follow the leaders' articles about design, and stay up to date!",
+    "description": "Stay updated with the latest design news and trends. Daily updates on design tools, industry news, new products, and design community highlights from Product Hunt, Designer News, and leading design teams at Airbnb, Google, and Microsoft.",
     "icon": "Newspaper",
     "resourceCount": 20
   },
   {
     "id": "design-systems",
     "title": "Design Systems",
-    "description": "The best design systems of the universe!",
+    "description": "Explore comprehensive design systems and component libraries from industry leaders. Learn from Material Design, iOS Human Interface Guidelines, Fluent, Carbon, and other world-class design systems. Build consistent products with reusable components.",
     "icon": "Grid",
     "resourceCount": 14
   },
   {
     "id": "figma-plugins",
     "title": "Figma Plugins",
-    "description": "The best Figma plugins ever!",
+    "description": "Boost your Figma workflow with essential plugins. Discover time-saving tools for icons, accessibility testing, color generation, image handling, and design automation. Enhance your Figma experience with plugins like Iconify, Unsplash, and Material Design Icons.",
     "icon": "Plug",
     "resourceCount": 11
   },
   {
     "id": "frontend-design",
     "title": "Frontend Design",
-    "description": "Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot.",
+    "description": "Essential frontend resources for designers who code. Explore CSS frameworks like Tailwind and Bootstrap, JavaScript libraries like React and Vue, development tools, and modern frontend resources. Perfect for designers building user interfaces with HTML, CSS, and JavaScript.",
     "icon": "Code",
     "resourceCount": 32
   },
   {
     "id": "graphic-design",
     "title": "Graphic Design",
-    "description": "The best graphic design resources!",
+    "description": "Professional graphic design resources and inspiration. Discover tools, templates, and inspiration for logo design, branding, print design, and visual communication. Explore galleries showcasing the work of talented graphic designers worldwide.",
     "icon": "PenTool",
     "resourceCount": 2
   },
   {
     "id": "icons",
     "title": "Icons",
-    "description": "The best resources for Iconography!",
+    "description": "Free and premium icon libraries for your projects. Thousands of icons in SVG, PNG, and icon fonts from Font Awesome, Feather, Material Icons, and more. Find the perfect icons for web and mobile applications.",
     "icon": "Sparkles",
     "resourceCount": 14
   },
   {
     "id": "inspiration",
     "title": "Inspiration",
-    "description": "Don't you have a new design idea? Well, steal one!",
+    "description": "Get inspired by the best design work from around the world. Browse award-winning websites on Awwwards, design galleries on Dribbble and Behance, and creative portfolios. Discover landing page designs, mobile UI patterns, and innovative web experiences.",
     "icon": "Lightbulb",
     "resourceCount": 24
   },
   {
     "id": "mockup",
     "title": "Mockup",
-    "description": "These mockup tools will help you make your design pieces way more bearable.",
+    "description": "Professional mockup templates for stunning presentations. Create realistic device mockups, branding mockups, and product presentations. Use tools like Angle, Cleanmock, and Shotsnap to showcase your designs professionally.",
     "icon": "Image",
     "resourceCount": 5
   },
   {
     "id": "productivity",
     "title": "Productivity",
-    "description": "Get productive with the best productivity apps.",
+    "description": "Productivity tools to streamline your design workflow. Collaborate better with Notion, Miro, and Slack. Automate tasks with Zapier and Bardeen. Boost efficiency with time management and collaboration tools designed for creative teams.",
     "icon": "Zap",
     "resourceCount": 8
   },
   {
     "id": "prototyping",
     "title": "Prototyping",
-    "description": "Prototyping is one of the most critical stages of creating user-centered products.",
+    "description": "Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, InVision, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing.",
     "icon": "Layers",
     "resourceCount": 16
   },
   {
     "id": "stock-photos",
     "title": "Stock Photos",
-    "description": "The best design resources for stock photos!",
+    "description": "Free and premium stock photos for commercial use. High-quality photography from Unsplash, Pexels, and more. Find royalty-free images for your design projects, websites, and marketing materials. Millions of photos available.",
     "icon": "Camera",
     "resourceCount": 6
   },
   {
     "id": "stock-videos",
     "title": "Stock Videos",
-    "description": "The best design resources for stock videos!",
+    "description": "Free and premium stock video footage for your projects. Download HD and 4K stock videos from Coverr, Mixkit, and other sources. Royalty-free video clips for commercial use in presentations, websites, and creative work.",
     "icon": "Video",
     "resourceCount": 2
   },
   {
     "id": "tutorials",
     "title": "Tutorials",
-    "description": "The best tutorial platforms for UI/UX design!",
+    "description": "Learn design with step-by-step tutorials and courses. Free design tutorials covering UI/UX design, Figma, web design, and best practices. Master design skills with resources from Checklist Design, Growth Design, and Webflow University.",
     "icon": "GraduationCap",
     "resourceCount": 3
   },
   {
     "id": "typography",
     "title": "Typography",
-    "description": "Typography is like the backbone of your design pieces. Here you can find the best tools to benefit typography!",
+    "description": "Beautiful fonts and typography resources for designers. Explore Google Fonts, discover font pairing tools, and learn typography best practices. Find the perfect typeface for your projects with curated font libraries and typography inspiration.",
     "icon": "Type",
     "resourceCount": 15
   },
   {
     "id": "ui-animation",
     "title": "UI Animation",
-    "description": "It's not rocket science to animate your UIs anymore!",
+    "description": "UI animation tools and motion design resources. Create smooth animations and micro-interactions with Animate.css, LottieFiles, and CSS animation libraries. Add life to your interfaces with beautiful, performant animations and transitions.",
     "icon": "Play",
     "resourceCount": 5
   },
   {
     "id": "ui-design",
     "title": "UI Design",
-    "description": "The back button is one click away, and you don’t often get a second chance!",
+    "description": "Best UI design tools and resources. Create beautiful user interfaces with Figma, Adobe XD, Sketch, and Framer. Access UI kits, design patterns, and component libraries. Essential tools for professional interface design and prototyping.",
     "icon": "Layout",
     "resourceCount": 7
   },
   {
     "id": "ux-design",
     "title": "UX Design",
-    "description": "\"The meanings of today may not be the meanings of the future.\" - Don Norman",
+    "description": "UX design tools and user research resources. Learn about user testing, journey mapping, wireframing, and creating user-centered designs. Essential resources for understanding user behavior and designing better experiences. Build products users love.",
     "icon": "Users",
     "resourceCount": 2
   },
   {
     "id": "wireframing",
     "title": "Wireframing",
-    "description": "The best design resources for wireframing!",
+    "description": "Wireframing tools for rapid prototyping. Create low-fidelity wireframes, sitemaps, and user flows to plan your projects. Use printable templates and digital tools to sketch ideas and communicate design concepts quickly and effectively.",
     "icon": "Box",
     "resourceCount": 4
   },
   {
     "id": "others",
     "title": "Others",
-    "description": "Some other design resources you may want to check out!",
+    "description": "More essential design resources and tools. Discover utilities for design collaboration, conversion tools, design education, analytics, and other helpful resources that enhance your design workflow. Everything you need to work smarter.",
     "icon": "MoreHorizontal",
     "resourceCount": 24
   }

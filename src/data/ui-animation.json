@@ -1,7 +1,7 @@
 {
   "id": "ui-animation",
   "title": "UI Animation",
-  "description": "It's not rocket science to animate your UIs anymore!",
+  "description": "UI animation tools and motion design resources. Create smooth animations and micro-interactions with Animate.css, LottieFiles, and CSS animation libraries. Add life to your interfaces with beautiful, performant animations and transitions.",
   "icon": "Play",
   "resources": [
     {
