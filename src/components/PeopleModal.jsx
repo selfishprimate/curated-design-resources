@@ -41,7 +41,7 @@ export default function PeopleModal({ isOpen, onClose, people }) {
                 Supporters
               </h2>
               <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                Amazing people who support this project by contributing code and showing their appreciation
+                These wonderful people help make this project better through code contributions and community support.
               </p>
             </div>
             <button
