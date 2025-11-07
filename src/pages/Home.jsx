@@ -302,11 +302,11 @@ export default function Home() {
                   {githubStats.totalPeople > 10 && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
-                      className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-gray-600 transition-all hover:bg-gray-100/50 dark:text-white dark:hover:bg-gray-800/50"
+                      className="flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white"
                       title="View all contributors and stargazers"
                       aria-label="View all contributors and stargazers"
                     >
-                      <span className="text-xl font-bold leading-none">...</span>
+                      <span className="text-xl font-bold" style={{ lineHeight: '1' }}>...</span>
                     </button>
                   )}
                 </div>
