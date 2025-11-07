@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 import seoConfig from '@/config/seo'
 
@@ -9,6 +10,8 @@ export default function SEO({
   url,
   type = 'website',
   noindex = false,
+  breadcrumbs = null,
+  structuredData = null,
 }) {
   const {
     siteName,
@@ -30,6 +33,59 @@ export default function SEO({
   const pageImage = image || defaultImage
   const pageUrl = url || siteUrl
   const fullImageUrl = pageImage.startsWith('http') ? pageImage : `${siteUrl}${pageImage}`
+
+  // Fallback: Manually update meta tags if Helmet fails
+  useEffect(() => {
+    // Update title
+    document.title = pageTitle
+
+    // Update or create meta description
+    let metaDescription = document.querySelector('meta[name="description"]')
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta')
+      metaDescription.name = 'description'
+      document.head.appendChild(metaDescription)
+    }
+    metaDescription.content = pageDescription
+
+    // Update or create meta keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]')
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta')
+      metaKeywords.name = 'keywords'
+      document.head.appendChild(metaKeywords)
+    }
+    metaKeywords.content = pageKeywords
+  }, [pageTitle, pageDescription, pageKeywords])
+
+  // Default structured data for website
+  const defaultStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: siteName,
+    url: siteUrl,
+    description: defaultDescription,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteUrl}/category/{category_id}`
+      },
+      'query-input': 'required name=category_id'
+    }
+  }
+
+  // Breadcrumb structured data
+  const breadcrumbStructuredData = breadcrumbs ? {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: `${siteUrl}${crumb.path}`
+    }))
+  } : null
 
   return (
     <Helmet>
@@ -60,6 +116,17 @@ export default function SEO({
 
       {/* Canonical URL */}
       <link rel="canonical" href={pageUrl} />
+
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData || defaultStructuredData)}
+      </script>
+
+      {breadcrumbStructuredData && (
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbStructuredData)}
+        </script>
+      )}
     </Helmet>
   )
 }

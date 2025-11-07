@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://curated-design-resources.netlify.app/sitemap.xml
+
+# Disallow admin/private areas (if any in future)
+# Disallow: /admin/
+
+# Crawl-delay (optional, helps prevent server overload)
+# Crawl-delay: 1

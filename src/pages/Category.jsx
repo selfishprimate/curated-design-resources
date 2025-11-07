@@ -47,12 +47,52 @@ export default function Category() {
     )
   }
 
+  // Breadcrumbs for structured data
+  const breadcrumbs = [
+    { name: 'Home', path: '/' },
+    { name: category.title, path: `/category/${category.id}` }
+  ]
+
+  // Structured data for collection page
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: category.title,
+    description: category.description,
+    url: `${seoConfig.siteUrl}/category/${category.id}`,
+    mainEntity: {
+      '@type': 'ItemList',
+      name: `${category.title} Resources`,
+      numberOfItems: category.resources.length,
+      itemListElement: category.resources.slice(0, 10).map((resource, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'WebPage',
+          name: resource.title,
+          description: resource.description,
+          url: resource.link
+        }
+      }))
+    }
+  }
+
+  // Use custom SEO description if available, otherwise fall back to generic template
+  const metaDescription = seoConfig.categoryDescriptions[category.id] ||
+    seoConfig.categoryPageDescription(category.title, category.description)
+
+  // Use custom keywords for this category
+  const metaKeywords = seoConfig.categoryKeywords[category.id] || seoConfig.defaultKeywords
+
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       <SEO
         title={seoConfig.categoryPageTitle(category.title)}
-        description={seoConfig.categoryPageDescription(category.title, category.description)}
+        description={metaDescription}
+        keywords={metaKeywords}
         url={`${seoConfig.siteUrl}/category/${category.id}`}
+        breadcrumbs={breadcrumbs}
+        structuredData={structuredData}
       />
       {/* Header */}
       <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800/50">

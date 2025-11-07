@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Category: accessibility -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/accessibility</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: ai -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/ai</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: articles -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/articles</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: blogs -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/blogs</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: books -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/books</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: color -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/color</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: design-news -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/design-news</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: design-systems -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/design-systems</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: figma-plugins -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/figma-plugins</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: frontend-design -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/frontend-design</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: graphic-design -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/graphic-design</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: icons -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/icons</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: inspiration -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/inspiration</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: mockup -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/mockup</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: productivity -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/productivity</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: prototyping -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/prototyping</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: stock-photos -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/stock-photos</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: stock-videos -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/stock-videos</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: tutorials -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/tutorials</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: typography -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/typography</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: ui-animation -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/ui-animation</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: ui-design -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/ui-design</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: ux-design -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/ux-design</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: wireframing -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/wireframing</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category: others -->
+  <url>
+    <loc>https://curated-design-resources.netlify.app/category/others</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

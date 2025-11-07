@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run watch-readme\" \"vite\" --names \"parser,vite\" --prefix-colors \"magenta,cyan\"",
-    "build": "vite build",
+    "build": "npm run parse-readme && npm run generate-sitemap && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "parse-readme": "node scripts/parse-readme.js",
-    "watch-readme": "nodemon --watch README.md --exec \"npm run parse-readme\""
+    "watch-readme": "nodemon --watch README.md --exec \"npm run parse-readme\"",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

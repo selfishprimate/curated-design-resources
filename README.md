@@ -2,11 +2,11 @@
 
 _The best design resources for everyone._
 
-> **🚀 Live Site:** [curated-design-resources.netlify.app](https://curated-design-resources.netlify.app/)
+> **🚀 Live Site:** [curated-design-resources.netlify.app](https://curated-design-resources.netlify.app)
 
 <p>
-  <a href="https://curated-design-resources.netlify.app/" target="_blank">
-    <img src="https://curated-design-resources.netlify.app/images/github-hero-image.jpeg">
+  <a href="https://curated-design-resources.netlify.app" target="_blank">
+    <img src="https://raw.githubusercontent.com/selfishprimate/curated-design-resources/master/public/github-image.jpg">
   </a>
 </p>
 

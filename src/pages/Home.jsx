@@ -6,6 +6,7 @@ import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
 import SubmitModal from '@/components/SubmitModal'
 import Toast from '@/components/Toast'
+import seoConfig from '@/config/seo'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
 
 // Flatten all resources from all categories with metadata
@@ -241,7 +242,12 @@ export default function Home() {
 
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
-      <SEO />
+      <SEO
+        title={seoConfig.defaultTitle}
+        description={seoConfig.defaultDescription}
+        keywords={seoConfig.defaultKeywords}
+        url={seoConfig.siteUrl}
+      />
       {/* Hero Section */}
       <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800/50">
         {/* Gradient Background */}
