@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
 
 // Extract domain from URL for logo API
@@ -45,10 +45,17 @@ const getColorFromString = (str) => {
 }
 
 export default function ResourceCard({ resource, showCategory = false }) {
+  const navigate = useNavigate()
   const [logoError, setLogoError] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
   const initials = getInitials(resource.title)
   const bgColor = getColorFromString(resource.title)
+
+  const handleCategoryClick = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    navigate(`/category/${resource.category.id}`)
+  }
 
   return (
     <a
@@ -96,13 +103,12 @@ export default function ResourceCard({ resource, showCategory = false }) {
         {/* Footer - Category */}
         {showCategory && resource.category && (
           <div className="mt-3">
-            <Link
-              to={`/category/${resource.category.id}`}
-              onClick={(e) => e.stopPropagation()}
-              className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            <span
+              onClick={handleCategoryClick}
+              className="cursor-pointer text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
             >
               {resource.category.title}
-            </Link>
+            </span>
           </div>
         )}
       </div>

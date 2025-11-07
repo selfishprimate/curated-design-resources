@@ -77,17 +77,16 @@ export default function Category() {
     }
   }
 
-  // Use custom SEO description if available, otherwise fall back to generic template
-  const metaDescription = seoConfig.categoryDescriptions[category.id] ||
-    seoConfig.categoryPageDescription(category.title, category.description)
-
-  // Use custom keywords for this category
-  const metaKeywords = seoConfig.categoryKeywords[category.id] || seoConfig.defaultKeywords
+  // Get SEO metadata for this category
+  const categoryMeta = seoConfig.categoryMetadata[category.id]
+  const metaTitle = `${category.title} - Curated Design Resources`
+  const metaDescription = categoryMeta?.description || category.description
+  const metaKeywords = categoryMeta?.keywords || seoConfig.defaultKeywords
 
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       <SEO
-        title={seoConfig.categoryPageTitle(category.title)}
+        title={metaTitle}
         description={metaDescription}
         keywords={metaKeywords}
         url={`${seoConfig.siteUrl}/category/${category.id}`}
