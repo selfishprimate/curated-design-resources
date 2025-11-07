@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Github, Star, Users, Send } from 'lucide-react'
+import { Github, Star, Send, GitBranch } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
@@ -313,7 +313,7 @@ export default function Home() {
                 {/* Contributors and Stargazers Count */}
                 <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
                   <div className="flex items-center gap-1">
-                    <Users className="h-4 w-4" />
+                    <GitBranch className="h-4 w-4" />
                     <span>{githubStats.totalContributors} Contributors</span>
                   </div>
                   <span>·</span>
