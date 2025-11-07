@@ -18,9 +18,9 @@ Please read the [contribution details](CONTRIBUTING.md) and feel free to contrib
 
 [Accessibility](#accessibility), [AI](#ai), [Articles](#articles), [Blogs](#blogs), [Books](#books), [Color](#color), [Design News](#design-news), [Design Systems](#design-systems), [Figma Plugins](#figma-plugins), [Frontend Design](#frontend-design), [Graphic Design](#graphic-design), [Icons](#icons), [Inspiration](#inspiration), [Mockup](#mockup), [Productivity](#productivity), [Prototyping](#prototyping), [Stock Photos](#stock-photos), [Stock Videos](#stock-videos), [Tutorials](#tutorials), [Typography](#typography), [UI Animation](#ui-animation), [UI Design](#ui-design), [UX Design](#ux-design), [Wireframing](#wireframing), [Others](#others)
 
-## Accessibility 
+## Accessibility
 
-_The best design resources for accessibility!_
+_Discover essential accessibility design tools and resources. Learn WCAG guidelines, test color contrast, and create inclusive designs that work for everyone. Make your digital products accessible with these curated accessibility tools._
 
 - [Accessibility Guide](https://usecontrast.com/guide): This short guide will help you achieve the accessibility standards outlined in the WCAG 2.0, specifically with foreground and background color when it comes to text.
 - [Blindness and Vision Impairment](https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment): Globally, at least 2.2 billion people have a near or distance vision impairment. In at least 1 billion...
@@ -35,7 +35,7 @@ _The best design resources for accessibility!_
 
 ## AI
 
-_The best AI tools for designers, developers, and creators!_
+_Explore cutting-edge AI tools for designers and developers. From ChatGPT and Claude to Midjourney and DALL-E, discover AI-powered tools for image generation, copywriting, video creation, and creative work. Transform your design workflow with artificial intelligence._
 
 - [ChatGPT](https://chat.openai.com/): ChatGPT is an AI-powered conversational assistant that can help with writing, coding, brainstorming, and more. *OpenAI*
 - [Claude](https://claude.ai/): Claude is an AI assistant by Anthropic that excels at complex reasoning, analysis, and creative tasks with a focus on safety and helpfulness. *Anthropic*
@@ -61,7 +61,7 @@ _The best AI tools for designers, developers, and creators!_
 
 ## Articles
 
-_The best articles about web design, mobile design, and user experience design!_
+_Read the best design articles and thought leadership content. Expert insights on UX/UI design, usability heuristics, design thinking, and industry best practices from Nielsen Norman Group, A List Apart, and other leading sources._
 
 - [8 Brilliant Examples Of Social Proof On The Web](https://www.crazyegg.com/blog/examples-social-proof-on-web/): Social proof is powerful stuff folks. And it’s everywhere you look on today’s social web.
 - [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/): Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
@@ -78,7 +78,7 @@ _The best articles about web design, mobile design, and user experience design!_
 
 ## Blogs
 
-_The best blog pages to learn UX design!_
+_Follow top design blogs and publications for daily inspiration. Get updates from Smashing Magazine, Nielsen Norman Group, UX Planet, and other leading design blogs. Stay current with design trends, tutorials, and professional insights._
 
 - [A List Apart](https://alistapart.com/): A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
 - [Brad Frost](https://bradfrost.com/): I create successful design systems and help others do the same.
@@ -98,7 +98,7 @@ _The best blog pages to learn UX design!_
 
 ## Books
 
-_The holy bibles of user experience design!_
+_Essential design books every designer should read. Curated collection of influential books on UX design, UI design, typography, color theory, and design thinking. Learn from classics like "Don't Make Me Think" and "The Design of Everyday Things"._
 
 - [100 Things Every Designer Needs to Know About People](https://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535): This book combines real science and research with practical examples to deliver a guide every designer needs.
 - [Don't Make Me Think: A Common Sense Approach to Web Usability](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515): Witty, commonsensical, and eminently practical, it’s one of the best-loved and most recommended books on the subject.
@@ -110,7 +110,7 @@ _The holy bibles of user experience design!_
 
 ## Color
 
-_The best tools for creating color schemes for your designs!_
+_Find the perfect color palette for your design projects. Explore color generators, palette tools, gradient makers, and accessibility checkers. Create beautiful color schemes with tools like Coolors, Adobe Color, Color Hunt, and more._
 
 - [Adobe Color](https://color.adobe.com/tr/create/color-wheel): Create beautiful color themes!
 - [BrandColors](https://brandcolors.net/): The biggest collection of official brand color codes around.
@@ -140,7 +140,7 @@ _The best tools for creating color schemes for your designs!_
 
 ## Design News
 
-_Discover new products, follow the leaders' articles about design, and stay up to date!_
+_Stay updated with the latest design news and trends. Daily updates on design tools, industry news, new products, and design community highlights from Product Hunt, Designer News, and leading design teams at Airbnb, Google, and Microsoft._
 
 - [AirBnb Design](https://airbnb.design/): Design influences everything we do at Airbnb.
 - [All Design Conferences](https://www.alldesignconferences.com/): This site is just a simple collection of all design and front-end conferences for the year.
@@ -165,7 +165,7 @@ _Discover new products, follow the leaders' articles about design, and stay up t
 
 ## Design Systems
 
-_The best design systems of the universe!_
+_Explore comprehensive design systems and component libraries from industry leaders. Learn from Material Design, iOS Human Interface Guidelines, Fluent, Carbon, and other world-class design systems. Build consistent products with reusable components._
 
 - [Atlassian](https://atlassian.design/): Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences.
 - [Evergreen](https://evergreen.segment.com/): Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.
@@ -184,7 +184,7 @@ _The best design systems of the universe!_
 
 ## Figma Plugins
 
-_The best Figma plugins ever!_
+_Boost your Figma workflow with essential plugins. Discover time-saving tools for icons, accessibility testing, color generation, image handling, and design automation. Enhance your Figma experience with plugins like Iconify, Unsplash, and Material Design Icons._
 
 - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker): Ensure your text is readable for users by adhering to WCAG (Web Content Accessibility Guidelines) standards.
 - [Color Blind](https://www.figma.com/community/plugin/733343906244951586/Color-Blind): Color Blind allows you to view your designs in the 8 different types of color vision deficiencies. 
@@ -200,7 +200,7 @@ _The best Figma plugins ever!_
 
 ## Frontend Design
 
-_Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and you create gorgeous user interfaces. If really so, you're going to love these tools a lot._
+_Essential frontend resources for designers who code. Explore CSS frameworks like Tailwind and Bootstrap, JavaScript libraries like React and Vue, development tools, and modern frontend resources. Perfect for designers building user interfaces with HTML, CSS, and JavaScript._
 
 - [Airtable](https://www.airtable.com): Accelerate work and unlock potential with powerful apps that connect your data, workflows and teams.
 - [AngularJS](https://angularjs.org/): AngularJS lets you extend HTML vocabulary for your application.
@@ -237,14 +237,14 @@ _Suppose you're a designer. You also love to write HTML, CSS, JavaScript, and yo
 
 ## Graphic Design
 
-_The best graphic design resources!_
+_Professional graphic design resources and inspiration. Discover tools, templates, and inspiration for logo design, branding, print design, and visual communication. Explore galleries showcasing the work of talented graphic designers worldwide._
 
 - [Women of Graphic Design](https://womenofgraphicdesign.org/): A project focused on exhibiting the contributions of women in graphic design and exploring issues of gender-equality in education provided by design institutions.
 - [InspirationGrid](https://theinspirationgrid.com/): Daily design inspiration for creatives.
 
 ## Icons
 
-_The best resources for Iconography!_
+_Free and premium icon libraries for your projects. Thousands of icons in SVG, PNG, and icon fonts from Font Awesome, Feather, Material Icons, and more. Find the perfect icons for web and mobile applications._
 
 - [Feather](https://feathericons.com/): Simply beautiful open source icons.
 - [Flaticon](https://www.flaticon.com/): Download free icons and stickers for your projects. Resources made by and for designers.
@@ -263,7 +263,7 @@ _The best resources for Iconography!_
 
 ## Inspiration
 
-_Don't you have a new design idea? Well, steal one!_
+_Get inspired by the best design work from around the world. Browse award-winning websites on Awwwards, design galleries on Dribbble and Behance, and creative portfolios. Discover landing page designs, mobile UI patterns, and innovative web experiences._
 
 - [Abduzeedo](https://abduzeedo.com/): Abduzeedo is a collective of individual writers sharing articles about design, photography, and UX.
 - [Awwwards](https://www.awwwards.com/): The awards of design, creativity and innovation on the internet.
@@ -292,7 +292,7 @@ _Don't you have a new design idea? Well, steal one!_
 
 ## Mockup
 
-_These mockup tools will help you make your design pieces way more bearable._
+_Professional mockup templates for stunning presentations. Create realistic device mockups, branding mockups, and product presentations. Use tools like Angle, Cleanmock, and Shotsnap to showcase your designs professionally._
 
 - [Angle](https://angle.sh/): 1900 Vector and 3D device mockups for Sketch, Figma and XD.
 - [Apple](https://developer.apple.com/app-store/marketing/guidelines/#section-products): Photoshop files of Apple products.
@@ -302,7 +302,7 @@ _These mockup tools will help you make your design pieces way more bearable._
 
 ## Productivity
 
-_Get productive with the best productivity apps._
+_Productivity tools to streamline your design workflow. Collaborate better with Notion, Miro, and Slack. Automate tasks with Zapier and Bardeen. Boost efficiency with time management and collaboration tools designed for creative teams._
 
 - [Bardeen](https://www.bardeen.ai/): Bardeen saves you time by automating repetitive tasks with a shortcut. It combines a powerful workflow builder, AI-based recommendations, and contextual automations.
 - [Miro](https://miro.com/): The online collaborative whiteboard platform to bring teams together, anytime, anywhere.
@@ -315,7 +315,7 @@ _Get productive with the best productivity apps._
 
 ## Prototyping
 
-_Prototyping is one of the most critical stages of creating user-centered products._
+_Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, InVision, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing._
 
 - [Balsamiq](https://balsamiq.com/): Life's too short for bad software!
 - [Flinto](https://www.flinto.com/): Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
@@ -336,7 +336,7 @@ _Prototyping is one of the most critical stages of creating user-centered produc
 
 ## Stock Photos
 
-_The best design resources for stock photos!_
+_Free and premium stock photos for commercial use. High-quality photography from Unsplash, Pexels, and more. Find royalty-free images for your design projects, websites, and marketing materials. Millions of photos available._
 
 - [Burst](https://burst.shopify.com/): Free stock photos for websites and commercial use.
 - [Generated Photos](https://generated.photos/): Unique, worry-free model photos.
@@ -347,14 +347,14 @@ _The best design resources for stock photos!_
 
 ## Stock Videos
 
-_The best design resources for stock videos!_
+_Free and premium stock video footage for your projects. Download HD and 4K stock videos from Coverr, Mixkit, and other sources. Royalty-free video clips for commercial use in presentations, websites, and creative work._
 
 - [Coverr](https://www.coverr.co/): Beautiful free stock video footage.
 - [Mixkit](https://mixkit.co/): Free assets for your next video project.
 
 ## Tutorials
 
-_The best tutorial platforms for UI/UX design!_
+_Learn design with step-by-step tutorials and courses. Free design tutorials covering UI/UX design, Figma, web design, and best practices. Master design skills with resources from Checklist Design, Growth Design, and Webflow University._
 
 - [Checklist Design](https://www.checklist.design/): A collection of the best design practices.
 - [Growth Design](https://growth.design/): Get product tips in a comic book format you’ll love to read.
@@ -362,7 +362,7 @@ _The best tutorial platforms for UI/UX design!_
 
 ## Typography
 
-_Typography is like the backbone of your design pieces. Here you can find the best tools to benefit typography!_
+_Beautiful fonts and typography resources for designers. Explore Google Fonts, discover font pairing tools, and learn typography best practices. Find the perfect typeface for your projects with curated font libraries and typography inspiration._
 
 - [Canva](https://www.canva.com/font-combinations/): This tool make typography easy.
 - [Font Squirrel](https://www.fontsquirrel.com/): Free fonts have met their match.
@@ -382,7 +382,7 @@ _Typography is like the backbone of your design pieces. Here you can find the be
 
 ## UI Animation
 
-_It's not rocket science to animate your UIs anymore!_
+_UI animation tools and motion design resources. Create smooth animations and micro-interactions with Animate.css, LottieFiles, and CSS animation libraries. Add life to your interfaces with beautiful, performant animations and transitions._
 
 - [Animate.css](https://animate.style/): Just-add-water CSS animations!
 - [Cubic Bezier](https://cubic-bezier.com/): A better tool for cubic-bezier() easing.
@@ -392,7 +392,7 @@ _It's not rocket science to animate your UIs anymore!_
 
 ## UI Design
 
-_The back button is one click away, and you don’t often get a second chance!_
+_Best UI design tools and resources. Create beautiful user interfaces with Figma, Adobe XD, Sketch, and Framer. Access UI kits, design patterns, and component libraries. Essential tools for professional interface design and prototyping._
 
 - [Adobe XD](https://www.adobe.com/products/xd.html): Lifelike in every sense. Create stunningly real UI/UX designs and stand out from the rest.
 - [Figma](https://www.figma.com/ui-design-tool/): The modern interface design tool.
@@ -404,14 +404,14 @@ _The back button is one click away, and you don’t often get a second chance!_
 
 ## UX Design
 
-_"The meanings of today may not be the meanings of the future." - Don Norman_
+_UX design tools and user research resources. Learn about user testing, journey mapping, wireframing, and creating user-centered designs. Essential resources for understanding user behavior and designing better experiences. Build products users love._
 
 - [Filters vs. Facets: Definitions](https://www.nngroup.com/articles/filters-vs-facets/): The terms “filters” and “faceted navigation” are often used interchangeably; although related, these concepts have important differences.
 - [Task Analysis: Support Users in Achieving Their Goals](https://www.nngroup.com/articles/task-analysis/): Task analysis is the systematic study of how users complete tasks to achieve their goals.
 
 ## Wireframing
 
-_The best design resources for wireframing!_
+_Wireframing tools for rapid prototyping. Create low-fidelity wireframes, sitemaps, and user flows to plan your projects. Use printable templates and digital tools to sketch ideas and communicate design concepts quickly and effectively._
 
 - [Sketchize](https://sketchize.com): The easiest way to turn your ideas into lovely sketches!
 - [Sketchsheets](https://sketchsheets.com/): Ready to print sketch sheet templates for UX designers.
@@ -420,7 +420,7 @@ _The best design resources for wireframing!_
 
 ## Others
 
-_Some other design resources you may want to check out!_
+_More essential design resources and tools. Discover utilities for design collaboration, conversion tools, design education, analytics, and other helpful resources that enhance your design workflow. Everything you need to work smarter._
 
 - [10015.io](https://10015.io/): 10015.io is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess.
 - [Adjust](https://www.adjust.com/): Adjust is the mobile marketing platform for marketers around the world wanting to grow their app.
