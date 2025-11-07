@@ -253,7 +253,7 @@ export default function Home() {
           <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-4xl font-bold leading-tight tracking-tight text-transparent md:leading-[1.2] md:text-7xl dark:from-white dark:via-gray-100 dark:to-white">
             Curated Design Resources
           </h1>
-          <p className="mx-auto mb-10 max-w-2xl text-xl leading-relaxed text-gray-600 dark:text-gray-300">
+          <p className="mx-auto mb-10 max-w-2xl text-xl leading-normal text-gray-600 dark:text-gray-300">
             A comprehensive collection of handpicked design tools, libraries, and resources
             for designers and developers.
           </p>

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ExternalLink } from 'lucide-react'
 
 // Extract domain from URL for logo API
 const getDomainFromUrl = (url) => {
@@ -133,11 +132,6 @@ export default function ResourceCard({ resource, showCategory = false }) {
             </span>
           </div>
         )}
-      </div>
-
-      {/* External Link Icon - Bottom Right */}
-      <div className="absolute bottom-4 right-4 opacity-0 transition-opacity group-hover:opacity-100">
-        <ExternalLink className="h-4 w-4 text-gray-400 dark:text-gray-500" />
       </div>
     </a>
   )
