@@ -222,7 +222,7 @@ export default function Home() {
         url={seoConfig.siteUrl}
       />
       {/* Hero Section */}
-      <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800/50">
+      <section className="relative overflow-hidden px-8 py-32">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
@@ -244,6 +244,9 @@ export default function Home() {
             />
           )
         })}
+
+        {/* Bottom Fade Mask */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-gray-950" />
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
@@ -339,8 +342,8 @@ export default function Home() {
       />
 
       {/* Resources Grid */}
-      <section className="flex-1">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+      <section className="flex-1 p-6">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}
@@ -352,7 +355,7 @@ export default function Home() {
 
         {/* Loading indicator / Observer target */}
         {displayedItems < allResources.length && (
-          <div ref={observerTarget} className="border-b border-r border-gray-200 p-8 text-center dark:border-gray-800/50">
+          <div ref={observerTarget} className="p-8 text-center">
             <div className="text-sm text-gray-500 dark:text-gray-400">
               {isLoading ? 'Loading more...' : 'Scroll to load more'}
             </div>

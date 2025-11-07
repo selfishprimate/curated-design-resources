@@ -15,8 +15,8 @@ export default function SortFilter({
   const currentLabel = SORT_OPTIONS.find(opt => opt.value === sortBy)?.label || 'Sort'
 
   return (
-    <section className="border-b border-gray-200 bg-gray-50 dark:border-gray-800/50 dark:bg-gray-900/50">
-      <div className="w-full px-4 py-6 sm:px-6 lg:px-8">
+    <section>
+      <div className="w-full px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           {/* Left: Resource count */}
           <div className="text-sm font-medium text-gray-700 dark:text-gray-300">

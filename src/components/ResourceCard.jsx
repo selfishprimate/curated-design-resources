@@ -84,7 +84,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
       href={resource.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative aspect-square border-b border-r border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800/50 dark:bg-gray-900/50 dark:hover:bg-gray-900"
+      className="group relative aspect-square rounded-3xl border border-gray-200 bg-gray-50 p-5 transition-colors hover:bg-gray-100 dark:border-gray-800/50 dark:bg-gray-900/50 dark:hover:bg-gray-900"
     >
       <div className="flex h-full flex-col">
         {/* Logo or Initials - Left aligned */}

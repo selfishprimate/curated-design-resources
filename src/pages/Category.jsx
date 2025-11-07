@@ -122,7 +122,7 @@ export default function Category() {
       )}
 
       {/* Resources */}
-      <div>
+      <div className="p-6">
         {category.resources.length === 0 ? (
           <div className="border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800/50 dark:bg-gray-900/50">
             <p className="text-gray-600 dark:text-gray-400">
@@ -130,7 +130,7 @@ export default function Category() {
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+          <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
             {sortedResources.map((resource, index) => (
               <ResourceCard
                 key={index}
