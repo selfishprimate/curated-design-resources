@@ -129,7 +129,7 @@ const generateGradientStyle = (color, index, isDark = false, position = 'center'
   }
 }
 
-export default function Home({ gradientType = 'default' }) {
+export default function Home() {
   const [displayedItems, setDisplayedItems] = useState(ITEMS_PER_PAGE)
   const [isLoading, setIsLoading] = useState(false)
   const githubStats = githubStatsData
@@ -139,9 +139,6 @@ export default function Home({ gradientType = 'default' }) {
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
   const [isPeopleModalOpen, setIsPeopleModalOpen] = useState(false)
   const [toast, setToast] = useState(null)
-  const [mousePosition, setMousePosition] = useState({ x: 50, y: 50 })
-  const heroRef = useRef(null)
-
   const showToast = (message, type = 'success') => {
     setToast({ message, type })
   }
@@ -161,32 +158,6 @@ export default function Home({ gradientType = 'default' }) {
       GRADIENT_POSITIONS[Math.floor(Math.random() * GRADIENT_POSITIONS.length)]
     ]
   })
-
-  // Mouse tracking for 'selen' gradient type
-  useEffect(() => {
-    if (gradientType !== 'selen') return
-
-    const handleMouseMove = (e) => {
-      if (!heroRef.current) return
-
-      const rect = heroRef.current.getBoundingClientRect()
-      const x = ((e.clientX - rect.left) / rect.width) * 100
-      const y = ((e.clientY - rect.top) / rect.height) * 100
-
-      setMousePosition({ x, y })
-    }
-
-    const hero = heroRef.current
-    if (hero) {
-      hero.addEventListener('mousemove', handleMouseMove)
-    }
-
-    return () => {
-      if (hero) {
-        hero.removeEventListener('mousemove', handleMouseMove)
-      }
-    }
-  }, [gradientType])
 
   // Detect dark mode
   useEffect(() => {
@@ -242,24 +213,6 @@ export default function Home({ gradientType = 'default' }) {
 
   const visibleResources = allResources.slice(0, displayedItems)
 
-  // Calculate gradient positions based on gradient type
-  const getGradientPositions = () => {
-    if (gradientType === 'selen') {
-      // For mouse-following gradients, create positions relative to mouse
-      const { x, y } = mousePosition
-      return [
-        `${x}% ${y}%`,
-        `${Math.max(0, Math.min(100, x - 20))}% ${Math.max(0, Math.min(100, y + 15))}%`,
-        `${Math.max(0, Math.min(100, x + 25))}% ${Math.max(0, Math.min(100, y - 10))}%`,
-        `${Math.max(0, Math.min(100, x - 15))}% ${Math.max(0, Math.min(100, y - 20))}%`
-      ]
-    }
-    // Default: use random static positions
-    return gradientPositions
-  }
-
-  const currentGradientPositions = getGradientPositions()
-
   return (
     <div className="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
       <SEO
@@ -269,11 +222,11 @@ export default function Home({ gradientType = 'default' }) {
         url={seoConfig.siteUrl}
       />
       {/* Hero Section */}
-      <section ref={heroRef} className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800/50">
+      <section className="relative overflow-hidden border-b border-gray-200 px-8 py-32 dark:border-gray-800/50">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
-        {/* Animated Gradients */}
+        {/* Animated Gradients - Multi-directional orbital movement */}
         {colorPalette.colors.map((color, index) => {
           const animationClasses = [
             'animate-gradient-orbit-1',
@@ -281,18 +234,12 @@ export default function Home({ gradientType = 'default' }) {
             'animate-gradient-orbit-3',
             'animate-gradient-orbit-4'
           ]
-
-          // Apply animation only for 'default' type, use smooth transition for 'selen'
-          const className = gradientType === 'default'
-            ? `absolute inset-0 ${animationClasses[index]}`
-            : 'absolute inset-0 transition-all duration-200 ease-out'
-
           return (
             <div
               key={index}
-              className={className}
+              className={`absolute inset-0 ${animationClasses[index]}`}
               style={{
-                backgroundImage: generateGradientStyle(color, index, isDark, currentGradientPositions[index])
+                backgroundImage: generateGradientStyle(color, index, isDark, gradientPositions[index])
               }}
             />
           )
