@@ -279,31 +279,34 @@ export default function Home() {
             {/* People Avatars (Contributors & Stargazers) */}
             {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
               <>
-                <div className="flex -space-x-4">
-                  {githubStats.displayedPeople.map((person) => (
-                    <a
-                      key={person.id}
-                      href={person.html_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="relative inline-block"
-                      title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
-                    >
-                      <img
-                        src={person.avatar_url}
-                        alt={person.login}
-                        className="h-12 w-12 rounded-full border-[4px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
-                      />
-                    </a>
-                  ))}
+                <div className="flex items-center gap-2">
+                  <div className="flex -space-x-4">
+                    {githubStats.displayedPeople.map((person) => (
+                      <a
+                        key={person.id}
+                        href={person.html_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative inline-block"
+                        title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
+                      >
+                        <img
+                          src={person.avatar_url}
+                          alt={person.login}
+                          className="h-12 w-12 rounded-full border-[4px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
+                        />
+                      </a>
+                    ))}
+                  </div>
                   {/* Show more button */}
                   {githubStats.totalPeople > 10 && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
-                      className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border-[4px] border-white/40 bg-gray-100 text-gray-600 transition-all hover:scale-110 hover:bg-gray-200 hover:z-10 dark:border-white/20 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+                      className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-gray-600 transition-all hover:scale-110 hover:bg-gray-100/50 dark:text-white dark:hover:bg-gray-800/50"
                       title="View all contributors and stargazers"
+                      aria-label="View all contributors and stargazers"
                     >
-                      <span className="text-lg font-bold">...</span>
+                      <span className="text-xl font-bold">...</span>
                     </button>
                   )}
                 </div>
@@ -313,7 +316,7 @@ export default function Home() {
                     <Users className="h-4 w-4" />
                     <span className="font-medium">{githubStats.totalContributors} Contributors</span>
                   </div>
-                  <span className="text-gray-400 dark:text-gray-600">·</span>
+                  <span>·</span>
                   <div className="flex items-center gap-1">
                     <Star className="h-4 w-4" />
                     <span className="font-medium">{githubStats.totalStargazers} Stargazers</span>
