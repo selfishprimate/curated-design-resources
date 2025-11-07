@@ -279,7 +279,7 @@ export default function Home() {
             {/* People Avatars (Contributors & Stargazers) */}
             {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
               <>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1">
                   <div className="flex -space-x-4">
                     {githubStats.displayedPeople.map((person) => (
                       <a
@@ -306,7 +306,7 @@ export default function Home() {
                       title="View all contributors and stargazers"
                       aria-label="View all contributors and stargazers"
                     >
-                      <MoreHorizontal className="h-5 w-5" />
+                      <MoreHorizontal className="h-6 w-6" />
                     </button>
                   )}
                 </div>
