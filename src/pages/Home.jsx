@@ -5,6 +5,7 @@ import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
 import SubmitModal from '@/components/SubmitModal'
+import PeopleModal from '@/components/PeopleModal'
 import Toast from '@/components/Toast'
 import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
@@ -136,6 +137,7 @@ export default function Home() {
   const observerTarget = useRef(null)
   const [isDark, setIsDark] = useState(false)
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
+  const [isPeopleModalOpen, setIsPeopleModalOpen] = useState(false)
   const [toast, setToast] = useState(null)
 
   const showToast = (message, type = 'success') => {
@@ -274,30 +276,40 @@ export default function Home() {
 
           {/* GitHub Stats */}
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:justify-center">
-            {/* Contributors */}
-            {githubStats.contributors.length > 0 && (
+            {/* People (Contributors & Stargazers) */}
+            {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
               <div className="flex flex-col items-center gap-3 sm:flex-row">
                 <div className="flex -space-x-4">
-                  {githubStats.contributors.map((contributor) => (
+                  {githubStats.displayedPeople.map((person) => (
                     <a
-                      key={contributor.id}
-                      href={contributor.html_url}
+                      key={person.id}
+                      href={person.html_url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="relative inline-block"
-                      title={contributor.login}
+                      title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                     >
                       <img
-                        src={contributor.avatar_url}
-                        alt={contributor.login}
+                        src={person.avatar_url}
+                        alt={person.login}
                         className="h-12 w-12 rounded-full border-[4px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
                       />
                     </a>
                   ))}
+                  {/* Show more button */}
+                  {githubStats.totalPeople > 15 && (
+                    <button
+                      onClick={() => setIsPeopleModalOpen(true)}
+                      className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border-[4px] border-white/40 bg-gray-100 text-gray-600 transition-all hover:scale-110 hover:bg-gray-200 hover:z-10 dark:border-white/20 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+                      title="View all contributors and stargazers"
+                    >
+                      <span className="text-lg font-bold">...</span>
+                    </button>
+                  )}
                 </div>
                 <div className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
                   <Users className="h-4 w-4" />
-                  <span className="font-medium">{githubStats.contributors.length}+ contributors</span>
+                  <span className="font-medium">{githubStats.totalPeople}+ people</span>
                 </div>
               </div>
             )}
@@ -354,6 +366,13 @@ export default function Home() {
         isOpen={isSubmitModalOpen}
         onClose={() => setIsSubmitModalOpen(false)}
         onShowToast={showToast}
+      />
+
+      {/* People Modal */}
+      <PeopleModal
+        isOpen={isPeopleModalOpen}
+        onClose={() => setIsPeopleModalOpen(false)}
+        people={githubStats.people || []}
       />
 
       {/* Toast Notification */}
