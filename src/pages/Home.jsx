@@ -8,6 +8,7 @@ import SubmitModal from '@/components/SubmitModal'
 import Toast from '@/components/Toast'
 import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
+import githubStatsData from '@/data/github-stats.json'
 
 // Flatten all resources from all categories with metadata
 const allResourcesRaw = categories.flatMap(category =>
@@ -130,7 +131,7 @@ const generateGradientStyle = (color, index, isDark = false, position = 'center'
 export default function Home() {
   const [displayedItems, setDisplayedItems] = useState(ITEMS_PER_PAGE)
   const [isLoading, setIsLoading] = useState(false)
-  const [githubStats, setGithubStats] = useState({ stars: null, contributors: [] })
+  const githubStats = githubStatsData
   const [sortBy, setSortBy] = useState('popular')
   const observerTarget = useRef(null)
   const [isDark, setIsDark] = useState(false)
@@ -177,35 +178,6 @@ export default function Home() {
 
   // Sort resources based on selected option
   const allResources = sortResources(allResourcesRaw, sortBy)
-
-  // Fetch GitHub stats
-  useEffect(() => {
-    const fetchGitHubStats = async () => {
-      try {
-        const [repoRes, contributorsRes] = await Promise.all([
-          fetch('https://api.github.com/repos/selfishprimate/curated-design-resources'),
-          fetch('https://api.github.com/repos/selfishprimate/curated-design-resources/contributors')
-        ])
-
-        const repoData = await repoRes.json()
-        const contributorsData = await contributorsRes.json()
-
-        // Filter out bot accounts and take max 8 contributors
-        const filteredContributors = contributorsData
-          .filter(contributor => contributor.type !== 'Bot' && !contributor.login.includes('[bot]'))
-          .slice(0, 8)
-
-        setGithubStats({
-          stars: repoData.stargazers_count,
-          contributors: filteredContributors
-        })
-      } catch (error) {
-        console.error('Failed to fetch GitHub stats:', error)
-      }
-    }
-
-    fetchGitHubStats()
-  }, [])
 
   const loadMore = useCallback(() => {
     if (displayedItems >= allResources.length) return
