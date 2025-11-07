@@ -57,7 +57,7 @@ let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 categoryFiles.forEach(categoryId => {
   sitemap += `  <!-- Category: ${categoryId} -->
   <url>
-    <loc>${siteUrl}/category/${categoryId}</loc>
+    <loc>${siteUrl}/${categoryId}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

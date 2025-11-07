@@ -65,11 +65,11 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         <ul className="space-y-1">
           {categories.map((category) => {
             const IconComponent = iconMap[category.icon]
-            const isActive = location.pathname === `/category/${category.id}`
+            const isActive = location.pathname === `/${category.id}`
             return (
               <li key={category.id}>
                 <Link
-                  to={`/category/${category.id}`}
+                  to={`/${category.id}`}
                   onClick={onClose}
                   className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
                     isActive

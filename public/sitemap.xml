@@ -10,7 +10,7 @@
 
   <!-- Category: accessibility -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/accessibility</loc>
+    <loc>https://curated-design-resources.netlify.app/accessibility</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Category: ai -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/ai</loc>
+    <loc>https://curated-design-resources.netlify.app/ai</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -26,7 +26,7 @@
 
   <!-- Category: articles -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/articles</loc>
+    <loc>https://curated-design-resources.netlify.app/articles</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -34,7 +34,7 @@
 
   <!-- Category: blogs -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/blogs</loc>
+    <loc>https://curated-design-resources.netlify.app/blogs</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -42,7 +42,7 @@
 
   <!-- Category: books -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/books</loc>
+    <loc>https://curated-design-resources.netlify.app/books</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -50,7 +50,7 @@
 
   <!-- Category: color -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/color</loc>
+    <loc>https://curated-design-resources.netlify.app/color</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -58,7 +58,7 @@
 
   <!-- Category: design-news -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/design-news</loc>
+    <loc>https://curated-design-resources.netlify.app/design-news</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -66,7 +66,7 @@
 
   <!-- Category: design-systems -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/design-systems</loc>
+    <loc>https://curated-design-resources.netlify.app/design-systems</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -74,7 +74,7 @@
 
   <!-- Category: figma-plugins -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/figma-plugins</loc>
+    <loc>https://curated-design-resources.netlify.app/figma-plugins</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -82,7 +82,7 @@
 
   <!-- Category: frontend-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/frontend-design</loc>
+    <loc>https://curated-design-resources.netlify.app/frontend-design</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -90,7 +90,7 @@
 
   <!-- Category: graphic-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/graphic-design</loc>
+    <loc>https://curated-design-resources.netlify.app/graphic-design</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -98,7 +98,7 @@
 
   <!-- Category: icons -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/icons</loc>
+    <loc>https://curated-design-resources.netlify.app/icons</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -106,7 +106,7 @@
 
   <!-- Category: inspiration -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/inspiration</loc>
+    <loc>https://curated-design-resources.netlify.app/inspiration</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -114,7 +114,7 @@
 
   <!-- Category: mockup -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/mockup</loc>
+    <loc>https://curated-design-resources.netlify.app/mockup</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -122,7 +122,7 @@
 
   <!-- Category: productivity -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/productivity</loc>
+    <loc>https://curated-design-resources.netlify.app/productivity</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -130,7 +130,7 @@
 
   <!-- Category: prototyping -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/prototyping</loc>
+    <loc>https://curated-design-resources.netlify.app/prototyping</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -138,7 +138,7 @@
 
   <!-- Category: stock-photos -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/stock-photos</loc>
+    <loc>https://curated-design-resources.netlify.app/stock-photos</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -146,7 +146,7 @@
 
   <!-- Category: stock-videos -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/stock-videos</loc>
+    <loc>https://curated-design-resources.netlify.app/stock-videos</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -154,7 +154,7 @@
 
   <!-- Category: tutorials -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/tutorials</loc>
+    <loc>https://curated-design-resources.netlify.app/tutorials</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -162,7 +162,7 @@
 
   <!-- Category: typography -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/typography</loc>
+    <loc>https://curated-design-resources.netlify.app/typography</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -170,7 +170,7 @@
 
   <!-- Category: ui-animation -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/ui-animation</loc>
+    <loc>https://curated-design-resources.netlify.app/ui-animation</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -178,7 +178,7 @@
 
   <!-- Category: ui-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/ui-design</loc>
+    <loc>https://curated-design-resources.netlify.app/ui-design</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -186,7 +186,7 @@
 
   <!-- Category: ux-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/ux-design</loc>
+    <loc>https://curated-design-resources.netlify.app/ux-design</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -194,7 +194,7 @@
 
   <!-- Category: wireframing -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/wireframing</loc>
+    <loc>https://curated-design-resources.netlify.app/wireframing</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -202,7 +202,7 @@
 
   <!-- Category: others -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/category/others</loc>
+    <loc>https://curated-design-resources.netlify.app/others</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

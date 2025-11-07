@@ -54,7 +54,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const handleCategoryClick = (e) => {
     e.preventDefault()
     e.stopPropagation()
-    navigate(`/category/${resource.category.id}`)
+    navigate(`/${resource.category.id}`)
   }
 
   return (
