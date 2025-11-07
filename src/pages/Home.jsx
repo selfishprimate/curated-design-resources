@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Github, Star, Send, GitBranch } from 'lucide-react'
+import { Github, Star, Send, GitBranch, MoreHorizontal } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
@@ -306,7 +306,7 @@ export default function Home() {
                       title="View all contributors and stargazers"
                       aria-label="View all contributors and stargazers"
                     >
-                      <span className="text-xl font-bold" style={{ lineHeight: '1' }}>...</span>
+                      <MoreHorizontal className="h-5 w-5" />
                     </button>
                   )}
                 </div>
