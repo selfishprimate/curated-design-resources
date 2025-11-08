@@ -159,10 +159,20 @@ export default function Home() {
     ]
   })
 
+  // Generate gradient styles once on mount and dark mode change
+  const [gradientStyles, setGradientStyles] = useState([])
+
   // Detect dark mode
   useEffect(() => {
     const checkDarkMode = () => {
-      setIsDark(document.documentElement.classList.contains('dark'))
+      const isDarkMode = document.documentElement.classList.contains('dark')
+      setIsDark(isDarkMode)
+
+      // Regenerate gradient styles only when dark mode changes
+      const newStyles = colorPalette.colors.map((color, index) =>
+        generateGradientStyle(color, index, isDarkMode, gradientPositions[index])
+      )
+      setGradientStyles(newStyles)
     }
 
     checkDarkMode()
@@ -175,7 +185,7 @@ export default function Home() {
     })
 
     return () => observer.disconnect()
-  }, [])
+  }, [colorPalette.colors, gradientPositions])
 
   // Sort resources based on selected option
   const allResources = sortResources(allResourcesRaw, sortBy)
@@ -224,10 +234,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden px-8 py-32">
         {/* Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
+        <div className="gradient-layer absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
         {/* Animated Gradients - Multi-directional orbital movement */}
-        {colorPalette.colors.map((color, index) => {
+        {gradientStyles.length > 0 && colorPalette.colors.map((color, index) => {
           const animationClasses = [
             'animate-gradient-orbit-1',
             'animate-gradient-orbit-2',
@@ -237,16 +247,16 @@ export default function Home() {
           return (
             <div
               key={index}
-              className={`absolute inset-0 ${animationClasses[index]}`}
+              className={`gradient-layer absolute inset-0 ${animationClasses[index]}`}
               style={{
-                backgroundImage: generateGradientStyle(color, index, isDark, gradientPositions[index])
+                backgroundImage: gradientStyles[index]
               }}
             />
           )
         })}
 
         {/* Bottom Fade Mask */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-gray-950" />
+        <div className="gradient-mask absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-gray-950" />
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
