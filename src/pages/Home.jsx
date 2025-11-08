@@ -232,7 +232,7 @@ export default function Home() {
         url={seoConfig.siteUrl}
       />
       {/* Hero Section */}
-      <section className="relative overflow-hidden px-8 py-32" style={{ contain: 'layout style', paddingBottom: '400px', marginBottom: '-250px' }}>
+      <section className="relative overflow-hidden px-8 py-32 pb-[200px] md:pb-[400px] md:-mb-[250px]" style={{ contain: 'layout style' }}>
         {/* Gradient Background */}
         <div className="gradient-layer absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
@@ -255,7 +255,7 @@ export default function Home() {
         )}
 
         {/* Bottom Fade Mask */}
-        <div className="gradient-mask absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-gray-950" />
+        <div className="gradient-mask absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-white to-transparent md:h-32 dark:from-gray-950" />
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
@@ -339,18 +339,20 @@ export default function Home() {
       </section>
 
       {/* Sort & Filter */}
-      <SortFilter
-        sortBy={sortBy}
-        onSortChange={(value) => {
-          setSortBy(value)
-          setDisplayedItems(ITEMS_PER_PAGE)
-        }}
-        totalCount={allResources.length}
-        displayedCount={Math.min(displayedItems, allResources.length)}
-      />
+      <div className="relative z-10">
+        <SortFilter
+          sortBy={sortBy}
+          onSortChange={(value) => {
+            setSortBy(value)
+            setDisplayedItems(ITEMS_PER_PAGE)
+          }}
+          totalCount={allResources.length}
+          displayedCount={Math.min(displayedItems, allResources.length)}
+        />
+      </div>
 
       {/* Resources Grid */}
-      <section className="flex-1 p-6">
+      <section className="relative z-10 flex-1 p-6">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
