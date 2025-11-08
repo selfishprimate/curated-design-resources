@@ -201,7 +201,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.category}
               onChange={handleChange}
               required
-              className="w-full appearance-none rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 pr-10 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full appearance-none rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 pr-10 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
               style={{
                 backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`,
                 backgroundPosition: 'right 0.75rem center',
@@ -233,7 +233,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.resourceName}
               onChange={handleChange}
               required
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -252,7 +252,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               value={formData.resourceUrl}
               onChange={handleChange}
               required
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -271,7 +271,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               onChange={handleChange}
               required
               rows={3}
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -295,7 +295,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterName"
               value={formData.submitterName}
               onChange={handleChange}
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -313,7 +313,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterEmail"
               value={formData.submitterEmail}
               onChange={handleChange}
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
@@ -331,7 +331,7 @@ export default function SubmitModal({ isOpen, onClose, onShowToast }) {
               name="submitterGithub"
               value={formData.submitterGithub}
               onChange={handleChange}
-              className="w-full rounded-lg border border-gray-200 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-800 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
+              className="w-full rounded-lg border border-gray-300 bg-gray-100 px-3 pt-6 pb-2 text-gray-900 transition-colors focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:focus:border-blue-400"
             />
           </div>
 
