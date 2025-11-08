@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://curated-design-resources.netlify.app/sitemap.xml
+Sitemap: https://mossaique.com/sitemap.xml
 
 # Disallow admin/private areas (if any in future)
 # Disallow: /admin/

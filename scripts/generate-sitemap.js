@@ -37,7 +37,7 @@ const categoryFiles = [
   'others'
 ]
 
-const siteUrl = 'https://curated-design-resources.netlify.app'
+const siteUrl = 'https://mossaique.com'
 const today = new Date().toISOString().split('T')[0]
 
 // Start sitemap XML

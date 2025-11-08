@@ -2,208 +2,208 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Category: accessibility -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/accessibility</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/accessibility</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: ai -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/ai</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/ai</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: articles -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/articles</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/articles</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: blogs -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/blogs</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/blogs</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: books -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/books</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/books</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: color -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/color</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/color</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: design-news -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/design-news</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/design-news</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: design-systems -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/design-systems</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/design-systems</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: figma-plugins -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/figma-plugins</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/figma-plugins</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: frontend-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/frontend-design</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/frontend-design</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: graphic-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/graphic-design</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/graphic-design</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: icons -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/icons</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/icons</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: inspiration -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/inspiration</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/inspiration</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: mockup -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/mockup</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/mockup</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: productivity -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/productivity</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/productivity</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: prototyping -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/prototyping</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/prototyping</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: stock-photos -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/stock-photos</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/stock-photos</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: stock-videos -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/stock-videos</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/stock-videos</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: tutorials -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/tutorials</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/tutorials</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: typography -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/typography</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/typography</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: ui-animation -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/ui-animation</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/ui-animation</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: ui-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/ui-design</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/ui-design</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: ux-design -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/ux-design</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/ux-design</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: wireframing -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/wireframing</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/wireframing</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Category: others -->
   <url>
-    <loc>https://curated-design-resources.netlify.app/others</loc>
-    <lastmod>2025-11-07</lastmod>
+    <loc>https://mossaique.com/others</loc>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
