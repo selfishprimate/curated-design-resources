@@ -2,8 +2,15 @@ import { Link } from 'react-router-dom'
 import { Github, Moon, Sun, Menu } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-// Logo SVG Component - Venn Diagram Style
+// Logo SVG Component - Using external SVG file
 function LogoMark() {
+  return (
+    <img src="/cdr-logomark-02.svg" alt="CDR Logo" className="h-full w-full" />
+  )
+}
+
+/* BACKUP: Venn Diagram Style Logomark (circles)
+function LogoMarkCircles() {
   return (
     <svg
       width="100%"
@@ -13,22 +20,18 @@ function LogoMark() {
       xmlns="http://www.w3.org/2000/svg"
       className="logomark-svg"
     >
-      {/* Three overlapping circles forming Venn diagram */}
-      {/* Left circle */}
       <circle
         cx="7.5"
         cy="14"
         r="6"
         className="fill-cyan-500 dark:fill-cyan-400"
       />
-      {/* Right circle */}
       <circle
         cx="16.5"
         cy="14"
         r="6"
         className="fill-fuchsia-500 dark:fill-fuchsia-400"
       />
-      {/* Top circle */}
       <circle
         cx="12"
         cy="7"
@@ -38,6 +41,7 @@ function LogoMark() {
     </svg>
   )
 }
+*/
 
 export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal }) {
   const [isDark, setIsDark] = useState(false)
@@ -66,7 +70,7 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
         {/* Logo */}
         <Link to="/" className="flex min-w-0 items-center gap-1.5 text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
           <div className="flex-shrink-0">
-            <div className="h-8 w-8">
+            <div className="h-6 w-6">
               <LogoMark />
             </div>
           </div>
