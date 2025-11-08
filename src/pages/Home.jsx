@@ -297,22 +297,22 @@ export default function Home() {
                         href={person.html_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`relative inline-block ${index >= 8 ? 'hidden md:inline-block' : ''}`}
+                        className={`relative inline-block ${index >= 8 ? 'hidden' : ''}`}
                         title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                       >
                         <img
                           src={person.avatar_url}
                           alt={person.login}
-                          className="h-12 w-12 rounded-full border-[4px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
+                          className="h-14 w-14 rounded-full border-[6px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
                         />
                       </a>
                     ))}
                   </div>
-                  {/* Show more button - mobile: show if > 8, desktop: show if > 10 */}
+                  {/* Show more button - show if > 8 */}
                   {(githubStats.totalPeople > 8) && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
-                      className={`flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white ${githubStats.totalPeople > 10 ? '' : 'md:hidden'}`}
+                      className="flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white"
                       title="View all contributors and stargazers"
                       aria-label="View all contributors and stargazers"
                     >
