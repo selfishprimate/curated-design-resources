@@ -76,35 +76,37 @@
   }
 
   .animate-gradient-orbit-1 {
-    animation: gradient-orbit-1 22s ease-in-out infinite;
-    will-change: transform;
-    transform: translateZ(0);
+    animation: gradient-orbit-1 25s ease-in-out infinite;
+    transform: translateZ(0) scale(1.5);
     backface-visibility: hidden;
     pointer-events: none;
+    isolation: isolate;
+    /* Remove will-change for better compatibility with external monitors */
   }
 
   .animate-gradient-orbit-2 {
-    animation: gradient-orbit-2 28s ease-in-out infinite;
-    will-change: transform;
-    transform: translateZ(0);
+    animation: gradient-orbit-2 30s ease-in-out infinite;
+    transform: translateZ(0) scale(1.5);
     backface-visibility: hidden;
     pointer-events: none;
+    isolation: isolate;
+    /* Remove will-change for better compatibility with external monitors */
   }
 
   .animate-gradient-orbit-3 {
     animation: gradient-orbit-3 25s ease-in-out infinite;
-    will-change: transform;
-    transform: translateZ(0);
+    transform: translateZ(0) scale(1.5);
     backface-visibility: hidden;
     pointer-events: none;
+    isolation: isolate;
   }
 
   .animate-gradient-orbit-4 {
     animation: gradient-orbit-4 20s ease-in-out infinite;
-    will-change: transform;
-    transform: translateZ(0);
+    transform: translateZ(0) scale(1.5);
     backface-visibility: hidden;
     pointer-events: none;
+    isolation: isolate;
   }
 
   /* Reduce motion for accessibility */
@@ -124,5 +126,20 @@
   .bg-clip-text,
   h1, h2, h3, h4, h5, h6 {
     transition: none !important;
+  }
+
+  /* Optimize gradient layers for external monitors */
+  .gradient-layer {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Force hardware acceleration but limit composite layers */
+  @media (min-resolution: 2dppx) {
+    .animate-gradient-orbit-1,
+    .animate-gradient-orbit-2 {
+      /* High DPI displays - optimize rendering */
+      image-rendering: -webkit-optimize-contrast;
+    }
   }
 }

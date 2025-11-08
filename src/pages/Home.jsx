@@ -232,28 +232,27 @@ export default function Home() {
         url={seoConfig.siteUrl}
       />
       {/* Hero Section */}
-      <section className="relative overflow-hidden px-8 py-32">
+      <section className="relative overflow-hidden px-8 py-32" style={{ contain: 'layout style paint' }}>
         {/* Gradient Background */}
         <div className="gradient-layer absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
-        {/* Animated Gradients - Multi-directional orbital movement */}
-        {gradientStyles.length > 0 && colorPalette.colors.map((color, index) => {
-          const animationClasses = [
-            'animate-gradient-orbit-1',
-            'animate-gradient-orbit-2',
-            'animate-gradient-orbit-3',
-            'animate-gradient-orbit-4'
-          ]
-          return (
+        {/* Animated Gradients - Simplified to 2 layers for better performance */}
+        {gradientStyles.length > 0 && (
+          <>
             <div
-              key={index}
-              className={`gradient-layer absolute inset-0 ${animationClasses[index]}`}
+              className="gradient-layer absolute inset-0 animate-gradient-orbit-1"
               style={{
-                backgroundImage: gradientStyles[index]
+                backgroundImage: gradientStyles[0]
               }}
             />
-          )
-        })}
+            <div
+              className="gradient-layer absolute inset-0 animate-gradient-orbit-2"
+              style={{
+                backgroundImage: gradientStyles[1]
+              }}
+            />
+          </>
+        )}
 
         {/* Bottom Fade Mask */}
         <div className="gradient-mask absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent dark:from-gray-950" />
