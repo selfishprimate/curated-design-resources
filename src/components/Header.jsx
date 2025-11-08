@@ -2,29 +2,38 @@ import { Link } from 'react-router-dom'
 import { Github, Moon, Sun, Menu } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-// Logo SVG Component
+// Logo SVG Component - Venn Diagram Style
 function LogoMark() {
   return (
     <svg
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="text-gray-900 dark:text-white"
+      className="logomark-svg"
     >
-      {/* Abstract design shapes - modern and minimal */}
-      <circle cx="10" cy="10" r="4" className="fill-blue-500 dark:fill-blue-400" />
-      <circle cx="22" cy="10" r="4" className="fill-purple-500 dark:fill-purple-400" />
-      <circle cx="10" cy="22" r="4" className="fill-pink-500 dark:fill-pink-400" />
-      <circle cx="22" cy="22" r="4" className="fill-indigo-500 dark:fill-indigo-400" />
-      <rect
-        x="14"
-        y="14"
-        width="4"
-        height="4"
-        rx="1"
-        className="fill-gray-900 dark:fill-white"
+      {/* Three overlapping circles forming Venn diagram */}
+      {/* Left circle */}
+      <circle
+        cx="7.5"
+        cy="14"
+        r="6"
+        className="fill-cyan-500 dark:fill-cyan-400"
+      />
+      {/* Right circle */}
+      <circle
+        cx="16.5"
+        cy="14"
+        r="6"
+        className="fill-fuchsia-500 dark:fill-fuchsia-400"
+      />
+      {/* Top circle */}
+      <circle
+        cx="12"
+        cy="7"
+        r="6"
+        className="fill-rose-500 dark:fill-rose-400"
       />
     </svg>
   )
@@ -55,11 +64,13 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
     <header className="fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800/50 dark:bg-gray-950/80">
       <div className="mx-auto flex h-20 items-center justify-between px-6 sm:h-20">
         {/* Logo */}
-        <Link to="/" className="flex min-w-0 items-center gap-2 font-semibold text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
-          <div className="hidden flex-shrink-0 sm:block">
-            <LogoMark />
+        <Link to="/" className="flex min-w-0 items-center gap-1.5 text-gray-900 transition-opacity hover:opacity-80 dark:text-white">
+          <div className="flex-shrink-0">
+            <div className="h-8 w-8">
+              <LogoMark />
+            </div>
           </div>
-          <div className="truncate text-base sm:text-lg">
+          <div className="truncate text-base font-medium">
             Curated Design Resources
           </div>
         </Link>

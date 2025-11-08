@@ -297,7 +297,7 @@ export default function Home() {
                         href={person.html_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`relative inline-block ${index >= 6 ? 'hidden md:inline-block' : ''}`}
+                        className={`relative inline-block ${index >= 8 ? 'hidden md:inline-block' : ''}`}
                         title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                       >
                         <img
@@ -308,8 +308,8 @@ export default function Home() {
                       </a>
                     ))}
                   </div>
-                  {/* Show more button - mobile: show if > 6, desktop: show if > 10 */}
-                  {(githubStats.totalPeople > 6) && (
+                  {/* Show more button - mobile: show if > 8, desktop: show if > 10 */}
+                  {(githubStats.totalPeople > 8) && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
                       className={`flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white ${githubStats.totalPeople > 10 ? '' : 'md:hidden'}`}

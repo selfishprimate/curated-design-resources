@@ -17,6 +17,15 @@
   .dark body {
     @apply bg-gray-950 text-white;
   }
+
+  /* Logomark blend modes */
+  .logomark-svg circle {
+    mix-blend-mode: multiply;
+  }
+
+  .dark .logomark-svg circle {
+    mix-blend-mode: screen;
+  }
 }
 
 @layer utilities {
