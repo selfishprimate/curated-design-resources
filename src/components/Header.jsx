@@ -75,7 +75,7 @@ export default function Header({ onShowToast, onToggleSidebar, onOpenSubmitModal
             </div>
           </div>
           <div className="truncate text-base font-medium">
-            Curated Design Resources
+            Mossaique
           </div>
         </Link>
 
