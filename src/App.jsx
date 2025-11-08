@@ -31,13 +31,13 @@ function App() {
       <div className="min-h-screen bg-white dark:bg-gray-950">
         <Header onShowToast={showToast} onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
-        <div className="flex pt-16 sm:pt-20">
+        <div className="flex pt-20">
           <Sidebar
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}
             onSubmit={openSubmitModal}
           />
-          <div className="ml-0 flex min-h-[calc(100vh-4rem)] flex-1 flex-col lg:ml-64">
+          <div className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col lg:ml-64">
             <main className="flex-1">
               <Routes>
                 <Route path="/" element={<Home />} />

@@ -250,12 +250,11 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-4xl font-bold leading-tight tracking-tight text-transparent md:leading-[1.2] md:text-7xl dark:from-white dark:via-gray-100 dark:to-white">
-            Curated Design Resources
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-[2.5rem] font-bold leading-[1.15] tracking-tight text-transparent md:text-7xl md:leading-[1.2] dark:from-white dark:via-gray-100 dark:to-white">
+            Discover the best design tools and resources for your next project!
           </h1>
-          <p className="mx-auto mb-10 max-w-2xl text-xl leading-normal text-gray-600 dark:text-gray-300">
-            A comprehensive collection of handpicked design tools, libraries, and resources
-            for designers and developers.
+          <p className="mx-auto mb-10 max-w-2xl text-base font-normal leading-normal text-gray-600 md:text-xl dark:text-gray-300">
+            A carefully curated collection of 300+ premium design tools, UI libraries, icons, colors, and learning resources to help designers and developers build exceptional digital products.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -269,7 +268,7 @@ export default function Home() {
             </a>
             <button
               onClick={() => setIsSubmitModalOpen(true)}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-200/60 bg-white px-6 py-4 font-semibold text-gray-900 shadow-sm shadow-gray-900/5 transition-all hover:scale-105 hover:border-gray-200/80 hover:shadow sm:w-auto dark:border-gray-700/40 dark:bg-gray-900/40 dark:text-white dark:backdrop-blur-sm dark:hover:border-gray-700/60 dark:hover:bg-gray-900/50"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-gray-900/10 bg-gray-900/5 px-6 py-4 font-semibold text-gray-900 backdrop-blur-sm transition-all hover:scale-105 hover:border-gray-900/20 hover:bg-gray-900/10 sm:w-auto dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:border-white/30 dark:hover:bg-white/20"
             >
               <Send className="h-4 w-4" />
               Submit a Resource
@@ -283,13 +282,13 @@ export default function Home() {
               <>
                 <div className="flex items-center gap-1">
                   <div className="flex -space-x-4">
-                    {githubStats.displayedPeople.map((person) => (
+                    {githubStats.displayedPeople.map((person, index) => (
                       <a
                         key={person.id}
                         href={person.html_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="relative inline-block"
+                        className={`relative inline-block ${index >= 6 ? 'hidden md:inline-block' : ''}`}
                         title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                       >
                         <img
@@ -300,11 +299,11 @@ export default function Home() {
                       </a>
                     ))}
                   </div>
-                  {/* Show more button */}
-                  {githubStats.totalPeople > 10 && (
+                  {/* Show more button - mobile: show if > 6, desktop: show if > 10 */}
+                  {(githubStats.totalPeople > 6) && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
-                      className="flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white"
+                      className={`flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white ${githubStats.totalPeople > 10 ? '' : 'md:hidden'}`}
                       title="View all contributors and stargazers"
                       aria-label="View all contributors and stargazers"
                     >
@@ -343,7 +342,7 @@ export default function Home() {
 
       {/* Resources Grid */}
       <section className="flex-1 p-6">
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}
