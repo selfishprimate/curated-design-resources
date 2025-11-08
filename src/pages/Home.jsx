@@ -232,7 +232,7 @@ export default function Home() {
         url={seoConfig.siteUrl}
       />
       {/* Hero Section */}
-      <section className="relative overflow-hidden px-8 py-32" style={{ contain: 'layout style paint' }}>
+      <section className="relative overflow-hidden px-8 py-32" style={{ contain: 'layout style', paddingBottom: '400px', marginBottom: '-250px' }}>
         {/* Gradient Background */}
         <div className="gradient-layer absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-950 dark:to-gray-950" />
 
@@ -259,7 +259,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative mx-auto max-w-7xl text-center">
-          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-[2.5rem] font-bold leading-[1.15] tracking-tight text-transparent md:text-7xl md:leading-[1.2] dark:from-white dark:via-gray-100 dark:to-white">
+          <h1 className="mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-[2.5rem] font-bold leading-[1.15] tracking-tight text-transparent md:text-6xl md:leading-[1.15] xl5:text-7xl xl5:leading-[1.2] dark:from-white dark:via-gray-100 dark:to-white">
             Discover the best design tools and resources for your next project!
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-base font-normal leading-normal text-gray-600 md:text-xl dark:text-gray-300">

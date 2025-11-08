@@ -22,7 +22,7 @@ export default {
       screens: {
         'xl5': '1500px',
         'xxl': '1640px',
-        '3xl': '2000px',
+        '3xl': '2400px',
       },
       keyframes: {
         'gradient-shift': {
