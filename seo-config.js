@@ -3,22 +3,22 @@
 
 export const seoConfig = {
   // Site Information
-  siteName: 'Curated Design Resources',
-  siteUrl: 'https://curated-design-resources.netlify.app',
-  defaultTitle: 'Curated Design Resources - Handpicked Design Tools & Libraries',
-  defaultDescription: 'A comprehensive collection of handpicked design tools, libraries, and resources for designers and developers. Discover the best resources for UI/UX design, prototyping, color palettes, typography, and more.',
-  defaultKeywords: 'design resources, design tools, ui design, ux design, prototyping, typography, color palettes, design systems, figma plugins, icons, stock photos',
+  siteName: 'Mossaique',
+  siteUrl: 'https://mossaique.com',
+  defaultTitle: 'Mossaique - Your Design Mosaic',
+  defaultDescription: 'Your design mosaic. A carefully curated collection of 300+ premium design tools, UI libraries, icons, colors, and learning resources for designers and developers.',
+  defaultKeywords: 'mossaique, design resources, design tools, ui design, ux design, prototyping, typography, color palettes, design systems, figma plugins, icons, stock photos, curated design',
 
   // Social Media
   author: 'selfishprimate',
   social: {
-    github: 'https://github.com/selfishprimate/curated-design-resources',
-    twitter: '@selfishprimate', // Optional: Update with your Twitter handle
+    github: 'https://github.com/selfishprimate/mossaique',
+    twitter: '@selfishprimate',
   },
 
   // Open Graph / Social Media Preview
   defaultImage: '/og-image.jpg', // Update with actual OG image path (1200x630px recommended)
-  imageAlt: 'Curated Design Resources',
+  imageAlt: 'Mossaique - Your Design Mosaic',
 
   // Twitter Card
   twitterCardType: 'summary_large_image', // or 'summary'

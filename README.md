@@ -1,18 +1,18 @@
-# Curated Design Resources
+# Mossaique
 
-_The best design resources for everyone._
+_Your design mosaic - The best curated design resources for designers and developers._
 
-> **🚀 Live Site:** [curated-design-resources.netlify.app](https://curated-design-resources.netlify.app)
+> **🚀 Live Site:** [mossaique.com](https://mossaique.com)
 
 <p>
-  <a href="https://curated-design-resources.netlify.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/selfishprimate/curated-design-resources/master/public/github-image.jpg">
+  <a href="https://mossaique.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/selfishprimate/mossaique/master/public/github-image.jpg">
   </a>
 </p>
 
 ## Contribution
 
-Please read the [contribution details](CONTRIBUTING.md) and feel free to contribute to the library.
+Please read the [contribution details](CONTRIBUTING.md) and feel free to contribute to Mossaique.
 
 ## Table of Contents
 

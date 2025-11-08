@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 // Logo SVG Component - Using external SVG file
 function LogoMark() {
   return (
-    <img src="/cdr-logomark-05.svg" alt="CDR Logo" className="h-full w-full" />
+    <img src="/logomark.svg" alt="CDR Logo" className="h-full w-full" />
   )
 }
 
