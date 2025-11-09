@@ -12,13 +12,6 @@
   [build.environment]
     NODE_VERSION = "20"
 
-# Domain redirect - redirect netlify.app subdomain to custom domain
-[[redirects]]
-  from = "https://curated-design-resources.netlify.app/*"
-  to = "https://mossaique.com/:splat"
-  status = 301
-  force = true
-
 # Redirect rules for SPA (React Router)
 [[redirects]]
   from = "/*"
