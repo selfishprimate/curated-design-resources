@@ -82,18 +82,18 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const pricingConfig = {
     free: {
       label: 'Free',
-      bg: 'bg-green-500/90',
-      text: 'text-white'
+      bg: 'bg-green-100/90 dark:bg-green-900/40',
+      text: 'text-green-800 dark:text-green-400'
     },
     freemium: {
       label: 'Freemium',
-      bg: 'bg-blue-500/90',
-      text: 'text-white'
+      bg: 'bg-blue-100/90 dark:bg-blue-900/40',
+      text: 'text-blue-800 dark:text-blue-400'
     },
     paid: {
       label: 'Paid',
-      bg: 'bg-orange-500/90',
-      text: 'text-white'
+      bg: 'bg-orange-100/90 dark:bg-orange-900/40',
+      text: 'text-orange-800 dark:text-orange-400'
     }
   }
 
@@ -108,7 +108,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
     >
       {/* Pricing Badge - Top Right */}
       {pricingInfo && (
-        <div className={`absolute right-3 top-3 rounded-full px-2.5 py-1 text-xs font-semibold ${pricingInfo.bg} ${pricingInfo.text}`}>
+        <div className={`absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
           {pricingInfo.label}
         </div>
       )}
