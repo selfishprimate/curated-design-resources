@@ -290,26 +290,26 @@ export default function Home() {
             {githubStats.displayedPeople && githubStats.displayedPeople.length > 0 && (
               <>
                 <div className="flex items-center gap-1">
-                  <div className="flex -space-x-4">
+                  <div className="flex -space-x-3 md:-space-x-4">
                     {githubStats.displayedPeople.map((person, index) => (
                       <a
                         key={person.id}
                         href={person.html_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`relative inline-block ${index >= 8 ? 'hidden' : ''}`}
+                        className={`relative inline-block flex-shrink-0 ${index >= 7 ? 'hidden md:inline-block' : ''} ${index >= 8 ? 'hidden' : ''}`}
                         title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                       >
                         <img
                           src={person.avatar_url}
                           alt={person.login}
-                          className="h-14 w-14 rounded-full border-[6px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20"
+                          className="h-12 w-12 md:h-14 md:w-14 aspect-square rounded-full border-[4px] md:border-[6px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20 object-cover"
                         />
                       </a>
                     ))}
                   </div>
-                  {/* Show more button - show if > 8 */}
-                  {(githubStats.totalPeople > 8) && (
+                  {/* Show more button - show if > 7 on mobile, > 8 on desktop */}
+                  {(githubStats.totalPeople > 7) && (
                     <button
                       onClick={() => setIsPeopleModalOpen(true)}
                       className="flex h-10 w-10 items-center justify-center text-gray-600 dark:text-white"

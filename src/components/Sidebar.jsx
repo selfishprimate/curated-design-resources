@@ -39,45 +39,47 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
       {/* Overlay for mobile */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black/50 lg:hidden"
+          className="fixed inset-0 z-[65] bg-black/50 lg:hidden"
           onClick={onClose}
         />
       )}
 
       {/* Sidebar */}
-      <aside className={`fixed z-50 w-64 transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 ${
-        isOpen ? 'left-0 translate-x-0 border-r' : 'left-0 -translate-x-full'
-      } top-16 h-[calc(100vh-4rem)] border-gray-200 dark:border-gray-800/50 sm:top-20 sm:h-[calc(100vh-5rem)] lg:translate-x-0 lg:border-r`}>
+      <aside className={`fixed z-[70] w-64 transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 ${
+        isOpen ? 'right-0 translate-x-0 border-l w-full' : 'right-0 translate-x-full w-full'
+      } top-0 h-screen border-gray-200 dark:border-gray-800/50 lg:z-50 lg:w-64 lg:left-0 lg:right-auto lg:top-16 lg:h-[calc(100vh-4rem)] lg:-translate-x-full lg:translate-x-0 lg:border-r lg:border-l-0 sm:lg:top-20 sm:lg:h-[calc(100vh-5rem)]`}>
         {/* Close button - mobile only */}
-        <button
-          onClick={onClose}
-          className="absolute right-4 top-4 rounded-lg p-2 text-gray-500 transition-colors hover:bg-gray-100 lg:hidden dark:text-gray-400 dark:hover:bg-gray-800"
-          aria-label="Close menu"
-        >
-          <X className="h-5 w-5" />
-        </button>
+        <div className="sticky top-0 z-10 flex justify-end p-6 pb-0 lg:hidden">
+          <button
+            onClick={onClose}
+            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
+            aria-label="Close menu"
+          >
+            <X className="h-6 w-6" />
+          </button>
+        </div>
 
         {/* Categories */}
-        <nav className="p-4 pt-6">
-        <div className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-gray-500">
+        <nav className="p-4 pt-6 lg:pt-6">
+        <div className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-gray-500 text-center lg:text-left hidden lg:block">
           Categories
         </div>
-        <ul className="space-y-1">
+        <ul>
           {categories.map((category) => {
             const IconComponent = iconMap[category.icon]
             const isActive = location.pathname === `/${category.id}`
             return (
-              <li key={category.id}>
+              <li key={category.id} className="mb-3 lg:mb-1">
                 <Link
                   to={`/${category.id}`}
                   onClick={onClose}
-                  className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
+                  className={`flex items-center justify-center gap-3 p-0 text-xl transition-all lg:justify-start lg:rounded-lg lg:px-3 lg:py-2 lg:text-sm ${
                     isActive
-                      ? 'bg-primary-500 text-white'
-                      : 'text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-white'
+                      ? 'font-semibold text-primary-500 dark:text-primary-400'
+                      : 'font-normal text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white lg:hover:bg-gray-100 lg:dark:hover:bg-gray-900'
                   }`}
                 >
-                  {IconComponent && <IconComponent className="h-4 w-4" />}
+                  {IconComponent && <IconComponent className="h-4 w-4 hidden lg:block" />}
                   <span>{category.title}</span>
                 </Link>
               </li>
@@ -88,21 +90,21 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
 
         {/* Action Links - Mobile only */}
         <div className="border-t border-gray-200 p-4 lg:hidden dark:border-gray-800/50">
-          <div className="space-y-1">
+          <div className="space-y-3">
             <button
               onClick={() => {
                 onClose()
                 onSubmit?.()
               }}
-              className="w-full rounded-lg px-3 py-2 text-left text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-900"
+              className="w-full rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
             >
-              Submit Resource
+              Submit a Resource
             </button>
             <a
               href="https://github.com/sponsors/selfishprimate"
               target="_blank"
               rel="noopener noreferrer"
-              className="block rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-900"
+              className="block rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
             >
               Support
             </a>
@@ -113,7 +115,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         <div className="mt-auto border-t border-gray-200 px-4 py-6 lg:hidden dark:border-gray-800/50">
           <div className="space-y-4">
             {/* Made by text */}
-            <div className="px-3 text-left text-xs text-gray-600 dark:text-gray-400">
+            <div className="px-3 text-center text-xs text-gray-600 lg:text-left dark:text-gray-400">
               Made with ❤️ by{' '}
               <a
                 href="https://github.com/selfishprimate"
@@ -127,7 +129,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
             </div>
 
             {/* Social links */}
-            <div className="flex items-center justify-start gap-4 px-3">
+            <div className="flex items-center justify-center gap-4 px-3 lg:justify-start">
               <a
                 href="https://github.com/selfishprimate"
                 target="_blank"
