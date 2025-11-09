@@ -5,6 +5,16 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Load pricing data
+const pricingPath = path.join(__dirname, '..', 'src', 'data', 'pricing.json');
+let pricingData = {};
+try {
+  const pricingContent = fs.readFileSync(pricingPath, 'utf-8');
+  pricingData = JSON.parse(pricingContent).pricing || {};
+} catch (error) {
+  console.warn('⚠️  Could not load pricing.json, continuing without pricing data');
+}
+
 // Icon mapping based on category names
 const iconMap = {
   'accessibility': 'Eye',
@@ -72,11 +82,21 @@ function parseReadme() {
     let match;
 
     while ((match = resourceRegex.exec(section)) !== null) {
+      const title = match[1].trim();
+      const link = match[2].trim();
+
+      // Create slug from title for pricing lookup
+      const slug = title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+
       resources.push({
-        title: match[1].trim(),
-        link: match[2].trim(),
+        title,
+        link,
         description: match[3].trim(),
-        globalIndex: globalResourceIndex++
+        globalIndex: globalResourceIndex++,
+        pricing: pricingData[slug] || null
       });
     }
 

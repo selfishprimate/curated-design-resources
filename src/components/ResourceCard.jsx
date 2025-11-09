@@ -78,6 +78,27 @@ export default function ResourceCard({ resource, showCategory = false }) {
     navigate(`/${resource.category.id}`)
   }
 
+  // Pricing badge config
+  const pricingConfig = {
+    free: {
+      label: 'Free',
+      bg: 'bg-green-500/90',
+      text: 'text-white'
+    },
+    freemium: {
+      label: 'Freemium',
+      bg: 'bg-blue-500/90',
+      text: 'text-white'
+    },
+    paid: {
+      label: 'Paid',
+      bg: 'bg-orange-500/90',
+      text: 'text-white'
+    }
+  }
+
+  const pricingInfo = resource.pricing ? pricingConfig[resource.pricing] : null
+
   return (
     <a
       href={resource.link}
@@ -85,6 +106,13 @@ export default function ResourceCard({ resource, showCategory = false }) {
       rel="noopener noreferrer"
       className="group relative aspect-[4/3] rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
     >
+      {/* Pricing Badge - Top Right */}
+      {pricingInfo && (
+        <div className={`absolute right-3 top-3 rounded-full px-2.5 py-1 text-xs font-semibold ${pricingInfo.bg} ${pricingInfo.text}`}>
+          {pricingInfo.label}
+        </div>
+      )}
+
       <div className="flex h-full flex-col">
         {/* Logo or Initials - Left aligned */}
         <div className="mb-4">
