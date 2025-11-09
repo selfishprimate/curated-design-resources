@@ -154,7 +154,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
           <div className="mt-3">
             <span
               onClick={handleCategoryClick}
-              className="cursor-pointer text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+              className="cursor-pointer text-xs font-medium uppercase text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300"
             >
               {resource.category.title}
             </span>

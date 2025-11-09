@@ -34,7 +34,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
 
         {/* Categories */}
         <nav className="p-4 pt-6">
-          <ul>
+          <ul className="grid grid-cols-1 min-[375px]:grid-cols-2 gap-x-4">
             {categories.map((category) => {
               const isActive = location.pathname === `/${category.id}`
               return (
@@ -42,7 +42,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
                   <Link
                     to={`/${category.id}`}
                     onClick={onClose}
-                    className={`flex items-center justify-center p-0 text-xl transition-all ${
+                    className={`flex items-center p-0 text-base transition-all ${
                       isActive
                         ? 'font-semibold text-primary-500 dark:text-primary-400'
                         : 'font-normal text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white'
@@ -58,13 +58,13 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
 
         {/* Action Links */}
         <div className="border-t border-gray-200 p-4 dark:border-gray-800/50">
-          <div className="space-y-3">
+          <div className="flex flex-col gap-3 sm:flex-row">
             <button
               onClick={() => {
                 onClose()
                 onSubmit?.()
               }}
-              className="w-full rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
+              className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
             >
               Submit a Resource
             </button>
@@ -72,7 +72,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
               href="https://github.com/sponsors/selfishprimate"
               target="_blank"
               rel="noopener noreferrer"
-              className="block rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
+              className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-3 text-center text-base font-semibold text-gray-700 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-900"
             >
               Support
             </a>
