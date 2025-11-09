@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu } from 'lucide-react'
 import Header from '@/components/Header'
-import Sidebar from '@/components/Sidebar'
+import MenuDesktop from '@/components/MenuDesktop'
+import MenuMobile from '@/components/MenuMobile'
 import Footer from '@/components/Footer'
 import Toast from '@/components/Toast'
 import SubmitModal from '@/components/SubmitModal'
@@ -32,7 +33,8 @@ function App() {
         <Header onShowToast={showToast} onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
         <div className="flex pt-20">
-          <Sidebar
+          <MenuDesktop />
+          <MenuMobile
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}
             onSubmit={openSubmitModal}

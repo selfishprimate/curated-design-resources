@@ -1,42 +1,13 @@
 import { Link, useLocation } from 'react-router-dom'
 import { X, Github, Linkedin, Instagram } from 'lucide-react'
 import { categories } from '@/data/categories'
-import * as Icons from 'lucide-react'
 
-const iconMap = {
-  Eye: Icons.Eye,
-  FileText: Icons.FileText,
-  Rss: Icons.Rss,
-  Book: Icons.Book,
-  Palette: Icons.Palette,
-  Newspaper: Icons.Newspaper,
-  Grid: Icons.Grid,
-  Plug: Icons.Plug,
-  Code: Icons.Code,
-  PenTool: Icons.PenTool,
-  Sparkles: Icons.Sparkles,
-  Lightbulb: Icons.Lightbulb,
-  Image: Icons.Image,
-  Zap: Icons.Zap,
-  Layers: Icons.Layers,
-  Camera: Icons.Camera,
-  Video: Icons.Video,
-  GraduationCap: Icons.GraduationCap,
-  Type: Icons.Type,
-  Play: Icons.Play,
-  Layout: Icons.Layout,
-  Users: Icons.Users,
-  Box: Icons.Box,
-  MoreHorizontal: Icons.MoreHorizontal,
-  Circle: Icons.Circle
-}
-
-export default function Sidebar({ isOpen, onClose, onSubmit }) {
+export default function MenuMobile({ isOpen, onClose, onSubmit }) {
   const location = useLocation()
 
   return (
     <>
-      {/* Overlay for mobile */}
+      {/* Overlay */}
       {isOpen && (
         <div
           className="fixed inset-0 z-[65] bg-black/50 lg:hidden"
@@ -44,12 +15,14 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         />
       )}
 
-      {/* Sidebar */}
-      <aside className={`fixed z-[70] w-64 transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 ${
-        isOpen ? 'right-0 translate-x-0 border-l w-full' : 'right-0 translate-x-full w-full'
-      } top-0 h-screen border-gray-200 dark:border-gray-800/50 lg:z-50 lg:w-64 lg:left-0 lg:right-auto lg:top-16 lg:h-[calc(100vh-4rem)] lg:-translate-x-full lg:translate-x-0 lg:border-r lg:border-l-0 sm:lg:top-20 sm:lg:h-[calc(100vh-5rem)]`}>
-        {/* Close button - mobile only */}
-        <div className="sticky top-0 z-10 flex justify-end p-6 pb-0 lg:hidden">
+      {/* Mobile Menu */}
+      <aside
+        className={`fixed right-0 top-0 z-[70] h-screen w-full transform overflow-y-auto bg-white transition-transform duration-300 dark:bg-gray-950 lg:hidden ${
+          isOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        {/* Close button */}
+        <div className="sticky top-0 z-10 flex justify-end p-6 pb-0">
           <button
             onClick={onClose}
             className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
@@ -60,36 +33,31 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
         </div>
 
         {/* Categories */}
-        <nav className="p-4 pt-6 lg:pt-6">
-        <div className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-gray-500 text-center lg:text-left hidden lg:block">
-          Categories
-        </div>
-        <ul>
-          {categories.map((category) => {
-            const IconComponent = iconMap[category.icon]
-            const isActive = location.pathname === `/${category.id}`
-            return (
-              <li key={category.id} className="mb-3 lg:mb-1">
-                <Link
-                  to={`/${category.id}`}
-                  onClick={onClose}
-                  className={`flex items-center justify-center gap-3 p-0 text-xl transition-all lg:justify-start lg:rounded-lg lg:px-3 lg:py-2 lg:text-sm ${
-                    isActive
-                      ? 'font-semibold text-primary-500 dark:text-primary-400'
-                      : 'font-normal text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white lg:hover:bg-gray-100 lg:dark:hover:bg-gray-900'
-                  }`}
-                >
-                  {IconComponent && <IconComponent className="h-4 w-4 hidden lg:block" />}
-                  <span>{category.title}</span>
-                </Link>
-              </li>
-            )
-          })}
-        </ul>
+        <nav className="p-4 pt-6">
+          <ul>
+            {categories.map((category) => {
+              const isActive = location.pathname === `/${category.id}`
+              return (
+                <li key={category.id} className="mb-3">
+                  <Link
+                    to={`/${category.id}`}
+                    onClick={onClose}
+                    className={`flex items-center justify-center p-0 text-xl transition-all ${
+                      isActive
+                        ? 'font-semibold text-primary-500 dark:text-primary-400'
+                        : 'font-normal text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white'
+                    }`}
+                  >
+                    <span>{category.title}</span>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
         </nav>
 
-        {/* Action Links - Mobile only */}
-        <div className="border-t border-gray-200 p-4 lg:hidden dark:border-gray-800/50">
+        {/* Action Links */}
+        <div className="border-t border-gray-200 p-4 dark:border-gray-800/50">
           <div className="space-y-3">
             <button
               onClick={() => {
@@ -111,11 +79,11 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
           </div>
         </div>
 
-        {/* Footer Content - Mobile only */}
-        <div className="mt-auto border-t border-gray-200 px-4 py-6 lg:hidden dark:border-gray-800/50">
+        {/* Footer Content */}
+        <div className="mt-auto border-t border-gray-200 px-4 py-6 dark:border-gray-800/50">
           <div className="space-y-4">
             {/* Made by text */}
-            <div className="px-3 text-center text-xs text-gray-600 lg:text-left dark:text-gray-400">
+            <div className="px-3 text-center text-xs text-gray-600 dark:text-gray-400">
               Made with ❤️ by{' '}
               <a
                 href="https://github.com/selfishprimate"
@@ -129,7 +97,7 @@ export default function Sidebar({ isOpen, onClose, onSubmit }) {
             </div>
 
             {/* Social links */}
-            <div className="flex items-center justify-center gap-4 px-3 lg:justify-start">
+            <div className="flex items-center justify-center gap-4 px-3">
               <a
                 href="https://github.com/selfishprimate"
                 target="_blank"

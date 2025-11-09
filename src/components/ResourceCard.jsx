@@ -104,7 +104,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
       href={resource.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative aspect-[4/3] rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
+      className="group relative rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
     >
       {/* Pricing Badge - Top Right */}
       {pricingInfo && (
