@@ -11,12 +11,6 @@
       "globalIndex": 16
     },
     {
-      "title": "Anthropic Claude",
-      "link": "https://www.anthropic.com/claude",
-      "description": "Constitutional AI designed to be helpful, harmless, and honest. *Anthropic*",
-      "globalIndex": 28
-    },
-    {
       "title": "ChatGPT",
       "link": "https://chat.openai.com/",
       "description": "ChatGPT is an AI-powered conversational assistant that can help with writing, coding, brainstorming, and more. *OpenAI*",
@@ -68,13 +62,13 @@
       "title": "Hugging Face",
       "link": "https://huggingface.co/",
       "description": "The AI community building the future. Access thousands of AI models, datasets, and apps. *Hugging Face*",
-      "globalIndex": 29
+      "globalIndex": 28
     },
     {
       "title": "Ideogram",
       "link": "https://ideogram.ai/",
-      "description": "- Ideogram is a free-to-use AI tool that turns your ideas into stunning images, in a matter of seconds.",
-      "globalIndex": 30
+      "description": "Free AI image generator that creates stunning visuals from text prompts in seconds. Excellent for generating images with text, logos, and creative designs.",
+      "globalIndex": 29
     },
     {
       "title": "Jasper",

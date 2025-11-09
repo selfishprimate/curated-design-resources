@@ -25,7 +25,7 @@
     {
       "title": "Colorable",
       "link": "https://colorable.jxnblk.com/",
-      "description": "Color combination contrast tester.",
+      "description": "Test color combinations for WCAG accessibility compliance. Quickly see contrast ratios between foreground and background colors in real-time.",
       "globalIndex": 2
     },
     {
@@ -43,7 +43,7 @@
     {
       "title": "Stark",
       "link": "https://www.getstark.co/",
-      "description": "Make the world’s software more accessible!",
+      "description": "Comprehensive accessibility toolkit integrated into your design workflow. Check contrast ratios, simulate color blindness, and ensure WCAG compliance directly in Figma, Sketch, and Adobe XD.",
       "globalIndex": 6
     },
     {

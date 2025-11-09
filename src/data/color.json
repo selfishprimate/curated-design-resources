@@ -7,152 +7,152 @@
     {
       "title": "Adobe Color",
       "link": "https://color.adobe.com/tr/create/color-wheel",
-      "description": "Create beautiful color themes!",
-      "globalIndex": 65
+      "description": "Professional color wheel tool from Adobe for creating harmonious color schemes. Extract colors from images, explore trending palettes, and test accessibility ratios.",
+      "globalIndex": 64
     },
     {
       "title": "BrandColors",
       "link": "https://brandcolors.net/",
       "description": "The biggest collection of official brand color codes around.",
-      "globalIndex": 66
+      "globalIndex": 65
     },
     {
       "title": "Branition Colors",
       "link": "https://branition.com/colors",
       "description": "Hand-curated collection of color palettes best fitted for branding.",
-      "globalIndex": 67
+      "globalIndex": 66
     },
     {
       "title": "Color Claim",
       "link": "https://vanschneider.com/colors",
       "description": "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for your future projects.",
-      "globalIndex": 70
+      "globalIndex": 69
     },
     {
       "title": "Color Hunt",
       "link": "https://colorhunt.co/",
       "description": "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
-      "globalIndex": 72
+      "globalIndex": 71
     },
     {
       "title": "Color Oracle",
       "link": "https://colororacle.org/",
       "description": "Color Oracle is a free color blindness simulator for Windows, Mac and Linux.",
-      "globalIndex": 73
+      "globalIndex": 72
     },
     {
       "title": "Colorable",
       "link": "https://colorable.jxnblk.com/",
       "description": "Contrast is the difference in luminance or color that makes an object distinguishable.",
-      "globalIndex": 68
+      "globalIndex": 67
     },
     {
       "title": "ColorBox",
       "link": "https://colorbox.io/",
-      "description": "A handy color creation tool from the Lyft team.",
-      "globalIndex": 69
+      "description": "Advanced color palette generator from Lyft Design. Create multi-step color systems with custom interpolation and accessibility features built-in.",
+      "globalIndex": 68
     },
     {
       "title": "Colordot",
       "link": "https://color.hailpixel.com/",
-      "description": "A handy color picker tool.",
-      "globalIndex": 71
+      "description": "Intuitive color picker that lets you create palettes by swiping through hues. Simple, gesture-based interface for quick color selection.",
+      "globalIndex": 70
     },
     {
       "title": "Colors",
       "link": "https://clrs.cc/a11y/",
       "description": "Mix and match these color classes to create a variety of accessible themes.",
-      "globalIndex": 77
+      "globalIndex": 76
     },
     {
       "title": "Colorsinspo",
       "link": "https://colorsinspo.com/",
       "description": "Thousands of beautiful color palettes you can use it directly by one click.",
-      "globalIndex": 74
+      "globalIndex": 73
     },
     {
       "title": "Colourco",
       "link": "https://colourco.de/",
-      "description": "Pick colours based on HSL color values.",
-      "globalIndex": 75
+      "description": "Interactive HSL color picker with real-time adjustments. Fine-tune hue, saturation, and lightness values with intuitive sliders and visual feedback.",
+      "globalIndex": 74
     },
     {
       "title": "Coolors",
       "link": "https://coolors.co/",
-      "description": "The super fast color schemes generator!",
-      "globalIndex": 76
+      "description": "Lightning-fast color palette generator with AI assistance. Create, explore, and export beautiful color schemes with keyboard shortcuts and advanced tools.",
+      "globalIndex": 75
     },
     {
       "title": "Duo",
       "link": "https://duo.alexpate.uk/",
       "description": "Duo is a collection of colour combinations that I've curated from personal projects or that I've come across on the web.",
-      "globalIndex": 78
+      "globalIndex": 77
     },
     {
       "title": "Flat UI Color Picker",
       "link": "https://www.flatuicolorpicker.com/",
-      "description": "Total 199 unique colors!",
-      "globalIndex": 79
+      "description": "Curated collection of 199 flat design colors with instant copy-paste functionality. Perfect for modern, minimalist UI designs with ready-to-use hex codes.",
+      "globalIndex": 78
     },
     {
       "title": "Happy Hues",
       "link": "https://www.happyhues.co/",
-      "description": "Curated colors in context.",
-      "globalIndex": 80
+      "description": "See color palettes in context with real UI examples. Visualize how different color combinations work in actual website layouts before committing.",
+      "globalIndex": 79
     },
     {
       "title": "Hex Colors",
       "link": "https://hexcolor.co/",
       "description": "A collection of free color tools that will help you choose the right color for your next project!",
-      "globalIndex": 81
+      "globalIndex": 80
     },
     {
       "title": "HTML Color Codes",
       "link": "https://htmlcolorcodes.com/",
       "description": "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker...",
-      "globalIndex": 82
+      "globalIndex": 81
     },
     {
       "title": "Leonardo",
       "link": "https://leonardocolor.io/",
       "description": "Leonardo is a one-of-a-kind tool for creating, managing, and sharing accessible color systems for user interface design and data visualization.",
-      "globalIndex": 84
+      "globalIndex": 83
     },
     {
       "title": "Picular",
       "link": "https://picular.co/",
-      "description": "The color of anything!",
-      "globalIndex": 85
+      "description": "Search for any keyword and get a curated color palette inspired by Google image results. Perfect for finding colors related to concepts, moods, or objects.",
+      "globalIndex": 84
     },
     {
       "title": "Pigment",
       "link": "https://pigment.shapefactory.co/",
-      "description": "A handy tool for generating colors.",
-      "globalIndex": 86
+      "description": "Create unique color palettes with this AI-powered tool. Generate harmonious color schemes and export them in various formats for your design projects.",
+      "globalIndex": 85
     },
     {
       "title": "Pilestone",
       "link": "https://pilestone.com/pages/color-blindness-simulator-1",
-      "description": "Simulate your image by using the colorblind simulator.",
-      "globalIndex": 87
+      "description": "Test how your designs appear to people with different types of color blindness. Upload images to simulate various color vision deficiencies.",
+      "globalIndex": 86
     },
     {
       "title": "Randoma11y",
       "link": "https://randoma11y.com/",
-      "description": "A handy tool for generating colors.",
-      "globalIndex": 88
+      "description": "Discover random, accessible color combinations that meet WCAG accessibility standards. Get inspired with color pairs that are both beautiful and usable.",
+      "globalIndex": 87
     },
     {
       "title": "Tint & Shade Generator",
       "link": "https://maketintsandshades.com/",
       "description": "Produce tints and shades of a given hex color in 10% increments.",
-      "globalIndex": 89
+      "globalIndex": 88
     },
     {
       "title": "UI Colors",
       "link": "https://uicolors.app/create",
-      "description": "Enter a hexcode and I will create a color family for you.",
-      "globalIndex": 83
+      "description": "Generate complete color scales from a single hex color. Perfect for creating consistent color systems for Tailwind CSS and design systems.",
+      "globalIndex": 82
     }
   ]
 }
