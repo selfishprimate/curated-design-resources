@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import Header from '@/components/Header'
+import Navigation from '@/components/Navigation'
 import MenuDesktop from '@/components/MenuDesktop'
 import MenuMobile from '@/components/MenuMobile'
 import Footer from '@/components/Footer'
@@ -31,7 +31,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <div className="min-h-screen bg-white dark:bg-gray-950">
-        <Header onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
+        <Navigation onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
         <div className="flex pt-20">
           <MenuDesktop />

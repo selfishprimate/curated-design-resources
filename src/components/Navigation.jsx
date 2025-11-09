@@ -2,10 +2,10 @@ import { Github, Moon, Sun, Menu } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import Logo from '@/components/Logo'
 
-// Desktop Header
-function HeaderDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
+// Desktop Navigation
+function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/80 backdrop-blur-sm sm:block dark:border-gray-800/50 dark:bg-gray-950/80">
+    <header className="fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md sm:block dark:border-gray-800/50 dark:bg-gray-950/95">
       <div className="mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
@@ -60,10 +60,10 @@ function HeaderDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
   )
 }
 
-// Mobile Header
-function HeaderMobile({ isDark, toggleTheme, onToggleSidebar }) {
+// Mobile Navigation
+function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/80 backdrop-blur-sm sm:hidden dark:border-gray-800/50 dark:bg-gray-950/80">
+    <header className="fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/95 backdrop-blur-md sm:hidden dark:border-gray-800/50 dark:bg-gray-950/95">
       <div className="mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
@@ -97,8 +97,8 @@ function HeaderMobile({ isDark, toggleTheme, onToggleSidebar }) {
   )
 }
 
-// Main Header Component
-export default function Header({ onToggleSidebar, onOpenSubmitModal }) {
+// Main Navigation Component
+export default function Navigation({ onToggleSidebar, onOpenSubmitModal }) {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
@@ -121,8 +121,8 @@ export default function Header({ onToggleSidebar, onOpenSubmitModal }) {
 
   return (
     <>
-      <HeaderDesktop isDark={isDark} toggleTheme={toggleTheme} onOpenSubmitModal={onOpenSubmitModal} />
-      <HeaderMobile isDark={isDark} toggleTheme={toggleTheme} onToggleSidebar={onToggleSidebar} />
+      <NavigationDesktop isDark={isDark} toggleTheme={toggleTheme} onOpenSubmitModal={onOpenSubmitModal} />
+      <NavigationMobile isDark={isDark} toggleTheme={toggleTheme} onToggleSidebar={onToggleSidebar} />
     </>
   )
 }
