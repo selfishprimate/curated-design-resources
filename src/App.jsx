@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import { Menu } from 'lucide-react'
 import Header from '@/components/Header'
 import MenuDesktop from '@/components/MenuDesktop'
 import MenuMobile from '@/components/MenuMobile'
 import Footer from '@/components/Footer'
 import Toast from '@/components/Toast'
 import SubmitModal from '@/components/SubmitModal'
+import ScrollToTop from '@/components/ScrollToTop'
 import Home from '@/pages/Home'
 import Category from '@/pages/Category'
 
@@ -29,8 +29,9 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen bg-white dark:bg-gray-950">
-        <Header onShowToast={showToast} onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
+        <Header onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
         <div className="flex pt-20">
           <MenuDesktop />

@@ -34,6 +34,9 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
 
         {/* Categories */}
         <nav className="p-4 pt-6">
+          <div className="mb-2 p-0 text-base font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+            Categories
+          </div>
           <ul className="grid grid-cols-1 min-[375px]:grid-cols-2 gap-x-4">
             {categories.map((category) => {
               const isActive = location.pathname === `/${category.id}`
@@ -83,7 +86,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
         <div className="mt-auto border-t border-gray-200 px-4 py-6 dark:border-gray-800/50">
           <div className="space-y-4">
             {/* Made by text */}
-            <div className="px-3 text-center text-xs text-gray-600 dark:text-gray-400">
+            <div className="px-3 text-center text-base text-gray-600 dark:text-gray-400">
               Made with ❤️ by{' '}
               <a
                 href="https://github.com/selfishprimate"

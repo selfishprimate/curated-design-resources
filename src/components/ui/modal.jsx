@@ -39,7 +39,7 @@ export default function Modal({
   // Default modal variant (centered with backdrop)
   if (variant === 'default') {
     return (
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0 z-[80] flex items-center justify-center p-4">
         {/* Backdrop */}
         <div
           className="absolute inset-0 bg-black/50 backdrop-blur-sm"
@@ -153,7 +153,7 @@ export default function Modal({
             color: rgb(255 255 255);
           }
         `}</style>
-        <div className="fixed inset-0 z-[60] overflow-y-auto bg-white/85 backdrop-blur-md dark:bg-gray-950/85">
+        <div className="fixed inset-0 z-[80] overflow-y-auto bg-white/85 backdrop-blur-md dark:bg-gray-950/85">
           {/* Close button - top right corner - sticky */}
           {showCloseButton && (
             <button
