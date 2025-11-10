@@ -25,7 +25,7 @@ export default function SortFilter({
   const currentLabel = SORT_OPTIONS.find(opt => opt.value === sortBy)?.label || 'Sort'
 
   return (
-    <section className="sorting bg-white md:bg-transparent dark:bg-gray-950 dark:md:bg-transparent">
+    <section className="sorting">
       <div className="sortingContainer w-full p-6">
         {showFilter ? (
           /* Layout with Filter */

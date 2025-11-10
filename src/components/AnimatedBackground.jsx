@@ -178,7 +178,7 @@ export default function AnimatedBackground({ type = 'default' }) {
       {/* Bottom Fade Mask - Only for natural type */}
       {type === 'natural' && (
         <div
-          className="backgroundMask gradient-mask absolute left-0 right-0 pointer-events-none bg-gradient-to-t from-white to-transparent dark:from-gray-950 -bottom-16 h-64 md:bottom-0 md:h-48"
+          className="backgroundMask gradient-mask absolute left-0 right-0 pointer-events-none bg-gradient-to-t from-white to-transparent dark:from-gray-950 bottom-0 h-48 md:h-48"
         />
       )}
     </>
