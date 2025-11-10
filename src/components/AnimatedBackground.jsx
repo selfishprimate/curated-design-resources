@@ -175,6 +175,9 @@ export default function AnimatedBackground({ type = 'default' }) {
         </>
       )}
 
+      {/* Grain Overlay */}
+      <div className="grain-overlay absolute inset-0 pointer-events-none opacity-100" />
+
       {/* Bottom Fade Mask - Only for natural type */}
       {type === 'natural' && (
         <div
