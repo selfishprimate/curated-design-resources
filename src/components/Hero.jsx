@@ -52,9 +52,10 @@ export default function Hero({ onSubmitModalOpen, githubStats, onSupportersModal
                       title={`${person.login} ${person.type === 'contributor' ? '(contributor)' : '(stargazer)'}`}
                     >
                       <img
-                        src={person.avatar_url}
+                        src={`${person.avatar_url}&s=96`}
                         alt={person.login}
                         className="h-12 w-12 md:h-14 md:w-14 aspect-square rounded-full border-[4px] md:border-[6px] border-white/40 transition-transform hover:scale-110 hover:z-10 dark:border-white/20 object-cover"
+                        loading="lazy"
                       />
                     </a>
                   ))}

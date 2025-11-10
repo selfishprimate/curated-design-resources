@@ -29,9 +29,10 @@ export default function SupportersModal({ isOpen, onClose, people }) {
                 title={person.login}
               >
                 <img
-                  src={person.avatar_url}
+                  src={`${person.avatar_url}&s=96`}
                   alt={person.login}
                   className="h-16 w-16 rounded-full transition-transform group-hover:scale-110"
+                  loading="lazy"
                 />
               </a>
             ))}
@@ -56,9 +57,10 @@ export default function SupportersModal({ isOpen, onClose, people }) {
                 title={person.login}
               >
                 <img
-                  src={person.avatar_url}
+                  src={`${person.avatar_url}&s=96`}
                   alt={person.login}
                   className="h-16 w-16 rounded-full transition-transform group-hover:scale-110"
+                  loading="lazy"
                 />
               </a>
             ))}

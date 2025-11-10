@@ -44,25 +44,36 @@
     <!-- Language -->
     <meta http-equiv="content-language" content="en" />
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLNZBQKJTP"></script>
+    <!-- Google Analytics 4 - Lazy Loaded for Performance -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-HLNZBQKJTP');
+      // Lazy load GA after page is fully loaded
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HLNZBQKJTP';
+          document.head.appendChild(script);
+
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HLNZBQKJTP');
+          };
+        }, 2000); // Load after 2 seconds
+      });
     </script>
 
-    <!-- DNS Prefetch for Performance -->
-    <link rel="dns-prefetch" href="https://logo.clearbit.com" />
+    <!-- Resource Hints for Performance -->
+    <!-- Preconnect to critical origins -->
+    <link rel="preconnect" href="https://avatars.githubusercontent.com" />
     <link rel="preconnect" href="https://logo.clearbit.com" crossorigin />
 
-    <!-- Google Fonts - Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Preload Inter font for better performance -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- DNS Prefetch for less critical origins -->
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+    <!-- Inter font now self-hosted via @fontsource/inter -->
   </head>
   <body>
     <div id="root"></div>

@@ -1,14 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, lazy, Suspense } from 'react'
 import Navigation from '@/components/Navigation'
 import MenuDesktop from '@/components/MenuDesktop'
 import MenuMobile from '@/components/MenuMobile'
 import Footer from '@/components/Footer'
 import Toast from '@/components/Toast'
-import SubmitModal from '@/components/SubmitModal'
 import ScrollToTop from '@/components/ScrollToTop'
-import Home from '@/pages/Home'
-import Category from '@/pages/Category'
+
+// Lazy load heavy components
+const SubmitModal = lazy(() => import('@/components/SubmitModal'))
+const Home = lazy(() => import('@/pages/Home'))
+const Category = lazy(() => import('@/pages/Category'))
 
 function App() {
   const [toast, setToast] = useState(null)
@@ -42,10 +44,12 @@ function App() {
           />
           <div className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col lg:ml-64">
             <main className="flex-1">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/:id" element={<Category />} />
-              </Routes>
+              <Suspense fallback={<div className="flex items-center justify-center min-h-[400px]"><div className="text-gray-500">Loading...</div></div>}>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/:id" element={<Category />} />
+                </Routes>
+              </Suspense>
             </main>
             <Footer />
           </div>
@@ -53,11 +57,15 @@ function App() {
       </div>
 
       {/* Submit Modal */}
-      <SubmitModal
-        isOpen={isSubmitModalOpen}
-        onClose={() => setIsSubmitModalOpen(false)}
-        onShowToast={showToast}
-      />
+      {isSubmitModalOpen && (
+        <Suspense fallback={null}>
+          <SubmitModal
+            isOpen={isSubmitModalOpen}
+            onClose={() => setIsSubmitModalOpen(false)}
+            onShowToast={showToast}
+          />
+        </Suspense>
+      )}
 
       {/* Global Toast Notification */}
       {toast && (
