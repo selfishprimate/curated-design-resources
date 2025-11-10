@@ -152,9 +152,9 @@ export default function ResourceCard({ resource, showCategory = false }) {
 
         {/* Content */}
         <div className="cardContent flex flex-1 flex-col overflow-hidden">
-          <h3 className="cardTitle mb-2 line-clamp-2 font-semibold text-gray-900 dark:text-white">
+          <h2 className="cardTitle mb-2 line-clamp-2 text-base font-semibold text-gray-900 dark:text-white">
             {resource.title}
-          </h3>
+          </h2>
           <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
             {resource.description}
           </p>
@@ -165,7 +165,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
           <div className="cardFooter mt-6 sm:mt-3">
             <span
               onClick={handleCategoryClick}
-              className="cardCategory cursor-pointer text-xs font-medium uppercase text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300"
+              className="cardCategory cursor-pointer text-xs font-medium uppercase text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             >
               {resource.category.title}
             </span>
