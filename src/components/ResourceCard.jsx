@@ -54,9 +54,8 @@ export default function ResourceCard({ resource, showCategory = false }) {
 
   // Multiple logo services as fallbacks (in case one is blocked by ad blockers)
   const logoServices = [
-    `https://www.google.com/s2/favicons?domain=${domain}&sz=128`,
-    `https://icon.horse/icon/${domain}`,
-    `https://logo.clearbit.com/${domain}`
+    `https://logo.clearbit.com/${domain}`,
+    `https://icon.horse/icon/${domain}`
   ]
 
   const currentLogoUrl = logoServices[logoServiceIndex]
