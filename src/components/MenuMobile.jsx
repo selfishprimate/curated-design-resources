@@ -1,9 +1,23 @@
 import { Link, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import { X, Github, Linkedin, Instagram } from 'lucide-react'
 import { categories } from '@/data/categories'
 
 export default function MenuMobile({ isOpen, onClose, onSubmit }) {
   const location = useLocation()
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isOpen])
 
   return (
     <>
@@ -34,7 +48,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
 
         {/* Categories */}
         <nav className="p-4 pt-6">
-          <div className="mb-2 p-0 text-base font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+          <div className="mb-6 p-0 text-sm font-medium uppercase tracking-wider text-gray-500 dark:text-gray-400">
             Categories
           </div>
           <ul className="grid grid-cols-1 min-[375px]:grid-cols-2 gap-x-4">
