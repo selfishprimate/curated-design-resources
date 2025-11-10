@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 lighthouse-*.json
+
+# Build and script output files
+*-output.txt

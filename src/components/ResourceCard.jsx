@@ -47,28 +47,16 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const navigate = useNavigate()
   const [logoError, setLogoError] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
-  const [logoServiceIndex, setLogoServiceIndex] = useState(0)
   const initials = getInitials(resource.title)
   const bgColor = getColorFromString(resource.title)
   const domain = getDomainFromUrl(resource.link)
 
-  // Multiple logo services as fallbacks (Icon.horse is ad-blocker friendly)
-  const logoServices = [
-    `https://icon.horse/icon/${domain}`,
-    `https://logo.clearbit.com/${domain}`
-  ]
-
-  const currentLogoUrl = logoServices[logoServiceIndex]
+  // Use local logo (downloaded by fetch-logos script)
+  const logoUrl = `/logos/${domain}.png`
 
   const handleLogoError = () => {
-    // Try next service if available
-    if (logoServiceIndex < logoServices.length - 1) {
-      setLogoServiceIndex(logoServiceIndex + 1)
-      setLogoLoaded(false)
-    } else {
-      // All services failed, show initials
-      setLogoError(true)
-    }
+    // Show initials if local logo doesn't exist
+    setLogoError(true)
   }
 
   const handleCategoryClick = (e) => {
@@ -125,11 +113,11 @@ export default function ResourceCard({ resource, showCategory = false }) {
 
       <div className="cardInner flex h-full flex-col">
         {/* Logo or Initials - Left aligned */}
-        <div className="cardLogo mb-4">
+        <div className="cardLogo mb-4 relative">
           {!logoError ? (
             <>
               <img
-                src={currentLogoUrl}
+                src={logoUrl}
                 alt={`${resource.title} logo`}
                 className={`logoImage h-12 w-12 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
                 loading="lazy"
@@ -137,7 +125,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
                 onLoad={() => setLogoLoaded(true)}
               />
               {!logoLoaded && (
-                <div className={`logoInitials absolute flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
+                <div className={`logoInitials absolute inset-0 flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
                   {initials}
                 </div>
               )}
