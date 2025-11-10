@@ -17,7 +17,7 @@ export const seoConfig = {
   },
 
   // Open Graph / Social Media Preview
-  defaultImage: '/og-image.jpg', // Update with actual OG image path (1200x630px recommended)
+  defaultImage: '/og-image-dark.jpg',
   imageAlt: 'Mossaique - Your Design Mosaic',
 
   // Twitter Card
