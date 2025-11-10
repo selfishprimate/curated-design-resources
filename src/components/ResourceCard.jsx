@@ -52,10 +52,10 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const bgColor = getColorFromString(resource.title)
   const domain = getDomainFromUrl(resource.link)
 
-  // Multiple logo services as fallbacks (in case one is blocked by ad blockers)
+  // Multiple logo services as fallbacks (Icon.horse is ad-blocker friendly)
   const logoServices = [
-    `https://logo.clearbit.com/${domain}`,
-    `https://icon.horse/icon/${domain}`
+    `https://icon.horse/icon/${domain}`,
+    `https://logo.clearbit.com/${domain}`
   ]
 
   const currentLogoUrl = logoServices[logoServiceIndex]
