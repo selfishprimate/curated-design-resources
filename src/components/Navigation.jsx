@@ -5,17 +5,17 @@ import Logo from '@/components/Logo'
 // Desktop Navigation
 function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md sm:block dark:border-gray-800/50 dark:bg-gray-950/95">
-      <div className="mx-auto flex h-20 items-center justify-between px-6">
+    <header className="mainNavigation mainNavigationDesktop fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md sm:block dark:border-gray-800/50 dark:bg-gray-950/95">
+      <div className="navigationContainer mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
 
         {/* Right side: Actions */}
-        <div className="flex items-center gap-2">
+        <div className="navigationActions flex items-center gap-2">
           {/* Submit Button */}
           <button
             onClick={onOpenSubmitModal}
-            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="submitButton rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="Submit resource"
           >
             Submit
@@ -26,7 +26,7 @@ function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
             href="https://github.com/sponsors/selfishprimate"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="supportButton rounded-lg px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
           >
             Support
           </a>
@@ -34,7 +34,7 @@ function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="themeToggle rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="Toggle theme"
           >
             {isDark ? (
@@ -46,10 +46,10 @@ function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
 
           {/* GitHub Link */}
           <a
-            href="https://github.com/selfishprimate/curated-design-resources"
+            href="https://github.com/selfishprimate/mossaique"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="githubLink rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="GitHub"
           >
             <Github className="h-5 w-5" />
@@ -63,17 +63,17 @@ function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
 // Mobile Navigation
 function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/95 backdrop-blur-md sm:hidden dark:border-gray-800/50 dark:bg-gray-950/95">
-      <div className="mx-auto flex h-20 items-center justify-between px-6">
+    <header className="mainNavigation mainNavigationMobile fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/95 backdrop-blur-md sm:hidden dark:border-gray-800/50 dark:bg-gray-950/95">
+      <div className="navigationContainer mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
 
         {/* Right side: Actions */}
-        <div className="flex items-center gap-1">
+        <div className="navigationActions flex items-center gap-1">
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="themeToggle rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="Toggle theme"
           >
             {isDark ? (
@@ -86,7 +86,7 @@ function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
           {/* Hamburger Menu */}
           <button
             onClick={onToggleSidebar}
-            className="-mr-2 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            className="hamburgerMenu -mr-2 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
             aria-label="Toggle menu"
           >
             <Menu className="h-5 w-5" />

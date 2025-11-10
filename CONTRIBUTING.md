@@ -126,7 +126,7 @@ The automation is defined in `.github/workflows/parse-readme.yml`
 
 **You can see the workflow runs at:**
 ```
-https://github.com/selfishprimate/curated-design-resources/actions
+https://github.com/selfishprimate/mossaique/actions
 ```
 
 ---

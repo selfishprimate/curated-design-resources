@@ -31,6 +31,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
   const githubStats = githubStatsData
   const [sortBy, setSortBy] = useState('popular')
+  const [filterBy, setFilterBy] = useState('all')
   const observerTarget = useRef(null)
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
   const [isSupportersModalOpen, setIsSupportersModalOpen] = useState(false)
@@ -39,8 +40,13 @@ export default function Home() {
     setToast({ message, type })
   }
 
-  // Sort resources based on selected option
-  const allResources = sortResources(allResourcesRaw, sortBy)
+  // Filter resources based on pricing
+  const filteredResources = filterBy === 'all'
+    ? allResourcesRaw
+    : allResourcesRaw.filter(resource => resource.pricing === filterBy)
+
+  // Sort filtered resources based on selected option
+  const allResources = sortResources(filteredResources, sortBy)
 
   const loadMore = useCallback(() => {
     if (displayedItems >= allResources.length) return
@@ -98,14 +104,20 @@ export default function Home() {
             setSortBy(value)
             setDisplayedItems(ITEMS_PER_PAGE)
           }}
+          filterBy={filterBy}
+          onFilterChange={(value) => {
+            setFilterBy(value)
+            setDisplayedItems(ITEMS_PER_PAGE)
+          }}
           totalCount={allResources.length}
           displayedCount={Math.min(displayedItems, allResources.length)}
+          showFilter={true}
         />
       </div>
 
       {/* Resources Grid */}
-      <section className="relative z-10 flex-1 p-6">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+      <section className="resourcesSection relative z-10 flex-1 p-6">
+        <div className="resourcesGrid grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}

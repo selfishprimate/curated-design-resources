@@ -5,7 +5,7 @@ export const seoConfig = {
   // Site Information
   siteName: 'Mossaique',
   siteUrl: 'https://mossaique.com',
-  defaultTitle: 'Mossaique - Your Design Mosaic',
+  defaultTitle: 'Mossaique: Your Design Mosaic',
   defaultDescription: 'Your design mosaic. A carefully curated collection of 300+ premium design tools, UI libraries, icons, colors, and learning resources for designers and developers.',
   defaultKeywords: 'mossaique, design resources, design tools, ui design, ux design, prototyping, typography, color palettes, design systems, figma plugins, icons, stock photos, curated design',
 

@@ -1,0 +1,34 @@
+Contact: https://github.com/selfishprimate/mossaique/security/advisories/new
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://mossaique.com/.well-known/security.txt
+
+# Security Policy
+
+If you discover a security vulnerability in Mossaique, please report it
+via GitHub Security Advisories or email.
+
+Please include:
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Any suggested fixes (optional)
+
+We take security seriously and will respond to valid reports promptly.
+
+# Scope
+
+In scope:
+- XSS vulnerabilities
+- Authentication/authorization issues
+- Data leakage
+- CSRF vulnerabilities
+- Any security issue that could affect users
+
+Out of scope:
+- Social engineering
+- Denial of Service (DoS)
+- Issues in third-party services
+- Reports from automated scanners without validation
+
+Thank you for helping keep Mossaique secure!

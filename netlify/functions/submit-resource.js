@@ -71,7 +71,7 @@ exports.handler = async (event) => {
     }
 
     const REPO_OWNER = 'selfishprimate';
-    const REPO_NAME = 'curated-design-resources';
+    const REPO_NAME = 'mossaique';
     const BASE_BRANCH = 'master';
 
     // 1. Get the base branch reference

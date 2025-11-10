@@ -213,11 +213,11 @@ git push origin master
 
 ⚠️ **Important:** GitHub automatically sets up redirects from old URL to new URL
 
-1. Go to repository: `https://github.com/selfishprimate/curated-design-resources`
+1. Go to repository: `https://github.com/selfishprimate/mossaique`
 2. Click **Settings** tab
 3. Scroll to **Repository name** section
-4. Change name from `curated-design-resources` to `mossaique`
-5. Click **Rename**
+4. Repository has been renamed to `mossaique`
+5. GitHub maintains redirects from old URL
 
 **New URL:** `https://github.com/selfishprimate/mossaique`
 
@@ -356,9 +356,9 @@ Create `_redirects` file in Netlify public folder:
 **File:** `public/_redirects`
 
 ```
-# Redirect old Netlify domain to new domain
-https://curated-design-resources.netlify.app/* https://mossaique.com/:splat 301!
-http://curated-design-resources.netlify.app/* https://mossaique.com/:splat 301!
+# Redirect Netlify domain to custom domain
+https://mossaique.netlify.app/* https://mossaique.com/:splat 301!
+http://mossaique.netlify.app/* https://mossaique.com/:splat 301!
 ```
 
 ### Step 6.2: Add Alternative Spelling Redirect

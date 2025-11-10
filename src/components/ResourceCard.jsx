@@ -79,6 +79,17 @@ export default function ResourceCard({ resource, showCategory = false }) {
   }
 
   // Pricing badge config
+  // Categories where pricing badges should be hidden
+  const categoriesWithoutPricing = [
+    'articles',
+    'blogs',
+    'books',
+    'tutorials',
+    'design-news'
+  ]
+
+  const shouldShowPricing = resource.category && !categoriesWithoutPricing.includes(resource.category.id)
+
   const pricingConfig = {
     free: {
       label: 'Free',
@@ -97,64 +108,64 @@ export default function ResourceCard({ resource, showCategory = false }) {
     }
   }
 
-  const pricingInfo = resource.pricing ? pricingConfig[resource.pricing] : null
+  const pricingInfo = resource.pricing && shouldShowPricing ? pricingConfig[resource.pricing] : null
 
   return (
     <a
       href={resource.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
+      className="resourceCard group relative rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
     >
       {/* Pricing Badge - Top Right */}
       {pricingInfo && (
-        <div className={`absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
+        <div className={`pricingBadge absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
           {pricingInfo.label}
         </div>
       )}
 
-      <div className="flex h-full flex-col">
+      <div className="cardInner flex h-full flex-col">
         {/* Logo or Initials - Left aligned */}
-        <div className="mb-4">
+        <div className="cardLogo mb-4">
           {!logoError ? (
             <>
               <img
                 src={currentLogoUrl}
                 alt={`${resource.title} logo`}
-                className={`h-10 w-10 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
+                className={`logoImage h-12 w-12 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
                 loading="lazy"
                 onError={handleLogoError}
                 onLoad={() => setLogoLoaded(true)}
               />
               {!logoLoaded && (
-                <div className={`absolute flex h-10 w-10 items-center justify-center rounded-full ${bgColor} text-sm font-bold text-white`}>
+                <div className={`logoInitials absolute flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
                   {initials}
                 </div>
               )}
             </>
           ) : (
-            <div className={`flex h-10 w-10 items-center justify-center rounded-full ${bgColor} text-sm font-bold text-white`}>
+            <div className={`logoInitials flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
               {initials}
             </div>
           )}
         </div>
 
         {/* Content */}
-        <div className="flex flex-1 flex-col overflow-hidden">
-          <h3 className="mb-2 line-clamp-2 font-semibold text-gray-900 dark:text-white">
+        <div className="cardContent flex flex-1 flex-col overflow-hidden">
+          <h3 className="cardTitle mb-2 line-clamp-2 font-semibold text-gray-900 dark:text-white">
             {resource.title}
           </h3>
-          <p className="line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
             {resource.description}
           </p>
         </div>
 
         {/* Footer - Category */}
         {showCategory && resource.category && (
-          <div className="mt-3">
+          <div className="cardFooter mt-6 sm:mt-3">
             <span
               onClick={handleCategoryClick}
-              className="cursor-pointer text-xs font-medium uppercase text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300"
+              className="cardCategory cursor-pointer text-xs font-medium uppercase text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300"
             >
               {resource.category.title}
             </span>

@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const REPO_OWNER = 'selfishprimate'
-const REPO_NAME = 'curated-design-resources'
+const REPO_NAME = 'mossaique'
 
 async function fetchGitHubData() {
   try {

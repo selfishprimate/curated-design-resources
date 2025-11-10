@@ -55,7 +55,7 @@ npm run parse-readme && npm run build
 **Production:**
 - Triggers on push to `master` branch
 - Netlify automatically builds and deploys
-- Available at: https://curated-design-resources.netlify.app/
+- Available at: https://mossaique.netlify.app/
 
 **Preview Deployments:**
 - Created for every pull request
@@ -130,10 +130,10 @@ Typical build times:
 
 ## 🔗 Useful Links
 
-- **Live Site:** https://curated-design-resources.netlify.app/
-- **Netlify Dashboard:** https://app.netlify.com/sites/curated-design-resources
-- **GitHub Repository:** https://github.com/selfishprimate/curated-design-resources
-- **GitHub Actions:** https://github.com/selfishprimate/curated-design-resources/actions
+- **Live Site:** https://mossaique.netlify.app/
+- **Netlify Dashboard:** https://app.netlify.com/sites/mossaique
+- **GitHub Repository:** https://github.com/selfishprimate/mossaique
+- **GitHub Actions:** https://github.com/selfishprimate/mossaique/actions
 
 ## 💡 Tips
 

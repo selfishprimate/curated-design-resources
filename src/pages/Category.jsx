@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import { categories } from '@/data/categories'
 import ResourceCard from '@/components/ResourceCard'
 import SEO from '@/components/SEO'
 import SortFilter from '@/components/SortFilter'
+import CategoryHeader from '@/components/CategoryHeader'
 import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
 
@@ -12,21 +13,47 @@ export default function Category() {
   const { id } = useParams()
   const category = categories.find(cat => cat.id === id)
   const [sortBy, setSortBy] = useState('popular')
+  const [filterBy, setFilterBy] = useState('all')
 
-  // Add popularity scores to resources
+  // Reset filter when category changes
+  useEffect(() => {
+    setFilterBy('all')
+  }, [id])
+
+  // Categories where pricing filter should be hidden
+  const categoriesWithoutPricing = [
+    'articles',
+    'blogs',
+    'books',
+    'tutorials',
+    'design-news'
+  ]
+
+  const shouldShowPricingFilter = category && !categoriesWithoutPricing.includes(category.id)
+
+  // Add popularity scores and category info to resources
   const resourcesWithScores = category?.resources.map(resource => ({
     ...resource,
-    popularityScore: calculatePopularity(resource)
+    popularityScore: calculatePopularity(resource),
+    category: {
+      id: category.id,
+      title: category.title
+    }
   })) || []
 
-  // Sort resources
-  const sortedResources = sortResources(resourcesWithScores, sortBy)
+  // Filter resources based on pricing (only if filtering is enabled for this category)
+  const filteredResources = (filterBy === 'all' || !shouldShowPricingFilter)
+    ? resourcesWithScores
+    : resourcesWithScores.filter(resource => resource.pricing === filterBy)
+
+  // Sort filtered resources
+  const sortedResources = sortResources(filteredResources, sortBy)
 
   if (!category) {
     return (
       <div className="bg-white px-8 py-8 text-gray-900 dark:bg-gray-950 dark:text-white">
         <SEO
-          title="Category not found - Curated Design Resources"
+          title="Mossaique: Category not found"
           description="The category you're looking for doesn't exist."
           noindex={true}
         />
@@ -79,7 +106,7 @@ export default function Category() {
 
   // Get SEO metadata for this category
   const categoryMeta = seoConfig.categoryMetadata[category.id]
-  const metaTitle = `${category.title} - Curated Design Resources`
+  const metaTitle = `Mossaique: ${category.title}`
   const metaDescription = categoryMeta?.description || category.description
   const metaKeywords = categoryMeta?.keywords || seoConfig.defaultKeywords
 
@@ -93,44 +120,37 @@ export default function Category() {
         breadcrumbs={breadcrumbs}
         structuredData={structuredData}
       />
-      {/* Header */}
-      <div className="border-b border-gray-200 px-8 py-8 dark:border-gray-800/50">
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to Home
-        </Link>
 
-        <div className="mt-6">
-          <h1 className="text-4xl font-bold">{category.title}</h1>
-          <p className="mt-2 text-lg text-gray-600 dark:text-gray-400">
-            {category.description}
-          </p>
-        </div>
-      </div>
+      {/* Header */}
+      <CategoryHeader title={category.title} description={category.description} type="natural" />
 
       {/* Sort & Filter */}
       {category.resources.length > 0 && (
-        <SortFilter
-          sortBy={sortBy}
-          onSortChange={setSortBy}
-          totalCount={category.resources.length}
-          displayedCount={category.resources.length}
-        />
+        <div className="relative z-10">
+          <SortFilter
+            sortBy={sortBy}
+            onSortChange={setSortBy}
+            filterBy={filterBy}
+            onFilterChange={setFilterBy}
+            totalCount={sortedResources.length}
+            displayedCount={sortedResources.length}
+            showFilter={shouldShowPricingFilter}
+          />
+        </div>
       )}
 
       {/* Resources */}
-      <div className="p-6">
-        {category.resources.length === 0 ? (
-          <div className="border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800/50 dark:bg-gray-900/50">
+      <div className="resourcesSection p-6">
+        {sortedResources.length === 0 ? (
+          <div className="emptyState border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800/50 dark:bg-gray-900/50">
             <p className="text-gray-600 dark:text-gray-400">
-              No resources available yet. Check back soon!
+              {category.resources.length === 0
+                ? 'No resources available yet. Check back soon!'
+                : `No ${filterBy} resources found. Try a different filter.`}
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+          <div className="resourcesGrid grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
             {sortedResources.map((resource, index) => (
               <ResourceCard
                 key={index}

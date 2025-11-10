@@ -1,0 +1,40 @@
+{
+  "name": "Mossaique - Your Design Mosaic",
+  "short_name": "Mossaique",
+  "description": "A carefully curated collection of 300+ premium design tools, UI libraries, icons, colors, and learning resources for designers and developers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#030712",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logomark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "utilities",
+    "education"
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Browse Resources",
+      "short_name": "Browse",
+      "description": "Browse all design resources",
+      "url": "/",
+      "icons": []
+    }
+  ],
+  "prefer_related_applications": false
+}

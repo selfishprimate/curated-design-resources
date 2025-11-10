@@ -10,6 +10,10 @@
     transition-duration: 200ms;
   }
 
+  html, body {
+    overscroll-behavior-y: none;
+  }
+
   body {
     @apply bg-white text-gray-900;
   }

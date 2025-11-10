@@ -28,7 +28,7 @@ This guide explains how to set up the automated resource submission feature that
 ### 2. Add Token to Netlify
 
 1. Go to [Netlify Dashboard](https://app.netlify.com/)
-2. Select your **curated-design-resources** site
+2. Select your **mossaique** site
 3. Go to **Site settings** → **Environment variables**
 4. Click **"Add a variable"**
 5. Add:

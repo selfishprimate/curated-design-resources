@@ -1,7 +1,7 @@
 # SEO Implementation Report
 **Date:** November 7, 2024
-**Project:** Curated Design Resources
-**Domain:** https://curated-design-resources.netlify.app
+**Project:** Mossaique
+**Domain:** https://mossaique.netlify.app
 
 ## Executive Summary
 This report documents the comprehensive SEO implementation for the Curated Design Resources website. All major SEO best practices have been implemented to ensure optimal indexing and ranking in search engines, particularly Google.
@@ -26,7 +26,7 @@ Created `/public/robots.txt` with proper directives for search engine crawlers.
 User-agent: *
 Allow: /
 
-Sitemap: https://curated-design-resources.netlify.app/sitemap.xml
+Sitemap: https://mossaique.netlify.app/sitemap.xml
 ```
 
 ### Impact
@@ -84,12 +84,12 @@ Added comprehensive structured data using JSON-LD format for rich search results
 ```json
 {
   "@type": "WebSite",
-  "name": "Curated Design Resources",
-  "url": "https://curated-design-resources.netlify.app",
+  "name": "Mossaique",
+  "url": "https://mossaique.netlify.app",
   "description": "...",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://curated-design-resources.netlify.app/category/{category_id}",
+    "target": "https://mossaique.netlify.app/category/{category_id}",
     "query-input": "required name=category_id"
   }
 }
@@ -162,10 +162,10 @@ Complete Open Graph and Twitter Card meta tags for optimal social sharing.
 ```html
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Curated Design Resources" />
+<meta property="og:site_name" content="Mossaique" />
 <meta property="og:title" content="..." />
 <meta property="og:description" content="..." />
-<meta property="og:image" content="https://curated-design-resources.netlify.app/og-image.jpg" />
+<meta property="og:image" content="https://mossaique.netlify.app/og-image.jpg" />
 <meta property="og:url" content="..." />
 <meta property="og:locale" content="en_US" />
 
@@ -264,7 +264,7 @@ Every page includes a canonical URL to prevent duplicate content issues.
 
 ### Example
 ```html
-<link rel="canonical" href="https://curated-design-resources.netlify.app/category/ui-design" />
+<link rel="canonical" href="https://mossaique.netlify.app/category/ui-design" />
 ```
 
 ### Impact
