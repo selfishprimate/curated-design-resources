@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useState, lazy, Suspense } from 'react'
+import { useState } from 'react'
 import Navigation from '@/components/Navigation'
 import MenuDesktop from '@/components/MenuDesktop'
 import MenuMobile from '@/components/MenuMobile'
@@ -8,9 +8,7 @@ import Toast from '@/components/Toast'
 import ScrollToTop from '@/components/ScrollToTop'
 import Home from '@/pages/Home'
 import Category from '@/pages/Category'
-
-// Lazy load only modal components
-const SubmitModal = lazy(() => import('@/components/SubmitModal'))
+import SubmitModal from '@/components/SubmitModal'
 
 function App() {
   const [toast, setToast] = useState(null)
@@ -56,13 +54,11 @@ function App() {
 
       {/* Submit Modal */}
       {isSubmitModalOpen && (
-        <Suspense fallback={null}>
-          <SubmitModal
-            isOpen={isSubmitModalOpen}
-            onClose={() => setIsSubmitModalOpen(false)}
-            onShowToast={showToast}
-          />
-        </Suspense>
+        <SubmitModal
+          isOpen={isSubmitModalOpen}
+          onClose={() => setIsSubmitModalOpen(false)}
+          onShowToast={showToast}
+        />
       )}
 
       {/* Global Toast Notification */}
