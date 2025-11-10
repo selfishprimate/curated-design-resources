@@ -11,6 +11,14 @@ export default defineConfig({
     },
   },
   build: {
+    // Minify with terser for better compression
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true, // Remove console.logs in production
+        drop_debugger: true,
+      },
+    },
     rollupOptions: {
       output: {
         manualChunks: {
@@ -22,7 +30,11 @@ export default defineConfig({
     },
     // Optimize chunk size
     chunkSizeWarningLimit: 1000,
-    // Enable source maps for production debugging (optional)
+    // Disable source maps for smaller bundle
     sourcemap: false,
+    // Enable CSS code splitting
+    cssCodeSplit: true,
+    // Optimize assets
+    assetsInlineLimit: 4096, // Inline assets smaller than 4kb
   },
 })
