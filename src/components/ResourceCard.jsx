@@ -32,7 +32,7 @@ const getColorFromString = (str) => {
     'bg-purple-600',
     'bg-pink-600',
     'bg-indigo-600',
-    'bg-cyan-600',
+    'bg-cyan-700',
     'bg-teal-700',
     'bg-green-600',
     'bg-orange-700',
