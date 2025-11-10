@@ -61,7 +61,7 @@ export default function MenuMobile({ isOpen, onClose, onSubmit }) {
                     onClick={onClose}
                     className={`flex items-center p-0 text-base transition-all ${
                       isActive
-                        ? 'font-semibold text-primary-500 dark:text-primary-400'
+                        ? 'font-semibold text-primary-600 dark:text-primary-500'
                         : 'font-normal text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white'
                     }`}
                   >

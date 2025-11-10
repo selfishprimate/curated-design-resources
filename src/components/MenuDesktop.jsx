@@ -49,7 +49,7 @@ export default function MenuDesktop() {
                   to={`/${category.id}`}
                   className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-all ${
                     isActive
-                      ? 'font-semibold text-primary-500 dark:text-primary-400'
+                      ? 'font-semibold text-primary-600 dark:text-primary-500'
                       : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-900 dark:hover:text-white'
                   }`}
                 >
