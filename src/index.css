@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  /* Font display optimization for faster text rendering */
+  @font-face {
+    font-family: 'Inter';
+    font-display: swap;
+  }
+
   /* Smooth transitions - Applied selectively to avoid performance issues */
   a, button, [role="button"] {
     transition-property: color, background-color, border-color, opacity, transform;
@@ -133,6 +139,22 @@
     }
   }
 
+  /* Simplify animations on mobile for better performance */
+  @media (max-width: 768px) {
+    .animate-gradient-orbit-1 {
+      animation-duration: 40s; /* Slower = less CPU usage */
+    }
+    .animate-gradient-orbit-2 {
+      animation-duration: 45s;
+    }
+    .animate-gradient-orbit-3 {
+      animation-duration: 40s;
+    }
+    .animate-gradient-orbit-4 {
+      animation-duration: 35s;
+    }
+  }
+
   /* Prevent flickering on gradient layers, masks, and text gradients */
   .gradient-layer,
   .gradient-mask,
@@ -159,6 +181,13 @@
     transform: translateZ(0);
     backface-visibility: hidden;
     contain: strict;
+  }
+
+  /* Disable grain texture on mobile for better performance */
+  @media (max-width: 768px) {
+    .grain-overlay {
+      display: none;
+    }
   }
 
   /* Force hardware acceleration but limit composite layers */
