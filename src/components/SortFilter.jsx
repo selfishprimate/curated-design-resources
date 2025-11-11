@@ -77,7 +77,7 @@ export default function SortFilter({
 
               {/* Desktop: Filter & Sort with icons and buttons */}
               <div className="filterControls hidden items-center gap-3 sm:flex">
-                <Filter className="h-4 w-4 text-gray-600 dark:text-gray-400" />
+                <Filter className="h-4 w-4 text-gray-600 dark:text-white" />
 
                 <div className="filterButtons flex gap-1">
                   {FILTER_OPTIONS.map((option) => (
@@ -87,7 +87,7 @@ export default function SortFilter({
                       className={`filterButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         filterBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-white/10'
                       }`}
                     >
                       {option.label}
@@ -97,7 +97,7 @@ export default function SortFilter({
               </div>
 
               <div className="sortControls hidden items-center gap-3 sm:flex">
-                <ArrowUpDown className="h-4 w-4 text-gray-600 dark:text-gray-400" />
+                <ArrowUpDown className="h-4 w-4 text-gray-600 dark:text-white" />
 
                 <div className="sortButtons flex gap-1">
                   {SORT_OPTIONS.map((option) => (
@@ -107,7 +107,7 @@ export default function SortFilter({
                       className={`sortButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         sortBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-white/10'
                       }`}
                     >
                       {option.label}
@@ -118,7 +118,7 @@ export default function SortFilter({
             </div>
 
             {/* Bottom: Resource count */}
-            <div className="resourceCount text-sm font-medium text-gray-700 dark:text-gray-300">
+            <div className="resourceCount text-sm font-medium text-gray-700 dark:text-white">
               Showing {displayedCount} of {totalCount} resources
             </div>
           </div>
@@ -150,13 +150,13 @@ export default function SortFilter({
             {/* Desktop: Resource count left, Sort right */}
             <div className="hidden items-center justify-between sm:flex">
               {/* Left: Resource count */}
-              <div className="resourceCount text-sm font-medium text-gray-700 dark:text-gray-300">
+              <div className="resourceCount text-sm font-medium text-gray-700 dark:text-white">
                 Showing {displayedCount} of {totalCount} resources
               </div>
 
               {/* Right: Sort controls */}
               <div className="sortControls flex items-center gap-3">
-                <ArrowUpDown className="h-4 w-4 text-gray-600 dark:text-gray-400" />
+                <ArrowUpDown className="h-4 w-4 text-gray-600 dark:text-white" />
 
                 <div className="sortButtons flex gap-1">
                   {SORT_OPTIONS.map((option) => (
@@ -166,7 +166,7 @@ export default function SortFilter({
                       className={`sortButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         sortBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-white dark:hover:bg-white/10'
                       }`}
                     >
                       {option.label}
@@ -177,7 +177,7 @@ export default function SortFilter({
             </div>
 
             {/* Mobile: Resource count */}
-            <div className="resourceCount text-sm font-medium text-gray-700 sm:hidden dark:text-gray-300">
+            <div className="resourceCount text-sm font-medium text-gray-700 sm:hidden dark:text-white">
               Showing {displayedCount} of {totalCount} resources
             </div>
           </div>

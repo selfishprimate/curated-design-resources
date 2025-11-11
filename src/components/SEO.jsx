@@ -102,6 +102,8 @@ export default function SEO({
       <meta property="og:description" content={pageDescription} />
       <meta property="og:image" content={fullImageUrl} />
       <meta property="og:image:alt" content={imageAlt} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:url" content={pageUrl} />
       <meta property="og:locale" content={locale} />
 
