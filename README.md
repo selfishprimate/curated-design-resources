@@ -314,12 +314,11 @@ _Productivity tools to streamline your design workflow. Collaborate better with 
 
 ## Prototyping
 
-_Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, InVision, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing._
+_Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing._
 
 - [Balsamiq](https://balsamiq.com/): Rapid low-fidelity wireframing tool with hand-drawn aesthetics. Perfect for quickly sketching user interfaces and communicating design ideas without getting lost in details.
 - [Flinto](https://www.flinto.com/): Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
 - [Fluid](https://www.fluidui.com/): Fast prototyping tool for creating web and mobile app mockups. Over 2000 built-in widgets and design components for rapid wireframing.
-- [Invision](https://www.invisionapp.com/): The digital product design platform powering the world’s best user experiences.
 - [Justinmind](https://www.justinmind.com/): From wireframes to highly interactive prototypes.
 - [Marvel](https://marvelapp.com/): Marvel has everything you need to bring ideas to life and transform how you create digital products with your team.
 - [MockFlow](https://www.mockflow.com/): MockFlow is the UI planning platform that your team needs to kickstart software projects.
@@ -396,7 +395,6 @@ _Best UI design tools and resources. Create beautiful user interfaces with Figma
 - [Adobe XD](https://www.adobe.com/products/xd.html): Lifelike in every sense. Create stunningly real UI/UX designs and stand out from the rest.
 - [Figma](https://www.figma.com/ui-design-tool/): Browser-based collaborative design tool for creating interfaces, prototypes, and design systems. Real-time collaboration, powerful auto-layout, and extensive plugin ecosystem.
 - [Framer](https://www.framer.com/): Interactive design and prototyping tool with real React components. Create production-ready prototypes with advanced animations, interactions, and responsive layouts.
-- [InVision](https://www.invisionapp.com/): Transformative collaboration for all the work you do.
 - [Maze](https://maze.co/): Rapid user testing and research platform. Test prototypes, run surveys, conduct interviews, and gather actionable insights before building your product.
 - [Origami Studio](https://origami.design/): Design, animate, and prototype. All-in-one.
 - [Sketch](https://www.sketch.com/): Vector-based design tool for Mac with powerful symbols, styles, and plugins. Industry-standard for UI/UX design with collaborative cloud features.

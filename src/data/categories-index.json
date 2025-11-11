@@ -107,9 +107,9 @@
   {
     "id": "prototyping",
     "title": "Prototyping",
-    "description": "Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, InVision, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing.",
+    "description": "Best prototyping tools for interactive design. Create high-fidelity prototypes with Figma, Marvel, and Framer. Test user flows and validate designs before development. Essential tools for rapid prototyping and user testing.",
     "icon": "Layers",
-    "resourceCount": 16
+    "resourceCount": 15
   },
   {
     "id": "stock-photos",
@@ -151,7 +151,7 @@
     "title": "UI Design",
     "description": "Best UI design tools and resources. Create beautiful user interfaces with Figma, Adobe XD, Sketch, and Framer. Access UI kits, design patterns, and component libraries. Essential tools for professional interface design and prototyping.",
     "icon": "Layout",
-    "resourceCount": 7
+    "resourceCount": 6
   },
   {
     "id": "ux-design",
