@@ -87,7 +87,7 @@ export default function SortFilter({
                       className={`filterButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         filterBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
                       }`}
                     >
                       {option.label}
@@ -107,7 +107,7 @@ export default function SortFilter({
                       className={`sortButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         sortBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
                       }`}
                     >
                       {option.label}
@@ -166,7 +166,7 @@ export default function SortFilter({
                       className={`sortButton relative rounded-full px-4 py-2 text-sm font-medium transition-all ${
                         sortBy === option.value
                           ? 'bg-gray-900 text-white hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300'
-                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200'
+                          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-white/10 dark:hover:text-white'
                       }`}
                     >
                       {option.label}

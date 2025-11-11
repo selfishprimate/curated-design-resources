@@ -142,7 +142,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
           <h2 className="cardTitle mb-2 line-clamp-2 text-base font-semibold text-gray-900 dark:text-white">
             {resource.title}
           </h2>
-          <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
+          <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-white/80">
             {resource.description}
           </p>
         </div>

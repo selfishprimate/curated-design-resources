@@ -24,7 +24,7 @@ export default function CategoryHeader({ title, description, type = 'default' })
 
         <div className="categoryInfo">
           <h1 className="categoryTitle text-4xl font-bold">{title}</h1>
-          <p className="categorySubtitle mt-2 text-lg text-gray-600 dark:text-gray-400">
+          <p className="categorySubtitle mt-2 text-lg text-gray-600 dark:text-white/90">
             {description}
           </p>
         </div>

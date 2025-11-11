@@ -66,7 +66,7 @@ export default function Category() {
         </Link>
         <div className="mt-8">
           <h1 className="text-3xl font-bold">Category not found</h1>
-          <p className="mt-2 text-gray-600 dark:text-gray-400">
+          <p className="mt-2 text-gray-600 dark:text-white/90">
             The category you're looking for doesn't exist.
           </p>
         </div>
@@ -143,7 +143,7 @@ export default function Category() {
       <div className="resourcesSection p-6">
         {sortedResources.length === 0 ? (
           <div className="emptyState border border-gray-200 bg-gray-50 p-8 text-center dark:border-gray-800/50 dark:bg-gray-900/50">
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-600 dark:text-white/90">
               {category.resources.length === 0
                 ? 'No resources available yet. Check back soon!'
                 : `No ${filterBy} resources found. Try a different filter.`}

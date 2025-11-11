@@ -4,16 +4,16 @@ import AnimatedBackground from '@/components/AnimatedBackground'
 export default function Hero({ onSubmitModalOpen, githubStats, onSupportersModalOpen }) {
 
   return (
-    <section className="heroSection relative overflow-hidden px-8 py-32 pb-[600px] -mb-[550px] md:py-56 md:pb-[800px] md:-mb-[650px]">
+    <section className="heroSection relative overflow-hidden px-8 py-32 pb-[600px] -mb-[550px] 2xl:py-56 2xl:pb-[800px] 2xl:-mb-[650px]">
       {/* Animated Background */}
       <AnimatedBackground type="natural" />
 
       {/* Content */}
       <div className="heroContent relative mx-auto max-w-7xl text-center">
         <h1 className="heroTitle mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-[2.5rem] font-bold leading-[1.15] tracking-tight text-transparent md:text-6xl md:leading-[1.15] xl5:text-7xl xl5:leading-[1.2] dark:from-white dark:via-gray-100 dark:to-white">
-          Discover the best design tools and resources for your next project!
+          Discover the best design tools<br />for your next project!
         </h1>
-        <p className="heroSubtitle mx-auto mb-10 max-w-2xl text-base font-normal leading-normal text-gray-600 md:text-xl dark:text-gray-300">
+        <p className="heroSubtitle mx-auto mb-10 max-w-2xl text-base font-normal leading-normal text-gray-600 md:text-xl dark:text-white/90">
           A carefully curated collection of 300+ premium design tools, UI libraries, icons, colors, and learning resources to help designers and developers build exceptional digital products.
         </p>
         <div className="heroCTA flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -73,7 +73,7 @@ export default function Hero({ onSubmitModalOpen, githubStats, onSupportersModal
                 )}
               </div>
               {/* Contributors and Stargazers Count */}
-              <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+              <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-white/90">
                 <div className="flex items-center gap-1">
                   <GitBranch className="h-4 w-4" />
                   <span>{githubStats.totalContributors} Contributors</span>
