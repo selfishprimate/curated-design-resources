@@ -21,10 +21,16 @@
   [build.processing.js]
     bundle = true
     minify = true
-  [build.processing.html]
-    pretty_urls = true
   [build.processing.images]
     compress = true
+
+# Prerendering for better SEO
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+    buildDir = "dist"
+    prettyURLs = false
 
 # Redirect rules for SPA (React Router)
 [[redirects]]

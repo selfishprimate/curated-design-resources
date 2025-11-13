@@ -30,7 +30,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="min-h-screen bg-white dark:bg-gray-950">
+      <div className="min-h-screen overflow-x-hidden bg-white dark:bg-gray-950">
         <Navigation onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
         <div className="flex pt-20">

@@ -77,7 +77,7 @@ export default function Category() {
   // Breadcrumbs for structured data
   const breadcrumbs = [
     { name: 'Home', path: '/' },
-    { name: category.title, path: `/category/${category.id}` }
+    { name: category.title, path: `/${category.id}` }
   ]
 
   // Structured data for collection page
@@ -86,7 +86,7 @@ export default function Category() {
     '@type': 'CollectionPage',
     name: category.title,
     description: category.description,
-    url: `${seoConfig.siteUrl}/category/${category.id}`,
+    url: `${seoConfig.siteUrl}/${category.id}`,
     mainEntity: {
       '@type': 'ItemList',
       name: `${category.title} Resources`,
@@ -116,7 +116,7 @@ export default function Category() {
         title={metaTitle}
         description={metaDescription}
         keywords={metaKeywords}
-        url={`${seoConfig.siteUrl}/category/${category.id}`}
+        url={`${seoConfig.siteUrl}/${category.id}`}
         breadcrumbs={breadcrumbs}
         structuredData={structuredData}
       />
@@ -155,7 +155,7 @@ export default function Category() {
               <ResourceCard
                 key={index}
                 resource={resource}
-                showCategory={false}
+                showCategory={true}
               />
             ))}
           </div>

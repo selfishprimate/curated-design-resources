@@ -12,7 +12,7 @@ import '@fontsource/inter/800.css'
 import './index.css'
 import App from './App.jsx'
 
-// Initialize theme from localStorage or system preference
+// Initialize theme from localStorage (defaults to light mode)
 const initializeTheme = () => {
   const savedTheme = localStorage.getItem('theme')
 
@@ -24,15 +24,9 @@ const initializeTheme = () => {
       document.documentElement.classList.remove('dark')
     }
   } else {
-    // Check system preference
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    if (prefersDark) {
-      document.documentElement.classList.add('dark')
-      localStorage.setItem('theme', 'dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem('theme', 'light')
-    }
+    // Default to light mode
+    document.documentElement.classList.remove('dark')
+    localStorage.setItem('theme', 'light')
   }
 }
 

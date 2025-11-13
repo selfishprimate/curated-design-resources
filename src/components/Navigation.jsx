@@ -5,7 +5,7 @@ import Logo from '@/components/Logo'
 // Desktop Navigation
 function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
   return (
-    <header className="mainNavigation mainNavigationDesktop fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md sm:block dark:border-gray-800/50 dark:bg-gray-950/95">
+    <header className="mainNavigation mainNavigationDesktop fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md lg:block dark:border-gray-800/50 dark:bg-gray-950/95">
       <div className="navigationContainer mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
@@ -63,7 +63,7 @@ function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
 // Mobile Navigation
 function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
   return (
-    <header className="mainNavigation mainNavigationMobile fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/95 backdrop-blur-md sm:hidden dark:border-gray-800/50 dark:bg-gray-950/95">
+    <header className="mainNavigation mainNavigationMobile fixed inset-x-0 top-0 z-[60] border-b border-gray-200 bg-white/95 backdrop-blur-md lg:hidden dark:border-gray-800/50 dark:bg-gray-950/95">
       <div className="navigationContainer mx-auto flex h-20 items-center justify-between px-6">
         {/* Logo */}
         <Logo />
