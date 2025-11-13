@@ -24,14 +24,6 @@
   [build.processing.images]
     compress = true
 
-# Prerendering for better SEO
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-    buildDir = "dist"
-    prettyURLs = false
-
 # Redirect rules for SPA (React Router)
 [[redirects]]
   from = "/*"
