@@ -4,7 +4,7 @@ import AnimatedBackground from '@/components/AnimatedBackground'
 export default function Hero({ onSubmitModalOpen, githubStats, onSupportersModalOpen }) {
 
   return (
-    <section className="heroSection relative overflow-hidden px-8 py-32 pb-[600px] -mb-[550px] 2xl:py-56 2xl:pb-[800px] 2xl:-mb-[650px]">
+    <section className="heroSection relative overflow-hidden px-8 pt-52 pb-[600px] -mb-[550px] 2xl:pt-72 2xl:pb-[800px] 2xl:-mb-[650px]">
       {/* Animated Background */}
       <AnimatedBackground type="natural" />
 

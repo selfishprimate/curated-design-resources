@@ -33,22 +33,20 @@ function App() {
       <div className="min-h-screen overflow-x-hidden bg-white dark:bg-gray-950">
         <Navigation onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
 
-        <div className="flex pt-20">
+        <div className="mainWrapper">
           <MenuDesktop />
           <MenuMobile
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}
             onSubmit={openSubmitModal}
           />
-          <div className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col lg:ml-64">
-            <main className="flex-1">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/:id" element={<Category />} />
-              </Routes>
-            </main>
+          <main className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col lg:ml-64">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/:id" element={<Category />} />
+            </Routes>
             <Footer />
-          </div>
+          </main>
         </div>
       </div>
 

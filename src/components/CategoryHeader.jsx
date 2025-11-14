@@ -10,8 +10,8 @@ export default function CategoryHeader({ title, description, type = 'default' })
   // Type styles
   const isNatural = type === 'natural'
   const containerClasses = isNatural
-    ? 'categoryHeader relative overflow-hidden px-8 py-16 pb-[496px] -mb-[446px] md:-mb-[464px]'
-    : 'categoryHeader relative overflow-hidden border-b border-gray-200 px-8 py-8 dark:border-gray-800/50'
+    ? 'categoryHeader relative overflow-hidden px-8 pt-36 pb-[496px] -mb-[446px] md:-mb-[464px]'
+    : 'categoryHeader relative overflow-hidden border-b border-gray-200 px-8 pt-28 pb-8 dark:border-gray-800/50'
 
   return (
     <div className={containerClasses}>

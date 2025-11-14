@@ -41,6 +41,16 @@
 }
 
 @layer utilities {
+  /* Hide scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
   /* Custom gradient animations - Multi-directional movement (opacity removed to prevent flickering) */
   @keyframes gradient-orbit-1 {
     0%, 100% {
