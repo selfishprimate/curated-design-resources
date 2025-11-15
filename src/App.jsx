@@ -40,7 +40,7 @@ function App() {
             onClose={() => setIsSidebarOpen(false)}
             onSubmit={openSubmitModal}
           />
-          <main className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col lg:ml-64">
+          <main className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col pb-20 lg:ml-64">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/:id" element={<Category />} />

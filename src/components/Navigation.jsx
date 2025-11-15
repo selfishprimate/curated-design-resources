@@ -1,14 +1,20 @@
 import { Github, Moon, Sun, Menu } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import Logo from '@/components/Logo'
+import SearchCommand from '@/components/SearchCommand'
 
 // Desktop Navigation
 function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
   return (
     <header className="mainNavigation mainNavigationDesktop fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md lg:block dark:border-gray-800/50 dark:bg-gray-950/95">
-      <div className="navigationContainer mx-auto flex h-20 items-center justify-between px-6">
+      <div className="navigationContainer mx-auto flex h-20 items-center justify-between gap-4 px-6">
         {/* Logo */}
         <Logo />
+
+        {/* Search */}
+        <div className="flex-1 max-w-md">
+          <SearchCommand />
+        </div>
 
         {/* Right side: Actions */}
         <div className="navigationActions flex items-center gap-2">
@@ -70,6 +76,9 @@ function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
 
         {/* Right side: Actions */}
         <div className="navigationActions flex items-center gap-1">
+          {/* Search */}
+          <SearchCommand />
+
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
