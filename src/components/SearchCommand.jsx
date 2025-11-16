@@ -218,7 +218,7 @@ export default function SearchCommand() {
         aria-label="Search resources"
       >
         <Search className="h-5 w-5" />
-        <span className="hidden lg:inline">Search resources...</span>
+        <span className="hidden lg:inline">Search categories, tools, resources...</span>
         <div className="ml-auto hidden items-center gap-1 lg:inline-flex">
           <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-[10px] font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
             <span className="text-base leading-none">⌘</span>
@@ -269,7 +269,7 @@ export default function SearchCommand() {
                   <Command.Input
                     value={query}
                     onValueChange={setQuery}
-                    placeholder="Search categories, tools, etc..."
+                    placeholder="Search categories, tools, resources..."
                     className="commandInput flex-1 border-0 bg-transparent text-base text-gray-900 placeholder:text-gray-400 focus:outline-none dark:text-gray-100 dark:placeholder:text-gray-500"
                     autoFocus
                   />
