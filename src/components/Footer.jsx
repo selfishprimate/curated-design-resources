@@ -1,8 +1,10 @@
 import { Github, Linkedin, Instagram } from 'lucide-react'
 
-export default function Footer() {
+export default function Footer({ isSidebarCollapsed = false }) {
   return (
-    <footer className="fixed bottom-0 left-0 right-0 z-40 hidden border-t border-gray-200 bg-white/95 backdrop-blur-md lg:left-64 lg:block dark:border-gray-800/50 dark:bg-gray-950/95">
+    <footer className={`fixed bottom-0 left-0 right-0 z-40 hidden border-t border-gray-200 bg-white/95 backdrop-blur-md transition-all duration-300 ease-in-out lg:block dark:border-gray-800/50 dark:bg-gray-950/95 ${
+      isSidebarCollapsed ? 'lg:left-0' : 'lg:left-64'
+    }`}>
       <div className="px-8 py-4">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="text-sm text-gray-600 dark:text-gray-400">

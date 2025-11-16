@@ -8,6 +8,7 @@ import SortFilter from '@/components/SortFilter'
 import CategoryHeader from '@/components/CategoryHeader'
 import seoConfig from '../../seo-config'
 import { calculatePopularity, sortResources } from '@/utils/sorting'
+import { markCategoryAsVisited } from '@/utils/visitedCategories'
 
 export default function Category() {
   const { id } = useParams()
@@ -15,9 +16,14 @@ export default function Category() {
   const [sortBy, setSortBy] = useState('popular')
   const [filterBy, setFilterBy] = useState('all')
 
-  // Reset filter when category changes
+  // Reset filter when category changes and mark category as visited
   useEffect(() => {
     setFilterBy('all')
+
+    // Mark this category as visited
+    if (id) {
+      markCategoryAsVisited(id)
+    }
   }, [id])
 
   // Categories where pricing filter should be hidden

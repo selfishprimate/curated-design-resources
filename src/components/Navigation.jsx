@@ -2,14 +2,46 @@ import { Github, Moon, Sun, Menu } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import Logo from '@/components/Logo'
 import SearchCommand from '@/components/SearchCommand'
+import { categories } from '@/data/categories'
+import { hasAnyNewResources } from '@/utils/newResources'
 
 // Desktop Navigation
-function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal }) {
+function NavigationDesktop({ isDark, toggleTheme, onOpenSubmitModal, onToggleSidebarCollapse, isSidebarCollapsed }) {
+  const [refreshKey, setRefreshKey] = useState(0)
+
+  // Listen for category visited events to refresh blue dots
+  useEffect(() => {
+    const handleCategoryVisited = () => {
+      setRefreshKey(prev => prev + 1)
+    }
+
+    window.addEventListener('categoryVisited', handleCategoryVisited)
+    return () => window.removeEventListener('categoryVisited', handleCategoryVisited)
+  }, [])
+
+  const hasNewResources = hasAnyNewResources(categories)
+
   return (
     <header className="mainNavigation mainNavigationDesktop fixed inset-x-0 top-0 z-[60] hidden border-b border-gray-200 bg-white/95 backdrop-blur-md lg:block dark:border-gray-800/50 dark:bg-gray-950/95">
       <div className="navigationContainer mx-auto flex h-20 items-center justify-between gap-4 px-6">
-        {/* Logo */}
-        <Logo />
+        {/* Sidebar Toggle & Logo */}
+        <div className="flex items-center gap-3">
+          {/* Sidebar Toggle Button */}
+          <button
+            onClick={onToggleSidebarCollapse}
+            className="sidebarToggle relative rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+            aria-label={isSidebarCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+          >
+            <Menu className="h-5 w-5" />
+            {/* Blue Dot Indicator - only show when there are new resources */}
+            {hasNewResources && (
+              <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-blue-600"></span>
+            )}
+          </button>
+
+          {/* Logo */}
+          <Logo />
+        </div>
 
         {/* Search */}
         <div className="flex-1 max-w-md">
@@ -107,7 +139,7 @@ function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
 }
 
 // Main Navigation Component
-export default function Navigation({ onToggleSidebar, onOpenSubmitModal }) {
+export default function Navigation({ onToggleSidebar, onToggleSidebarCollapse, isSidebarCollapsed, onOpenSubmitModal }) {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
@@ -130,7 +162,13 @@ export default function Navigation({ onToggleSidebar, onOpenSubmitModal }) {
 
   return (
     <>
-      <NavigationDesktop isDark={isDark} toggleTheme={toggleTheme} onOpenSubmitModal={onOpenSubmitModal} />
+      <NavigationDesktop
+        isDark={isDark}
+        toggleTheme={toggleTheme}
+        onOpenSubmitModal={onOpenSubmitModal}
+        onToggleSidebarCollapse={onToggleSidebarCollapse}
+        isSidebarCollapsed={isSidebarCollapsed}
+      />
       <NavigationMobile isDark={isDark} toggleTheme={toggleTheme} onToggleSidebar={onToggleSidebar} />
     </>
   )

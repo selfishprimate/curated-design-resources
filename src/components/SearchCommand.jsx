@@ -183,12 +183,12 @@ export default function SearchCommand() {
       {/* Search Trigger Button */}
       <button
         onClick={() => setOpen(true)}
-        className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 md:w-full md:border md:border-gray-200 md:bg-white md:px-4 md:py-2.5 md:text-sm md:text-gray-500 md:hover:border-gray-300 md:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:md:border-gray-700 dark:md:bg-gray-900 dark:md:text-gray-400 dark:md:hover:border-gray-600 dark:md:hover:bg-gray-800"
+        className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:w-full lg:border lg:border-gray-200 lg:bg-white lg:px-4 lg:py-2.5 lg:text-sm lg:text-gray-500 lg:hover:border-gray-300 lg:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:lg:border-gray-700 dark:lg:bg-gray-900 dark:lg:text-gray-400 dark:lg:hover:border-gray-600 dark:lg:hover:bg-gray-800"
         aria-label="Search resources"
       >
         <Search className="h-5 w-5" />
-        <span className="hidden md:inline">Search resources...</span>
-        <kbd className="ml-auto hidden items-center font-mono text-sm font-medium text-gray-400 md:inline-flex dark:text-gray-500">
+        <span className="hidden lg:inline">Search resources...</span>
+        <kbd className="ml-auto hidden items-center font-mono text-sm font-medium text-gray-400 lg:inline-flex dark:text-gray-500">
           <span className="text-base">⌘</span>+K
         </kbd>
       </button>

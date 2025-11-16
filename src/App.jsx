@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navigation from '@/components/Navigation'
 import MenuDesktop from '@/components/MenuDesktop'
 import MenuMobile from '@/components/MenuMobile'
@@ -14,6 +14,16 @@ function App() {
   const [toast, setToast] = useState(null)
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => {
+    // Initialize from localStorage or default to false (expanded)
+    const saved = localStorage.getItem('sidebarCollapsed')
+    return saved === 'true'
+  })
+
+  // Save sidebar collapse state to localStorage
+  useEffect(() => {
+    localStorage.setItem('sidebarCollapsed', isSidebarCollapsed)
+  }, [isSidebarCollapsed])
 
   const showToast = (message, type = 'success') => {
     setToast({ message, type })
@@ -21,6 +31,10 @@ function App() {
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen)
+  }
+
+  const toggleSidebarCollapse = () => {
+    setIsSidebarCollapsed(!isSidebarCollapsed)
   }
 
   const openSubmitModal = () => {
@@ -31,21 +45,28 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <div className="min-h-screen overflow-x-hidden bg-white dark:bg-gray-950">
-        <Navigation onToggleSidebar={toggleSidebar} onOpenSubmitModal={openSubmitModal} />
+        <Navigation
+          onToggleSidebar={toggleSidebar}
+          onToggleSidebarCollapse={toggleSidebarCollapse}
+          isSidebarCollapsed={isSidebarCollapsed}
+          onOpenSubmitModal={openSubmitModal}
+        />
 
         <div className="mainWrapper">
-          <MenuDesktop />
+          <MenuDesktop isCollapsed={isSidebarCollapsed} />
           <MenuMobile
             isOpen={isSidebarOpen}
             onClose={() => setIsSidebarOpen(false)}
             onSubmit={openSubmitModal}
           />
-          <main className="ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col pb-20 lg:ml-64">
+          <main className={`ml-0 flex min-h-[calc(100vh-5rem)] flex-1 flex-col pb-20 transition-all duration-300 ease-in-out ${
+            isSidebarCollapsed ? 'lg:ml-0' : 'lg:ml-64'
+          }`}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/:id" element={<Category />} />
             </Routes>
-            <Footer />
+            <Footer isSidebarCollapsed={isSidebarCollapsed} />
           </main>
         </div>
       </div>
