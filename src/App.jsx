@@ -15,9 +15,9 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(() => {
-    // Initialize from localStorage or default to false (expanded)
+    // Initialize from localStorage or default to true (collapsed)
     const saved = localStorage.getItem('sidebarCollapsed')
-    return saved === 'true'
+    return saved !== null ? saved === 'true' : true
   })
 
   // Save sidebar collapse state to localStorage

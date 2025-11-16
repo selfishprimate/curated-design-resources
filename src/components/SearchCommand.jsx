@@ -2,9 +2,40 @@ import { useEffect, useState, useCallback } from 'react'
 import { createPortal } from 'react-dom'
 import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
-import { Search, TrendingUp, Sparkles, ExternalLink, X, ArrowUpDown, CornerDownLeft } from 'lucide-react'
+import { Search, TrendingUp, Sparkles as SparklesIcon, ExternalLink, X, ArrowUpDown, CornerDownLeft, ArrowRight } from 'lucide-react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { searchResources, getSearchSuggestions } from '@/utils/search'
+import { categories } from '@/data/categories'
+import * as Icons from 'lucide-react'
+
+// Icon map for categories
+const iconMap = {
+  Eye: Icons.Eye,
+  FileText: Icons.FileText,
+  Rss: Icons.Rss,
+  Book: Icons.Book,
+  Palette: Icons.Palette,
+  Newspaper: Icons.Newspaper,
+  Grid: Icons.Grid,
+  Plug: Icons.Plug,
+  Code: Icons.Code,
+  PenTool: Icons.PenTool,
+  Sparkles: Icons.Sparkles,
+  Lightbulb: Icons.Lightbulb,
+  Image: Icons.Image,
+  Zap: Icons.Zap,
+  Layers: Icons.Layers,
+  Camera: Icons.Camera,
+  Video: Icons.Video,
+  GraduationCap: Icons.GraduationCap,
+  Type: Icons.Type,
+  Play: Icons.Play,
+  Layout: Icons.Layout,
+  Users: Icons.Users,
+  Box: Icons.Box,
+  MoreHorizontal: Icons.MoreHorizontal,
+  Circle: Icons.Circle
+}
 
 // Extract domain from URL for logo API
 const getDomainFromUrl = (url) => {
@@ -183,14 +214,19 @@ export default function SearchCommand() {
       {/* Search Trigger Button */}
       <button
         onClick={() => setOpen(true)}
-        className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:w-full lg:border lg:border-gray-200 lg:bg-white lg:px-4 lg:py-2.5 lg:text-sm lg:text-gray-500 lg:hover:border-gray-300 lg:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:lg:border-gray-700 dark:lg:bg-gray-900 dark:lg:text-gray-400 dark:lg:hover:border-gray-600 dark:lg:hover:bg-gray-800"
+        className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:w-full lg:border lg:border-gray-200 lg:bg-white lg:pl-4 lg:pr-2.5 lg:py-2.5 lg:text-sm lg:text-gray-500 lg:hover:border-gray-300 lg:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:lg:border-gray-700 dark:lg:bg-gray-900 dark:lg:text-gray-400 dark:lg:hover:border-gray-600 dark:lg:hover:bg-gray-800"
         aria-label="Search resources"
       >
         <Search className="h-5 w-5" />
         <span className="hidden lg:inline">Search resources...</span>
-        <kbd className="ml-auto hidden items-center font-mono text-sm font-medium text-gray-400 lg:inline-flex dark:text-gray-500">
-          <span className="text-base">⌘</span>+K
-        </kbd>
+        <div className="ml-auto hidden items-center gap-1 lg:inline-flex">
+          <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-[10px] font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+            <span className="text-base leading-none">⌘</span>
+          </kbd>
+          <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-xs font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+            K
+          </kbd>
+        </div>
       </button>
 
       {/* Command Dialog - Rendered via Portal */}
@@ -206,7 +242,7 @@ export default function SearchCommand() {
             onMouseDown={handleBackdropClick}
           >
             <Command
-              className="commandDialog h-screen w-full overflow-hidden rounded-none border-0 bg-white shadow-2xl animate-in zoom-in-95 md:h-auto md:max-w-2xl md:rounded-xl md:border md:border-gray-200 dark:bg-gray-900 dark:md:border-gray-800"
+              className="commandDialog h-screen w-full overflow-hidden rounded-none border-0 bg-white shadow-2xl animate-in zoom-in-95 md:h-auto md:max-w-2xl md:rounded-xl md:border md:border-gray-200 md:ring-[6px] md:ring-gray-200/20 dark:bg-gray-900 dark:md:border-gray-800 dark:md:ring-gray-700/20"
               shouldFilter={false}
               onKeyDown={(e) => {
                 if (e.key === 'Escape') {
@@ -251,29 +287,25 @@ export default function SearchCommand() {
 
               {/* Results */}
               <Command.List className="commandList min-h-[300px] max-h-[calc(100vh-160px)] overflow-y-auto px-4 pb-4 md:min-h-[400px] md:max-h-[400px] md:p-2">
-                {/* Empty state */}
+                {/* Empty state - Show categories */}
                 {!query && (
-                  <div className="commandEmpty py-8 text-center">
-                    <Search className="mx-auto mb-4 h-14 w-14 text-gray-300 dark:text-gray-700" />
-                    <p className="mb-2 text-xl font-semibold text-gray-900 dark:text-gray-100">
-                      What are you looking for?
-                    </p>
-                    <p className="mb-6 text-base text-gray-500 dark:text-gray-400">
-                      Search through 300+ curated design resources including tools, icons, colors, frameworks, and more. Try the suggestions below to get started.
-                    </p>
-
-                    {/* Suggestions */}
-                    <div className="mt-6 flex flex-wrap justify-center gap-2">
-                      {suggestions.map((suggestion) => (
-                        <button
-                          key={suggestion.term}
-                          onClick={() => setQuery(suggestion.term)}
-                          className="rounded-full border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:bg-gray-700"
-                        >
-                          {suggestion.label}
-                        </button>
-                      ))}
-                    </div>
+                  <div className="commandEmpty pb-4">
+                    <Command.Group heading="Categories">
+                      {categories.map((category) => (
+                          <Command.Item
+                            key={category.id}
+                            value={category.id}
+                            onSelect={() => handleCategoryClick(category.id)}
+                            className="commandItem flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors hover:bg-gray-100 aria-selected:bg-gray-100 dark:hover:bg-gray-800 dark:aria-selected:bg-gray-800"
+                          >
+                            <ArrowRight className="h-4 w-4 flex-shrink-0 text-gray-500 dark:text-gray-400" />
+                            <span className="flex-1 text-sm font-medium text-gray-900 dark:text-gray-100">
+                              {category.title} <span className="ml-0.5 text-sm font-normal text-gray-400 dark:text-gray-500">({category.resources.length})</span>
+                            </span>
+                          </Command.Item>
+                        )
+                      )}
+                    </Command.Group>
                   </div>
                 )}
 
@@ -325,7 +357,7 @@ export default function SearchCommand() {
 
                             {resource.featured && (
                               <span className="flex items-center gap-1 rounded-full bg-yellow-100 px-2 py-0.5 font-medium text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400">
-                                <Sparkles className="h-3 w-3" />
+                                <SparklesIcon className="h-3 w-3" />
                                 Featured
                               </span>
                             )}
@@ -353,16 +385,23 @@ export default function SearchCommand() {
               {/* Footer */}
               <div className="commandFooter hidden items-center justify-between border-t border-gray-200 px-4 py-3 text-xs text-gray-500 md:flex dark:border-gray-800 dark:text-gray-400">
                 <div className="flex items-center gap-6">
-                  <span className="flex items-center gap-1.5">
-                    <ArrowUpDown className="h-3.5 w-3.5" />
-                    to Navigate
+                  <span className="flex items-center gap-2">
+                    <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-xs font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+                      <ArrowUpDown className="h-3 w-3" />
+                    </kbd>
+                    <span>to Navigate</span>
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    <CornerDownLeft className="h-3.5 w-3.5" />
-                    to Open
+                  <span className="flex items-center gap-2">
+                    <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-xs font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+                      <CornerDownLeft className="h-3 w-3" />
+                    </kbd>
+                    <span>to Open</span>
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    ESC to Close
+                  <span className="flex items-center gap-2">
+                    <kbd className="pointer-events-none inline-flex h-6 select-none items-center justify-center gap-1 rounded-md border border-gray-200 bg-gray-100 px-1.5 font-mono text-xs font-medium text-gray-500 opacity-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+                      ESC
+                    </kbd>
+                    <span>to Close</span>
                   </span>
                 </div>
               </div>
