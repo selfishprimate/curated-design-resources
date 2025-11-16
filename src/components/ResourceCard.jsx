@@ -98,20 +98,23 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const pricingInfo = resource.pricing && shouldShowPricing ? pricingConfig[resource.pricing] : null
 
   return (
-    <a
-      href={resource.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="resourceCard group relative rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:aspect-square dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
-    >
-      {/* Pricing Badge - Top Right */}
-      {pricingInfo && (
-        <div className={`pricingBadge absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
-          {pricingInfo.label}
-        </div>
-      )}
+    <div className="resourceCardWrapper relative w-full">
+      {/* Aspect ratio container */}
+      <div className="sm:pb-[100%] sm:relative">
+        <a
+          href={resource.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resourceCard group relative flex flex-col rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:absolute sm:inset-0 dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
+        >
+          {/* Pricing Badge - Top Right */}
+          {pricingInfo && (
+            <div className={`pricingBadge absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
+              {pricingInfo.label}
+            </div>
+          )}
 
-      <div className="cardInner flex h-full flex-col">
+          <div className="cardInner flex h-full flex-col">
         {/* Logo or Initials - Left aligned */}
         <div className="cardLogo mb-4 relative">
           {!logoError ? (
@@ -158,7 +161,9 @@ export default function ResourceCard({ resource, showCategory = false }) {
             </span>
           </div>
         )}
+          </div>
+        </a>
       </div>
-    </a>
+    </div>
   )
 }
