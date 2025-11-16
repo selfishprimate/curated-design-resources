@@ -269,7 +269,7 @@ export default function SearchCommand() {
                   <Command.Input
                     value={query}
                     onValueChange={setQuery}
-                    placeholder="Search 300+ design resources..."
+                    placeholder="Search categories, tools, etc..."
                     className="commandInput flex-1 border-0 bg-transparent text-base text-gray-900 placeholder:text-gray-400 focus:outline-none dark:text-gray-100 dark:placeholder:text-gray-500"
                     autoFocus
                   />
