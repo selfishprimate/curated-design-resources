@@ -31,6 +31,7 @@ export default function SortFilter({
             {/* Filter */}
             {showFilter && (
               <div className="filterControls flex items-center gap-3">
+                <Filter className="h-4 w-4 text-gray-600 dark:text-white/60" />
                 <div className="filterButtons flex gap-1">
                   {FILTER_OPTIONS.map((option) => (
                     <button
@@ -56,6 +57,7 @@ export default function SortFilter({
 
             {/* Sort */}
             <div className="sortControls flex items-center gap-3">
+              <ArrowUpDown className="h-4 w-4 text-gray-600 dark:text-white/60" />
               <div className="sortButtons flex gap-1">
                 {SORT_OPTIONS.map((option) => (
                   <button
