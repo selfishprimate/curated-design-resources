@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useRef } from 'react'
+import { useEffect, useState, useCallback, useRef, memo } from 'react'
 import { createPortal } from 'react-dom'
 import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
@@ -79,8 +79,8 @@ const getColorFromString = (str) => {
   return colors[Math.abs(hash) % colors.length]
 }
 
-// ResourceAvatar component to handle logo loading
-function ResourceAvatar({ resource }) {
+// ResourceAvatar component to handle logo loading - memoized to prevent re-renders
+const ResourceAvatar = memo(function ResourceAvatar({ resource }) {
   const [logoError, setLogoError] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
   const initials = getInitials(resource.title)
@@ -113,21 +113,21 @@ function ResourceAvatar({ resource }) {
       )}
     </div>
   )
-}
+})
 
 export default function SearchCommand() {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
-  const [hasInteracted, setHasInteracted] = useState(false)
   const navigate = useNavigate()
   const pendingNavigationRef = useRef(null)
+  const hasInteractedRef = useRef(false)
 
   // Keyboard shortcut: Cmd+K (Mac) / Ctrl+K (Windows)
   useHotkeys('mod+k', (e) => {
     e.preventDefault()
     setOpen(true)
-    setHasInteracted(false)
+    hasInteractedRef.current = false
   }, { enableOnFormTags: true })
 
   // ESC to close and prevent body scroll
@@ -208,13 +208,20 @@ export default function SearchCommand() {
   }, [open, navigate])
 
   // Navigate to category
-  const handleCategoryClick = useCallback((categoryId) => {
+  const handleCategoryClick = useCallback((categoryId, e) => {
+    // Prevent any default behavior and event propagation
+    if (e) {
+      e.preventDefault()
+      e.stopPropagation()
+    }
+
     // Store the navigation path
     pendingNavigationRef.current = `/${categoryId}`
-    // Close the modal and clear state
+
+    // Immediately close the modal and clear state
     setOpen(false)
     setQuery('')
-    setHasInteracted(false)
+    hasInteractedRef.current = false
   }, [])
 
   // Suggestions
@@ -234,7 +241,7 @@ export default function SearchCommand() {
       <button
         onClick={() => {
           setOpen(true)
-          setHasInteracted(false)
+          hasInteractedRef.current = false
         }}
         className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:w-full lg:border lg:border-gray-200 lg:bg-white lg:pl-4 lg:pr-2.5 lg:py-2.5 lg:text-sm lg:text-gray-500 lg:hover:border-gray-300 lg:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:lg:border-gray-700 dark:lg:bg-gray-900 dark:lg:text-gray-400 dark:lg:hover:border-gray-600 dark:lg:hover:bg-gray-800"
         aria-label="Search resources"
@@ -269,10 +276,10 @@ export default function SearchCommand() {
               loop
               onKeyDown={(e) => {
                 // Track arrow key navigation
-                if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !hasInteracted) {
+                if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !hasInteractedRef.current) {
                   // First arrow key press - prevent default to stay on first item
                   e.preventDefault()
-                  setHasInteracted(true)
+                  hasInteractedRef.current = true
                 } else if (e.key === 'Escape') {
                   e.preventDefault()
                   setOpen(false)
@@ -323,15 +330,10 @@ export default function SearchCommand() {
                           <Command.Item
                             key={category.id}
                             value={category.id}
-                            onSelect={(value) => {
-                              handleCategoryClick(value)
-                            }}
-                            onClick={(e) => {
-                              e.preventDefault()
-                              e.stopPropagation()
+                            onSelect={() => {
                               handleCategoryClick(category.id)
                             }}
-                            className={`commandItem flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 ${hasInteracted ? 'aria-selected:bg-gray-100 dark:aria-selected:bg-gray-800' : ''}`}
+                            className="commandItem flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors hover:bg-gray-100 aria-selected:bg-gray-100 dark:hover:bg-gray-800 dark:aria-selected:bg-gray-800"
                           >
                             <ArrowRight className="h-4 w-4 flex-shrink-0 text-gray-500 dark:text-gray-400" />
                             <span className="flex-1 text-sm font-medium text-gray-900 dark:text-gray-100">
@@ -361,7 +363,7 @@ export default function SearchCommand() {
                         key={resource.id}
                         value={resource.id}
                         onSelect={() => handleSelect(resource)}
-                        className={`commandItem group flex cursor-pointer items-start gap-3 rounded-lg px-3 py-3 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 ${hasInteracted ? 'aria-selected:bg-gray-100 dark:aria-selected:bg-gray-800' : ''}`}
+                        className="commandItem group flex cursor-pointer items-start gap-3 rounded-lg px-3 py-3 transition-colors hover:bg-gray-100 aria-selected:bg-gray-100 dark:hover:bg-gray-800 dark:aria-selected:bg-gray-800"
                       >
                         {/* Avatar/Logo */}
                         <ResourceAvatar resource={resource} />
@@ -382,10 +384,9 @@ export default function SearchCommand() {
                           <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
                             <button
                               onClick={(e) => {
-                                e.stopPropagation()
-                                handleCategoryClick(resource.category.id)
+                                handleCategoryClick(resource.category.id, e)
                               }}
-                              className={`rounded-full bg-gray-100 px-2 py-0.5 font-medium text-gray-700 transition-colors group-hover:bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:text-gray-300 dark:group-hover:bg-gray-700 dark:hover:bg-gray-600 ${hasInteracted ? 'group-aria-selected:bg-gray-200 dark:group-aria-selected:bg-gray-700' : ''}`}
+                              className="rounded-full bg-gray-100 px-2 py-0.5 font-medium text-gray-700 transition-colors group-hover:bg-gray-200 hover:bg-gray-300 group-aria-selected:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:group-hover:bg-gray-700 dark:hover:bg-gray-600 dark:group-aria-selected:bg-gray-700"
                             >
                               {resource.category.title}
                             </button>
