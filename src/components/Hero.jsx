@@ -9,7 +9,7 @@ export default function Hero({ onSubmitModalOpen, githubStats, onSupportersModal
       <AnimatedBackground type="natural" />
 
       {/* Content */}
-      <div className="heroContent relative mx-auto max-w-7xl text-center">
+      <div className="heroContent relative mx-auto max-w-screen-2xl text-center">
         <h1 className="heroTitle mb-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-[2.5rem] font-bold leading-[1.15] tracking-tight text-transparent md:text-6xl md:leading-[1.15] xl5:text-7xl xl5:leading-[1.2] dark:from-white dark:via-gray-100 dark:to-white">
           Discover the best design tools<br />for your next project!
         </h1>

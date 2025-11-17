@@ -97,7 +97,7 @@ export default function Home() {
       />
 
       {/* Sort & Filter */}
-      <div className="relative z-10">
+      <div className="relative z-10 mx-auto max-w-screen-2xl">
         <SortFilter
           sortBy={sortBy}
           onSortChange={(value) => {
@@ -117,7 +117,7 @@ export default function Home() {
 
       {/* Resources Grid */}
       <section className="resourcesSection relative z-10 flex-1 p-6">
-        <div className="resourcesGrid grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl5:grid-cols-5 xxl:grid-cols-6 3xl:grid-cols-8">
+        <div className="resourcesGrid mx-auto grid max-w-screen-2xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
           {visibleResources.map((resource, index) => (
             <ResourceCard
               key={`${resource.category.id}-${index}`}

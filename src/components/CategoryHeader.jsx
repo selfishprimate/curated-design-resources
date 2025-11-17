@@ -19,7 +19,7 @@ export default function CategoryHeader({ title, description, type = 'default' })
       <AnimatedBackground type={type} />
 
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 mx-auto max-w-screen-2xl">
         <Breadcrumbs items={breadcrumbItems} />
 
         <div className="categoryInfo">

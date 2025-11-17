@@ -24,7 +24,7 @@ export default function SortFilter({
 }) {
   return (
     <section className="sorting">
-      <div className="sortingContainer w-full p-6">
+      <div className="sortingContainer w-full py-6 lg:py-0">
         <div className="sortingWrapper flex flex-col gap-4">
           {/* Filter & Sort */}
           <div className="no-scrollbar -mx-6 flex items-center gap-6 overflow-x-auto px-6 sm:mx-0 sm:gap-3 sm:justify-between sm:px-0">
