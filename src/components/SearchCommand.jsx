@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback, useRef, memo } from 'react'
 import { createPortal } from 'react-dom'
-import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
 import { Search, TrendingUp, Sparkles as SparklesIcon, ExternalLink, X, ArrowUpDown, CornerDownLeft, ArrowRight } from 'lucide-react'
 import { useHotkeys } from 'react-hotkeys-hook'
@@ -119,15 +118,13 @@ export default function SearchCommand() {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
-  const navigate = useNavigate()
-  const pendingNavigationRef = useRef(null)
-  const hasInteractedRef = useRef(false)
+  const [selectedValue, setSelectedValue] = useState('')
+  const [keyboardNav, setKeyboardNav] = useState(false)
 
   // Keyboard shortcut: Cmd+K (Mac) / Ctrl+K (Windows)
   useHotkeys('mod+k', (e) => {
     e.preventDefault()
     setOpen(true)
-    hasInteractedRef.current = false
   }, { enableOnFormTags: true })
 
   // ESC to close and prevent body scroll
@@ -139,6 +136,10 @@ export default function SearchCommand() {
     }
 
     if (open) {
+      // Reset selected value and keyboard nav when modal opens
+      setSelectedValue('')
+      setKeyboardNav(false)
+
       // Save current scroll position
       const scrollY = window.scrollY
       const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
@@ -182,6 +183,8 @@ export default function SearchCommand() {
 
     const searchResults = searchResources(query, { limit: 20 })
     setResults(searchResults)
+    // Reset keyboard nav when search results change
+    setKeyboardNav(false)
   }, [query])
 
   // Handle selection
@@ -195,18 +198,6 @@ export default function SearchCommand() {
     }
   }, [])
 
-  // Navigate to category after modal closes
-  useEffect(() => {
-    if (!open && pendingNavigationRef.current) {
-      const path = pendingNavigationRef.current
-      pendingNavigationRef.current = null
-      // Navigate after modal is fully closed
-      setTimeout(() => {
-        navigate(path)
-      }, 150)
-    }
-  }, [open, navigate])
-
   // Navigate to category
   const handleCategoryClick = useCallback((categoryId, e) => {
     // Prevent any default behavior and event propagation
@@ -215,13 +206,8 @@ export default function SearchCommand() {
       e.stopPropagation()
     }
 
-    // Store the navigation path
-    pendingNavigationRef.current = `/${categoryId}`
-
-    // Immediately close the modal and clear state
-    setOpen(false)
-    setQuery('')
-    hasInteractedRef.current = false
+    // Use window.location for full page reload - this will close modal automatically
+    window.location.href = `/${categoryId}`
   }, [])
 
   // Suggestions
@@ -239,10 +225,7 @@ export default function SearchCommand() {
     <>
       {/* Search Trigger Button */}
       <button
-        onClick={() => {
-          setOpen(true)
-          hasInteractedRef.current = false
-        }}
+        onClick={() => setOpen(true)}
         className="searchTrigger group flex items-center gap-3 rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 lg:w-full lg:border lg:border-gray-200 lg:bg-white lg:pl-4 lg:pr-2.5 lg:py-2.5 lg:text-sm lg:text-gray-500 lg:hover:border-gray-300 lg:hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-800 dark:lg:border-gray-700 dark:lg:bg-gray-900 dark:lg:text-gray-400 dark:lg:hover:border-gray-600 dark:lg:hover:bg-gray-800"
         aria-label="Search resources"
       >
@@ -271,15 +254,23 @@ export default function SearchCommand() {
             onMouseDown={handleBackdropClick}
           >
             <Command
-              className="commandDialog h-screen w-full overflow-hidden rounded-none border-0 bg-white shadow-2xl animate-in zoom-in-95 md:h-auto md:max-w-2xl md:rounded-xl md:border md:border-gray-200 md:ring-[6px] md:ring-gray-200/20 dark:bg-gray-900 dark:md:border-gray-800 dark:md:ring-gray-700/20"
+              className={`commandDialog h-screen w-full overflow-hidden rounded-none border-0 bg-white shadow-2xl animate-in zoom-in-95 md:h-auto md:max-w-2xl md:rounded-xl md:border md:border-gray-200 md:ring-[6px] md:ring-gray-200/20 dark:bg-gray-900 dark:md:border-gray-800 dark:md:ring-gray-700/20 ${keyboardNav ? 'keyboard-nav' : ''}`}
               shouldFilter={false}
               loop
+              value={selectedValue}
+              onValueChange={setSelectedValue}
               onKeyDown={(e) => {
-                // Track arrow key navigation
-                if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !hasInteractedRef.current) {
-                  // First arrow key press - prevent default to stay on first item
-                  e.preventDefault()
-                  hasInteractedRef.current = true
+                if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+                  // First arrow key press - select first item manually
+                  if (!keyboardNav) {
+                    e.preventDefault()
+                    // Get first category or result
+                    const firstItem = query ? results[0]?.id : categories[0]?.id
+                    if (firstItem) {
+                      setSelectedValue(firstItem)
+                    }
+                  }
+                  setKeyboardNav(true)
                 } else if (e.key === 'Escape') {
                   e.preventDefault()
                   setOpen(false)

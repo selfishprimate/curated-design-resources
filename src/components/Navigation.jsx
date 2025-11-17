@@ -108,9 +108,6 @@ function NavigationMobile({ isDark, toggleTheme, onToggleSidebar }) {
 
         {/* Right side: Actions */}
         <div className="navigationActions flex items-center gap-1">
-          {/* Search */}
-          <SearchCommand />
-
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}

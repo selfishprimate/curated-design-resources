@@ -48,6 +48,18 @@
 
   .no-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
+  }
+
+  /* Command palette - only show selection after keyboard navigation starts */
+  .commandDialog:not(.keyboard-nav) .commandItem[aria-selected="true"]:not(:hover) {
+    background-color: transparent !important;
+  }
+
+  .dark .commandDialog:not(.keyboard-nav) .commandItem[aria-selected="true"]:not(:hover) {
+    background-color: transparent !important;
+  }
+
+  .no-scrollbar {
     scrollbar-width: none;  /* Firefox */
   }
 
