@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { GlowingEffect } from '@/components/ui/glowing-effect'
 
 // Extract domain from URL for logo API
 const getDomainFromUrl = (url) => {
@@ -101,12 +102,24 @@ export default function ResourceCard({ resource, showCategory = false }) {
     <div className="resourceCardWrapper relative w-full">
       {/* Aspect ratio container */}
       <div className="sm:pb-[100%] sm:relative">
-        <a
-          href={resource.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resourceCard group relative flex flex-col rounded-3xl border border-gray-300/75 bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg sm:absolute sm:inset-0 dark:border-gray-700/65 dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
-        >
+        <div className="relative h-full rounded-3xl border border-gray-300/75 p-0.5 sm:absolute sm:inset-0 dark:border-gray-700/65">
+          <GlowingEffect
+            disabled={false}
+            glow={false}
+            variant="default"
+            spread={40}
+            proximity={64}
+            inactiveZone={0.01}
+            blur={0}
+            borderWidth={1}
+            movementDuration={0.5}
+          />
+          <a
+            href={resource.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resourceCard group relative flex h-full flex-col rounded-3xl bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
+          >
           {/* Pricing Badge - Top Right */}
           {pricingInfo && (
             <div className={`pricingBadge absolute right-3 top-3 rounded-full px-3 py-1.5 text-xs font-medium ${pricingInfo.bg} ${pricingInfo.text}`}>
@@ -114,55 +127,56 @@ export default function ResourceCard({ resource, showCategory = false }) {
             </div>
           )}
 
-          <div className="cardInner flex h-full flex-col">
-        {/* Logo or Initials - Left aligned */}
-        <div className="cardLogo mb-4 relative">
-          {!logoError ? (
-            <>
-              <img
-                src={logoUrl}
-                alt={`${resource.title} logo`}
-                className={`logoImage h-12 w-12 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
-                loading="lazy"
-                onError={handleLogoError}
-                onLoad={() => setLogoLoaded(true)}
-              />
-              {!logoLoaded && (
-                <div className={`logoInitials absolute inset-0 flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
-                  {initials}
+            <div className="cardInner flex h-full flex-col">
+              {/* Logo or Initials - Left aligned */}
+              <div className="cardLogo mb-4 relative">
+                {!logoError ? (
+                  <>
+                    <img
+                      src={logoUrl}
+                      alt={`${resource.title} logo`}
+                      className={`logoImage h-12 w-12 rounded-full object-cover transition-opacity duration-200 ${logoLoaded ? 'opacity-100' : 'opacity-0'}`}
+                      loading="lazy"
+                      onError={handleLogoError}
+                      onLoad={() => setLogoLoaded(true)}
+                    />
+                    {!logoLoaded && (
+                      <div className={`logoInitials absolute inset-0 flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
+                        {initials}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <div className={`logoInitials flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
+                    {initials}
+                  </div>
+                )}
+              </div>
+
+              {/* Content */}
+              <div className="cardContent flex flex-1 flex-col overflow-hidden">
+                <h2 className="cardTitle mb-2 line-clamp-2 text-base font-semibold text-gray-900 dark:text-white">
+                  {resource.title}
+                </h2>
+                <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-white/80">
+                  {resource.description}
+                </p>
+              </div>
+
+              {/* Footer - Category */}
+              {showCategory && resource.category && (
+                <div className="cardFooter mt-6 sm:mt-3">
+                  <span
+                    onClick={handleCategoryClick}
+                    className="cardCategory cursor-pointer text-xs font-medium uppercase text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+                  >
+                    {resource.category.title}
+                  </span>
                 </div>
               )}
-            </>
-          ) : (
-            <div className={`logoInitials flex h-12 w-12 items-center justify-center rounded-full ${bgColor} text-base font-bold text-white`}>
-              {initials}
             </div>
-          )}
+          </a>
         </div>
-
-        {/* Content */}
-        <div className="cardContent flex flex-1 flex-col overflow-hidden">
-          <h2 className="cardTitle mb-2 line-clamp-2 text-base font-semibold text-gray-900 dark:text-white">
-            {resource.title}
-          </h2>
-          <p className="cardDescription line-clamp-3 text-sm text-gray-600 dark:text-white/80">
-            {resource.description}
-          </p>
-        </div>
-
-        {/* Footer - Category */}
-        {showCategory && resource.category && (
-          <div className="cardFooter mt-6 sm:mt-3">
-            <span
-              onClick={handleCategoryClick}
-              className="cardCategory cursor-pointer text-xs font-medium uppercase text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            >
-              {resource.category.title}
-            </span>
-          </div>
-        )}
-          </div>
-        </a>
       </div>
     </div>
   )
