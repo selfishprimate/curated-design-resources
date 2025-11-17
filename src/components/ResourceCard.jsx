@@ -118,7 +118,7 @@ export default function ResourceCard({ resource, showCategory = false }) {
             href={resource.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="resourceCard group relative flex h-full flex-col rounded-3xl bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
+            className="resourceCard group relative flex h-full flex-col rounded-[22px] bg-white/55 p-5 backdrop-blur-md transition-all hover:bg-white/70 hover:backdrop-blur-lg dark:bg-gray-900/45 dark:hover:bg-gray-900/60"
           >
           {/* Pricing Badge - Top Right */}
           {pricingInfo && (
