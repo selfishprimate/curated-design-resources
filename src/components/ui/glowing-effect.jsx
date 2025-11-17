@@ -1,5 +1,5 @@
 "use client";;
-import { memo, useCallback, useEffect, useRef } from "react";
+import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { animate } from "motion/react";
 
@@ -18,6 +18,43 @@ const GlowingEffect = memo(({
   const containerRef = useRef(null);
   const lastPosition = useRef({ x: 0, y: 0 });
   const animationFrameRef = useRef(0);
+
+  // Get colors based on theme
+  const getColors = useCallback(() => {
+    const isDark = document.documentElement.classList.contains('dark');
+    return isDark ? {
+      pink: '#ff6ec7',
+      gold: '#ffc107',
+      green: '#66bb6a',
+      blue: '#42a5f5'
+    } : {
+      pink: '#ff1493',
+      gold: '#ffa500',
+      green: '#00c853',
+      blue: '#2196f3'
+    };
+  }, []);
+
+  const [colors, setColors] = useState(getColors);
+
+  // Watch for theme changes
+  useEffect(() => {
+    const updateColors = () => {
+      setColors(getColors());
+    };
+
+    // Initial update
+    updateColors();
+
+    // Observe class changes on html element
+    const observer = new MutationObserver(updateColors);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+
+    return () => observer.disconnect();
+  }, [getColors]);
 
   const handleMove = useCallback((e) => {
     if (!containerRef.current) return;
@@ -124,17 +161,17 @@ const GlowingEffect = memo(({
                 var(--black),
                 var(--black) calc(25% / var(--repeating-conic-gradient-times))
               )`
-                : `radial-gradient(circle, #dd7bbb 10%, #dd7bbb00 20%),
-              radial-gradient(circle at 40% 40%, #d79f1e 5%, #d79f1e00 15%),
-              radial-gradient(circle at 60% 60%, #5a922c 10%, #5a922c00 20%), 
-              radial-gradient(circle at 40% 60%, #4c7894 10%, #4c789400 20%),
+                : `radial-gradient(circle, ${colors.pink} 10%, ${colors.pink}00 20%),
+              radial-gradient(circle at 40% 40%, ${colors.gold} 5%, ${colors.gold}00 15%),
+              radial-gradient(circle at 60% 60%, ${colors.green} 10%, ${colors.green}00 20%),
+              radial-gradient(circle at 40% 60%, ${colors.blue} 10%, ${colors.blue}00 20%),
               repeating-conic-gradient(
                 from 236.84deg at 50% 50%,
-                #dd7bbb 0%,
-                #d79f1e calc(25% / var(--repeating-conic-gradient-times)),
-                #5a922c calc(50% / var(--repeating-conic-gradient-times)), 
-                #4c7894 calc(75% / var(--repeating-conic-gradient-times)),
-                #dd7bbb calc(100% / var(--repeating-conic-gradient-times))
+                ${colors.pink} 0%,
+                ${colors.gold} calc(25% / var(--repeating-conic-gradient-times)),
+                ${colors.green} calc(50% / var(--repeating-conic-gradient-times)),
+                ${colors.blue} calc(75% / var(--repeating-conic-gradient-times)),
+                ${colors.pink} calc(100% / var(--repeating-conic-gradient-times))
               )`
           }
         }
