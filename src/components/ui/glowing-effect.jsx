@@ -18,46 +18,26 @@ const GlowingEffect = memo(({
   const containerRef = useRef(null);
   const lastPosition = useRef({ x: 0, y: 0 });
   const animationFrameRef = useRef(0);
+  const lastUpdateTime = useRef(0);
+  const throttleMs = 16; // ~60fps max
 
-  // Get colors based on theme
-  const getColors = useCallback(() => {
-    const isDark = document.documentElement.classList.contains('dark');
-    return isDark ? {
-      pink: '#ff6ec7',
-      gold: '#ffc107',
-      green: '#66bb6a',
-      blue: '#42a5f5'
-    } : {
-      pink: '#ff1493',
-      gold: '#ffa500',
-      green: '#00c853',
-      blue: '#2196f3'
-    };
-  }, []);
-
-  const [colors, setColors] = useState(getColors);
-
-  // Watch for theme changes
-  useEffect(() => {
-    const updateColors = () => {
-      setColors(getColors());
-    };
-
-    // Initial update
-    updateColors();
-
-    // Observe class changes on html element
-    const observer = new MutationObserver(updateColors);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['class']
-    });
-
-    return () => observer.disconnect();
-  }, [getColors]);
+  // Logomark colors: red, green, purple, blue (static, no theme switching)
+  const colors = {
+    red: '#FF3737',
+    green: '#24CB71',
+    purple: '#874FFF',
+    blue: '#00B6FF'
+  };
 
   const handleMove = useCallback((e) => {
     if (!containerRef.current) return;
+
+    // Throttle updates to improve performance
+    const now = Date.now();
+    if (now - lastUpdateTime.current < throttleMs) {
+      return;
+    }
+    lastUpdateTime.current = now;
 
     if (animationFrameRef.current) {
       cancelAnimationFrame(animationFrameRef.current);
@@ -161,18 +141,10 @@ const GlowingEffect = memo(({
                 var(--black),
                 var(--black) calc(25% / var(--repeating-conic-gradient-times))
               )`
-                : `radial-gradient(circle, ${colors.pink} 10%, ${colors.pink}00 20%),
-              radial-gradient(circle at 40% 40%, ${colors.gold} 5%, ${colors.gold}00 15%),
-              radial-gradient(circle at 60% 60%, ${colors.green} 10%, ${colors.green}00 20%),
-              radial-gradient(circle at 40% 60%, ${colors.blue} 10%, ${colors.blue}00 20%),
-              repeating-conic-gradient(
-                from 236.84deg at 50% 50%,
-                ${colors.pink} 0%,
-                ${colors.gold} calc(25% / var(--repeating-conic-gradient-times)),
-                ${colors.green} calc(50% / var(--repeating-conic-gradient-times)),
-                ${colors.blue} calc(75% / var(--repeating-conic-gradient-times)),
-                ${colors.pink} calc(100% / var(--repeating-conic-gradient-times))
-              )`
+                : `radial-gradient(ellipse 120% 120% at 0% 0%, ${colors.red} 10%, ${colors.red}aa 25%, ${colors.red}00 50%),
+              radial-gradient(ellipse 120% 120% at 100% 0%, ${colors.green} 10%, ${colors.green}aa 25%, ${colors.green}00 50%),
+              radial-gradient(ellipse 120% 120% at 0% 100%, ${colors.purple} 10%, ${colors.purple}aa 25%, ${colors.purple}00 50%),
+              radial-gradient(ellipse 120% 120% at 100% 100%, ${colors.blue} 10%, ${colors.blue}aa 25%, ${colors.blue}00 50%)`
           }
         }
         className={cn(

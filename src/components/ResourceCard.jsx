@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { GlowingEffect } from '@/components/ui/glowing-effect'
 
@@ -48,12 +48,37 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const navigate = useNavigate()
   const [logoError, setLogoError] = useState(false)
   const [logoLoaded, setLogoLoaded] = useState(false)
+  const [isVisible, setIsVisible] = useState(true) // Start as visible
+  const cardRef = useRef(null)
   const initials = getInitials(resource.title)
   const bgColor = getColorFromString(resource.title)
   const domain = getDomainFromUrl(resource.link)
 
   // Use local logo (downloaded by fetch-logos script)
   const logoUrl = `/logos/${domain}.png`
+
+  // Intersection Observer - only enable glow effect when card is visible
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting)
+      },
+      {
+        rootMargin: '50px', // Start animating 50px before entering viewport
+        threshold: 0.1
+      }
+    )
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current)
+    }
+
+    return () => {
+      if (cardRef.current) {
+        observer.unobserve(cardRef.current)
+      }
+    }
+  }, [])
 
   const handleLogoError = () => {
     // Show initials if local logo doesn't exist
@@ -99,20 +124,33 @@ export default function ResourceCard({ resource, showCategory = false }) {
   const pricingInfo = resource.pricing && shouldShowPricing ? pricingConfig[resource.pricing] : null
 
   return (
-    <div className="resourceCardWrapper relative w-full">
+    <div ref={cardRef} className="resourceCardWrapper relative w-full">
       {/* Aspect ratio container */}
       <div className="sm:pb-[100%] sm:relative">
         <div className="relative h-full rounded-3xl border border-gray-300/75 p-0.5 sm:absolute sm:inset-0 dark:border-gray-700/65">
+          {/* Glow layer - blur'lü arka katman */}
           <GlowingEffect
-            disabled={false}
-            glow={false}
+            disabled={!isVisible}
+            glow={true}
+            variant="default"
+            spread={40}
+            proximity={64}
+            inactiveZone={0.01}
+            blur={16}
+            borderWidth={2}
+            movementDuration={0.8}
+          />
+          {/* Sharp border layer - keskin üst katman */}
+          <GlowingEffect
+            disabled={!isVisible}
+            glow={true}
             variant="default"
             spread={40}
             proximity={64}
             inactiveZone={0.01}
             blur={0}
             borderWidth={1}
-            movementDuration={0.5}
+            movementDuration={0.8}
           />
           <a
             href={resource.link}
