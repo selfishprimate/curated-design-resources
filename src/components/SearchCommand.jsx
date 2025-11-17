@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback, useRef } from 'react'
 import { createPortal } from 'react-dom'
 import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
@@ -121,6 +121,7 @@ export default function SearchCommand() {
   const [results, setResults] = useState([])
   const [hasInteracted, setHasInteracted] = useState(false)
   const navigate = useNavigate()
+  const pendingNavigationRef = useRef(null)
 
   // Keyboard shortcut: Cmd+K (Mac) / Ctrl+K (Windows)
   useHotkeys('mod+k', (e) => {
@@ -194,16 +195,27 @@ export default function SearchCommand() {
     }
   }, [])
 
+  // Navigate to category after modal closes
+  useEffect(() => {
+    if (!open && pendingNavigationRef.current) {
+      const path = pendingNavigationRef.current
+      pendingNavigationRef.current = null
+      // Navigate after modal is fully closed
+      setTimeout(() => {
+        navigate(path)
+      }, 150)
+    }
+  }, [open, navigate])
+
   // Navigate to category
   const handleCategoryClick = useCallback((categoryId) => {
-    // First close the modal and clear state
+    // Store the navigation path
+    pendingNavigationRef.current = `/${categoryId}`
+    // Close the modal and clear state
     setOpen(false)
     setQuery('')
-    // Then navigate after a brief delay to ensure modal closes
-    setTimeout(() => {
-      navigate(`/${categoryId}`)
-    }, 100)
-  }, [navigate])
+    setHasInteracted(false)
+  }, [])
 
   // Suggestions
   const suggestions = getSearchSuggestions()
@@ -311,7 +323,14 @@ export default function SearchCommand() {
                           <Command.Item
                             key={category.id}
                             value={category.id}
-                            onSelect={() => handleCategoryClick(category.id)}
+                            onSelect={(value) => {
+                              handleCategoryClick(value)
+                            }}
+                            onClick={(e) => {
+                              e.preventDefault()
+                              e.stopPropagation()
+                              handleCategoryClick(category.id)
+                            }}
                             className={`commandItem flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 ${hasInteracted ? 'aria-selected:bg-gray-100 dark:aria-selected:bg-gray-800' : ''}`}
                           >
                             <ArrowRight className="h-4 w-4 flex-shrink-0 text-gray-500 dark:text-gray-400" />
