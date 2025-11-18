@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useRef, memo } from 'react'
+import { useEffect, useState, useCallback, useRef, memo, forwardRef, useImperativeHandle } from 'react'
 import { createPortal } from 'react-dom'
 import { Command } from 'cmdk'
 import { Search, TrendingUp, Sparkles as SparklesIcon, ExternalLink, X, ArrowUpDown, CornerDownLeft, ArrowRight } from 'lucide-react'
@@ -114,12 +114,17 @@ const ResourceAvatar = memo(function ResourceAvatar({ resource }) {
   )
 })
 
-export default function SearchCommand() {
+const SearchCommand = forwardRef((props, ref) => {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [selectedValue, setSelectedValue] = useState('')
   const [keyboardNav, setKeyboardNav] = useState(false)
+
+  // Expose openSearch method to parent
+  useImperativeHandle(ref, () => ({
+    openSearch: () => setOpen(true)
+  }))
 
   // Keyboard shortcut: Cmd+K (Mac) / Ctrl+K (Windows)
   useHotkeys('mod+k', (e) => {
@@ -439,4 +444,8 @@ export default function SearchCommand() {
       )}
     </>
   )
-}
+})
+
+SearchCommand.displayName = 'SearchCommand'
+
+export default SearchCommand
