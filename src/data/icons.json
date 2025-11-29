@@ -68,6 +68,13 @@
       "pricing": "paid"
     },
     {
+      "title": "Lucide",
+      "link": "https://lucide.dev/icons/",
+      "description": "- Lucide is an open-source icon library that provides 1000+ vector files for displaying icons and symbols in digital and non-digital projects.",
+      "globalIndex": 182,
+      "pricing": null
+    },
+    {
       "title": "Material Icons",
       "link": "https://fonts.google.com/icons",
       "description": "Material Icons are available in five styles and a range of downloadable sizes and densities. The icons are based on the core Material Design principles and metrics.",
